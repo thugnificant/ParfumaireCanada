@@ -1,0 +1,30 @@
+[
+  {
+    "name": "bella-hero",
+    "mobbin_url": "https://mobbin.com/sites/sections/1a1af3a8-4165-4918-a511-71e3745b0886",
+    "file": "bella-hero.webp",
+    "bytes": 70242,
+    "mime_type": "image/webp"
+  },
+  {
+    "name": "bella-catalog-header",
+    "mobbin_url": "https://mobbin.com/sites/sections/baadd923-6b1f-4a12-9637-19612e1c36d3",
+    "file": "bella-catalog-header.webp",
+    "bytes": 41030,
+    "mime_type": "image/webp"
+  },
+  {
+    "name": "bella-editorial-cards",
+    "mobbin_url": "https://mobbin.com/sites/sections/ba861a37-aed8-4324-8724-74b09bb15f68",
+    "file": "bella-editorial-cards.webp",
+    "bytes": 135232,
+    "mime_type": "image/webp"
+  },
+  {
+    "name": "bella-footer",
+    "mobbin_url": "https://mobbin.com/sites/sections/646c059f-1aab-4d53-ad35-32f56dee854f",
+    "file": "bella-footer.webp",
+    "bytes": 28442,
+    "mime_type": "image/webp"
+  }
+]

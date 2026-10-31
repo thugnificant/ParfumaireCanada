@@ -1,0 +1,1484 @@
+[
+  {
+    "handle": "lemongrass",
+    "sourceProductId": "7592313028794",
+    "sourceVariantId": "43193444925626",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Citrus"
+      ],
+      "mid": [
+        "Lemongrass",
+        "Green Tea",
+        "White Flowers"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/lemongrass"
+  },
+  {
+    "handle": "lemongrass",
+    "sourceProductId": "7592313028794",
+    "sourceVariantId": "43193444958394",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Citrus"
+      ],
+      "mid": [
+        "Lemongrass",
+        "Green Tea",
+        "White Flowers"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/lemongrass"
+  },
+  {
+    "handle": "lemongrass",
+    "sourceProductId": "7592313028794",
+    "sourceVariantId": "43193444991162",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Citrus"
+      ],
+      "mid": [
+        "Lemongrass",
+        "Green Tea",
+        "White Flowers"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/lemongrass"
+  },
+  {
+    "handle": "arome-de-la-havane",
+    "sourceProductId": "7527204389050",
+    "sourceVariantId": "42984834269370",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Cumin",
+        "Coriander"
+      ],
+      "mid": [
+        "Rose",
+        "Incense",
+        "Leathery Accord"
+      ],
+      "base": [
+        "Tobacco",
+        "Sandalwood",
+        "Labdanum"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/arome-de-la-havane"
+  },
+  {
+    "handle": "arome-de-la-havane",
+    "sourceProductId": "7527204389050",
+    "sourceVariantId": "42984834302138",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Cumin",
+        "Coriander"
+      ],
+      "mid": [
+        "Rose",
+        "Incense",
+        "Leathery Accord"
+      ],
+      "base": [
+        "Tobacco",
+        "Sandalwood",
+        "Labdanum"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/arome-de-la-havane"
+  },
+  {
+    "handle": "arome-de-la-havane",
+    "sourceProductId": "7527204389050",
+    "sourceVariantId": "42984834334906",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Cumin",
+        "Coriander"
+      ],
+      "mid": [
+        "Rose",
+        "Incense",
+        "Leathery Accord"
+      ],
+      "base": [
+        "Tobacco",
+        "Sandalwood",
+        "Labdanum"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/arome-de-la-havane"
+  },
+  {
+    "handle": "air-mykonos",
+    "sourceProductId": "7232514785466",
+    "sourceVariantId": "41908209025210",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pink Pepper",
+        "Black Rose",
+        "White Flowers"
+      ],
+      "mid": [
+        "Peony",
+        "Raspberry",
+        "Oud"
+      ],
+      "base": [
+        "Patchouli",
+        "Amber",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/air-mykonos"
+  },
+  {
+    "handle": "air-mykonos",
+    "sourceProductId": "7232514785466",
+    "sourceVariantId": "41908209057978",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pink Pepper",
+        "Black Rose",
+        "White Flowers"
+      ],
+      "mid": [
+        "Peony",
+        "Raspberry",
+        "Oud"
+      ],
+      "base": [
+        "Patchouli",
+        "Amber",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/air-mykonos"
+  },
+  {
+    "handle": "air-mykonos",
+    "sourceProductId": "7232514785466",
+    "sourceVariantId": "41908209090746",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pink Pepper",
+        "Black Rose",
+        "White Flowers"
+      ],
+      "mid": [
+        "Peony",
+        "Raspberry",
+        "Oud"
+      ],
+      "base": [
+        "Patchouli",
+        "Amber",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/air-mykonos"
+  },
+  {
+    "handle": "the-noir",
+    "sourceProductId": "7232514719930",
+    "sourceVariantId": "41908208894138",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Blackcurrant"
+      ],
+      "mid": [
+        "Iris",
+        "Powdery Accord",
+        "Cyclamen"
+      ],
+      "base": [
+        "Vetiver",
+        "Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/the-noir"
+  },
+  {
+    "handle": "the-noir",
+    "sourceProductId": "7232514719930",
+    "sourceVariantId": "41908208926906",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Blackcurrant"
+      ],
+      "mid": [
+        "Iris",
+        "Powdery Accord",
+        "Cyclamen"
+      ],
+      "base": [
+        "Vetiver",
+        "Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/the-noir"
+  },
+  {
+    "handle": "the-noir",
+    "sourceProductId": "7232514719930",
+    "sourceVariantId": "41908208959674",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Blackcurrant"
+      ],
+      "mid": [
+        "Iris",
+        "Powdery Accord",
+        "Cyclamen"
+      ],
+      "base": [
+        "Vetiver",
+        "Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/the-noir"
+  },
+  {
+    "handle": "velour-oriental",
+    "sourceProductId": "7232514588858",
+    "sourceVariantId": "41908208533690",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "White Flowers",
+        "Powdery Accord",
+        "Cedarwood"
+      ],
+      "mid": [
+        "White Jasmine",
+        "Coconut Milk",
+        "White Wood"
+      ],
+      "base": [
+        "Moss",
+        "Dry Wood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/velour-oriental"
+  },
+  {
+    "handle": "velour-oriental",
+    "sourceProductId": "7232514588858",
+    "sourceVariantId": "41908208566458",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "White Flowers",
+        "Powdery Accord",
+        "Cedarwood"
+      ],
+      "mid": [
+        "White Jasmine",
+        "Coconut Milk",
+        "White Wood"
+      ],
+      "base": [
+        "Moss",
+        "Dry Wood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/velour-oriental"
+  },
+  {
+    "handle": "velour-oriental",
+    "sourceProductId": "7232514588858",
+    "sourceVariantId": "41908208599226",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "White Flowers",
+        "Powdery Accord",
+        "Cedarwood"
+      ],
+      "mid": [
+        "White Jasmine",
+        "Coconut Milk",
+        "White Wood"
+      ],
+      "base": [
+        "Moss",
+        "Dry Wood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/velour-oriental"
+  },
+  {
+    "handle": "soiree-gala",
+    "sourceProductId": "7226132201658",
+    "sourceVariantId": "41890497560762",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Marigold",
+        "Mineral Amber",
+        "Saffron"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Water Lily",
+        "Caramel"
+      ],
+      "base": [
+        "Amber",
+        "Oakmoss Accord",
+        "Dry Amber"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/soiree-gala"
+  },
+  {
+    "handle": "soiree-gala",
+    "sourceProductId": "7226132201658",
+    "sourceVariantId": "41890497593530",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Marigold",
+        "Mineral Amber",
+        "Saffron"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Water Lily",
+        "Caramel"
+      ],
+      "base": [
+        "Amber",
+        "Oakmoss Accord",
+        "Dry Amber"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/soiree-gala"
+  },
+  {
+    "handle": "soiree-gala",
+    "sourceProductId": "7226132201658",
+    "sourceVariantId": "41890497659066",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Marigold",
+        "Mineral Amber",
+        "Saffron"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Water Lily",
+        "Caramel"
+      ],
+      "base": [
+        "Amber",
+        "Oakmoss Accord",
+        "Dry Amber"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/soiree-gala"
+  },
+  {
+    "handle": "213-rue-st-honore",
+    "sourceProductId": "7226130890938",
+    "sourceVariantId": "41890494578874",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Fig tree leaves",
+        "Coconut Milk"
+      ],
+      "mid": [
+        "White rose",
+        "Prickly Pear"
+      ],
+      "base": [
+        "Cedarwood",
+        "Amber",
+        "Violet Leaves"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/213-rue-st-honore"
+  },
+  {
+    "handle": "213-rue-st-honore",
+    "sourceProductId": "7226130890938",
+    "sourceVariantId": "41890494611642",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Fig tree leaves",
+        "Coconut Milk"
+      ],
+      "mid": [
+        "White rose",
+        "Prickly Pear"
+      ],
+      "base": [
+        "Cedarwood",
+        "Amber",
+        "Violet Leaves"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/213-rue-st-honore"
+  },
+  {
+    "handle": "213-rue-st-honore",
+    "sourceProductId": "7226130890938",
+    "sourceVariantId": "41890494644410",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Fig tree leaves",
+        "Coconut Milk"
+      ],
+      "mid": [
+        "White rose",
+        "Prickly Pear"
+      ],
+      "base": [
+        "Cedarwood",
+        "Amber",
+        "Violet Leaves"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/213-rue-st-honore"
+  },
+  {
+    "handle": "plaisir-de-marrakech",
+    "sourceProductId": "7205616615610",
+    "sourceVariantId": "41833528885434",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bitter Orange"
+      ],
+      "mid": [
+        "Orange Blossom",
+        "Dew Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/plaisir-de-marrakech"
+  },
+  {
+    "handle": "plaisir-de-marrakech",
+    "sourceProductId": "7205616615610",
+    "sourceVariantId": "41833528918202",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bitter Orange"
+      ],
+      "mid": [
+        "Orange Blossom",
+        "Dew Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/plaisir-de-marrakech"
+  },
+  {
+    "handle": "plaisir-de-marrakech",
+    "sourceProductId": "7205616615610",
+    "sourceVariantId": "41833528950970",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bitter Orange"
+      ],
+      "mid": [
+        "Orange Blossom",
+        "Dew Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/plaisir-de-marrakech"
+  },
+  {
+    "handle": "meditation",
+    "sourceProductId": "7205605540026",
+    "sourceVariantId": "41833485238458",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Coconut",
+        "Green Note"
+      ],
+      "mid": [
+        "Pink Pepper",
+        "Eucalyptus",
+        "Tea"
+      ],
+      "base": [
+        "White Musk",
+        "Sandalwood",
+        "Cade"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/meditation"
+  },
+  {
+    "handle": "meditation",
+    "sourceProductId": "7205605540026",
+    "sourceVariantId": "41833485271226",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Coconut",
+        "Green Note"
+      ],
+      "mid": [
+        "Pink Pepper",
+        "Eucalyptus",
+        "Tea"
+      ],
+      "base": [
+        "White Musk",
+        "Sandalwood",
+        "Cade"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/meditation"
+  },
+  {
+    "handle": "meditation",
+    "sourceProductId": "7205605540026",
+    "sourceVariantId": "41833485303994",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Coconut",
+        "Green Note"
+      ],
+      "mid": [
+        "Pink Pepper",
+        "Eucalyptus",
+        "Tea"
+      ],
+      "base": [
+        "White Musk",
+        "Sandalwood",
+        "Cade"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/meditation"
+  },
+  {
+    "handle": "courchevel",
+    "sourceProductId": "7205491671226",
+    "sourceVariantId": "41833217654970",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pine",
+        "Aromatic Notes",
+        "Green Apple"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Raspberry"
+      ],
+      "base": [
+        "Sweet"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/courchevel"
+  },
+  {
+    "handle": "courchevel",
+    "sourceProductId": "7205491671226",
+    "sourceVariantId": "41833217687738",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pine",
+        "Aromatic Notes",
+        "Green Apple"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Raspberry"
+      ],
+      "base": [
+        "Sweet"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/courchevel"
+  },
+  {
+    "handle": "courchevel",
+    "sourceProductId": "7205491671226",
+    "sourceVariantId": "41833217720506",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pine",
+        "Aromatic Notes",
+        "Green Apple"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Raspberry"
+      ],
+      "base": [
+        "Sweet"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/courchevel"
+  },
+  {
+    "handle": "sarona-market",
+    "sourceProductId": "7205491474618",
+    "sourceVariantId": "41833217196218",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Sweet Orange"
+      ],
+      "mid": [
+        "Tea",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/sarona-market"
+  },
+  {
+    "handle": "sarona-market",
+    "sourceProductId": "7205491474618",
+    "sourceVariantId": "41833217228986",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Sweet Orange"
+      ],
+      "mid": [
+        "Tea",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/sarona-market"
+  },
+  {
+    "handle": "sarona-market",
+    "sourceProductId": "7205491474618",
+    "sourceVariantId": "41833217261754",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Sweet Orange"
+      ],
+      "mid": [
+        "Tea",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/sarona-market"
+  },
+  {
+    "handle": "draps-blanc",
+    "sourceProductId": "7205491114170",
+    "sourceVariantId": "41833215754426",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pear",
+        "Peach",
+        "Green Note"
+      ],
+      "mid": [
+        "Jasmine",
+        "Lily of the Valley",
+        "Violet"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/draps-blanc"
+  },
+  {
+    "handle": "draps-blanc",
+    "sourceProductId": "7205491114170",
+    "sourceVariantId": "41833215787194",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pear",
+        "Peach",
+        "Green Note"
+      ],
+      "mid": [
+        "Jasmine",
+        "Lily of the Valley",
+        "Violet"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/draps-blanc"
+  },
+  {
+    "handle": "draps-blanc",
+    "sourceProductId": "7205491114170",
+    "sourceVariantId": "41833215819962",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Pear",
+        "Peach",
+        "Green Note"
+      ],
+      "mid": [
+        "Jasmine",
+        "Lily of the Valley",
+        "Violet"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/draps-blanc"
+  },
+  {
+    "handle": "printemps-vintage",
+    "sourceProductId": "7205490983098",
+    "sourceVariantId": "41833215295674",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Blood Orange",
+        "Fig"
+      ],
+      "mid": [
+        "Rose",
+        "Peony"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/printemps-vintage"
+  },
+  {
+    "handle": "printemps-vintage",
+    "sourceProductId": "7205490983098",
+    "sourceVariantId": "41833215328442",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Blood Orange",
+        "Fig"
+      ],
+      "mid": [
+        "Rose",
+        "Peony"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/printemps-vintage"
+  },
+  {
+    "handle": "printemps-vintage",
+    "sourceProductId": "7205490983098",
+    "sourceVariantId": "41833215361210",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Blood Orange",
+        "Fig"
+      ],
+      "mid": [
+        "Rose",
+        "Peony"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/printemps-vintage"
+  },
+  {
+    "handle": "oud-charnel",
+    "sourceProductId": "7205490786490",
+    "sourceVariantId": "41833214967994",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Milky Note"
+      ],
+      "mid": [
+        "Saffron",
+        "Sandalwood"
+      ],
+      "base": [
+        "Vanilla",
+        "Ambery Notes"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-charnel"
+  },
+  {
+    "handle": "oud-charnel",
+    "sourceProductId": "7205490786490",
+    "sourceVariantId": "41833215000762",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Milky Note"
+      ],
+      "mid": [
+        "Saffron",
+        "Sandalwood"
+      ],
+      "base": [
+        "Vanilla",
+        "Ambery Notes"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-charnel"
+  },
+  {
+    "handle": "oud-charnel",
+    "sourceProductId": "7205490786490",
+    "sourceVariantId": "41833215033530",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Milky Note"
+      ],
+      "mid": [
+        "Saffron",
+        "Sandalwood"
+      ],
+      "base": [
+        "Vanilla",
+        "Ambery Notes"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-charnel"
+  },
+  {
+    "handle": "oud-noir",
+    "sourceProductId": "7205490622650",
+    "sourceVariantId": "41833214116026",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Grapefruit",
+        "Pine needles"
+      ],
+      "mid": [
+        "Saffron",
+        "Patchouli",
+        "Myrrh"
+      ],
+      "base": [
+        "Vetiver",
+        "White sandalwood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-noir"
+  },
+  {
+    "handle": "oud-noir",
+    "sourceProductId": "7205490622650",
+    "sourceVariantId": "41833214148794",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Grapefruit",
+        "Pine needles"
+      ],
+      "mid": [
+        "Saffron",
+        "Patchouli",
+        "Myrrh"
+      ],
+      "base": [
+        "Vetiver",
+        "White sandalwood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-noir"
+  },
+  {
+    "handle": "oud-noir",
+    "sourceProductId": "7205490622650",
+    "sourceVariantId": "41833214181562",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Grapefruit",
+        "Pine needles"
+      ],
+      "mid": [
+        "Saffron",
+        "Patchouli",
+        "Myrrh"
+      ],
+      "base": [
+        "Vetiver",
+        "White sandalwood",
+        "Musk"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-noir"
+  },
+  {
+    "handle": "miami-beach",
+    "sourceProductId": "7205489180858",
+    "sourceVariantId": "41833208316090",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Solar Notes"
+      ],
+      "mid": [
+        "White Flowers",
+        "Cotton"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla",
+        "Soft Wood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/miami-beach"
+  },
+  {
+    "handle": "miami-beach",
+    "sourceProductId": "7205489180858",
+    "sourceVariantId": "41833208348858",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Solar Notes"
+      ],
+      "mid": [
+        "White Flowers",
+        "Cotton"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla",
+        "Soft Wood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/miami-beach"
+  },
+  {
+    "handle": "miami-beach",
+    "sourceProductId": "7205489180858",
+    "sourceVariantId": "41833208381626",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Solar Notes"
+      ],
+      "mid": [
+        "White Flowers",
+        "Cotton"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla",
+        "Soft Wood"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/miami-beach"
+  },
+  {
+    "handle": "boix-tibet",
+    "sourceProductId": "7205488885946",
+    "sourceVariantId": "41833206481082",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cinnamon",
+        "Cloves"
+      ],
+      "mid": [
+        "Cedar",
+        "Patchouli",
+        "Powdery Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/boix-tibet"
+  },
+  {
+    "handle": "boix-tibet",
+    "sourceProductId": "7205488885946",
+    "sourceVariantId": "41833206513850",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cinnamon",
+        "Cloves"
+      ],
+      "mid": [
+        "Cedar",
+        "Patchouli",
+        "Powdery Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/boix-tibet"
+  },
+  {
+    "handle": "boix-tibet",
+    "sourceProductId": "7205488885946",
+    "sourceVariantId": "41833206546618",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Cinnamon",
+        "Cloves"
+      ],
+      "mid": [
+        "Cedar",
+        "Patchouli",
+        "Powdery Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/boix-tibet"
+  },
+  {
+    "handle": "cuir-onyx",
+    "sourceProductId": "7205485969594",
+    "sourceVariantId": "41833495036090",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 6900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Saffron"
+      ],
+      "mid": [
+        "Leather",
+        "Rose",
+        "Dry Woods"
+      ],
+      "base": [
+        "Sandalwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/cuir-onyx"
+  },
+  {
+    "handle": "cuir-onyx",
+    "sourceProductId": "7205485969594",
+    "sourceVariantId": "42653038411962",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 14900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Saffron"
+      ],
+      "mid": [
+        "Leather",
+        "Rose",
+        "Dry Woods"
+      ],
+      "base": [
+        "Sandalwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/cuir-onyx"
+  },
+  {
+    "handle": "cuir-onyx",
+    "sourceProductId": "7205485969594",
+    "sourceVariantId": "42653038444730",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 28900,
+    "canadianPriceMinor": null,
+    "notes": {
+      "top": [
+        "Saffron"
+      ],
+      "mid": [
+        "Leather",
+        "Rose",
+        "Dry Woods"
+      ],
+      "base": [
+        "Sandalwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "sourceUrl": "https://shop.parfumaire.com/products/cuir-onyx"
+  },
+  {
+    "handle": "cozyair-scent-diffuser",
+    "sourceProductId": "7050864885946",
+    "sourceVariantId": "41466754597050",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 49900,
+    "canadianPriceMinor": null,
+    "notes": {},
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-scent-diffuser"
+  },
+  {
+    "handle": "cozyair-scent-diffuser",
+    "sourceProductId": "7050864885946",
+    "sourceVariantId": "41500319318202",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 49900,
+    "canadianPriceMinor": null,
+    "notes": {},
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-scent-diffuser"
+  },
+  {
+    "handle": "la-tour-scent-diffuser",
+    "sourceProductId": "7050864787642",
+    "sourceVariantId": "41461137244346",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 29900,
+    "canadianPriceMinor": null,
+    "notes": {},
+    "sourceUrl": "https://shop.parfumaire.com/products/la-tour-scent-diffuser"
+  },
+  {
+    "handle": "cozyair-max-scent-diffuser",
+    "sourceProductId": "7050864754874",
+    "sourceVariantId": "41466755514554",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 59900,
+    "canadianPriceMinor": null,
+    "notes": {},
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser"
+  },
+  {
+    "handle": "cozyair-max-scent-diffuser",
+    "sourceProductId": "7050864754874",
+    "sourceVariantId": "41500300247226",
+    "sku": null,
+    "sourceAvailable": true,
+    "sourceCurrency": "USD",
+    "sourcePriceMinor": 79900,
+    "canadianPriceMinor": null,
+    "notes": {},
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser"
+  }
+]

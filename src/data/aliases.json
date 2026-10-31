@@ -1,0 +1,344 @@
+[
+  {
+    "slug": "pages/contact",
+    "target": "/contact/",
+    "title": "Contact",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/terms-and-conditions",
+    "target": "/terms/",
+    "title": "Terms and Conditions",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "slug": "pages/privacy-policy",
+    "target": "/privacy/",
+    "title": "Privacy Policy",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "slug": "pages/return-policy",
+    "target": "/terms/",
+    "title": "Return Policy",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "slug": "pages/shipping-policy",
+    "target": "/terms/",
+    "title": "Shipping policy",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "slug": "pages/about",
+    "target": "/about/",
+    "title": "About us",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap-blogs",
+    "target": "/site-map/",
+    "title": "HTML sitemap for blogs",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap-articles",
+    "target": "/site-map/",
+    "title": "HTML sitemap for articles",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap",
+    "target": "/site-map/",
+    "title": "HTML sitemap",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap-pages",
+    "target": "/site-map/",
+    "title": "HTML sitemap for pages",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap-collections",
+    "target": "/site-map/",
+    "title": "HTML sitemap for collections",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "pages/avada-sitemap-products",
+    "target": "/site-map/",
+    "title": "HTML sitemap for products",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "blogs/news",
+    "target": "/journal/",
+    "title": "News",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "terms-and-privacy",
+    "target": "/privacy/",
+    "title": "Terms and Privacy",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "slug": "small-space-scent-diffuser",
+    "target": "/collections/scent-diffusers/",
+    "title": "Sensorie™ Small Space Scent Diffuser",
+    "reason": "Legacy Sensorie model archived; not part of the live shop catalog. Replaced with current diffuser comparison."
+  },
+  {
+    "slug": "shop",
+    "target": "/collections/all/",
+    "title": "Shop",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "fragrance-finder-1",
+    "target": "/fragrance-finder/",
+    "title": "Fragrance Finder 1",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "slug": "fragrance-finder-2",
+    "target": "/fragrance-finder/",
+    "title": "Fragrance Finder 2",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "slug": "fragrance-finder-3",
+    "target": "/fragrance-finder/",
+    "title": "Fragrance Finder 3",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "slug": "fragrance-finder-4",
+    "target": "/fragrance-finder/",
+    "title": "Fragrance Finder 4",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "slug": "fragrance-finder-5",
+    "target": "/fragrance-finder/",
+    "title": "Fragrance Finder 5",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "slug": "scent-library",
+    "target": "/collections/scents/",
+    "title": "Parfumaire™ Scent Library",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "fragrance-for-home",
+    "target": "/home-scenting/",
+    "title": "Fragrance For Home",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "perfect-fragrance",
+    "target": "/fragrance-finder/",
+    "title": "perfect-fragrance",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "fragrance-for-home2",
+    "target": "/home-scenting/",
+    "title": "Fragrance For Home2",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "hotel-fragrances-at-home",
+    "target": "/home-scenting/",
+    "title": "Make your home smell as good as it looks",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "canada",
+    "target": "/about/",
+    "title": "Canada",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "business-service/scent-branding",
+    "target": "/scent-branding/",
+    "title": "Scent Branding",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "slug": "business-service/odor-elimination",
+    "target": "/odor-elimination/",
+    "title": "Odor Elimination",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "slug": "business-service/private-label",
+    "target": "/custom-fragrances/",
+    "title": "Private Label",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "slug": "scents/bois-tibet",
+    "target": "/products/boix-tibet/",
+    "title": "Bois Tibet",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/oud-charnel",
+    "target": "/products/oud-charnel/",
+    "title": "Oud Charnel",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/oud-noir",
+    "target": "/products/oud-noir/",
+    "title": "Oud Noir",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/printemps-vintage",
+    "target": "/products/printemps-vintage/",
+    "title": "Printemps Vintage",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/draps-blanc",
+    "target": "/products/draps-blanc/",
+    "title": "Draps Blanc",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/meditation",
+    "target": "/products/meditation/",
+    "title": "Meditation",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/plaisir-de-marrakech",
+    "target": "/products/plaisir-de-marrakech/",
+    "title": "Plaisir de Marrakech",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/soiree-gala",
+    "target": "/products/soiree-gala/",
+    "title": "Soiree Gala",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/velour-oriental",
+    "target": "/products/velour-oriental/",
+    "title": "Velour Oriental",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/arome-de-la-havane",
+    "target": "/products/arome-de-la-havane/",
+    "title": "Arome de la Havane",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/the-noir",
+    "target": "/products/the-noir/",
+    "title": "Thé Noir",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/miami-beach",
+    "target": "/products/miami-beach/",
+    "title": "Miami Beach",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/213-rue-st-honore",
+    "target": "/products/213-rue-st-honore/",
+    "title": "213 Rue St Honore",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/cuir-onyx-5",
+    "target": "/products/cuir-onyx/",
+    "title": "Cuir Onyx",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/air-mykonos",
+    "target": "/products/air-mykonos/",
+    "title": "Air Mykonos",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/sarona-market",
+    "target": "/products/sarona-market/",
+    "title": "Sarona Market",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/courchevel",
+    "target": "/products/courchevel/",
+    "title": "Courchevel",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "scents/lemongrass",
+    "target": "/products/lemongrass/",
+    "title": "Lemongrass",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "slug": "collections/aromatic-wood",
+    "target": "/collections/scents/",
+    "title": "Aromatic Wood",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/floral",
+    "target": "/collections/scents/",
+    "title": "Floral",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/citrus-floral",
+    "target": "/collections/scents/",
+    "title": "Citrus Floral",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/gourmand",
+    "target": "/collections/scents/",
+    "title": "Gourmand",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/aromatic-woods",
+    "target": "/collections/scents/",
+    "title": "Aromatic Woods",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/exotic-fruit",
+    "target": "/collections/scents/",
+    "title": "Exotic Fruit",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/aromatic-wood/page/2",
+    "target": "/collections/scents/",
+    "title": "Aromatic Wood",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/aromatic-wood/page/3",
+    "target": "/collections/scents/",
+    "title": "Aromatic Wood",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "slug": "collections/aromatic-wood/page/4",
+    "target": "/collections/scents/",
+    "title": "Aromatic Wood",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  }
+]

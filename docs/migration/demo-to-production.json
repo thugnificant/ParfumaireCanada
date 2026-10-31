@@ -1,0 +1,260 @@
+[
+  {
+    "route": "/",
+    "demo": "https://parfumairecanada.sugiweb.com/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/about/",
+    "demo": "https://parfumairecanada.sugiweb.com/about/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/business-scenting/",
+    "demo": "https://parfumairecanada.sugiweb.com/business-scenting/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/scent-branding/",
+    "demo": "https://parfumairecanada.sugiweb.com/scent-branding/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/odor-elimination/",
+    "demo": "https://parfumairecanada.sugiweb.com/odor-elimination/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/custom-fragrances/",
+    "demo": "https://parfumairecanada.sugiweb.com/custom-fragrances/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/home-scenting/",
+    "demo": "https://parfumairecanada.sugiweb.com/home-scenting/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/privacy/",
+    "demo": "https://parfumairecanada.sugiweb.com/privacy/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/terms/",
+    "demo": "https://parfumairecanada.sugiweb.com/terms/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/faq/",
+    "demo": "https://parfumairecanada.sugiweb.com/faq/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/journal/choosing-a-diffuser/",
+    "demo": "https://parfumairecanada.sugiweb.com/journal/choosing-a-diffuser/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/journal/understanding-scent-notes/",
+    "demo": "https://parfumairecanada.sugiweb.com/journal/understanding-scent-notes/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/contact/",
+    "demo": "https://parfumairecanada.sugiweb.com/contact/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/fragrance-finder/",
+    "demo": "https://parfumairecanada.sugiweb.com/fragrance-finder/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/search/",
+    "demo": "https://parfumairecanada.sugiweb.com/search/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/journal/",
+    "demo": "https://parfumairecanada.sugiweb.com/journal/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/site-map/",
+    "demo": "https://parfumairecanada.sugiweb.com/site-map/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/collections/all/",
+    "demo": "https://parfumairecanada.sugiweb.com/collections/all/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/collections/shop/",
+    "demo": "https://parfumairecanada.sugiweb.com/collections/shop/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/collections/scents/",
+    "demo": "https://parfumairecanada.sugiweb.com/collections/scents/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/collections/scent-diffusers/",
+    "demo": "https://parfumairecanada.sugiweb.com/collections/scent-diffusers/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/collections/candles/",
+    "demo": "https://parfumairecanada.sugiweb.com/collections/candles/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/lemongrass/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/lemongrass/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/arome-de-la-havane/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/arome-de-la-havane/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/air-mykonos/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/air-mykonos/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/the-noir/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/the-noir/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/velour-oriental/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/velour-oriental/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/soiree-gala/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/soiree-gala/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/213-rue-st-honore/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/213-rue-st-honore/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/plaisir-de-marrakech/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/plaisir-de-marrakech/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/meditation/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/meditation/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/courchevel/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/courchevel/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/sarona-market/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/sarona-market/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/draps-blanc/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/draps-blanc/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/printemps-vintage/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/printemps-vintage/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/oud-charnel/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/oud-charnel/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/oud-noir/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/oud-noir/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/miami-beach/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/miami-beach/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/boix-tibet/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/boix-tibet/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/cuir-onyx/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/cuir-onyx/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/cozyair-scent-diffuser/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/cozyair-scent-diffuser/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/la-tour-scent-diffuser/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/la-tour-scent-diffuser/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  },
+  {
+    "route": "/products/cozyair-max-scent-diffuser/",
+    "demo": "https://parfumairecanada.sugiweb.com/products/cozyair-max-scent-diffuser/",
+    "production": null,
+    "status": "Production hostname pending; preserve path on future host."
+  }
+]

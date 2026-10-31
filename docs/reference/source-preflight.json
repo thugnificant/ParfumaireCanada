@@ -1,0 +1,201 @@
+{
+  "checked_at_utc": "2026-10-31T21:23:47.357126+00:00",
+  "scope": "Public shop preflight only; not a complete migration inventory or business-site crawl.",
+  "source": "https://shop.parfumaire.com",
+  "products_count": 21,
+  "second_page_count": 0,
+  "variant_count": 59,
+  "image_reference_count": 72,
+  "currency_evidence": [
+    "Shopify.currency = {\"active\":\"USD\",\"rate\":\"1.0\"}"
+  ],
+  "products": [
+    {
+      "title": "Lemongrass",
+      "handle": "lemongrass",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Arome de la Havane",
+      "handle": "arome-de-la-havane",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Air Mykonos",
+      "handle": "air-mykonos",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Thé Noir",
+      "handle": "the-noir",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Velour Oriental",
+      "handle": "velour-oriental",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Soiree Gala",
+      "handle": "soiree-gala",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "213 Rue St Honore",
+      "handle": "213-rue-st-honore",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Plaisir de Marrakech",
+      "handle": "plaisir-de-marrakech",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Meditation",
+      "handle": "meditation",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Courchevel",
+      "handle": "courchevel",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Sarona Market",
+      "handle": "sarona-market",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Draps Blanc",
+      "handle": "draps-blanc",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Printemps Vintage",
+      "handle": "printemps-vintage",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Oud Charnel",
+      "handle": "oud-charnel",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Oud Noir",
+      "handle": "oud-noir",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Miami Beach",
+      "handle": "miami-beach",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Bois Tibet",
+      "handle": "boix-tibet",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "Cuir Onyx",
+      "handle": "cuir-onyx",
+      "variant_count": 3,
+      "image_reference_count": 3
+    },
+    {
+      "title": "CozyAir Scent Diffuser",
+      "handle": "cozyair-scent-diffuser",
+      "variant_count": 2,
+      "image_reference_count": 5
+    },
+    {
+      "title": "La Tour Scent Diffuser",
+      "handle": "la-tour-scent-diffuser",
+      "variant_count": 1,
+      "image_reference_count": 7
+    },
+    {
+      "title": "CozyAir Max Scent Diffuser",
+      "handle": "cozyair-max-scent-diffuser",
+      "variant_count": 2,
+      "image_reference_count": 6
+    }
+  ],
+  "sitemap_index": [
+    "https://shop.parfumaire.com/sitemap_agentic_discovery.xml",
+    "https://shop.parfumaire.com/sitemap_products_1.xml?from=7050864754874&to=7592313028794",
+    "https://shop.parfumaire.com/sitemap_pages_1.xml?from=87488921786&to=93421437114",
+    "https://shop.parfumaire.com/sitemap_collections_1.xml?from=286793498810&to=293339136186",
+    "https://shop.parfumaire.com/sitemap_blogs_1.xml",
+    "https://shop.parfumaire.com/es/sitemap_products_1.xml?from=7050864754874&to=7592313028794",
+    "https://shop.parfumaire.com/es/sitemap_pages_1.xml?from=87488921786&to=93421437114",
+    "https://shop.parfumaire.com/es/sitemap_collections_1.xml?from=286793498810&to=293339136186",
+    "https://shop.parfumaire.com/es/sitemap_blogs_1.xml"
+  ],
+  "sitemap_urls": {
+    "https://shop.parfumaire.com/sitemap_products_1.xml?from=7050864754874&to=7592313028794": [
+      "https://shop.parfumaire.com/",
+      "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser",
+      "https://shop.parfumaire.com/products/la-tour-scent-diffuser",
+      "https://shop.parfumaire.com/products/cozyair-scent-diffuser",
+      "https://shop.parfumaire.com/products/cuir-onyx",
+      "https://shop.parfumaire.com/products/boix-tibet",
+      "https://shop.parfumaire.com/products/miami-beach",
+      "https://shop.parfumaire.com/products/oud-noir",
+      "https://shop.parfumaire.com/products/oud-charnel",
+      "https://shop.parfumaire.com/products/printemps-vintage",
+      "https://shop.parfumaire.com/products/draps-blanc",
+      "https://shop.parfumaire.com/products/sarona-market",
+      "https://shop.parfumaire.com/products/courchevel",
+      "https://shop.parfumaire.com/products/meditation",
+      "https://shop.parfumaire.com/products/plaisir-de-marrakech",
+      "https://shop.parfumaire.com/products/213-rue-st-honore",
+      "https://shop.parfumaire.com/products/soiree-gala",
+      "https://shop.parfumaire.com/products/velour-oriental",
+      "https://shop.parfumaire.com/products/the-noir",
+      "https://shop.parfumaire.com/products/air-mykonos",
+      "https://shop.parfumaire.com/products/arome-de-la-havane",
+      "https://shop.parfumaire.com/products/lemongrass"
+    ],
+    "https://shop.parfumaire.com/sitemap_pages_1.xml?from=87488921786&to=93421437114": [
+      "https://shop.parfumaire.com/pages/contact",
+      "https://shop.parfumaire.com/pages/terms-and-conditions",
+      "https://shop.parfumaire.com/pages/privacy-policy",
+      "https://shop.parfumaire.com/pages/return-policy",
+      "https://shop.parfumaire.com/pages/shipping-policy",
+      "https://shop.parfumaire.com/pages/about",
+      "https://shop.parfumaire.com/pages/avada-sitemap-blogs",
+      "https://shop.parfumaire.com/pages/avada-sitemap-articles",
+      "https://shop.parfumaire.com/pages/avada-sitemap",
+      "https://shop.parfumaire.com/pages/avada-sitemap-pages",
+      "https://shop.parfumaire.com/pages/avada-sitemap-collections",
+      "https://shop.parfumaire.com/pages/avada-sitemap-products",
+      "https://shop.parfumaire.com/pages/manage-my-subscriptions"
+    ],
+    "https://shop.parfumaire.com/sitemap_collections_1.xml?from=286793498810&to=293339136186": [
+      "https://shop.parfumaire.com/collections/scent-diffusers",
+      "https://shop.parfumaire.com/collections/scents",
+      "https://shop.parfumaire.com/collections/candles",
+      "https://shop.parfumaire.com/collections/shop"
+    ],
+    "https://shop.parfumaire.com/sitemap_blogs_1.xml": [
+      "https://shop.parfumaire.com/blogs/news"
+    ]
+  }
+}

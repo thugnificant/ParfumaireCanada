@@ -1,0 +1,91 @@
+{
+  "base": "http://127.0.0.1:4322",
+  "at": "2026-10-31T21:59:19.848Z",
+  "screenshots": [
+    "home-1440.png",
+    "home-1024.png",
+    "home-768.png",
+    "home-390.png"
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/collections/all/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/products/213-rue-st-honore/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/products/la-tour-scent-diffuser/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/business-scenting/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/fragrance-finder/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/collections/all/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/products/213-rue-st-honore/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/products/la-tour-scent-diffuser/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/business-scenting/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "route": "/fragrance-finder/",
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Mobile menu, search, collection filters, no-results and reset",
+    "Exact variant price, image selection, quantity, preserved enquiry context, zero network submission and cleared PII",
+    "All 21 product pages, 59 variants, 72 gallery selections",
+    "Gallery modal keyboard close, scent finder and dedicated search",
+    "Real 404 status"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

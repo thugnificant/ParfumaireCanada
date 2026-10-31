@@ -1,0 +1,1360 @@
+[
+  {
+    "source": "https://shop.parfumaire.com/",
+    "title": "Parfumaire",
+    "type": "page",
+    "language": "en",
+    "destination": "/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/",
+    "title": "Business Scenting",
+    "type": "business",
+    "language": "en",
+    "destination": "/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/agents.md",
+    "title": "",
+    "type": "page",
+    "language": "en",
+    "destination": null,
+    "status": "retired",
+    "reason": "Machine/commerce discovery endpoint; not customer content. Archived as untrusted source material."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser",
+    "title": "CozyAir Max Scent Diffuser",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/cozyair-max-scent-diffuser/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/la-tour-scent-diffuser",
+    "title": "La Tour Scent Diffuser",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/la-tour-scent-diffuser/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/cozyair-scent-diffuser",
+    "title": "CozyAir Scent Diffuser",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/cozyair-scent-diffuser/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/cuir-onyx",
+    "title": "Cuir Onyx",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/cuir-onyx/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/boix-tibet",
+    "title": "Bois Tibet",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/boix-tibet/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/miami-beach",
+    "title": "Miami Beach",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/miami-beach/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/oud-noir",
+    "title": "Oud Noir",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/oud-noir/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/oud-charnel",
+    "title": "Oud Charnel",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/oud-charnel/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/printemps-vintage",
+    "title": "Printemps Vintage",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/printemps-vintage/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/draps-blanc",
+    "title": "Draps Blanc",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/draps-blanc/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/sarona-market",
+    "title": "Sarona Market",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/sarona-market/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/courchevel",
+    "title": "Courchevel",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/courchevel/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/meditation",
+    "title": "Meditation",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/meditation/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/plaisir-de-marrakech",
+    "title": "Plaisir de Marrakech",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/plaisir-de-marrakech/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/213-rue-st-honore",
+    "title": "213 Rue St Honore",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/213-rue-st-honore/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/soiree-gala",
+    "title": "Soiree Gala",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/soiree-gala/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/velour-oriental",
+    "title": "Velour Oriental",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/velour-oriental/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/the-noir",
+    "title": "Thé Noir",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/the-noir/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/air-mykonos",
+    "title": "Air Mykonos",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/air-mykonos/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/arome-de-la-havane",
+    "title": "Arome de la Havane",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/arome-de-la-havane/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/lemongrass",
+    "title": "Lemongrass",
+    "type": "product",
+    "language": "en",
+    "destination": "/products/lemongrass/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/contact",
+    "title": "Contact",
+    "type": "page",
+    "language": "en",
+    "destination": "/contact/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/terms-and-conditions",
+    "title": "Terms and Conditions",
+    "type": "page",
+    "language": "en",
+    "destination": "/terms/",
+    "status": "adapted",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/privacy-policy",
+    "title": "Privacy Policy",
+    "type": "page",
+    "language": "en",
+    "destination": "/privacy/",
+    "status": "adapted",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/return-policy",
+    "title": "Return Policy",
+    "type": "page",
+    "language": "en",
+    "destination": "/terms/",
+    "status": "adapted",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/shipping-policy",
+    "title": "Shipping policy",
+    "type": "page",
+    "language": "en",
+    "destination": "/terms/",
+    "status": "adapted",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/about",
+    "title": "About us",
+    "type": "page",
+    "language": "en",
+    "destination": "/about/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap-blogs",
+    "title": "HTML sitemap for blogs",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap-articles",
+    "title": "HTML sitemap for articles",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap",
+    "title": "HTML sitemap",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap-pages",
+    "title": "HTML sitemap for pages",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap-collections",
+    "title": "HTML sitemap for collections",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/avada-sitemap-products",
+    "title": "HTML sitemap for products",
+    "type": "page",
+    "language": "en",
+    "destination": "/site-map/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/manage-my-subscriptions",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/collections/scent-diffusers",
+    "title": "Scent Diffusers",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scent-diffusers/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/collections/scents",
+    "title": "Scents",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/collections/candles",
+    "title": "Candles",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/candles/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/collections/shop",
+    "title": "Shop",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/shop/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/blogs/news",
+    "title": "News",
+    "type": "page",
+    "language": "en",
+    "destination": "/journal/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es",
+    "title": "Perfumería",
+    "type": "page",
+    "language": "es",
+    "destination": "/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/cozyair-max-scent-diffuser",
+    "title": "Difusor de aroma CozyAir Max",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/cozyair-max-scent-diffuser/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/la-tour-scent-diffuser",
+    "title": "Difusor de aromas La Tour",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/la-tour-scent-diffuser/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/cozyair-scent-diffuser",
+    "title": "Difusor de aromas CozyAir",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/cozyair-scent-diffuser/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/cuir-onyx",
+    "title": "Cuero Onyx",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/cuir-onyx/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/boix-tibet",
+    "title": "Bosque Tíbet",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/boix-tibet/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/miami-beach",
+    "title": "playa miami",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/miami-beach/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/oud-noir",
+    "title": "Oud Negro",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/oud-noir/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/oud-charnel",
+    "title": "Oud osario",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/oud-charnel/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/printemps-vintage",
+    "title": "Vintage Printemps",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/printemps-vintage/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/draps-blanc",
+    "title": "Drats Blanco",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/draps-blanc/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/sarona-market",
+    "title": "Mercado de Sarona",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/sarona-market/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/courchevel",
+    "title": "Courchevel",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/courchevel/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/meditation",
+    "title": "Meditación",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/meditation/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/plaisir-de-marrakech",
+    "title": "Placer de Marrakech",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/plaisir-de-marrakech/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/213-rue-st-honore",
+    "title": "213 Rue St Honore",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/213-rue-st-honore/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/soiree-gala",
+    "title": "Velada de gala",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/soiree-gala/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/velour-oriental",
+    "title": "terciopelo oriental",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/velour-oriental/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/the-noir",
+    "title": "El negro",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/the-noir/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/air-mykonos",
+    "title": "Aire Mikonos",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/air-mykonos/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/arome-de-la-havane",
+    "title": "Arome de la Habana",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/arome-de-la-havane/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/products/lemongrass",
+    "title": "Lemongrass",
+    "type": "product",
+    "language": "es",
+    "destination": "/products/lemongrass/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/contact",
+    "title": "Contacto",
+    "type": "page",
+    "language": "es",
+    "destination": "/contact/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/terms-and-conditions",
+    "title": "Términos y condiciones",
+    "type": "page",
+    "language": "es",
+    "destination": "/terms/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/privacy-policy",
+    "title": "política de privacidad",
+    "type": "page",
+    "language": "es",
+    "destination": "/privacy/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/return-policy",
+    "title": "Política de devoluciones",
+    "type": "page",
+    "language": "es",
+    "destination": "/terms/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/shipping-policy",
+    "title": "Politica de envios",
+    "type": "page",
+    "language": "es",
+    "destination": "/terms/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/about",
+    "title": "Sobre nosotros",
+    "type": "page",
+    "language": "es",
+    "destination": "/about/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap-blogs",
+    "title": "Mapa del sitio HTML para blogs",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap-articles",
+    "title": "Mapa del sitio HTML para artículos",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap",
+    "title": "mapa del sitio HTML",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap-pages",
+    "title": "Mapa del sitio HTML para páginas",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap-collections",
+    "title": "Mapa del sitio HTML para colecciones",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/avada-sitemap-products",
+    "title": "Mapa del sitio HTML para productos",
+    "type": "page",
+    "language": "es",
+    "destination": "/site-map/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/manage-my-subscriptions",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/collections/scent-diffusers",
+    "title": "Difusores de aromas",
+    "type": "collection",
+    "language": "es",
+    "destination": "/collections/scent-diffusers/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/collections/scents",
+    "title": "Aromas",
+    "type": "collection",
+    "language": "es",
+    "destination": "/collections/scents/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/collections/candles",
+    "title": "Velas",
+    "type": "collection",
+    "language": "es",
+    "destination": "/collections/candles/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/collections/shop",
+    "title": "Comercio",
+    "type": "collection",
+    "language": "es",
+    "destination": "/collections/shop/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/blogs/news",
+    "title": "Noticias",
+    "type": "page",
+    "language": "es",
+    "destination": "/journal/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://www.parfumaire.com/business-scenting/",
+    "title": "Business Scenting",
+    "type": "business",
+    "language": "en",
+    "destination": "/business-scenting/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder/",
+    "title": "Fragrance Finder",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/about/",
+    "title": "About",
+    "type": "business",
+    "language": "en",
+    "destination": "/about/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/contact/",
+    "title": "Contact",
+    "type": "business",
+    "language": "en",
+    "destination": "/contact/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/terms-and-privacy/",
+    "title": "Terms and Privacy",
+    "type": "business",
+    "language": "en",
+    "destination": "/privacy/",
+    "status": "adapted",
+    "reason": "Original US commerce/legal copy archived. Replaced with accurate Canadian demo-only information; no US policy promises."
+  },
+  {
+    "source": "https://www.parfumaire.com/small-space-scent-diffuser/",
+    "title": "Sensorie™ Small Space Scent Diffuser",
+    "type": "business",
+    "language": "en",
+    "destination": "/collections/scent-diffusers/",
+    "status": "adapted",
+    "reason": "Legacy Sensorie model archived; not part of the live shop catalog. Replaced with current diffuser comparison."
+  },
+  {
+    "source": "https://www.parfumaire.com/shop/",
+    "title": "Shop",
+    "type": "business",
+    "language": "en",
+    "destination": "/collections/all/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/home-scenting/",
+    "title": "Parfumaire",
+    "type": "business",
+    "language": "en",
+    "destination": "/home-scenting/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-1/",
+    "title": "Fragrance Finder 1",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-2/",
+    "title": "Fragrance Finder 2",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-3/",
+    "title": "Fragrance Finder 3",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-4/",
+    "title": "Fragrance Finder 4",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-5/",
+    "title": "Fragrance Finder 5",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/scent-library/",
+    "title": "Parfumaire™ Scent Library",
+    "type": "business",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-for-home/",
+    "title": "Fragrance For Home",
+    "type": "business",
+    "language": "en",
+    "destination": "/home-scenting/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/perfect-fragrance/",
+    "title": "perfect-fragrance",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/thank-you-page/",
+    "title": "Thank You Page",
+    "type": "business",
+    "language": "en",
+    "destination": null,
+    "status": "retired",
+    "reason": "Old submission confirmation; demo never claims a message was delivered."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-for-home2/",
+    "title": "Fragrance For Home2",
+    "type": "business",
+    "language": "en",
+    "destination": "/home-scenting/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/hotel-fragrances-at-home/",
+    "title": "Make your home smell as good as it looks",
+    "type": "business",
+    "language": "en",
+    "destination": "/home-scenting/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/canada/",
+    "title": "Canada",
+    "type": "business",
+    "language": "en",
+    "destination": "/about/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/business-service/scent-branding/",
+    "title": "Scent Branding",
+    "type": "business",
+    "language": "en",
+    "destination": "/scent-branding/",
+    "status": "adapted",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "source": "https://www.parfumaire.com/business-service/odor-elimination/",
+    "title": "Odor Elimination",
+    "type": "business",
+    "language": "en",
+    "destination": "/odor-elimination/",
+    "status": "adapted",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "source": "https://www.parfumaire.com/business-service/private-label/",
+    "title": "Private Label",
+    "type": "business",
+    "language": "en",
+    "destination": "/custom-fragrances/",
+    "status": "adapted",
+    "reason": "Standalone source is lorem ipsum. Useful service content migrated from the main business-scenting page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/bois-tibet/",
+    "title": "Bois Tibet",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/boix-tibet/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/oud-charnel/",
+    "title": "Oud Charnel",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/oud-charnel/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/oud-noir/",
+    "title": "Oud Noir",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/oud-noir/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/printemps-vintage/",
+    "title": "Printemps Vintage",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/printemps-vintage/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/draps-blanc/",
+    "title": "Draps Blanc",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/draps-blanc/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/meditation/",
+    "title": "Meditation",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/meditation/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/plaisir-de-marrakech/",
+    "title": "Plaisir de Marrakech",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/plaisir-de-marrakech/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/soiree-gala/",
+    "title": "Soiree Gala",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/soiree-gala/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/velour-oriental/",
+    "title": "Velour Oriental",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/velour-oriental/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/arome-de-la-havane/",
+    "title": "Arome de la Havane",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/arome-de-la-havane/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/the-noir/",
+    "title": "Thé Noir",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/the-noir/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/miami-beach/",
+    "title": "Miami Beach",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/miami-beach/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/213-rue-st-honore/",
+    "title": "213 Rue St Honore",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/213-rue-st-honore/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/cuir-onyx-5/",
+    "title": "Cuir Onyx",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/cuir-onyx/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/air-mykonos/",
+    "title": "Air Mykonos",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/air-mykonos/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/sarona-market/",
+    "title": "Sarona Market",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/sarona-market/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/courchevel/",
+    "title": "Courchevel",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/courchevel/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scents/lemongrass/",
+    "title": "Lemongrass",
+    "type": "business",
+    "language": "en",
+    "destination": "/products/lemongrass/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/aromatic-wood/",
+    "title": "Aromatic Wood",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/floral/",
+    "title": "Floral",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/citrus-floral/",
+    "title": "Citrus Floral",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/gourmand/",
+    "title": "Gourmand",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/aromatic-woods/",
+    "title": "Aromatic Woods",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/exotic-fruit/",
+    "title": "Exotic Fruit",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/author/admin/",
+    "title": "No Results Found",
+    "type": "business",
+    "language": "en",
+    "destination": null,
+    "status": "archived",
+    "reason": "Empty author archive (No Results Found), not useful customer content."
+  },
+  {
+    "source": "https://www.parfumaire.com/author/asitha/",
+    "title": "No Results Found",
+    "type": "business",
+    "language": "en",
+    "destination": null,
+    "status": "archived",
+    "reason": "Empty author archive (No Results Found), not useful customer content."
+  },
+  {
+    "source": "https://www.parfumaire.com/author/mariamsajid/",
+    "title": "No Results Found",
+    "type": "business",
+    "language": "en",
+    "destination": null,
+    "status": "archived",
+    "reason": "Empty author archive (No Results Found), not useful customer content."
+  },
+  {
+    "source": "https://www.parfumaire.com/author/setemasultana97/",
+    "title": "No Results Found",
+    "type": "business",
+    "language": "en",
+    "destination": null,
+    "status": "archived",
+    "reason": "Empty author archive (No Results Found), not useful customer content."
+  },
+  {
+    "source": "https://shop.parfumaire.com/cart",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/account",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/account/login",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/search",
+    "title": "Search our store",
+    "type": "page",
+    "language": "en",
+    "destination": "/search/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/example-pants",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/example-hat",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/products/example-t-shirt",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/collections/all",
+    "title": "Products",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/all/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder",
+    "title": "Fragrance Finder",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://shop.parfumaire.com/pages/www.allaboutcookies.org",
+    "destination": null,
+    "status": "inaccessible",
+    "reason": "Public source unavailable during import."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/cart",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/account",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/account/login",
+    "type": "transaction",
+    "destination": null,
+    "status": "retired",
+    "reason": "Enquiry-only phase; no purchasing or account functions."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/collections/all",
+    "title": "Productos",
+    "type": "collection",
+    "language": "es",
+    "destination": "/collections/all/",
+    "status": "archived",
+    "reason": "Genuine Spanish source retained verbatim in the local source snapshot for translation handoff. Canadian demo is English; no invented equivalent or hreflang."
+  },
+  {
+    "source": "https://shop.parfumaire.com/es/pages/www.allaboutcookies.org",
+    "destination": null,
+    "status": "inaccessible",
+    "reason": "Public source unavailable during import."
+  },
+  {
+    "source": "https://www.parfumaire.com/fragrance-finder-1",
+    "title": "Fragrance Finder 1",
+    "type": "business",
+    "language": "en",
+    "destination": "/fragrance-finder/",
+    "status": "adapted",
+    "reason": "Original multi-page questionnaire consolidated into note-based discovery without data collection; source questionnaire archived."
+  },
+  {
+    "source": "https://www.parfumaire.com/contact",
+    "title": "Contact",
+    "type": "business",
+    "language": "en",
+    "destination": "/contact/",
+    "status": "complete",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/scent-library",
+    "title": "Parfumaire™ Scent Library",
+    "type": "business",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Preserved as a dedicated static page."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/aromatic-wood/page/2/",
+    "title": "Aromatic Wood",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/aromatic-wood/page/3/",
+    "title": "Aromatic Wood",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  },
+  {
+    "source": "https://www.parfumaire.com/collections/aromatic-wood/page/4/",
+    "title": "Aromatic Wood",
+    "type": "collection",
+    "language": "en",
+    "destination": "/collections/scents/",
+    "status": "adapted",
+    "reason": "Legacy business-site taxonomy consolidated into the complete fragrance collection; source classification preserved in archive."
+  }
+]

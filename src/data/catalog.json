@@ -1,0 +1,4807 @@
+[
+  {
+    "id": "7592313028794",
+    "handle": "lemongrass",
+    "title": "Lemongrass",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/lemongrass",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: <span>Citrus</span><br></p>\n<p>MID: <span>Lemongrass</span>| <span>Green Tea</span> | <span>White Flowers</span><br></p>\n<p>BASE: <span>White Musk </span>| <span>Cedar</span><br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p>\n<p><br></p>\n<details>\n<summary>Read more</summary>\n<p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p>\n</details>\n<p><br></p>",
+    "sourceDescriptionHtml": "<p>TOP: <span data-mce-fragment=\"1\">Citrus</span><br></p>\n<p>MID: <span data-mce-fragment=\"1\">Lemongrass</span>| <span data-mce-fragment=\"1\">Green Tea</span> | <span data-mce-fragment=\"1\">White Flowers</span><br></p>\n<p>BASE: <span data-mce-fragment=\"1\">White Musk </span>| <span data-mce-fragment=\"1\">Cedar</span><br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p>\n<p><br></p>\n<details>\n<summary>Read more</summary>\n<p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p>\n</details>\n<p><br></p>",
+    "summary": "Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.",
+    "notes": {
+      "top": [
+        "Citrus"
+      ],
+      "mid": [
+        "Lemongrass",
+        "Green Tea",
+        "White Flowers"
+      ],
+      "base": [
+        "White Musk",
+        "Cedar"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "33075097e0783c98",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-149925_f815cae8-ee7f-4533-8497-28136a1e8cf4.jpg?v=1709588100",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-149925.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/33075097e0783c98.jpg",
+        "path": "/images/the-noir-149925-f815cae8-ee7f-4533-8497-28136a1e8cf4-330750.webp",
+        "small": "/images/the-noir-149925-f815cae8-ee7f-4533-8497-28136a1e8cf4-330750-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "5ff0a21a292b8dc01d5930a5008a16bc684b41b7e5653e354239b18b19167d64",
+        "alt": "Lemongrass — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263140026,
+            "variantIds": [],
+            "position": 1
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380542841018,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 34139263140026,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "08118d7e3bc9970d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-595135_655c7607-66c5-4f76-b127-fc5795ae7609.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-595135.jpg?v=1690745733"
+        ],
+        "original": "archive/originals/08118d7e3bc9970d.jpg",
+        "path": "/images/the-noir-595135-655c7607-66c5-4f76-b127-fc5795ae7609-08118d.webp",
+        "small": "/images/the-noir-595135-655c7607-66c5-4f76-b127-fc5795ae7609-08118d-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "16f599d9df3920c264b475e33adac6b5f31c7f751c32b80cae337548bfa641b4",
+        "alt": "Lemongrass — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263172794,
+            "variantIds": [],
+            "position": 2
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457251002,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 34139263172794,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Lemongrass — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 34139263205562,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "43193444925626",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "43193444958394",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "43193444991162",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7527204389050",
+    "handle": "arome-de-la-havane",
+    "title": "Arome de la Havane",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/arome-de-la-havane",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Mandarin | Cumin | Coriander<br></p> <p>MID: Rose | Incense | Leathery Accord<br></p> <p>BASE: Tobacco | Sandalwood | Labdanum<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Introducing the essence of Havana, a captivating scent that embodies the vibrant spirit of Cuba's stunning capital city.</p><p> </p><details> <summary>Read more</summary> <p>This blend opens with a burst of bright mandarin, evoking the warm, tropical air of Havana's bustling streets. At the heart lies a rich and earthy blend of tobacco and leather, embodying the city's rich history and cultural heritage. The fragrance dries down to a warm, sensual finish that leaves a lasting impression, much like the memories of a visit to Havana.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Mandarin | Cumin | Coriander<br></p> <p>MID: Rose | Incense | Leathery Accord<br></p> <p>BASE: Tobacco | Sandalwood | Labdanum<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Introducing the essence of Havana, a captivating scent that embodies the vibrant spirit of Cuba's stunning capital city.</p><p> <details> <summary>Read more</summary> <p>This blend opens with a burst of bright mandarin, evoking the warm, tropical air of Havana's bustling streets. At the heart lies a rich and earthy blend of tobacco and leather, embodying the city's rich history and cultural heritage. The fragrance dries down to a warm, sensual finish that leaves a lasting impression, much like the memories of a visit to Havana.</p> </details></p>",
+    "summary": "Introducing the essence of Havana, a captivating scent that embodies the vibrant spirit of Cuba's stunning capital city.",
+    "notes": {
+      "top": [
+        "Mandarin",
+        "Cumin",
+        "Coriander"
+      ],
+      "mid": [
+        "Rose",
+        "Incense",
+        "Leathery Accord"
+      ],
+      "base": [
+        "Tobacco",
+        "Sandalwood",
+        "Labdanum"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "75b74809618ad951",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-parfumaire-1_74072390-85a9-45dd-98f4-240f840b7515.jpg?v=1719715971"
+        ],
+        "original": "archive/originals/75b74809618ad951.jpg",
+        "path": "/images/arome-de-la-havane-parfumaire-1-74072390-85a9-45dd-98f4-75b748.webp",
+        "small": "/images/arome-de-la-havane-parfumaire-1-74072390-85a9-45dd-98f4-75b748-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "e055febf38ac4baa9fc223685a4d93bf16d68ea4b448078a188e9f806187bcd4",
+        "alt": "Arome de la Havane — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828171972794,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33828171972794,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "c79cf7a6d81fd90d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-778069_2cfeffd4-62d9-487c-9d8a-63a3907e5b54.jpg?v=1703981069"
+        ],
+        "original": "archive/originals/c79cf7a6d81fd90d.jpg",
+        "path": "/images/arome-de-la-havane-778069-2cfeffd4-62d9-487c-9d8a-63a39-c79cf7.webp",
+        "small": "/images/arome-de-la-havane-778069-2cfeffd4-62d9-487c-9d8a-63a39-c79cf7-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "c00b4e37c5dc0149ed3d4327bc76ea119128f08dd2475126cfd5de5a5184b4cd",
+        "alt": "Arome de la Havane — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172005562,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33828172005562,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "3d0b1f48901db33e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592"
+        ],
+        "original": "archive/originals/3d0b1f48901db33e.jpg",
+        "path": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f.webp",
+        "small": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6505ca5a309ec641acb02ed6c02058b2d0d4cabf579b6da576ad4cc09f52fb30",
+        "alt": "Arome de la Havane — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172038330,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452171962,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452434106,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452565178,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452303034,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33828172038330,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "42984834269370",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 454,
+        "requiresShipping": true
+      },
+      {
+        "id": "42984834302138",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 454,
+        "requiresShipping": true
+      },
+      {
+        "id": "42984834334906",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 454,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7232514785466",
+    "handle": "air-mykonos",
+    "title": "Air Mykonos",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/air-mykonos",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Pink Pepper | Black Rose | White Flowers<br></p> <p>MID: Peony | Raspberry | Oud<br></p> <p>BASE: Patchouli | Amber | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A refined and sophisticated creation that encapsulates the essence of the island of Mykonos.</p><p> </p><details> <summary>Read more</summary> <p>The scent opens with a crisp, invigorating blend of Mediterranean herbs and sea salt, evoking the refreshing sea breeze that kisses the island's shores. As it unfolds a bouquet of white florals emerges, including notes of peony and ylang-ylang, which perfectly balance the herbal and marine accord. The dry down is a warm and sensual base of amber and musk, evoking the island's vibrant nightlife and luxurious atmosphere. This blend brings a touch of the island's unique ambiance into your daily routine. </p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Pink Pepper | Black Rose | White Flowers<br></p> <p>MID: Peony | Raspberry | Oud<br></p> <p>BASE: Patchouli | Amber | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A refined and sophisticated creation that encapsulates the essence of the island of Mykonos.</p><p> <details> <summary>Read more</summary> <p>The scent opens with a crisp, invigorating blend of Mediterranean herbs and sea salt, evoking the refreshing sea breeze that kisses the island's shores. As it unfolds a bouquet of white florals emerges, including notes of peony and ylang-ylang, which perfectly balance the herbal and marine accord. The dry down is a warm and sensual base of amber and musk, evoking the island's vibrant nightlife and luxurious atmosphere. This blend brings a touch of the island's unique ambiance into your daily routine. </p> </details></p>",
+    "summary": "A refined and sophisticated creation that encapsulates the essence of the island of Mykonos.",
+    "notes": {
+      "top": [
+        "Pink Pepper",
+        "Black Rose",
+        "White Flowers"
+      ],
+      "mid": [
+        "Peony",
+        "Raspberry",
+        "Oud"
+      ],
+      "base": [
+        "Patchouli",
+        "Amber",
+        "Musk"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "bed96993222e474a",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-184693.jpg?v=1698868562"
+        ],
+        "original": "archive/originals/bed96993222e474a.jpg",
+        "path": "/images/air-mykonos-184693-bed969.webp",
+        "small": "/images/air-mykonos-184693-bed969-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "80705e3238b93c657190a3dca486abb44df54674f3461c6ce8454d27a378281b",
+        "alt": "Air Mykonos — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380540678330,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540678330,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "d1dbd8810a12c5b8",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-544615.jpg?v=1698868564"
+        ],
+        "original": "archive/originals/d1dbd8810a12c5b8.jpg",
+        "path": "/images/air-mykonos-544615-d1dbd8.webp",
+        "small": "/images/air-mykonos-544615-d1dbd8-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "2a32a3c53d8612abac1b56427c1eda023f693c3c1d7eb4cca72ec475448b9d40",
+        "alt": "Air Mykonos — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452106426,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452106426,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "3d0b1f48901db33e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592"
+        ],
+        "original": "archive/originals/3d0b1f48901db33e.jpg",
+        "path": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f.webp",
+        "small": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6505ca5a309ec641acb02ed6c02058b2d0d4cabf579b6da576ad4cc09f52fb30",
+        "alt": "Air Mykonos — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172038330,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452171962,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452434106,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452565178,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452303034,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452171962,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41908209025210",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908209057978",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908209090746",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7232514719930",
+    "handle": "the-noir",
+    "title": "Thé Noir",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/the-noir",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Bergamot | Lemon | Blackcurrant<br></p> <p>MID: Iris | Powdery Accord | Cyclamen<br></p> <p>BASE: Vetiver | Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p><p> </p><details> <summary>Read more</summary> <p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Bergamot | Lemon | Blackcurrant<br></p> <p>MID: Iris | Powdery Accord | Cyclamen<br></p> <p>BASE: Vetiver | Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p><p> <details> <summary>Read more</summary> <p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p> </details></p>",
+    "summary": "Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Lemon",
+        "Blackcurrant"
+      ],
+      "mid": [
+        "Iris",
+        "Powdery Accord",
+        "Cyclamen"
+      ],
+      "base": [
+        "Vetiver",
+        "Musk",
+        "Cedarwood"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "33075097e0783c98",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-149925_f815cae8-ee7f-4533-8497-28136a1e8cf4.jpg?v=1709588100",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-149925.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/33075097e0783c98.jpg",
+        "path": "/images/the-noir-149925-f815cae8-ee7f-4533-8497-28136a1e8cf4-330750.webp",
+        "small": "/images/the-noir-149925-f815cae8-ee7f-4533-8497-28136a1e8cf4-330750-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "5ff0a21a292b8dc01d5930a5008a16bc684b41b7e5653e354239b18b19167d64",
+        "alt": "Thé Noir — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263140026,
+            "variantIds": [],
+            "position": 1
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380542841018,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542841018,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "08118d7e3bc9970d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-595135_655c7607-66c5-4f76-b127-fc5795ae7609.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-595135.jpg?v=1690745733"
+        ],
+        "original": "archive/originals/08118d7e3bc9970d.jpg",
+        "path": "/images/the-noir-595135-655c7607-66c5-4f76-b127-fc5795ae7609-08118d.webp",
+        "small": "/images/the-noir-595135-655c7607-66c5-4f76-b127-fc5795ae7609-08118d-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "16f599d9df3920c264b475e33adac6b5f31c7f751c32b80cae337548bfa641b4",
+        "alt": "Thé Noir — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263172794,
+            "variantIds": [],
+            "position": 2
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457251002,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457251002,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Thé Noir — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457349306,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41908208894138",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908208926906",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908208959674",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7232514588858",
+    "handle": "velour-oriental",
+    "title": "Velour Oriental",
+    "vendor": "Parfumaire",
+    "sourceType": "oil subscription",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/velour-oriental",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: White Flowers| Powdery Accord | Cedarwood<br></p> <p>MID: White Jasmine | Coconut Milk | White Wood<br></p> <p>BASE: Moss | Dry Wood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Discover the captivating effervescence of this sophisticated blend that encapsulates the unique character of the oriental world.</p><p> </p><details> <summary>Read more</summary> <p>At the heart of this scent lies a warm and enveloping blend of jasmin, cedar, moss, and musk, creating a woody, musky aroma with floral and spicy undertones. The fragrance opens with a fresh and comforting top note, inviting you to indulge in its complexity and depth.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: White Flowers| Powdery Accord | Cedarwood<br></p> <p>MID: White Jasmine | Coconut Milk | White Wood<br></p> <p>BASE: Moss | Dry Wood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Discover the captivating effervescence of this sophisticated blend that encapsulates the unique character of the oriental world.</p><p> <details> <summary>Read more</summary> <p>At the heart of this scent lies a warm and enveloping blend of jasmin, cedar, moss, and musk, creating a woody, musky aroma with floral and spicy undertones. The fragrance opens with a fresh and comforting top note, inviting you to indulge in its complexity and depth.</p> </details></p>",
+    "summary": "Discover the captivating effervescence of this sophisticated blend that encapsulates the unique character of the oriental world.",
+    "notes": {
+      "top": [
+        "White Flowers",
+        "Powdery Accord",
+        "Cedarwood"
+      ],
+      "mid": [
+        "White Jasmine",
+        "Coconut Milk",
+        "White Wood"
+      ],
+      "base": [
+        "Moss",
+        "Dry Wood",
+        "Musk"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "0f0a519677790742",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-346360.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/0f0a519677790742.jpg",
+        "path": "/images/velour-oriental-346360-0f0a51.webp",
+        "small": "/images/velour-oriental-346360-0f0a51-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "8661e8fd6094c7d7a506b301635df391db2d3dc848191918729be0aa8ec6f2d9",
+        "alt": "Velour Oriental — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380542808250,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542808250,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "e0a939a8b102055d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-786671.jpg?v=1690745767"
+        ],
+        "original": "archive/originals/e0a939a8b102055d.jpg",
+        "path": "/images/velour-oriental-786671-e0a939.webp",
+        "small": "/images/velour-oriental-786671-e0a939-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "534650fbe82e1d913ac70e6b14048046111201f9c961f58226b5dbcf52834a49",
+        "alt": "Velour Oriental — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457054394,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457054394,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Velour Oriental — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457087162,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41908208533690",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908208566458",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41908208599226",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7226132201658",
+    "handle": "soiree-gala",
+    "title": "Soiree Gala",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/soiree-gala",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Marigold | Mineral Amber | Saffron<br></p> <p>MID: Cedarwood | Water Lily | Caramel<br></p> <p>BASE: Amber | Oakmoss Accord | Dry Amber<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Evoking an entitled sense of sophistication and lust, this masterful creation reminds you of that special someone you missed out on that one grand night years ago.</p><p> </p><details> <summary>Read more</summary> <p>Irresistible and complex yet finally within reach. Crafted from a unique blend of rare ambers and hand harvested saffron, notes of Cedarwood give this elaborate scent an effervescence of pure luxury.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Marigold | Mineral Amber | Saffron<br></p> <p>MID: Cedarwood | Water Lily | Caramel<br></p> <p>BASE: Amber | Oakmoss Accord | Dry Amber<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Evoking an entitled sense of sophistication and lust, this masterful creation reminds you of that special someone you missed out on that one grand night years ago.</p><p> <details> <summary>Read more</summary> <p>Irresistible and complex yet finally within reach. Crafted from a unique blend of rare ambers and hand harvested saffron, notes of Cedarwood give this elaborate scent an effervescence of pure luxury.</p> </details></p>",
+    "summary": "Evoking an entitled sense of sophistication and lust, this masterful creation reminds you of that special someone you missed out on that one grand night years ago.",
+    "notes": {
+      "top": [
+        "Marigold",
+        "Mineral Amber",
+        "Saffron"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Water Lily",
+        "Caramel"
+      ],
+      "base": [
+        "Amber",
+        "Oakmoss Accord",
+        "Dry Amber"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "be34e0e89b3a7902",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-780923.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/be34e0e89b3a7902.jpg",
+        "path": "/images/soiree-gala-780923-be34e0.webp",
+        "small": "/images/soiree-gala-780923-be34e0-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "9380bd46f4214de8cd2a7efb21260dd7a88223af0c1b557b9f58afd8a7aa0673",
+        "alt": "Soiree Gala — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380542742714,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542742714,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "ecd368c25514e6f7",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-852637.jpg?v=1690745695"
+        ],
+        "original": "archive/originals/ecd368c25514e6f7.jpg",
+        "path": "/images/soiree-gala-852637-ecd368.webp",
+        "small": "/images/soiree-gala-852637-ecd368-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "456a4ed0e2c5b0621c6023b17986d0492f1a9bfa1aea9128569e4da7b6c9f735",
+        "alt": "Soiree Gala — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457218234,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457218234,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Soiree Gala — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457283770,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41890497560762",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41890497593530",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41890497659066",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7226130890938",
+    "handle": "213-rue-st-honore",
+    "title": "213 Rue St Honore",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/213-rue-st-honore",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p><strong>TOP</strong>: Fig tree leaves | Coconut Milk<br></p> <p><strong>MID</strong>: White rose | Prickly Pear<br></p> <p><strong>BASE</strong>: Cedarwood | Amber | Violet Leaves<br></p> <p><strong>120ml</strong> fits with LA TOUR Diffuser<br><strong>500ml</strong> &amp; <strong>1L</strong> fits with CozyAir and CozyAir Max Diffusers</p> <p>A VIP Parisienne address (IYKYK) dear to our hearts and history that once captured the captivating essence of the mighty fig tree.</p><p> </p><details> <summary>Read more</summary> <p>Inspired by the lush foliage and succulent fruits of this ancient tree, this scent envelops you in a sensory journey through a Mediterranean orchard. Opening with a burst of green freshness, it echoes the vibrant leaves and branches that dance in the breeze. As the fragrance unfolds, the luscious sweetness of ripe figs emerges, intertwined with hints of honeyed nectar and sun-warmed skin. The earthy and woody undertones of the fig tree's bark add depth and complexity, creating a harmonious symphony of nature's wonders. Legend has it this addictive scent gives those who behold it the power of wisdom</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p><strong>TOP</strong>: Fig tree leaves | Coconut Milk<br></p> <p><strong>MID</strong>: White rose | Prickly Pear<br></p> <p><strong>BASE</strong>: Cedarwood | Amber | Violet Leaves<br></p> <p><strong>120ml</strong> fits with LA TOUR Diffuser<br><strong>500ml</strong> &amp; <strong>1L</strong> fits with CozyAir and CozyAir Max Diffusers</p> <p>A VIP Parisienne address (IYKYK) dear to our hearts and history that once captured the captivating essence of the mighty fig tree.</p><p> <details> <summary>Read more</summary> <p>Inspired by the lush foliage and succulent fruits of this ancient tree, this scent envelops you in a sensory journey through a Mediterranean orchard. Opening with a burst of green freshness, it echoes the vibrant leaves and branches that dance in the breeze. As the fragrance unfolds, the luscious sweetness of ripe figs emerges, intertwined with hints of honeyed nectar and sun-warmed skin. The earthy and woody undertones of the fig tree's bark add depth and complexity, creating a harmonious symphony of nature's wonders. Legend has it this addictive scent gives those who behold it the power of wisdom</p> </details></p>",
+    "summary": "A VIP Parisienne address (IYKYK) dear to our hearts and history that once captured the captivating essence of the mighty fig tree.",
+    "notes": {
+      "top": [
+        "Fig tree leaves",
+        "Coconut Milk"
+      ],
+      "mid": [
+        "White rose",
+        "Prickly Pear"
+      ],
+      "base": [
+        "Cedarwood",
+        "Amber",
+        "Violet Leaves"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "577a5b642ac5d6d1",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-940375.jpg?v=1698868562"
+        ],
+        "original": "archive/originals/577a5b642ac5d6d1.jpg",
+        "path": "/images/213-rue-st-honoree-940375-577a5b.webp",
+        "small": "/images/213-rue-st-honoree-940375-577a5b-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "984c665b6cc061e3a91e9e7b040f86a8a85113d46ec376724152d1699bc160bb",
+        "alt": "213 Rue St Honore — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "213-rue-st-honore",
+            "imageId": 33380540514490,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540514490,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "a7dfb98537a1d127",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-220262.jpg?v=1698868564"
+        ],
+        "original": "archive/originals/a7dfb98537a1d127.jpg",
+        "path": "/images/213-rue-st-honoree-220262-a7dfb9.webp",
+        "small": "/images/213-rue-st-honoree-220262-a7dfb9-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "a48fcd63fc375b964c0ce52c80626a5acb4baae4b3090c4486a59ad8798c2ece",
+        "alt": "213 Rue St Honore — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "213-rue-st-honore",
+            "imageId": 33380451909818,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380451909818,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "8f24564baedc2b5f",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-124562.png?v=1698868566",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-248905.png?v=1698868613"
+        ],
+        "original": "archive/originals/8f24564baedc2b5f.png",
+        "path": "/images/213-rue-st-honoree-124562-8f2456.webp",
+        "small": "/images/213-rue-st-honoree-124562-8f2456-640.webp",
+        "width": 500,
+        "height": 500,
+        "checksum": "680168aa5b1b9eb860ef2d1125d8a3c7307ff84000fcbbfa45dd0dd508c37a55",
+        "alt": "213 Rue St Honore — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "213-rue-st-honore",
+            "imageId": 33380452008122,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "cuir-onyx",
+            "imageId": 33380452040890,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452008122,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41890494578874",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41890494611642",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41890494644410",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205616615610",
+    "handle": "plaisir-de-marrakech",
+    "title": "Plaisir de Marrakech",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/plaisir-de-marrakech",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Bitter Orange<br></p> <p>MID: Orange Blossom | Dew Notes<br></p> <p>BASE: White Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on a sensory journey to the vibrant city of Marrakech, inspired by the rich cultural heritage and exotic beauty of Morocco's stunning desert metropolis, this high-quality scent captures the essence of this unique destination.</p><p> </p><details> <summary>Read more</summary> <p>The scent opens with a bright and refreshing blend of citrus and floral notes, evoking the bustling markets and fragrant gardens of Marrakech. At its heart lies a warm and spicy mix of Orange blossom, white musk, and spice, reflecting the city's rich and diverse culinary tradition. The fragrance dries down to a soft and sensual base of cedarwood, creating a warm and inviting finish that embodies the mysterious beauty of the Moroccan desert. </p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Bitter Orange<br></p> <p>MID: Orange Blossom | Dew Notes<br></p> <p>BASE: White Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on a sensory journey to the vibrant city of Marrakech, inspired by the rich cultural heritage and exotic beauty of Morocco's stunning desert metropolis, this high-quality scent captures the essence of this unique destination.</p><p> <details> <summary>Read more</summary> <p>The scent opens with a bright and refreshing blend of citrus and floral notes, evoking the bustling markets and fragrant gardens of Marrakech. At its heart lies a warm and spicy mix of Orange blossom, white musk, and spice, reflecting the city's rich and diverse culinary tradition. The fragrance dries down to a soft and sensual base of cedarwood, creating a warm and inviting finish that embodies the mysterious beauty of the Moroccan desert. </p> </details></p>",
+    "summary": "Embark on a sensory journey to the vibrant city of Marrakech, inspired by the rich cultural heritage and exotic beauty of Morocco's stunning desert metropolis, this high-quality scent captures the essence of this unique destination.",
+    "notes": {
+      "top": [
+        "Bitter Orange"
+      ],
+      "mid": [
+        "Orange Blossom",
+        "Dew Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Cedarwood"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "1e7372787768131d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-237064.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/1e7372787768131d.jpg",
+        "path": "/images/plaisir-de-marrakech-237064-1e7372.webp",
+        "small": "/images/plaisir-de-marrakech-237064-1e7372-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "da0211bd46cff47f0701e0b948ea60ac5904faf30f26469d065791a0c0507274",
+        "alt": "Plaisir de Marrakech — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380542709946,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542709946,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "ab44c87cd151d7ba",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-642821.png?v=1690745599"
+        ],
+        "original": "archive/originals/ab44c87cd151d7ba.png",
+        "path": "/images/plaisir-de-marrakech-642821-ab44c8.webp",
+        "small": "/images/plaisir-de-marrakech-642821-ab44c8-640.webp",
+        "width": 626,
+        "height": 708,
+        "checksum": "cd8c3896d9dd6670998bf45c097739b0400817ee7e718760c7a8fefceb255007",
+        "alt": "Plaisir de Marrakech — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456530106,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456530106,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Plaisir de Marrakech — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456562874,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833528885434",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833528918202",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833528950970",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205605540026",
+    "handle": "meditation",
+    "title": "Meditation",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/meditation",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Bergamot | Coconut | Green Note<br></p> <p>MID: Pink Pepper | Eucalyptus | Tea<br></p> <p>BASE: White Musk | Sandalwood | Cade<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Soothe your senses and escape to a place of peace and tranquility with this light and gentle blend.</p><p> </p><details> <summary>Read more</summary> <p>Infused with the calming scents of eucalyptus, tea, and white musk, this high-quality elixir creates a relaxing and rejuvenating aroma that will leave you feeling refreshed and at ease. The scent opens with a crisp and invigorating burst of eucalyptus, reminiscent of a relaxing spa experience. The heart of the fragrance features a soothing blend of tea and white musk, creating a warm and comforting aroma that will envelop you in a sense of calm and well-being. Turn your space in a haven of zen and luxury with this unique creation.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Bergamot | Coconut | Green Note<br></p> <p>MID: Pink Pepper | Eucalyptus | Tea<br></p> <p>BASE: White Musk | Sandalwood | Cade<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Soothe your senses and escape to a place of peace and tranquility with this light and gentle blend.</p><p> <details> <summary>Read more</summary> <p>Infused with the calming scents of eucalyptus, tea, and white musk, this high-quality elixir creates a relaxing and rejuvenating aroma that will leave you feeling refreshed and at ease. The scent opens with a crisp and invigorating burst of eucalyptus, reminiscent of a relaxing spa experience. The heart of the fragrance features a soothing blend of tea and white musk, creating a warm and comforting aroma that will envelop you in a sense of calm and well-being. Turn your space in a haven of zen and luxury with this unique creation.</p> </details></p>",
+    "summary": "Soothe your senses and escape to a place of peace and tranquility with this light and gentle blend.",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Coconut",
+        "Green Note"
+      ],
+      "mid": [
+        "Pink Pepper",
+        "Eucalyptus",
+        "Tea"
+      ],
+      "base": [
+        "White Musk",
+        "Sandalwood",
+        "Cade"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "a026f0ac5555a6dd",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-260676.jpg?v=1690746036"
+        ],
+        "original": "archive/originals/a026f0ac5555a6dd.jpg",
+        "path": "/images/meditation-260676-a026f0.webp",
+        "small": "/images/meditation-260676-a026f0-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "c2f8177a2bdde939ba82ff8d73a00602560558710a7cb8956c6c52fb3de0e3d4",
+        "alt": "Meditation — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380543037626,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380543037626,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "331792c29d5b5bc6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-347904.png?v=1690745507"
+        ],
+        "original": "archive/originals/331792c29d5b5bc6.png",
+        "path": "/images/meditation-347904-331792.webp",
+        "small": "/images/meditation-347904-331792-640.webp",
+        "width": 627,
+        "height": 710,
+        "checksum": "cb7e727a68e8f3436f39d87986fb07811da3079f7522cea668dad0d700712d42",
+        "alt": "Meditation — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457382074,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457382074,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Meditation — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457480378,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833485238458",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833485271226",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833485303994",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205491671226",
+    "handle": "courchevel",
+    "title": "Courchevel",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/courchevel",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Pine | Aromatic Notes | Green Apple<br></p> <p>MID: Cedarwood | Raspberry<br></p> <p>BASE: Sweet<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Named after the quintessential luxurious skiing resort this captivating scent evokes the essence of a frosty winter pine forest.</p><p> </p><details> <summary>Read more</summary> <p>The scent opens with crisp, invigorating notes of pine needles and fir balsam, delicately balanced with hints of earthy moss and woody cedar. As it unfolds into the air, a subtle sweetness emerges from the heart of the elixir, blending harmoniously with the forest notes to create a truly sophisticated and complex aroma. The dry down is a long lasting and musky base of pine tree resin and amber, leaving a warm and comforting trail that lingers on for hours. This perfume is a perfect choice for those who appreciate the natural beauty of the pine forest and want to bring a touch of the outdoors into their routine.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Pine | Aromatic Notes | Green Apple<br></p> <p>MID: Cedarwood | Raspberry<br></p> <p>BASE: Sweet<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Named after the quintessential luxurious skiing resort this captivating scent evokes the essence of a frosty winter pine forest.</p><p> <details> <summary>Read more</summary> <p>The scent opens with crisp, invigorating notes of pine needles and fir balsam, delicately balanced with hints of earthy moss and woody cedar. As it unfolds into the air, a subtle sweetness emerges from the heart of the elixir, blending harmoniously with the forest notes to create a truly sophisticated and complex aroma. The dry down is a long lasting and musky base of pine tree resin and amber, leaving a warm and comforting trail that lingers on for hours. This perfume is a perfect choice for those who appreciate the natural beauty of the pine forest and want to bring a touch of the outdoors into their routine.</p> </details></p>",
+    "summary": "Named after the quintessential luxurious skiing resort this captivating scent evokes the essence of a frosty winter pine forest.",
+    "notes": {
+      "top": [
+        "Pine",
+        "Aromatic Notes",
+        "Green Apple"
+      ],
+      "mid": [
+        "Cedarwood",
+        "Raspberry"
+      ],
+      "base": [
+        "Sweet"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "7da8f309cc31159d",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-877200.jpg?v=1698868590"
+        ],
+        "original": "archive/originals/7da8f309cc31159d.jpg",
+        "path": "/images/courchevel-877200-7da8f3.webp",
+        "small": "/images/courchevel-877200-7da8f3-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "a16baecef6de0f19e3399916528fbc09fec1e9a5394b53e2ecf17bc21dfbc456",
+        "alt": "Courchevel — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380540711098,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540711098,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "0af50af0a46f3fe5",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-785577.png?v=1698868592"
+        ],
+        "original": "archive/originals/0af50af0a46f3fe5.png",
+        "path": "/images/courchevel-785577-0af50a.webp",
+        "small": "/images/courchevel-785577-0af50a-640.webp",
+        "width": 625,
+        "height": 717,
+        "checksum": "cae0a2ecae2596001106cfb748cfc26c9a7c2e9c553cd439a444f7d0b12c881e",
+        "alt": "Courchevel — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452401338,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452401338,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "3d0b1f48901db33e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592"
+        ],
+        "original": "archive/originals/3d0b1f48901db33e.jpg",
+        "path": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f.webp",
+        "small": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6505ca5a309ec641acb02ed6c02058b2d0d4cabf579b6da576ad4cc09f52fb30",
+        "alt": "Courchevel — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172038330,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452171962,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452434106,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452565178,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452303034,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452434106,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833217654970",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833217687738",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833217720506",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205491474618",
+    "handle": "sarona-market",
+    "title": "Sarona Market",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/sarona-market",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Sweet Orange<br></p> <p>MID: Tea | Orange Blossom<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on an olfactive journey to Tel Aviv that combines the lively essence of Israel's Sarona Market with the invigorating allure of fresh citrus notes.</p><p> </p><details> <summary>Read more</summary> <p>Inspired by the bustling market's vibrant energy, this scent opens with a burst of zesty lemon and juicy orange, instantly transporting you to the lively fruit stalls that line the market's pathways. As the fragrance unfolds, hints of aromatic herbs like mint and basil emerge, mirroring the lush greenery found in the market's surroundings. Finally, a subtle blend of warm spices, reminiscent of the exotic treasures found in the spice bazaar, adds a touch of intrigue and depth. Immerse yourself in the harmonious fusion of Sarona Market's vibrant atmosphere and the invigorating freshness of a cold limonana and embark on a sensorial journey through the captivating spirit of the holy land.</p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Sweet Orange<br></p> <p>MID: Tea | Orange Blossom<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on an olfactive journey to Tel Aviv that combines the lively essence of Israel's Sarona Market with the invigorating allure of fresh citrus notes.</p><p> <details> <summary>Read more</summary> <p>Inspired by the bustling market's vibrant energy, this scent opens with a burst of zesty lemon and juicy orange, instantly transporting you to the lively fruit stalls that line the market's pathways. As the fragrance unfolds, hints of aromatic herbs like mint and basil emerge, mirroring the lush greenery found in the market's surroundings. Finally, a subtle blend of warm spices, reminiscent of the exotic treasures found in the spice bazaar, adds a touch of intrigue and depth. Immerse yourself in the harmonious fusion of Sarona Market's vibrant atmosphere and the invigorating freshness of a cold limonana and embark on a sensorial journey through the captivating spirit of the holy land.</p> </details></p>",
+    "summary": "Embark on an olfactive journey to Tel Aviv that combines the lively essence of Israel's Sarona Market with the invigorating allure of fresh citrus notes.",
+    "notes": {
+      "top": [
+        "Sweet Orange"
+      ],
+      "mid": [
+        "Tea",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "8860905e97f70780",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-714441.jpg?v=1690746036"
+        ],
+        "original": "archive/originals/8860905e97f70780.jpg",
+        "path": "/images/sarona-market-714441-886090.webp",
+        "small": "/images/sarona-market-714441-886090-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "41fffa63296b91a52ba344375f947a3b781c67798bac38ccc0b4006f579730c2",
+        "alt": "Sarona Market — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380542972090,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542972090,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "af1e46c586a8f670",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-764714.png?v=1690745665"
+        ],
+        "original": "archive/originals/af1e46c586a8f670.png",
+        "path": "/images/sarona-market-764714-af1e46.webp",
+        "small": "/images/sarona-market-764714-af1e46-640.webp",
+        "width": 627,
+        "height": 718,
+        "checksum": "7583c3917bd240afd4297811d317b98bb0a4e1ef8918ae47eb6f3d5e4b8f301f",
+        "alt": "Sarona Market — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457644218,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457644218,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Sarona Market — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457709754,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833217196218",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833217228986",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833217261754",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205491114170",
+    "handle": "draps-blanc",
+    "title": "Draps Blanc",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/draps-blanc",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Pear | Peach | Green Note<br></p>\n<p>MID: Jasmine | Lily of the Valley | Violet<br></p>\n<p>BASE: Cedarwood | White Musk | Vanilla<br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>White bed sheets… An addictive scent that captures the essence of crisp, freshly laundered sheets and the delicate allure of blooming apple blossoms.</p>\n<p>&nbsp;</p>\n<details> <summary>Read more</summary>\n<p>With its enchanting blend of fruity and floral notes, this scent invites you to experience a moment of pure tranquility and comfort. Opening with the gentle sweetness of stone fruit, the fragrance quickly transitions to a graceful bouquet of soft floral blossoms, with hints of jasmine and lily of the valley. As it settles, a subtle clean freshness emerges, reminiscent of freshly washed linens billowing in the breeze. \"Draps Blanc\" evokes a sense of purity and serenity, wrapping you in a delicate embrace that effortlessly transports you to a peaceful haven of tranquil bliss.</p>\n</details>\n<p>&nbsp;</p>",
+    "sourceDescriptionHtml": "<p>TOP: Pear | Peach | Green Note<br></p>\n<p>MID: Jasmine | Lily of the Valley | Violet<br></p>\n<p>BASE: Cedarwood | White Musk | Vanilla<br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>White bed sheets… An addictive scent that captures the essence of crisp, freshly laundered sheets and the delicate allure of blooming apple blossoms.</p>\n<p> </p>\n<details open=\"\"> <summary>Read more</summary>\n<p>With its enchanting blend of fruity and floral notes, this scent invites you to experience a moment of pure tranquility and comfort. Opening with the gentle sweetness of stone fruit, the fragrance quickly transitions to a graceful bouquet of soft floral blossoms, with hints of jasmine and lily of the valley. As it settles, a subtle clean freshness emerges, reminiscent of freshly washed linens billowing in the breeze. \"Draps Blanc\" evokes a sense of purity and serenity, wrapping you in a delicate embrace that effortlessly transports you to a peaceful haven of tranquil bliss.</p>\n</details>\n<p> </p>",
+    "summary": "White bed sheets… An addictive scent that captures the essence of crisp, freshly laundered sheets and the delicate allure of blooming apple blossoms.",
+    "notes": {
+      "top": [
+        "Pear",
+        "Peach",
+        "Green Note"
+      ],
+      "mid": [
+        "Jasmine",
+        "Lily of the Valley",
+        "Violet"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "6063c2c0deecb7f5",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-998629.jpg?v=1698868610"
+        ],
+        "original": "archive/originals/6063c2c0deecb7f5.jpg",
+        "path": "/images/drats-blanc-998629-6063c2.webp",
+        "small": "/images/drats-blanc-998629-6063c2-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "7052e4df1427099a61db869b01d486fbd4e859f56c1f1e2d63271248dc8c06cc",
+        "alt": "Draps Blanc — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380540580026,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540580026,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "aa2029901ff1b94e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-980623.png?v=1698868633"
+        ],
+        "original": "archive/originals/aa2029901ff1b94e.png",
+        "path": "/images/drats-blanc-980623-aa2029.webp",
+        "small": "/images/drats-blanc-980623-aa2029-640.webp",
+        "width": 625,
+        "height": 715,
+        "checksum": "afc02163999749c868a45d7c9976b6ba8fdc8667cd1c5f6d85e5c6519bf48e3a",
+        "alt": "Draps Blanc — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452532410,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452532410,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "3d0b1f48901db33e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592"
+        ],
+        "original": "archive/originals/3d0b1f48901db33e.jpg",
+        "path": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f.webp",
+        "small": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6505ca5a309ec641acb02ed6c02058b2d0d4cabf579b6da576ad4cc09f52fb30",
+        "alt": "Draps Blanc — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172038330,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452171962,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452434106,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452565178,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452303034,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452565178,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833215754426",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215787194",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215819962",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205490983098",
+    "handle": "printemps-vintage",
+    "title": "Printemps Vintage",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/printemps-vintage",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Blood Orange | Fig<br></p> <p>MID: Rose| Peony<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that encapsulates the timeless charm and refined elegance of an old-school era. This exquisite scent takes you on a nostalgic journey to a bygone springtime, where classic sophistication meets the fresh vitality of blooming flowers.</p><p> </p><details> <summary>Read more</summary> <p>Opening with a burst of vibrant citrus, and fig the fragrance immediately captivates the senses, unveiling a graceful blend of floral notes that exude a sense of refined femininity. Delicate petals of roses and peony intertwine, enhanced by a whisper of freshness, creating an enchanting symphony of floral elegance. As the scent settles, warm and comforting base notes of cedarwood and musk emerge, adding a touch of vintage culture we can’t resist. </p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Blood Orange | Fig<br></p> <p>MID: Rose| Peony<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that encapsulates the timeless charm and refined elegance of an old-school era. This exquisite scent takes you on a nostalgic journey to a bygone springtime, where classic sophistication meets the fresh vitality of blooming flowers.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of vibrant citrus, and fig the fragrance immediately captivates the senses, unveiling a graceful blend of floral notes that exude a sense of refined femininity. Delicate petals of roses and peony intertwine, enhanced by a whisper of freshness, creating an enchanting symphony of floral elegance. As the scent settles, warm and comforting base notes of cedarwood and musk emerge, adding a touch of vintage culture we can’t resist. </p> </details></p>",
+    "summary": "A scent that encapsulates the timeless charm and refined elegance of an old-school era. This exquisite scent takes you on a nostalgic journey to a bygone springtime, where classic sophistication meets the fresh vitality of blooming flowers.",
+    "notes": {
+      "top": [
+        "Blood Orange",
+        "Fig"
+      ],
+      "mid": [
+        "Rose",
+        "Peony"
+      ],
+      "base": [
+        "Cedarwood",
+        "White Musk"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "ac3488aed1567236",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-464361.jpg?v=1690746035"
+        ],
+        "original": "archive/originals/ac3488aed1567236.jpg",
+        "path": "/images/printemps-vintage-464361-ac3488.webp",
+        "small": "/images/printemps-vintage-464361-ac3488-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "205690e7f181814f3fa6fd4579456e7aece393ebc5716cd9eaaa1774dd65bd11",
+        "alt": "Printemps Vintage — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380542775482,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542775482,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "a1ffdc1e04c7d43e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-266363.png?v=1690745634"
+        ],
+        "original": "archive/originals/a1ffdc1e04c7d43e.png",
+        "path": "/images/printemps-vintage-266363-a1ffdc.webp",
+        "small": "/images/printemps-vintage-266363-a1ffdc-640.webp",
+        "width": 622,
+        "height": 711,
+        "checksum": "905cfb2315ebc5d13fa777a932ee31032e05cd6229f79fbf99fba04b2e457c0a",
+        "alt": "Printemps Vintage — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456825018,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456825018,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Printemps Vintage — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456890554,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833215295674",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215328442",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215361210",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205490786490",
+    "handle": "oud-charnel",
+    "title": "Oud Charnel",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-charnel",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Milky Note<br></p> <p>MID: Saffron | Sandalwood<br></p> <p>BASE: Vanilla | Ambery Notes<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A delicate yet powerful scent that unleashes the addicting power of the mystical oud wood, entwined with the allure of saffron and the captivating warmth of amber. </p><p> </p><details> <summary>Read more</summary> <p>This aromatic masterpiece is a journey into the heart of indulgence and seduction. As you breathe it in, Saffron's warm and exotic aroma dances in the air , awakening your senses and preparing you for the olfactory adventure ahead. The mystical oud wood takes center stage, its soft and woody nuances swirling in the air, enveloping you in an aura of mystery and sensuality. As the fragrance unfolds, rich and resinous amber emerges, creating a luxurious and warm embrace that lingers. A masterfully crafted aroma as fresh and gentle as it is memorable.</p></details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Milky Note<br></p> <p>MID: Saffron | Sandalwood<br></p> <p>BASE: Vanilla | Ambery Notes<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A delicate yet powerful scent that unleashes the addicting power of the mystical oud wood, entwined with the allure of saffron and the captivating warmth of amber. </p><p> <details> <summary>Read more</summary> <p>This aromatic masterpiece is a journey into the heart of indulgence and seduction. As you breathe it in, Saffron's warm and exotic aroma dances in the air , awakening your senses and preparing you for the olfactory adventure ahead. The mystical oud wood takes center stage, its soft and woody nuances swirling in the air, enveloping you in an aura of mystery and sensuality. As the fragrance unfolds, rich and resinous amber emerges, creating a luxurious and warm embrace that lingers. A masterfully crafted aroma as fresh and gentle as it is memorable.</p></details></p>",
+    "summary": "A delicate yet powerful scent that unleashes the addicting power of the mystical oud wood, entwined with the allure of saffron and the captivating warmth of amber.",
+    "notes": {
+      "top": [
+        "Milky Note"
+      ],
+      "mid": [
+        "Saffron",
+        "Sandalwood"
+      ],
+      "base": [
+        "Vanilla",
+        "Ambery Notes"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "18c27c6cc3ad30bc",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-599257.jpg?v=1690746036"
+        ],
+        "original": "archive/originals/18c27c6cc3ad30bc.jpg",
+        "path": "/images/oud-charnel-599257-18c27c.webp",
+        "small": "/images/oud-charnel-599257-18c27c-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "06b9d46ea2d70a9928d79b64e044b63b255f11ea1165500e6254879acc48ece3",
+        "alt": "Oud Charnel — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380543004858,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380543004858,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "829a08ebd071c040",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-658885.png?v=1690745567"
+        ],
+        "original": "archive/originals/829a08ebd071c040.png",
+        "path": "/images/oud-charnel-658885-829a08.webp",
+        "small": "/images/oud-charnel-658885-829a08-640.webp",
+        "width": 626,
+        "height": 707,
+        "checksum": "0b82b31b9a10c08fcc305798ab99264ae0bf59197a2cf38821764b0618935ef6",
+        "alt": "Oud Charnel — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457611450,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457611450,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Oud Charnel — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380457676986,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833214967994",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215000762",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833215033530",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205490622650",
+    "handle": "oud-noir",
+    "title": "Oud Noir",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/oud-noir",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Cardamom | Grapefruit | Pine needles<br></p> <p>MID: Saffron | Patchouli | Myrrh<br></p> <p>BASE: Vetiver | White sandalwood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>For those that exude power, opulence, and a captivating aura of luxury. This scent is a sensory symphony that commands attention from the moment it enters the space.</p><p> </p><details> <summary>Read more</summary> <p>Opening with a burst of spicy and aromatic notes, it immediately establishes its presence with a commanding intensity. At its heart lies the star ingredient, oud, with its deep, woody richness and an unmistakable air of mystique. As the fragrance evolves, warm and sensual nuances of leather and patchouli emerge, adding depth and complexity. The overall composition is a testament to the grandeur and allure of oud, leaving a lasting impression that is as bold as it is captivating. \"Oud Noir\" is a fragrance that indulges the senses, allowing you to revel in its powerful and luxurious embrace.</p></details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Cardamom | Grapefruit | Pine needles<br></p> <p>MID: Saffron | Patchouli | Myrrh<br></p> <p>BASE: Vetiver | White sandalwood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>For those that exude power, opulence, and a captivating aura of luxury. This scent is a sensory symphony that commands attention from the moment it enters the space.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of spicy and aromatic notes, it immediately establishes its presence with a commanding intensity. At its heart lies the star ingredient, oud, with its deep, woody richness and an unmistakable air of mystique. As the fragrance evolves, warm and sensual nuances of leather and patchouli emerge, adding depth and complexity. The overall composition is a testament to the grandeur and allure of oud, leaving a lasting impression that is as bold as it is captivating. \"Oud Noir\" is a fragrance that indulges the senses, allowing you to revel in its powerful and luxurious embrace.</p></details></p>",
+    "summary": "For those that exude power, opulence, and a captivating aura of luxury. This scent is a sensory symphony that commands attention from the moment it enters the space.",
+    "notes": {
+      "top": [
+        "Cardamom",
+        "Grapefruit",
+        "Pine needles"
+      ],
+      "mid": [
+        "Saffron",
+        "Patchouli",
+        "Myrrh"
+      ],
+      "base": [
+        "Vetiver",
+        "White sandalwood",
+        "Musk"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "7853c8dda82079d8",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-355836.jpg?v=1690744495"
+        ],
+        "original": "archive/originals/7853c8dda82079d8.jpg",
+        "path": "/images/oud-noir-355836-7853c8.webp",
+        "small": "/images/oud-noir-355836-7853c8-640.webp",
+        "width": 1920,
+        "height": 1920,
+        "checksum": "39c29518e6e43941ed6be6f683e66ec6024ea1cc50714f7dc94ff157705851be",
+        "alt": "Oud Noir — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456628410,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456628410,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "aab9ad0b5569be37",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-215356.jpg?v=1690744495"
+        ],
+        "original": "archive/originals/aab9ad0b5569be37.jpg",
+        "path": "/images/oud-noir-215356-aab9ad.webp",
+        "small": "/images/oud-noir-215356-aab9ad-640.webp",
+        "width": 625,
+        "height": 708,
+        "checksum": "c381f78addef00faebc91e76bc4f5723da556abd6460e7f7c016b8172c47442d",
+        "alt": "Oud Noir — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456661178,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456661178,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Oud Noir — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456693946,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833214116026",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833214148794",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833214181562",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205489180858",
+    "handle": "miami-beach",
+    "title": "Miami Beach",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/miami-beach",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Solar Notes<br></p> <p>MID: White Flowers | Cotton<br></p> <p>BASE: White Musk | Vanilla | Soft Wood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Vacation in a bottle, an aroma that captures the essence of the sun-kissed shores and vibrant energy of the city we call home.</p><p> </p><details> <summary>Read more</summary> <p>Inspired by the iconic Miami Beach, this scent transports you to a paradise of white sands, turquoise waters, and endless summer days. Opening with a burst of solar energy, it instantly evokes the feeling of dreamy beach vacations. As the fragrance evolves, floral notes of jasmine and hibiscus bloom, reminiscent of the colorful flowers adorning the city's streets and gardens. Finally, a subtle hint of warm sand and coconut emerges, bringing to life the sun-drenched beaches that define Miami's coastline. Immerse yourself in the spirit of Miami Beach, where sunshine and ocean breezes meet in perfect harmony, with this captivating creation.</p></details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Solar Notes<br></p> <p>MID: White Flowers | Cotton<br></p> <p>BASE: White Musk | Vanilla | Soft Wood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Vacation in a bottle, an aroma that captures the essence of the sun-kissed shores and vibrant energy of the city we call home.</p><p> <details> <summary>Read more</summary> <p>Inspired by the iconic Miami Beach, this scent transports you to a paradise of white sands, turquoise waters, and endless summer days. Opening with a burst of solar energy, it instantly evokes the feeling of dreamy beach vacations. As the fragrance evolves, floral notes of jasmine and hibiscus bloom, reminiscent of the colorful flowers adorning the city's streets and gardens. Finally, a subtle hint of warm sand and coconut emerges, bringing to life the sun-drenched beaches that define Miami's coastline. Immerse yourself in the spirit of Miami Beach, where sunshine and ocean breezes meet in perfect harmony, with this captivating creation.</p></details></p>",
+    "summary": "Vacation in a bottle, an aroma that captures the essence of the sun-kissed shores and vibrant energy of the city we call home.",
+    "notes": {
+      "top": [
+        "Solar Notes"
+      ],
+      "mid": [
+        "White Flowers",
+        "Cotton"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla",
+        "Soft Wood"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "23e0a61172bfaf5f",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-436971.jpg?v=1690746036"
+        ],
+        "original": "archive/originals/23e0a61172bfaf5f.jpg",
+        "path": "/images/miami-beach-436971-23e0a6.webp",
+        "small": "/images/miami-beach-436971-23e0a6-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "8acd9af1d10b7648a7e676096bcfdd57bee5bab9458b3c07956aaccc9020491d",
+        "alt": "Miami Beach — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380542939322,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380542939322,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "f296445c66172a10",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-615533.png?v=1690745539"
+        ],
+        "original": "archive/originals/f296445c66172a10.png",
+        "path": "/images/miami-beach-615533-f29644.webp",
+        "small": "/images/miami-beach-615533-f29644-640.webp",
+        "width": 625,
+        "height": 711,
+        "checksum": "bc1315aa432062d282e50c95d747f90f9c4e542efd0160ccacad0235a95f24d1",
+        "alt": "Miami Beach — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456857786,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456857786,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "216cd1867e65c6a6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539"
+        ],
+        "original": "archive/originals/216cd1867e65c6a6.jpg",
+        "path": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1.webp",
+        "small": "/images/the-noir-538393-6420e250-27bb-4cd7-8709-cf09e0d40b4c-216cd1-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "1b53e95cefa5172f14259a0268d3257cc80c6ff803205973848da579da6b0efc",
+        "alt": "Miami Beach — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "lemongrass",
+            "imageId": 34139263205562,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "the-noir",
+            "imageId": 33380457349306,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "velour-oriental",
+            "imageId": 33380457087162,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "soiree-gala",
+            "imageId": 33380457283770,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "plaisir-de-marrakech",
+            "imageId": 33380456562874,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "meditation",
+            "imageId": 33380457480378,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "sarona-market",
+            "imageId": 33380457709754,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "printemps-vintage",
+            "imageId": 33380456890554,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-charnel",
+            "imageId": 33380457676986,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "oud-noir",
+            "imageId": 33380456693946,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "miami-beach",
+            "imageId": 33380456956090,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380456956090,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833208316090",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833208348858",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833208381626",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205488885946",
+    "handle": "boix-tibet",
+    "title": "Bois Tibet",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/boix-tibet",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Cinnamon | Cloves<br></p> <p>MID: Cedar| Patchouli | Powdery Notes<br></p> <p>BASE: White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that embodies the essence of sophistication and the serene allure of Tibetan architecture. This captivating scent transports you to mist-covered forests where ancient trees emanate a sense of wisdom and tranquility.</p><p> </p><details> <summary>Read more</summary> <p>Opening with a harmonious blend of fresh green notes, it captures the essence of lush foliage and dew-kissed leaves. As the fragrance unfolds, rich and earthy notes of Asian wet wood emerge, evoking the scent of damp bark and the essence of forest sanctuaries. The sophisticated and refined composition envelops you in a veil of elegance and mystery, as hints of smoky incense and precious spices add depth and intrigue. This blend invites you to embark on a journey to a place of serene beauty and timeless sophistication, where nature and elegance harmoniously unite.</p></details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Cinnamon | Cloves<br></p> <p>MID: Cedar| Patchouli | Powdery Notes<br></p> <p>BASE: White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that embodies the essence of sophistication and the serene allure of Tibetan architecture. This captivating scent transports you to mist-covered forests where ancient trees emanate a sense of wisdom and tranquility.</p><p> <details> <summary>Read more</summary> <p>Opening with a harmonious blend of fresh green notes, it captures the essence of lush foliage and dew-kissed leaves. As the fragrance unfolds, rich and earthy notes of Asian wet wood emerge, evoking the scent of damp bark and the essence of forest sanctuaries. The sophisticated and refined composition envelops you in a veil of elegance and mystery, as hints of smoky incense and precious spices add depth and intrigue. This blend invites you to embark on a journey to a place of serene beauty and timeless sophistication, where nature and elegance harmoniously unite.</p></details></p>",
+    "summary": "A scent that embodies the essence of sophistication and the serene allure of Tibetan architecture. This captivating scent transports you to mist-covered forests where ancient trees emanate a sense of wisdom and tranquility.",
+    "notes": {
+      "top": [
+        "Cinnamon",
+        "Cloves"
+      ],
+      "mid": [
+        "Cedar",
+        "Patchouli",
+        "Powdery Notes"
+      ],
+      "base": [
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "flags": [],
+    "images": [
+      {
+        "id": "6f8f2b211d71bf3e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-955132.jpg?v=1698868562"
+        ],
+        "original": "archive/originals/6f8f2b211d71bf3e.jpg",
+        "path": "/images/bois-tibet-955132-6f8f2b.webp",
+        "small": "/images/bois-tibet-955132-6f8f2b-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "560a83931ddc52eddfc7a29ca3fe1b04485563d22e31f8a92ee48ba7c3c5ae1d",
+        "alt": "Bois Tibet — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380540547258,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540547258,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "a52a22ad7fea82f1",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-251790.png?v=1698868591"
+        ],
+        "original": "archive/originals/a52a22ad7fea82f1.png",
+        "path": "/images/bois-tibet-251790-a52a22.webp",
+        "small": "/images/bois-tibet-251790-a52a22-640.webp",
+        "width": 627,
+        "height": 712,
+        "checksum": "08df299a35cd3816163c92192525f652c72f1ba60e7d005e45ce517110486d3f",
+        "alt": "Bois Tibet — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452237498,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452237498,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "3d0b1f48901db33e",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592"
+        ],
+        "original": "archive/originals/3d0b1f48901db33e.jpg",
+        "path": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f.webp",
+        "small": "/images/arome-de-la-havane-260779-35753786-044a-46a4-839e-934e4-3d0b1f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6505ca5a309ec641acb02ed6c02058b2d0d4cabf579b6da576ad4cc09f52fb30",
+        "alt": "Bois Tibet — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "arome-de-la-havane",
+            "imageId": 33828172038330,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "air-mykonos",
+            "imageId": 33380452171962,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "courchevel",
+            "imageId": 33380452434106,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "draps-blanc",
+            "imageId": 33380452565178,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "boix-tibet",
+            "imageId": 33380452303034,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452303034,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833206481082",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833206513850",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "41833206546618",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7205485969594",
+    "handle": "cuir-onyx",
+    "title": "Cuir Onyx",
+    "vendor": "Parfumaire",
+    "sourceType": "",
+    "category": "scents",
+    "tags": [],
+    "options": [
+      {
+        "name": "Size",
+        "position": 1,
+        "values": [
+          "120ml",
+          "500ml",
+          "1L"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/cuir-onyx",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>TOP: Saffron<br></p> <p>MID: Leather | Rose | Dry Woods<br></p> <p>BASE: Sandalwood | White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Exudes a sense of mystique, minimalism and sophistication. This captivating scent is like a midnight jewel, evoking an aura of elegance and allure.</p><p> </p><details> <summary>Read more</summary> <p>Opening with a burst of citrusy bergamot, it immediately commands attention. As the fragrance develops, a rich and supple leather note emerges, enveloping you in a luxurious embrace. The scent deepens further with hints of smoky oud, adding an exotic and seductive touch. The composition is rounded out by a subtle blend of warm spices and velvety woods, creating a mesmerizing and unforgettable olfactory experience. </p> </details><p></p>",
+    "sourceDescriptionHtml": "<p>TOP: Saffron<br></p> <p>MID: Leather | Rose | Dry Woods<br></p> <p>BASE: Sandalwood | White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Exudes a sense of mystique, minimalism and sophistication. This captivating scent is like a midnight jewel, evoking an aura of elegance and allure.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of citrusy bergamot, it immediately commands attention. As the fragrance develops, a rich and supple leather note emerges, enveloping you in a luxurious embrace. The scent deepens further with hints of smoky oud, adding an exotic and seductive touch. The composition is rounded out by a subtle blend of warm spices and velvety woods, creating a mesmerizing and unforgettable olfactory experience. </p> </details></p>",
+    "summary": "Exudes a sense of mystique, minimalism and sophistication. This captivating scent is like a midnight jewel, evoking an aura of elegance and allure.",
+    "notes": {
+      "top": [
+        "Saffron"
+      ],
+      "mid": [
+        "Leather",
+        "Rose",
+        "Dry Woods"
+      ],
+      "base": [
+        "Sandalwood",
+        "White Musk",
+        "Vanilla"
+      ]
+    },
+    "flags": [
+      "Source narrative and listed scent notes may differ. Confirm formulation before production."
+    ],
+    "images": [
+      {
+        "id": "aefde1e7f5e7ed19",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-619855.jpg?v=1698868610"
+        ],
+        "original": "archive/originals/aefde1e7f5e7ed19.jpg",
+        "path": "/images/cuir-onyx-619855-aefde1.webp",
+        "small": "/images/cuir-onyx-619855-aefde1-640.webp",
+        "width": 900,
+        "height": 900,
+        "checksum": "b696517edf53f79c790dcb795bec7d26f2af6a161ac0ccb2728ed8358997d983",
+        "alt": "Cuir Onyx — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cuir-onyx",
+            "imageId": 33380540743866,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380540743866,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "d9a529e84b6ef5ad",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-969680.png?v=1698868612"
+        ],
+        "original": "archive/originals/d9a529e84b6ef5ad.png",
+        "path": "/images/cuir-onyx-969680-d9a529.webp",
+        "small": "/images/cuir-onyx-969680-d9a529-640.webp",
+        "width": 632,
+        "height": 716,
+        "checksum": "9b6312dff97068102065b957b187d027f56cece26e0f5e521b79447938b24c60",
+        "alt": "Cuir Onyx — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cuir-onyx",
+            "imageId": 33380451942586,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380451942586,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "8f24564baedc2b5f",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-124562.png?v=1698868566",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-248905.png?v=1698868613"
+        ],
+        "original": "archive/originals/8f24564baedc2b5f.png",
+        "path": "/images/213-rue-st-honoree-124562-8f2456.webp",
+        "small": "/images/213-rue-st-honoree-124562-8f2456-640.webp",
+        "width": 500,
+        "height": 500,
+        "checksum": "680168aa5b1b9eb860ef2d1125d8a3c7307ff84000fcbbfa45dd0dd508c37a55",
+        "alt": "Cuir Onyx — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "213-rue-st-honore",
+            "imageId": 33380452008122,
+            "variantIds": [],
+            "position": 3
+          },
+          {
+            "type": "product",
+            "handle": "cuir-onyx",
+            "imageId": 33380452040890,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452040890,
+        "variantIds": [],
+        "position": 3
+      }
+    ],
+    "variants": [
+      {
+        "id": "41833495036090",
+        "title": "120ml",
+        "sku": null,
+        "options": [
+          "120ml"
+        ],
+        "priceMinor": 6900,
+        "compareAtMinor": 9900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "42653038411962",
+        "title": "500ml",
+        "sku": null,
+        "options": [
+          "500ml"
+        ],
+        "priceMinor": 14900,
+        "compareAtMinor": 18900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      },
+      {
+        "id": "42653038444730",
+        "title": "1L",
+        "sku": null,
+        "options": [
+          "1L"
+        ],
+        "priceMinor": 28900,
+        "compareAtMinor": 34900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 0,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7050864885946",
+    "handle": "cozyair-scent-diffuser",
+    "title": "CozyAir Scent Diffuser",
+    "vendor": "parfumaire",
+    "sourceType": "Diffuser",
+    "category": "diffusers",
+    "tags": [],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "White",
+          "Black"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-scent-diffuser",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": " <p>The capacity of the machine is designed to be <strong>500ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 6 3/8<strong>\" </strong> x 3 3/4<strong>\"</strong> x 9 3/4<strong>\"</strong></p>",
+    "sourceDescriptionHtml": "<p>Diffusing helps to reduce dust, pet dander allergens, and other airborne allergens from non-living matter.</p> <p>The capacity of the machine is designed to be <strong>500ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 6 3/8<strong>\" </strong> x 3 3/4<strong>\"</strong> x 9 3/4<strong>\"</strong></p>",
+    "summary": "CozyAir Scent Diffuser",
+    "notes": {},
+    "flags": [
+      "Unsupported health/performance wording retained in source archive; omitted from display."
+    ],
+    "images": [
+      {
+        "id": "c054758641bc8ad8",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-537772.png?v=1698868610",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-619967.png?v=1698868598"
+        ],
+        "original": "archive/originals/c054758641bc8ad8.png",
+        "path": "/images/cozyair-scent-diffuser-537772-c05475.webp",
+        "small": "/images/cozyair-scent-diffuser-537772-c05475-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6e3338cfd25ad5de71b6b737dce05ca307345d465cef03437ba6baf358170497",
+        "alt": "CozyAir Scent Diffuser — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453187770,
+            "variantIds": [
+              41466754597050
+            ],
+            "position": 1
+          },
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452827322,
+            "variantIds": [
+              41466755514554
+            ],
+            "position": 5
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453187770,
+        "variantIds": [
+          41466754597050
+        ],
+        "position": 1
+      },
+      {
+        "id": "2ca6f7f3fe25b9e9",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-693246.jpg?v=1698868612"
+        ],
+        "original": "archive/originals/2ca6f7f3fe25b9e9.jpg",
+        "path": "/images/cozyair-scent-diffuser-693246-2ca6f7.webp",
+        "small": "/images/cozyair-scent-diffuser-693246-2ca6f7-640.webp",
+        "width": 800,
+        "height": 800,
+        "checksum": "71a38585428573707e22ab8f12222451cd32a6c13e72f6076f173648935659e5",
+        "alt": "CozyAir Scent Diffuser — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453220538,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453220538,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "4f775e5840cff703",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-403721.png?v=1698868613"
+        ],
+        "original": "archive/originals/4f775e5840cff703.png",
+        "path": "/images/cozyair-scent-diffuser-403721-4f775e.webp",
+        "small": "/images/cozyair-scent-diffuser-403721-4f775e-640.webp",
+        "width": 500,
+        "height": 500,
+        "checksum": "af45133e4a20f15b3606de8a824ab6e336ee03721e1d641642ddc11dd31a5a64",
+        "alt": "CozyAir Scent Diffuser — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453253306,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453253306,
+        "variantIds": [],
+        "position": 3
+      },
+      {
+        "id": "e9a97749cafbc74a",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-322866.png?v=1698868616",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-395710.png?v=1698868591"
+        ],
+        "original": "archive/originals/e9a97749cafbc74a.png",
+        "path": "/images/cozyair-scent-diffuser-322866-e9a977.webp",
+        "small": "/images/cozyair-scent-diffuser-322866-e9a977-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6fdf2fb0427d5ce5b5253bf81016766b89ce9a7f544adc6dd70ac0ded05dc7f8",
+        "alt": "CozyAir Scent Diffuser — view 4",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453286074,
+            "variantIds": [
+              41500319318202
+            ],
+            "position": 4
+          },
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452696250,
+            "variantIds": [
+              41500300247226
+            ],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453286074,
+        "variantIds": [
+          41500319318202
+        ],
+        "position": 4
+      },
+      {
+        "id": "839fcb1d70da58dc",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-859528.jpg?v=1698868618"
+        ],
+        "original": "archive/originals/839fcb1d70da58dc.jpg",
+        "path": "/images/cozyair-scent-diffuser-859528-839fcb.webp",
+        "small": "/images/cozyair-scent-diffuser-859528-839fcb-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "48bd9b552ac68b7e30a8113fc6c099464787bc885b6f610fcbec2536763ffdf1",
+        "alt": "CozyAir Scent Diffuser — view 5",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453318842,
+            "variantIds": [],
+            "position": 5
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453318842,
+        "variantIds": [],
+        "position": 5
+      }
+    ],
+    "variants": [
+      {
+        "id": "41466754597050",
+        "title": "White",
+        "sku": null,
+        "options": [
+          "White"
+        ],
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "sourceAvailable": true,
+        "featuredImageId": 33380453187770,
+        "grams": 275,
+        "requiresShipping": true
+      },
+      {
+        "id": "41500319318202",
+        "title": "Black",
+        "sku": null,
+        "options": [
+          "Black"
+        ],
+        "priceMinor": 49900,
+        "compareAtMinor": 69900,
+        "sourceAvailable": true,
+        "featuredImageId": 33380453286074,
+        "grams": 275,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7050864787642",
+    "handle": "la-tour-scent-diffuser",
+    "title": "La Tour Scent Diffuser",
+    "vendor": "parfumaire",
+    "sourceType": "Diffuser",
+    "category": "diffusers",
+    "tags": [],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/la-tour-scent-diffuser",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": " <p>The capacity of the machine is designed to be <strong>120ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 4 3/8<strong>\" </strong> x 47 1/4'<strong>'</strong></p>",
+    "sourceDescriptionHtml": "<p><span data-mce-fragment=\"1\">The scent is diffused through nebulization, a process that breaks down fragrance oil into a very fine dry mist. This preserves the intention behind our essential oil blends and their olfactive and therapeutic powers without diluting the oil in water, heating it, or adding solvent to it.</span></p> <p>The capacity of the machine is designed to be <strong>120ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 4 3/8<strong>\" </strong> x 47 1/4'<strong>'</strong></p>",
+    "summary": "La Tour Scent Diffuser",
+    "notes": {},
+    "flags": [
+      "Unsupported health/performance wording retained in source archive; omitted from display."
+    ],
+    "images": [
+      {
+        "id": "078812556426e2e2",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-787976.png?v=1698868633"
+        ],
+        "original": "archive/originals/078812556426e2e2.png",
+        "path": "/images/la-tour-scent-diffuser-787976-078812.webp",
+        "small": "/images/la-tour-scent-diffuser-787976-078812-640.webp",
+        "width": 1500,
+        "height": 1500,
+        "checksum": "670647441db6e73fd9279fa7a18798b54e83d5da7ecf0ebf24d00c2c4ee1b0c8",
+        "alt": "La Tour Scent Diffuser — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380452958394,
+            "variantIds": [],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452958394,
+        "variantIds": [],
+        "position": 1
+      },
+      {
+        "id": "fb1182d1478b2ef6",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-516421.jpg?v=1698868635"
+        ],
+        "original": "archive/originals/fb1182d1478b2ef6.jpg",
+        "path": "/images/la-tour-scent-diffuser-516421-fb1182.webp",
+        "small": "/images/la-tour-scent-diffuser-516421-fb1182-640.webp",
+        "width": 800,
+        "height": 800,
+        "checksum": "d3470c153b1d833df354aa45d2c50790730326d012e2a33886f3d96b492a8997",
+        "alt": "La Tour Scent Diffuser — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380452991162,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452991162,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "044a7fb94e14b227",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-617576.jpg?v=1698868637"
+        ],
+        "original": "archive/originals/044a7fb94e14b227.jpg",
+        "path": "/images/la-tour-scent-diffuser-617576-044a7f.webp",
+        "small": "/images/la-tour-scent-diffuser-617576-044a7f-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "b406ced22526b11858b3f861a4e69ab642e91db7b0d8f1922779cd31c42340b5",
+        "alt": "La Tour Scent Diffuser — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380453023930,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453023930,
+        "variantIds": [],
+        "position": 3
+      },
+      {
+        "id": "7febe8b799743fae",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-695499.jpg?v=1698868638"
+        ],
+        "original": "archive/originals/7febe8b799743fae.jpg",
+        "path": "/images/la-tour-scent-diffuser-695499-7febe8.webp",
+        "small": "/images/la-tour-scent-diffuser-695499-7febe8-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "a897af8eb67437264f021608d922f1ddf0dcce7b42067848c9045aa3d4007b93",
+        "alt": "La Tour Scent Diffuser — view 4",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380453056698,
+            "variantIds": [],
+            "position": 4
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453056698,
+        "variantIds": [],
+        "position": 4
+      },
+      {
+        "id": "0ad8c202d7e9bebe",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-449207.jpg?v=1698868640"
+        ],
+        "original": "archive/originals/0ad8c202d7e9bebe.jpg",
+        "path": "/images/la-tour-scent-diffuser-449207-0ad8c2.webp",
+        "small": "/images/la-tour-scent-diffuser-449207-0ad8c2-640.webp",
+        "width": 475,
+        "height": 500,
+        "checksum": "08e089388969a76a1d9fe9dd4e54ac75acec87ab9da2b149968c51b1085ea3b2",
+        "alt": "La Tour Scent Diffuser — view 5",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380453089466,
+            "variantIds": [],
+            "position": 5
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453089466,
+        "variantIds": [],
+        "position": 5
+      },
+      {
+        "id": "163daaef2930c3bc",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-826526.jpg?v=1698868642"
+        ],
+        "original": "archive/originals/163daaef2930c3bc.jpg",
+        "path": "/images/la-tour-scent-diffuser-826526-163daa.webp",
+        "small": "/images/la-tour-scent-diffuser-826526-163daa-640.webp",
+        "width": 475,
+        "height": 500,
+        "checksum": "29347c562a54c24789bcac7b7143c963e8416771a927b4a49bdbbc1a6180c69c",
+        "alt": "La Tour Scent Diffuser — view 6",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380453122234,
+            "variantIds": [],
+            "position": 6
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453122234,
+        "variantIds": [],
+        "position": 6
+      },
+      {
+        "id": "90a1e85d1f7bd880",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-387235.jpg?v=1698868643"
+        ],
+        "original": "archive/originals/90a1e85d1f7bd880.jpg",
+        "path": "/images/la-tour-scent-diffuser-387235-90a1e8.webp",
+        "small": "/images/la-tour-scent-diffuser-387235-90a1e8-640.webp",
+        "width": 475,
+        "height": 500,
+        "checksum": "d0f0d6389f39d9e92eec03a57145942fb6b1e585bc16ca1c3379e60c15f60e7f",
+        "alt": "La Tour Scent Diffuser — view 7",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "la-tour-scent-diffuser",
+            "imageId": 33380453155002,
+            "variantIds": [],
+            "position": 7
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380453155002,
+        "variantIds": [],
+        "position": 7
+      }
+    ],
+    "variants": [
+      {
+        "id": "41461137244346",
+        "title": "Default Title",
+        "sku": null,
+        "options": [
+          "Default Title"
+        ],
+        "priceMinor": 29900,
+        "compareAtMinor": 49900,
+        "sourceAvailable": true,
+        "featuredImageId": null,
+        "grams": 1250,
+        "requiresShipping": true
+      }
+    ]
+  },
+  {
+    "id": "7050864754874",
+    "handle": "cozyair-max-scent-diffuser",
+    "title": "CozyAir Max Scent Diffuser",
+    "vendor": "parfumaire",
+    "sourceType": "Diffuser",
+    "category": "diffusers",
+    "tags": [],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "White",
+          "Black"
+        ]
+      }
+    ],
+    "sourceUrl": "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser",
+    "retrievedAt": "2026-10-31T21:38:13.634Z",
+    "sourceCurrency": "USD",
+    "approvedCanadianPricing": null,
+    "descriptionHtml": "<p>CozyAir Max Scent Diffuser</p> <p>The capacity of the machine is designed to be <strong>1L</strong></p> <p><u>Dimensions<strong>:</strong></u> 15 1/8<strong>\" </strong> x 9<strong>\"</strong> x 18 3/8<strong>\"</strong></p>",
+    "sourceDescriptionHtml": "<p>CozyAir Max Scent Diffuser</p> <p>The capacity of the machine is designed to be <strong>1L</strong></p> <p><u>Dimensions<strong>:</strong></u> 15 1/8<strong>\" </strong> x 9<strong>\"</strong> x 18 3/8<strong>\"</strong></p>",
+    "summary": "CozyAir Max Scent Diffuser",
+    "notes": {},
+    "flags": [],
+    "images": [
+      {
+        "id": "e9a97749cafbc74a",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-322866.png?v=1698868616",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-395710.png?v=1698868591"
+        ],
+        "original": "archive/originals/e9a97749cafbc74a.png",
+        "path": "/images/cozyair-scent-diffuser-322866-e9a977.webp",
+        "small": "/images/cozyair-scent-diffuser-322866-e9a977-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6fdf2fb0427d5ce5b5253bf81016766b89ce9a7f544adc6dd70ac0ded05dc7f8",
+        "alt": "CozyAir Max Scent Diffuser — view 1",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453286074,
+            "variantIds": [
+              41500319318202
+            ],
+            "position": 4
+          },
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452696250,
+            "variantIds": [
+              41500300247226
+            ],
+            "position": 1
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452696250,
+        "variantIds": [
+          41500300247226
+        ],
+        "position": 1
+      },
+      {
+        "id": "b3559598389f20b2",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-501690.jpg?v=1698868593"
+        ],
+        "original": "archive/originals/b3559598389f20b2.jpg",
+        "path": "/images/cozyair-max-scent-diffuser-501690-b35595.webp",
+        "small": "/images/cozyair-max-scent-diffuser-501690-b35595-640.webp",
+        "width": 800,
+        "height": 800,
+        "checksum": "c43fb95611b67a48bcd18eb685e68c8ea9427eff5cf29de0a03434a34e9b6b39",
+        "alt": "CozyAir Max Scent Diffuser — view 2",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452729018,
+            "variantIds": [],
+            "position": 2
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452729018,
+        "variantIds": [],
+        "position": 2
+      },
+      {
+        "id": "df9b5924ea3858aa",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-488797.png?v=1698868594"
+        ],
+        "original": "archive/originals/df9b5924ea3858aa.png",
+        "path": "/images/cozyair-max-scent-diffuser-488797-df9b59.webp",
+        "small": "/images/cozyair-max-scent-diffuser-488797-df9b59-640.webp",
+        "width": 500,
+        "height": 500,
+        "checksum": "b4d4967a9f1c7a226792ce6ca3bbc37bd3bd691e6c7afc73d7a242c488894a2b",
+        "alt": "CozyAir Max Scent Diffuser — view 3",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452761786,
+            "variantIds": [],
+            "position": 3
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452761786,
+        "variantIds": [],
+        "position": 3
+      },
+      {
+        "id": "2556c6c3eec0b918",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-488120.jpg?v=1698868596"
+        ],
+        "original": "archive/originals/2556c6c3eec0b918.jpg",
+        "path": "/images/cozyair-max-scent-diffuser-488120-2556c6.webp",
+        "small": "/images/cozyair-max-scent-diffuser-488120-2556c6-640.webp",
+        "width": 475,
+        "height": 500,
+        "checksum": "3593e8e8347ea691844d24fab760fe4b429786f09f3822a0221f0ce4e05c4074",
+        "alt": "CozyAir Max Scent Diffuser — view 4",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452794554,
+            "variantIds": [],
+            "position": 4
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452794554,
+        "variantIds": [],
+        "position": 4
+      },
+      {
+        "id": "c054758641bc8ad8",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-537772.png?v=1698868610",
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-619967.png?v=1698868598"
+        ],
+        "original": "archive/originals/c054758641bc8ad8.png",
+        "path": "/images/cozyair-scent-diffuser-537772-c05475.webp",
+        "small": "/images/cozyair-scent-diffuser-537772-c05475-640.webp",
+        "width": 1000,
+        "height": 1000,
+        "checksum": "6e3338cfd25ad5de71b6b737dce05ca307345d465cef03437ba6baf358170497",
+        "alt": "CozyAir Max Scent Diffuser — view 5",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-scent-diffuser",
+            "imageId": 33380453187770,
+            "variantIds": [
+              41466754597050
+            ],
+            "position": 1
+          },
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452827322,
+            "variantIds": [
+              41466755514554
+            ],
+            "position": 5
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452827322,
+        "variantIds": [
+          41466755514554
+        ],
+        "position": 5
+      },
+      {
+        "id": "7190e03370a14142",
+        "sourceUrls": [
+          "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-555260.jpg?v=1698868610"
+        ],
+        "original": "archive/originals/7190e03370a14142.jpg",
+        "path": "/images/cozyair-max-scent-diffuser-555260-7190e0.webp",
+        "small": "/images/cozyair-max-scent-diffuser-555260-7190e0-640.webp",
+        "width": 650,
+        "height": 650,
+        "checksum": "6e00935306412196e694cd6d87257548bc4dce765b395daf387a43a80878e4b1",
+        "alt": "CozyAir Max Scent Diffuser — view 6",
+        "associations": [
+          {
+            "type": "product",
+            "handle": "cozyair-max-scent-diffuser",
+            "imageId": 33380452860090,
+            "variantIds": [],
+            "position": 6
+          }
+        ],
+        "retrievedAt": "2026-10-31T21:38:13.634Z",
+        "sourceImageId": 33380452860090,
+        "variantIds": [],
+        "position": 6
+      }
+    ],
+    "variants": [
+      {
+        "id": "41466755514554",
+        "title": "White",
+        "sku": null,
+        "options": [
+          "White"
+        ],
+        "priceMinor": 59900,
+        "compareAtMinor": 99900,
+        "sourceAvailable": true,
+        "featuredImageId": 33380452827322,
+        "grams": 3629,
+        "requiresShipping": true
+      },
+      {
+        "id": "41500300247226",
+        "title": "Black",
+        "sku": null,
+        "options": [
+          "Black"
+        ],
+        "priceMinor": 79900,
+        "compareAtMinor": 99900,
+        "sourceAvailable": true,
+        "featuredImageId": 33380452696250,
+        "grams": 3629,
+        "requiresShipping": true
+      }
+    ]
+  }
+]

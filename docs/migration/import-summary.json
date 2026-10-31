@@ -1,0 +1,28 @@
+{
+  "retrievedAt": "2026-10-31T21:38:13.634Z",
+  "products": 21,
+  "variants": 59,
+  "productImageReferences": 72,
+  "assets": 113,
+  "pages": 154,
+  "reviews": 22,
+  "sitemaps": [
+    "https://shop.parfumaire.com/sitemap.xml",
+    "https://shop.parfumaire.com/sitemap_agentic_discovery.xml",
+    "https://shop.parfumaire.com/sitemap_products_1.xml?from=7050864754874&to=7592313028794",
+    "https://shop.parfumaire.com/sitemap_pages_1.xml?from=87488921786&to=93421437114",
+    "https://shop.parfumaire.com/sitemap_collections_1.xml?from=286793498810&to=293339136186",
+    "https://shop.parfumaire.com/sitemap_blogs_1.xml",
+    "https://shop.parfumaire.com/es/sitemap_products_1.xml?from=7050864754874&to=7592313028794",
+    "https://shop.parfumaire.com/es/sitemap_pages_1.xml?from=87488921786&to=93421437114",
+    "https://shop.parfumaire.com/es/sitemap_collections_1.xml?from=286793498810&to=293339136186",
+    "https://shop.parfumaire.com/es/sitemap_blogs_1.xml",
+    "https://www.parfumaire.com/wp-sitemap.xml",
+    "https://www.parfumaire.com/wp-sitemap-posts-page-1.xml",
+    "https://www.parfumaire.com/wp-sitemap-posts-business-service-1.xml",
+    "https://www.parfumaire.com/wp-sitemap-posts-scents-1.xml",
+    "https://www.parfumaire.com/wp-sitemap-taxonomies-collections-1.xml",
+    "https://www.parfumaire.com/wp-sitemap-users-1.xml"
+  ],
+  "failures": 6
+}

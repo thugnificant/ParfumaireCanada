@@ -1,0 +1,170 @@
+[
+  {
+    "handle": "lemongrass",
+    "source": "https://shop.parfumaire.com/products/lemongrass",
+    "reportedReviews": 1,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "arome-de-la-havane",
+    "source": "https://shop.parfumaire.com/products/arome-de-la-havane",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "air-mykonos",
+    "source": "https://shop.parfumaire.com/products/air-mykonos",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "the-noir",
+    "source": "https://shop.parfumaire.com/products/the-noir",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "velour-oriental",
+    "source": "https://shop.parfumaire.com/products/velour-oriental",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "soiree-gala",
+    "source": "https://shop.parfumaire.com/products/soiree-gala",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "213-rue-st-honore",
+    "source": "https://shop.parfumaire.com/products/213-rue-st-honore",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "plaisir-de-marrakech",
+    "source": "https://shop.parfumaire.com/products/plaisir-de-marrakech",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "meditation",
+    "source": "https://shop.parfumaire.com/products/meditation",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "courchevel",
+    "source": "https://shop.parfumaire.com/products/courchevel",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "sarona-market",
+    "source": "https://shop.parfumaire.com/products/sarona-market",
+    "reportedReviews": 1,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "draps-blanc",
+    "source": "https://shop.parfumaire.com/products/draps-blanc",
+    "reportedReviews": 2,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "printemps-vintage",
+    "source": "https://shop.parfumaire.com/products/printemps-vintage",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "oud-charnel",
+    "source": "https://shop.parfumaire.com/products/oud-charnel",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "oud-noir",
+    "source": "https://shop.parfumaire.com/products/oud-noir",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "miami-beach",
+    "source": "https://shop.parfumaire.com/products/miami-beach",
+    "reportedReviews": 3,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "boix-tibet",
+    "source": "https://shop.parfumaire.com/products/boix-tibet",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "cuir-onyx",
+    "source": "https://shop.parfumaire.com/products/cuir-onyx",
+    "reportedReviews": 0,
+    "lastPage": 1,
+    "status": "available reviews preserved",
+    "reason": null
+  },
+  {
+    "handle": "cozyair-scent-diffuser",
+    "source": "https://shop.parfumaire.com/products/cozyair-scent-diffuser",
+    "reportedReviews": 21,
+    "lastPage": 5,
+    "status": "first-page-preserved; additional app pages unavailable",
+    "reason": "Public reviews_for_widget request returned HTTP 404; source pagination click did not retrieve a response. No reviews fabricated."
+  },
+  {
+    "handle": "la-tour-scent-diffuser",
+    "source": "https://shop.parfumaire.com/products/la-tour-scent-diffuser",
+    "reportedReviews": 18,
+    "lastPage": 4,
+    "status": "first-page-preserved; additional app pages unavailable",
+    "reason": "Public reviews_for_widget request returned HTTP 404; source pagination click did not retrieve a response. No reviews fabricated."
+  },
+  {
+    "handle": "cozyair-max-scent-diffuser",
+    "source": "https://shop.parfumaire.com/products/cozyair-max-scent-diffuser",
+    "reportedReviews": 10,
+    "lastPage": 2,
+    "status": "first-page-preserved; additional app pages unavailable",
+    "reason": "Public reviews_for_widget request returned HTTP 404; source pagination click did not retrieve a response. No reviews fabricated."
+  }
+]

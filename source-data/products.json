@@ -1,0 +1,2543 @@
+{
+  "retrievedAt": "2026-10-31T21:38:13.634Z",
+  "source": "https://shop.parfumaire.com",
+  "currency": "USD",
+  "products": [
+    {
+      "id": 7592313028794,
+      "title": "Lemongrass",
+      "handle": "lemongrass",
+      "body_html": "<p>TOP: <span data-mce-fragment=\"1\">Citrus</span><br></p>\n<p>MID: <span data-mce-fragment=\"1\">Lemongrass</span>| <span data-mce-fragment=\"1\">Green Tea</span> | <span data-mce-fragment=\"1\">White Flowers</span><br></p>\n<p>BASE: <span data-mce-fragment=\"1\">White Musk </span>| <span data-mce-fragment=\"1\">Cedar</span><br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p>\n<p><br></p>\n<details>\n<summary>Read more</summary>\n<p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p>\n</details>\n<p><br></p>",
+      "published_at": "2024-03-04T17:36:17-04:00",
+      "created_at": "2024-03-04T17:34:53-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 43193444925626,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7592313028794,
+          "created_at": "2024-03-04T17:34:53-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 43193444958394,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7592313028794,
+          "created_at": "2024-03-04T17:34:53-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 43193444991162,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7592313028794,
+          "created_at": "2024-03-04T17:34:53-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 34139263140026,
+          "created_at": "2024-03-04T17:35:00-04:00",
+          "position": 1,
+          "updated_at": "2024-03-04T17:35:00-04:00",
+          "product_id": 7592313028794,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-149925_f815cae8-ee7f-4533-8497-28136a1e8cf4.jpg?v=1709588100",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 34139263172794,
+          "created_at": "2024-03-04T17:35:01-04:00",
+          "position": 2,
+          "updated_at": "2024-03-04T17:35:01-04:00",
+          "product_id": 7592313028794,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-595135_655c7607-66c5-4f76-b127-fc5795ae7609.jpg?v=1709588101",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 34139263205562,
+          "created_at": "2024-03-04T17:35:01-04:00",
+          "position": 3,
+          "updated_at": "2024-03-04T17:35:01-04:00",
+          "product_id": 7592313028794,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/the-noir-538393_6420e250-27bb-4cd7-8709-cf09e0d40b4c.jpg?v=1709588101",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7527204389050,
+      "title": "Arome de la Havane",
+      "handle": "arome-de-la-havane",
+      "body_html": "<p>TOP: Mandarin | Cumin | Coriander<br></p> <p>MID: Rose | Incense | Leathery Accord<br></p> <p>BASE: Tobacco | Sandalwood | Labdanum<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Introducing the essence of Havana, a captivating scent that embodies the vibrant spirit of Cuba's stunning capital city.</p><p> <details> <summary>Read more</summary> <p>This blend opens with a burst of bright mandarin, evoking the warm, tropical air of Havana's bustling streets. At the heart lies a rich and earthy blend of tobacco and leather, embodying the city's rich history and cultural heritage. The fragrance dries down to a warm, sensual finish that leaves a lasting impression, much like the memories of a visit to Havana.</p> </details></p>",
+      "published_at": "2023-12-30T20:05:53-04:00",
+      "created_at": "2023-12-30T20:04:23-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 42984834269370,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 454,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7527204389050,
+          "created_at": "2023-12-30T20:04:23-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 42984834302138,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 454,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7527204389050,
+          "created_at": "2023-12-30T20:04:23-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 42984834334906,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 454,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7527204389050,
+          "created_at": "2023-12-30T20:04:23-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33828171972794,
+          "created_at": "2023-12-30T20:04:29-04:00",
+          "position": 1,
+          "updated_at": "2024-06-29T22:52:51-04:00",
+          "product_id": 7527204389050,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-parfumaire-1_74072390-85a9-45dd-98f4-240f840b7515.jpg?v=1719715971",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33828172005562,
+          "created_at": "2023-12-30T20:04:29-04:00",
+          "position": 2,
+          "updated_at": "2023-12-30T20:04:29-04:00",
+          "product_id": 7527204389050,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-778069_2cfeffd4-62d9-487c-9d8a-63a3907e5b54.jpg?v=1703981069",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33828172038330,
+          "created_at": "2023-12-30T20:04:29-04:00",
+          "position": 3,
+          "updated_at": "2023-12-30T20:04:29-04:00",
+          "product_id": 7527204389050,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/files/arome-de-la-havane-260779_35753786-044a-46a4-839e-934e4eac0bdc.jpg?v=1703981069",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7232514785466,
+      "title": "Air Mykonos",
+      "handle": "air-mykonos",
+      "body_html": "<p>TOP: Pink Pepper | Black Rose | White Flowers<br></p> <p>MID: Peony | Raspberry | Oud<br></p> <p>BASE: Patchouli | Amber | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A refined and sophisticated creation that encapsulates the essence of the island of Mykonos.</p><p> <details> <summary>Read more</summary> <p>The scent opens with a crisp, invigorating blend of Mediterranean herbs and sea salt, evoking the refreshing sea breeze that kisses the island's shores. As it unfolds a bouquet of white florals emerges, including notes of peony and ylang-ylang, which perfectly balance the herbal and marine accord. The dry down is a warm and sensual base of amber and musk, evoking the island's vibrant nightlife and luxurious atmosphere. This blend brings a touch of the island's unique ambiance into your daily routine. </p> </details></p>",
+      "published_at": "2022-10-07T21:53:30-04:00",
+      "created_at": "2022-10-07T21:53:30-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41908209025210,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7232514785466,
+          "created_at": "2022-10-07T21:53:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908209057978,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7232514785466,
+          "created_at": "2022-10-07T21:53:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908209090746,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7232514785466,
+          "created_at": "2022-10-07T21:53:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540678330,
+          "created_at": "2023-07-30T15:39:56-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:02-04:00",
+          "product_id": 7232514785466,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-184693.jpg?v=1698868562",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380452106426,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:04-04:00",
+          "product_id": 7232514785466,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-544615.jpg?v=1698868564",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380452171962,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:05-04:00",
+          "product_id": 7232514785466,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/air-mykonos-186714.jpg?v=1698868565",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7232514719930,
+      "title": "Thé Noir",
+      "handle": "the-noir",
+      "body_html": "<p>TOP: Bergamot | Lemon | Blackcurrant<br></p> <p>MID: Iris | Powdery Accord | Cyclamen<br></p> <p>BASE: Vetiver | Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Indulge in the alluring mystery of this masterfully crafter blend that captures the essence of sophistication and seduction.</p><p> <details> <summary>Read more</summary> <p>This high-quality scent opens with a bold and captivating blend of spices and florals, offering a warm and inviting introduction. The heart of the scent features rich, smoky notes of leather and guaiac wood, creating a deep and alluring aroma that is both mysterious and intriguing. The dry-down is a soft and sensual mix of musk and tonka bean, providing a warm and comforting finish to this complex and captivating fragrance. This epitome of French perfumery, offers a unique and unforgettable scent experience that will leave you feeling confident and sophisticated.\"</p> </details></p>",
+      "published_at": "2022-10-07T21:53:08-04:00",
+      "created_at": "2022-10-07T21:53:08-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41908208894138,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7232514719930,
+          "created_at": "2022-10-07T21:53:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908208926906,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7232514719930,
+          "created_at": "2022-10-07T21:53:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908208959674,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7232514719930,
+          "created_at": "2022-10-07T21:53:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542841018,
+          "created_at": "2023-07-30T15:40:35-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:35-04:00",
+          "product_id": 7232514719930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-149925.jpg?v=1690746035",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457251002,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:35:33-04:00",
+          "product_id": 7232514719930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-595135.jpg?v=1690745733",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380457349306,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:35:33-04:00",
+          "product_id": 7232514719930,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/the-noir-538393.jpg?v=1690745733",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7232514588858,
+      "title": "Velour Oriental",
+      "handle": "velour-oriental",
+      "body_html": "<p>TOP: White Flowers| Powdery Accord | Cedarwood<br></p> <p>MID: White Jasmine | Coconut Milk | White Wood<br></p> <p>BASE: Moss | Dry Wood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Discover the captivating effervescence of this sophisticated blend that encapsulates the unique character of the oriental world.</p><p> <details> <summary>Read more</summary> <p>At the heart of this scent lies a warm and enveloping blend of jasmin, cedar, moss, and musk, creating a woody, musky aroma with floral and spicy undertones. The fragrance opens with a fresh and comforting top note, inviting you to indulge in its complexity and depth.</p> </details></p>",
+      "published_at": "2022-10-07T21:52:29-04:00",
+      "created_at": "2022-10-07T21:52:30-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "oil subscription",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41908208533690,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7232514588858,
+          "created_at": "2022-10-07T21:52:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908208566458,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7232514588858,
+          "created_at": "2022-10-07T21:52:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41908208599226,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7232514588858,
+          "created_at": "2022-10-07T21:52:30-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542808250,
+          "created_at": "2023-07-30T15:40:35-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:35-04:00",
+          "product_id": 7232514588858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-346360.jpg?v=1690746035",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457054394,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:36:07-04:00",
+          "product_id": 7232514588858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-786671.jpg?v=1690745767",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380457087162,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:36:07-04:00",
+          "product_id": 7232514588858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/velour-oriental-217575.jpg?v=1690745767",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7226132201658,
+      "title": "Soiree Gala",
+      "handle": "soiree-gala",
+      "body_html": "<p>TOP: Marigold | Mineral Amber | Saffron<br></p> <p>MID: Cedarwood | Water Lily | Caramel<br></p> <p>BASE: Amber | Oakmoss Accord | Dry Amber<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Evoking an entitled sense of sophistication and lust, this masterful creation reminds you of that special someone you missed out on that one grand night years ago.</p><p> <details> <summary>Read more</summary> <p>Irresistible and complex yet finally within reach. Crafted from a unique blend of rare ambers and hand harvested saffron, notes of Cedarwood give this elaborate scent an effervescence of pure luxury.</p> </details></p>",
+      "published_at": "2022-10-03T22:55:33-04:00",
+      "created_at": "2022-10-03T22:55:33-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41890497560762,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7226132201658,
+          "created_at": "2022-10-03T22:55:33-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41890497593530,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7226132201658,
+          "created_at": "2022-10-03T22:55:33-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41890497659066,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7226132201658,
+          "created_at": "2022-10-03T22:55:33-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542742714,
+          "created_at": "2023-07-30T15:40:35-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:35-04:00",
+          "product_id": 7226132201658,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-780923.jpg?v=1690746035",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457218234,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:34:55-04:00",
+          "product_id": 7226132201658,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-852637.jpg?v=1690745695",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380457283770,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:34:55-04:00",
+          "product_id": 7226132201658,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/soiree-gala-304539.jpg?v=1690745695",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7226130890938,
+      "title": "213 Rue St Honore",
+      "handle": "213-rue-st-honore",
+      "body_html": "<p><strong>TOP</strong>: Fig tree leaves | Coconut Milk<br></p> <p><strong>MID</strong>: White rose | Prickly Pear<br></p> <p><strong>BASE</strong>: Cedarwood | Amber | Violet Leaves<br></p> <p><strong>120ml</strong> fits with LA TOUR Diffuser<br><strong>500ml</strong> &amp; <strong>1L</strong> fits with CozyAir and CozyAir Max Diffusers</p> <p>A VIP Parisienne address (IYKYK) dear to our hearts and history that once captured the captivating essence of the mighty fig tree.</p><p> <details> <summary>Read more</summary> <p>Inspired by the lush foliage and succulent fruits of this ancient tree, this scent envelops you in a sensory journey through a Mediterranean orchard. Opening with a burst of green freshness, it echoes the vibrant leaves and branches that dance in the breeze. As the fragrance unfolds, the luscious sweetness of ripe figs emerges, intertwined with hints of honeyed nectar and sun-warmed skin. The earthy and woody undertones of the fig tree's bark add depth and complexity, creating a harmonious symphony of nature's wonders. Legend has it this addictive scent gives those who behold it the power of wisdom</p> </details></p>",
+      "published_at": "2022-10-03T22:53:34-04:00",
+      "created_at": "2022-10-03T22:53:35-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41890494578874,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7226130890938,
+          "created_at": "2022-10-03T22:53:35-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41890494611642,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7226130890938,
+          "created_at": "2022-10-03T22:53:35-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41890494644410,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7226130890938,
+          "created_at": "2022-10-03T22:53:35-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540514490,
+          "created_at": "2023-07-30T15:39:54-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:02-04:00",
+          "product_id": 7226130890938,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-940375.jpg?v=1698868562",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380451909818,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:04-04:00",
+          "product_id": 7226130890938,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-220262.jpg?v=1698868564",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380452008122,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:06-04:00",
+          "product_id": 7226130890938,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/213-rue-st-honoree-124562.png?v=1698868566",
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205616615610,
+      "title": "Plaisir de Marrakech",
+      "handle": "plaisir-de-marrakech",
+      "body_html": "<p>TOP: Bitter Orange<br></p> <p>MID: Orange Blossom | Dew Notes<br></p> <p>BASE: White Musk | Cedarwood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on a sensory journey to the vibrant city of Marrakech, inspired by the rich cultural heritage and exotic beauty of Morocco's stunning desert metropolis, this high-quality scent captures the essence of this unique destination.</p><p> <details> <summary>Read more</summary> <p>The scent opens with a bright and refreshing blend of citrus and floral notes, evoking the bustling markets and fragrant gardens of Marrakech. At its heart lies a warm and spicy mix of Orange blossom, white musk, and spice, reflecting the city's rich and diverse culinary tradition. The fragrance dries down to a soft and sensual base of cedarwood, creating a warm and inviting finish that embodies the mysterious beauty of the Moroccan desert. </p> </details></p>",
+      "published_at": "2022-09-19T00:59:02-04:00",
+      "created_at": "2022-09-16T21:52:09-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833528885434,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205616615610,
+          "created_at": "2022-09-16T21:52:09-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833528918202,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205616615610,
+          "created_at": "2022-09-16T21:52:09-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833528950970,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205616615610,
+          "created_at": "2022-09-16T21:52:09-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542709946,
+          "created_at": "2023-07-30T15:40:35-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:35-04:00",
+          "product_id": 7205616615610,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-237064.jpg?v=1690746035",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380456530106,
+          "created_at": "2023-07-30T15:14:54-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:33:19-04:00",
+          "product_id": 7205616615610,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-642821.png?v=1690745599",
+          "width": 626,
+          "height": 708
+        },
+        {
+          "id": 33380456562874,
+          "created_at": "2023-07-30T15:14:54-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:33:19-04:00",
+          "product_id": 7205616615610,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/plaisir-de-marrakech-110145.jpg?v=1690745599",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205605540026,
+      "title": "Meditation",
+      "handle": "meditation",
+      "body_html": "<p>TOP: Bergamot | Coconut | Green Note<br></p> <p>MID: Pink Pepper | Eucalyptus | Tea<br></p> <p>BASE: White Musk | Sandalwood | Cade<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Soothe your senses and escape to a place of peace and tranquility with this light and gentle blend.</p><p> <details> <summary>Read more</summary> <p>Infused with the calming scents of eucalyptus, tea, and white musk, this high-quality elixir creates a relaxing and rejuvenating aroma that will leave you feeling refreshed and at ease. The scent opens with a crisp and invigorating burst of eucalyptus, reminiscent of a relaxing spa experience. The heart of the fragrance features a soothing blend of tea and white musk, creating a warm and comforting aroma that will envelop you in a sense of calm and well-being. Turn your space in a haven of zen and luxury with this unique creation.</p> </details></p>",
+      "published_at": "2022-09-19T00:59:02-04:00",
+      "created_at": "2022-09-16T21:18:29-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833485238458,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205605540026,
+          "created_at": "2022-09-16T21:18:29-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833485271226,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205605540026,
+          "created_at": "2022-09-16T21:18:29-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833485303994,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205605540026,
+          "created_at": "2022-09-16T21:18:29-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380543037626,
+          "created_at": "2023-07-30T15:40:36-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:36-04:00",
+          "product_id": 7205605540026,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-260676.jpg?v=1690746036",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457382074,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:31:47-04:00",
+          "product_id": 7205605540026,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-347904.png?v=1690745507",
+          "width": 627,
+          "height": 710
+        },
+        {
+          "id": 33380457480378,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:31:47-04:00",
+          "product_id": 7205605540026,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/meditation-743390.jpg?v=1690745507",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205491671226,
+      "title": "Courchevel",
+      "handle": "courchevel",
+      "body_html": "<p>TOP: Pine | Aromatic Notes | Green Apple<br></p> <p>MID: Cedarwood | Raspberry<br></p> <p>BASE: Sweet<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Named after the quintessential luxurious skiing resort this captivating scent evokes the essence of a frosty winter pine forest.</p><p> <details> <summary>Read more</summary> <p>The scent opens with crisp, invigorating notes of pine needles and fir balsam, delicately balanced with hints of earthy moss and woody cedar. As it unfolds into the air, a subtle sweetness emerges from the heart of the elixir, blending harmoniously with the forest notes to create a truly sophisticated and complex aroma. The dry down is a long lasting and musky base of pine tree resin and amber, leaving a warm and comforting trail that lingers on for hours. This perfume is a perfect choice for those who appreciate the natural beauty of the pine forest and want to bring a touch of the outdoors into their routine.</p> </details></p>",
+      "published_at": "2022-09-19T00:59:01-04:00",
+      "created_at": "2022-09-16T17:45:04-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833217654970,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205491671226,
+          "created_at": "2022-09-16T17:45:04-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833217687738,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205491671226,
+          "created_at": "2022-09-16T17:45:04-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833217720506,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205491671226,
+          "created_at": "2022-09-16T17:45:04-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540711098,
+          "created_at": "2023-07-30T15:39:56-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:30-04:00",
+          "product_id": 7205491671226,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-877200.jpg?v=1698868590",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380452401338,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:32-04:00",
+          "product_id": 7205491671226,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-785577.png?v=1698868592",
+          "width": 625,
+          "height": 717
+        },
+        {
+          "id": 33380452434106,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:34-04:00",
+          "product_id": 7205491671226,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/courchevel-812065.jpg?v=1698868594",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205491474618,
+      "title": "Sarona Market",
+      "handle": "sarona-market",
+      "body_html": "<p>TOP: Sweet Orange<br></p> <p>MID: Tea | Orange Blossom<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Embark on an olfactive journey to Tel Aviv that combines the lively essence of Israel's Sarona Market with the invigorating allure of fresh citrus notes.</p><p> <details> <summary>Read more</summary> <p>Inspired by the bustling market's vibrant energy, this scent opens with a burst of zesty lemon and juicy orange, instantly transporting you to the lively fruit stalls that line the market's pathways. As the fragrance unfolds, hints of aromatic herbs like mint and basil emerge, mirroring the lush greenery found in the market's surroundings. Finally, a subtle blend of warm spices, reminiscent of the exotic treasures found in the spice bazaar, adds a touch of intrigue and depth. Immerse yourself in the harmonious fusion of Sarona Market's vibrant atmosphere and the invigorating freshness of a cold limonana and embark on a sensorial journey through the captivating spirit of the holy land.</p> </details></p>",
+      "published_at": "2022-09-19T00:59:01-04:00",
+      "created_at": "2022-09-16T17:44:10-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833217196218,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205491474618,
+          "created_at": "2022-09-16T17:44:10-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833217228986,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205491474618,
+          "created_at": "2022-09-16T17:44:10-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833217261754,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205491474618,
+          "created_at": "2022-09-16T17:44:10-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542972090,
+          "created_at": "2023-07-30T15:40:36-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:36-04:00",
+          "product_id": 7205491474618,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-714441.jpg?v=1690746036",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457644218,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:34:25-04:00",
+          "product_id": 7205491474618,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-764714.png?v=1690745665",
+          "width": 627,
+          "height": 718
+        },
+        {
+          "id": 33380457709754,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:34:25-04:00",
+          "product_id": 7205491474618,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/sarona-market-894226.jpg?v=1690745665",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205491114170,
+      "title": "Draps Blanc",
+      "handle": "draps-blanc",
+      "body_html": "<p>TOP: Pear | Peach | Green Note<br></p>\n<p>MID: Jasmine | Lily of the Valley | Violet<br></p>\n<p>BASE: Cedarwood | White Musk | Vanilla<br></p>\n<p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p>\n<p>White bed sheets… An addictive scent that captures the essence of crisp, freshly laundered sheets and the delicate allure of blooming apple blossoms.</p>\n<p> </p>\n<details open=\"\"> <summary>Read more</summary>\n<p>With its enchanting blend of fruity and floral notes, this scent invites you to experience a moment of pure tranquility and comfort. Opening with the gentle sweetness of stone fruit, the fragrance quickly transitions to a graceful bouquet of soft floral blossoms, with hints of jasmine and lily of the valley. As it settles, a subtle clean freshness emerges, reminiscent of freshly washed linens billowing in the breeze. \"Draps Blanc\" evokes a sense of purity and serenity, wrapping you in a delicate embrace that effortlessly transports you to a peaceful haven of tranquil bliss.</p>\n</details>\n<p> </p>",
+      "published_at": "2022-09-19T00:59:00-04:00",
+      "created_at": "2022-09-16T17:43:14-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833215754426,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205491114170,
+          "created_at": "2022-09-16T17:43:14-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215787194,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205491114170,
+          "created_at": "2022-09-16T17:43:14-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215819962,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205491114170,
+          "created_at": "2022-09-16T17:43:14-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540580026,
+          "created_at": "2023-07-30T15:39:55-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:50-04:00",
+          "product_id": 7205491114170,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-998629.jpg?v=1698868610",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380452532410,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:57:13-04:00",
+          "product_id": 7205491114170,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-980623.png?v=1698868633",
+          "width": 625,
+          "height": 715
+        },
+        {
+          "id": 33380452565178,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:57:15-04:00",
+          "product_id": 7205491114170,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/drats-blanc-856077.jpg?v=1698868635",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205490983098,
+      "title": "Printemps Vintage",
+      "handle": "printemps-vintage",
+      "body_html": "<p>TOP: Blood Orange | Fig<br></p> <p>MID: Rose| Peony<br></p> <p>BASE: Cedarwood | White Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that encapsulates the timeless charm and refined elegance of an old-school era. This exquisite scent takes you on a nostalgic journey to a bygone springtime, where classic sophistication meets the fresh vitality of blooming flowers.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of vibrant citrus, and fig the fragrance immediately captivates the senses, unveiling a graceful blend of floral notes that exude a sense of refined femininity. Delicate petals of roses and peony intertwine, enhanced by a whisper of freshness, creating an enchanting symphony of floral elegance. As the scent settles, warm and comforting base notes of cedarwood and musk emerge, adding a touch of vintage culture we can’t resist. </p> </details></p>",
+      "published_at": "2022-09-19T00:59:00-04:00",
+      "created_at": "2022-09-16T17:42:37-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833215295674,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205490983098,
+          "created_at": "2022-09-16T17:42:37-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215328442,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205490983098,
+          "created_at": "2022-09-16T17:42:37-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215361210,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205490983098,
+          "created_at": "2022-09-16T17:42:37-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542775482,
+          "created_at": "2023-07-30T15:40:35-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:35-04:00",
+          "product_id": 7205490983098,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-464361.jpg?v=1690746035",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380456825018,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:33:54-04:00",
+          "product_id": 7205490983098,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-266363.png?v=1690745634",
+          "width": 622,
+          "height": 711
+        },
+        {
+          "id": 33380456890554,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:33:54-04:00",
+          "product_id": 7205490983098,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/printemps-vintage-885233.jpg?v=1690745634",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205490786490,
+      "title": "Oud Charnel",
+      "handle": "oud-charnel",
+      "body_html": "<p>TOP: Milky Note<br></p> <p>MID: Saffron | Sandalwood<br></p> <p>BASE: Vanilla | Ambery Notes<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A delicate yet powerful scent that unleashes the addicting power of the mystical oud wood, entwined with the allure of saffron and the captivating warmth of amber. </p><p> <details> <summary>Read more</summary> <p>This aromatic masterpiece is a journey into the heart of indulgence and seduction. As you breathe it in, Saffron's warm and exotic aroma dances in the air , awakening your senses and preparing you for the olfactory adventure ahead. The mystical oud wood takes center stage, its soft and woody nuances swirling in the air, enveloping you in an aura of mystery and sensuality. As the fragrance unfolds, rich and resinous amber emerges, creating a luxurious and warm embrace that lingers. A masterfully crafted aroma as fresh and gentle as it is memorable.</p></details></p>",
+      "published_at": "2022-09-19T00:58:59-04:00",
+      "created_at": "2022-09-16T17:41:51-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833214967994,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205490786490,
+          "created_at": "2022-09-16T17:41:51-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215000762,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205490786490,
+          "created_at": "2022-09-16T17:41:51-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833215033530,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205490786490,
+          "created_at": "2022-09-16T17:41:51-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380543004858,
+          "created_at": "2023-07-30T15:40:36-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:36-04:00",
+          "product_id": 7205490786490,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-599257.jpg?v=1690746036",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380457611450,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:32:47-04:00",
+          "product_id": 7205490786490,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-658885.png?v=1690745567",
+          "width": 626,
+          "height": 707
+        },
+        {
+          "id": 33380457676986,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:32:47-04:00",
+          "product_id": 7205490786490,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-charnel-943584.jpg?v=1690745567",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205490622650,
+      "title": "Oud Noir",
+      "handle": "oud-noir",
+      "body_html": "<p>TOP: Cardamom | Grapefruit | Pine needles<br></p> <p>MID: Saffron | Patchouli | Myrrh<br></p> <p>BASE: Vetiver | White sandalwood | Musk<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>For those that exude power, opulence, and a captivating aura of luxury. This scent is a sensory symphony that commands attention from the moment it enters the space.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of spicy and aromatic notes, it immediately establishes its presence with a commanding intensity. At its heart lies the star ingredient, oud, with its deep, woody richness and an unmistakable air of mystique. As the fragrance evolves, warm and sensual nuances of leather and patchouli emerge, adding depth and complexity. The overall composition is a testament to the grandeur and allure of oud, leaving a lasting impression that is as bold as it is captivating. \"Oud Noir\" is a fragrance that indulges the senses, allowing you to revel in its powerful and luxurious embrace.</p></details></p>",
+      "published_at": "2022-09-19T00:58:59-04:00",
+      "created_at": "2022-09-16T17:41:07-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833214116026,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205490622650,
+          "created_at": "2022-09-16T17:41:07-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833214148794,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205490622650,
+          "created_at": "2022-09-16T17:41:07-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833214181562,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205490622650,
+          "created_at": "2022-09-16T17:41:07-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380456628410,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:14:55-04:00",
+          "product_id": 7205490622650,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-355836.jpg?v=1690744495",
+          "width": 1920,
+          "height": 1920
+        },
+        {
+          "id": 33380456661178,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:14:55-04:00",
+          "product_id": 7205490622650,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-215356.jpg?v=1690744495",
+          "width": 625,
+          "height": 708
+        },
+        {
+          "id": 33380456693946,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:14:55-04:00",
+          "product_id": 7205490622650,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/oud-noir-326771.jpg?v=1690744495",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205489180858,
+      "title": "Miami Beach",
+      "handle": "miami-beach",
+      "body_html": "<p>TOP: Solar Notes<br></p> <p>MID: White Flowers | Cotton<br></p> <p>BASE: White Musk | Vanilla | Soft Wood<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Vacation in a bottle, an aroma that captures the essence of the sun-kissed shores and vibrant energy of the city we call home.</p><p> <details> <summary>Read more</summary> <p>Inspired by the iconic Miami Beach, this scent transports you to a paradise of white sands, turquoise waters, and endless summer days. Opening with a burst of solar energy, it instantly evokes the feeling of dreamy beach vacations. As the fragrance evolves, floral notes of jasmine and hibiscus bloom, reminiscent of the colorful flowers adorning the city's streets and gardens. Finally, a subtle hint of warm sand and coconut emerges, bringing to life the sun-drenched beaches that define Miami's coastline. Immerse yourself in the spirit of Miami Beach, where sunshine and ocean breezes meet in perfect harmony, with this captivating creation.</p></details></p>",
+      "published_at": "2022-09-19T00:58:58-04:00",
+      "created_at": "2022-09-16T17:38:54-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833208316090,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205489180858,
+          "created_at": "2022-09-16T17:38:54-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833208348858,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205489180858,
+          "created_at": "2022-09-16T17:38:55-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833208381626,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205489180858,
+          "created_at": "2022-09-16T17:38:55-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380542939322,
+          "created_at": "2023-07-30T15:40:36-04:00",
+          "position": 1,
+          "updated_at": "2023-07-30T15:40:36-04:00",
+          "product_id": 7205489180858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-436971.jpg?v=1690746036",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380456857786,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 2,
+          "updated_at": "2023-07-30T15:32:19-04:00",
+          "product_id": 7205489180858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-615533.png?v=1690745539",
+          "width": 625,
+          "height": 711
+        },
+        {
+          "id": 33380456956090,
+          "created_at": "2023-07-30T15:14:55-04:00",
+          "position": 3,
+          "updated_at": "2023-07-30T15:32:19-04:00",
+          "product_id": 7205489180858,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/miami-beach-997166.jpg?v=1690745539",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205488885946,
+      "title": "Bois Tibet",
+      "handle": "boix-tibet",
+      "body_html": "<p>TOP: Cinnamon | Cloves<br></p> <p>MID: Cedar| Patchouli | Powdery Notes<br></p> <p>BASE: White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>A scent that embodies the essence of sophistication and the serene allure of Tibetan architecture. This captivating scent transports you to mist-covered forests where ancient trees emanate a sense of wisdom and tranquility.</p><p> <details> <summary>Read more</summary> <p>Opening with a harmonious blend of fresh green notes, it captures the essence of lush foliage and dew-kissed leaves. As the fragrance unfolds, rich and earthy notes of Asian wet wood emerge, evoking the scent of damp bark and the essence of forest sanctuaries. The sophisticated and refined composition envelops you in a veil of elegance and mystery, as hints of smoky incense and precious spices add depth and intrigue. This blend invites you to embark on a journey to a place of serene beauty and timeless sophistication, where nature and elegance harmoniously unite.</p></details></p>",
+      "published_at": "2022-09-19T00:58:57-04:00",
+      "created_at": "2022-09-16T17:37:08-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833206481082,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205488885946,
+          "created_at": "2022-09-16T17:37:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833206513850,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205488885946,
+          "created_at": "2022-09-16T17:37:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41833206546618,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205488885946,
+          "created_at": "2022-09-16T17:37:08-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540547258,
+          "created_at": "2023-07-30T15:39:54-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:02-04:00",
+          "product_id": 7205488885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-955132.jpg?v=1698868562",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380452237498,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:31-04:00",
+          "product_id": 7205488885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-251790.png?v=1698868591",
+          "width": 627,
+          "height": 712
+        },
+        {
+          "id": 33380452303034,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:32-04:00",
+          "product_id": 7205488885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/bois-tibet-810530.jpg?v=1698868592",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7205485969594,
+      "title": "Cuir Onyx",
+      "handle": "cuir-onyx",
+      "body_html": "<p>TOP: Saffron<br></p> <p>MID: Leather | Rose | Dry Woods<br></p> <p>BASE: Sandalwood | White Musk | Vanilla<br></p> <p>120ml fits with LA TOUR Diffuser<br>500ml &amp; 1L fits with CozyAir and CozyAir Max Diffusers</p> <p>Exudes a sense of mystique, minimalism and sophistication. This captivating scent is like a midnight jewel, evoking an aura of elegance and allure.</p><p> <details> <summary>Read more</summary> <p>Opening with a burst of citrusy bergamot, it immediately commands attention. As the fragrance develops, a rich and supple leather note emerges, enveloping you in a luxurious embrace. The scent deepens further with hints of smoky oud, adding an exotic and seductive touch. The composition is rounded out by a subtle blend of warm spices and velvety woods, creating a mesmerizing and unforgettable olfactory experience. </p> </details></p>",
+      "published_at": "2022-09-19T00:58:56-04:00",
+      "created_at": "2022-09-16T17:25:18-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "Parfumaire",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41833495036090,
+          "title": "120ml",
+          "option1": "120ml",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "69.00",
+          "grams": 0,
+          "compare_at_price": "99.00",
+          "position": 1,
+          "product_id": 7205485969594,
+          "created_at": "2022-09-16T21:27:37-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 42653038411962,
+          "title": "500ml",
+          "option1": "500ml",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "149.00",
+          "grams": 0,
+          "compare_at_price": "189.00",
+          "position": 2,
+          "product_id": 7205485969594,
+          "created_at": "2023-10-02T07:29:25-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 42653038444730,
+          "title": "1L",
+          "option1": "1L",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "289.00",
+          "grams": 0,
+          "compare_at_price": "349.00",
+          "position": 3,
+          "product_id": 7205485969594,
+          "created_at": "2023-10-02T07:29:25-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380540743866,
+          "created_at": "2023-07-30T15:39:56-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:50-04:00",
+          "product_id": 7205485969594,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-619855.jpg?v=1698868610",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 33380451942586,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:52-04:00",
+          "product_id": 7205485969594,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-969680.png?v=1698868612",
+          "width": 632,
+          "height": 716
+        },
+        {
+          "id": 33380452040890,
+          "created_at": "2023-07-30T15:13:59-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:53-04:00",
+          "product_id": 7205485969594,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cuir-onyx-248905.png?v=1698868613",
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "position": 1,
+          "values": [
+            "120ml",
+            "500ml",
+            "1L"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7050864885946,
+      "title": "CozyAir Scent Diffuser",
+      "handle": "cozyair-scent-diffuser",
+      "body_html": "<p>Diffusing helps to reduce dust, pet dander allergens, and other airborne allergens from non-living matter.</p> <p>The capacity of the machine is designed to be <strong>500ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 6 3/8<strong>\" </strong> x 3 3/4<strong>\"</strong> x 9 3/4<strong>\"</strong></p>",
+      "published_at": "2022-03-30T15:20:39-04:00",
+      "created_at": "2022-03-28T13:33:37-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "parfumaire",
+      "product_type": "Diffuser",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41466754597050,
+          "title": "White",
+          "option1": "White",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33380453187770,
+            "product_id": 7050864885946,
+            "position": 1,
+            "created_at": "2023-07-30T15:14:02-04:00",
+            "updated_at": "2023-11-01T15:56:50-04:00",
+            "alt": "CozyAir Scent Diffuser - Parfumaire",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-537772.png?v=1698868610",
+            "variant_ids": [
+              41466754597050
+            ]
+          },
+          "available": true,
+          "price": "499.00",
+          "grams": 275,
+          "compare_at_price": "699.00",
+          "position": 1,
+          "product_id": 7050864885946,
+          "created_at": "2022-05-27T15:43:57-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41500319318202,
+          "title": "Black",
+          "option1": "Black",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33380453286074,
+            "product_id": 7050864885946,
+            "position": 4,
+            "created_at": "2023-07-30T15:14:02-04:00",
+            "updated_at": "2023-11-01T15:56:56-04:00",
+            "alt": "CozyAir Scent Diffuser - Parfumaire",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-322866.png?v=1698868616",
+            "variant_ids": [
+              41500319318202
+            ]
+          },
+          "available": true,
+          "price": "499.00",
+          "grams": 275,
+          "compare_at_price": "699.00",
+          "position": 2,
+          "product_id": 7050864885946,
+          "created_at": "2022-06-07T00:14:39-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380453187770,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:50-04:00",
+          "product_id": 7050864885946,
+          "variant_ids": [
+            41466754597050
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-537772.png?v=1698868610",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380453220538,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:52-04:00",
+          "product_id": 7050864885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-693246.jpg?v=1698868612",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 33380453253306,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:53-04:00",
+          "product_id": 7050864885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-403721.png?v=1698868613",
+          "width": 500,
+          "height": 500
+        },
+        {
+          "id": 33380453286074,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 4,
+          "updated_at": "2023-11-01T15:56:56-04:00",
+          "product_id": 7050864885946,
+          "variant_ids": [
+            41500319318202
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-322866.png?v=1698868616",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380453318842,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 5,
+          "updated_at": "2023-11-01T15:56:58-04:00",
+          "product_id": 7050864885946,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-scent-diffuser-859528.jpg?v=1698868618",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "White",
+            "Black"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7050864787642,
+      "title": "La Tour Scent Diffuser",
+      "handle": "la-tour-scent-diffuser",
+      "body_html": "<p><span data-mce-fragment=\"1\">The scent is diffused through nebulization, a process that breaks down fragrance oil into a very fine dry mist. This preserves the intention behind our essential oil blends and their olfactive and therapeutic powers without diluting the oil in water, heating it, or adding solvent to it.</span></p> <p>The capacity of the machine is designed to be <strong>120ml </strong></p> <p><u>Dimensions<strong>:</strong></u> 4 3/8<strong>\" </strong> x 47 1/4'<strong>'</strong></p>",
+      "published_at": "2022-03-30T15:20:39-04:00",
+      "created_at": "2022-03-28T13:33:35-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "parfumaire",
+      "product_type": "Diffuser",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41461137244346,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "299.00",
+          "grams": 1250,
+          "compare_at_price": "499.00",
+          "position": 1,
+          "product_id": 7050864787642,
+          "created_at": "2022-05-25T21:20:07-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380452958394,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:57:13-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-787976.png?v=1698868633",
+          "width": 1500,
+          "height": 1500
+        },
+        {
+          "id": 33380452991162,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:57:15-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-516421.jpg?v=1698868635",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 33380453023930,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:57:17-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-617576.jpg?v=1698868637",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380453056698,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 4,
+          "updated_at": "2023-11-01T15:57:18-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-695499.jpg?v=1698868638",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380453089466,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 5,
+          "updated_at": "2023-11-01T15:57:20-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-449207.jpg?v=1698868640",
+          "width": 475,
+          "height": 500
+        },
+        {
+          "id": 33380453122234,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 6,
+          "updated_at": "2023-11-01T15:57:22-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-826526.jpg?v=1698868642",
+          "width": 475,
+          "height": 500
+        },
+        {
+          "id": 33380453155002,
+          "created_at": "2023-07-30T15:14:02-04:00",
+          "position": 7,
+          "updated_at": "2023-11-01T15:57:23-04:00",
+          "product_id": 7050864787642,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/la-tour-scent-diffuser-387235.jpg?v=1698868643",
+          "width": 475,
+          "height": 500
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7050864754874,
+      "title": "CozyAir Max Scent Diffuser",
+      "handle": "cozyair-max-scent-diffuser",
+      "body_html": "<p>CozyAir Max Scent Diffuser</p> <p>The capacity of the machine is designed to be <strong>1L</strong></p> <p><u>Dimensions<strong>:</strong></u> 15 1/8<strong>\" </strong> x 9<strong>\"</strong> x 18 3/8<strong>\"</strong></p>",
+      "published_at": "2022-03-28T13:33:31-04:00",
+      "created_at": "2022-03-28T13:33:33-04:00",
+      "updated_at": "2026-10-31T17:23:45-04:00",
+      "vendor": "parfumaire",
+      "product_type": "Diffuser",
+      "tags": [],
+      "variants": [
+        {
+          "id": 41466755514554,
+          "title": "White",
+          "option1": "White",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33380452827322,
+            "product_id": 7050864754874,
+            "position": 5,
+            "created_at": "2023-07-30T15:14:01-04:00",
+            "updated_at": "2023-11-01T15:56:38-04:00",
+            "alt": "CozyAir Max Scent Diffuser - Parfumaire",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-619967.png?v=1698868598",
+            "variant_ids": [
+              41466755514554
+            ]
+          },
+          "available": true,
+          "price": "599.00",
+          "grams": 3629,
+          "compare_at_price": "999.00",
+          "position": 1,
+          "product_id": 7050864754874,
+          "created_at": "2022-05-27T15:44:25-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        },
+        {
+          "id": 41500300247226,
+          "title": "Black",
+          "option1": "Black",
+          "option2": null,
+          "option3": null,
+          "sku": "",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": {
+            "id": 33380452696250,
+            "product_id": 7050864754874,
+            "position": 1,
+            "created_at": "2023-07-30T15:14:01-04:00",
+            "updated_at": "2023-11-01T15:56:31-04:00",
+            "alt": "CozyAir Max Scent Diffuser - Parfumaire",
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-395710.png?v=1698868591",
+            "variant_ids": [
+              41500300247226
+            ]
+          },
+          "available": true,
+          "price": "799.00",
+          "grams": 3629,
+          "compare_at_price": "999.00",
+          "position": 2,
+          "product_id": 7050864754874,
+          "created_at": "2022-06-07T00:04:56-04:00",
+          "updated_at": "2026-10-31T17:23:45-04:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 33380452696250,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 1,
+          "updated_at": "2023-11-01T15:56:31-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [
+            41500300247226
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-395710.png?v=1698868591",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380452729018,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 2,
+          "updated_at": "2023-11-01T15:56:33-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-501690.jpg?v=1698868593",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 33380452761786,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 3,
+          "updated_at": "2023-11-01T15:56:34-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-488797.png?v=1698868594",
+          "width": 500,
+          "height": 500
+        },
+        {
+          "id": 33380452794554,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 4,
+          "updated_at": "2023-11-01T15:56:36-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-488120.jpg?v=1698868596",
+          "width": 475,
+          "height": 500
+        },
+        {
+          "id": 33380452827322,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 5,
+          "updated_at": "2023-11-01T15:56:38-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [
+            41466755514554
+          ],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-619967.png?v=1698868598",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 33380452860090,
+          "created_at": "2023-07-30T15:14:01-04:00",
+          "position": 6,
+          "updated_at": "2023-11-01T15:56:50-04:00",
+          "product_id": 7050864754874,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0614/4344/0826/products/cozyair-max-scent-diffuser-555260.jpg?v=1698868610",
+          "width": 650,
+          "height": 650
+        }
+      ],
+      "options": [
+        {
+          "name": "Color",
+          "position": 1,
+          "values": [
+            "White",
+            "Black"
+          ]
+        }
+      ]
+    }
+  ]
+}

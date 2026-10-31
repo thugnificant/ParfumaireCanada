@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://shop.parfumaire.com/pages/www.allaboutcookies.org",
+    "reason": "Source request unavailable",
+    "detail": "56"
+  },
+  {
+    "url": "https://shop.parfumaire.com/es/pages/www.allaboutcookies.org",
+    "reason": "Source request unavailable",
+    "detail": "56"
+  },
+  {
+    "url": "http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/gourmand-1.jpg",
+    "reason": "Asset download/optimization unavailable",
+    "detail": "Error: Command failed: curl -fsSL --max-time 45 http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/gourmand-1.jpg\ncurl: (56) The requested URL re"
+  },
+  {
+    "url": "http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/aromatic-woods-1.jpg",
+    "reason": "Asset download/optimization unavailable",
+    "detail": "Error: Command failed: curl -fsSL --max-time 45 http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/aromatic-woods-1.jpg\ncurl: (56) The requested "
+  },
+  {
+    "url": "http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/floral-1.jpg",
+    "reason": "Asset download/optimization unavailable",
+    "detail": "Error: Command failed: curl -fsSL --max-time 45 http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/floral-1.jpg\ncurl: (56) The requested URL retu"
+  },
+  {
+    "url": "http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/citrus-floral-1.jpg",
+    "reason": "Asset download/optimization unavailable",
+    "detail": "Error: Command failed: curl -fsSL --max-time 45 http://www.mok2.com/staging/parfumaire/wp-content/uploads/2021/05/citrus-floral-1.jpg\ncurl: (56) The requested U"
+  }
+]

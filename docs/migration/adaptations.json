@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-31T21:46:54.310Z",
+  "global": [
+    "US commerce copy, subscription purchasing and fulfilment promises archived and not published as Canadian commitments.",
+    "Performance percentages, health claims, pure-essential-oil claims and exact Canadian service availability withheld pending evidence.",
+    "Spanish translations preserved in archive; English Canadian demo has no hreflang.",
+    "Business service placeholder posts replaced with meaningful content from the business-scenting page.",
+    "New scent-journal articles are factual comparisons derived from product records; the source news blog was empty.",
+    "Photos remain authentic. Legacy product imagery is not presented as a currently available product."
+  ],
+  "products": [
+    {
+      "handle": "lemongrass",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "air-mykonos",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "the-noir",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "sarona-market",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "oud-charnel",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "cuir-onyx",
+      "flags": [
+        "Source narrative and listed scent notes may differ. Confirm formulation before production."
+      ]
+    },
+    {
+      "handle": "cozyair-scent-diffuser",
+      "flags": [
+        "Unsupported health/performance wording retained in source archive; omitted from display."
+      ]
+    },
+    {
+      "handle": "la-tour-scent-diffuser",
+      "flags": [
+        "Unsupported health/performance wording retained in source archive; omitted from display."
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "destination": "/about/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/business-scenting/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/scent-branding/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/odor-elimination/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/custom-fragrances/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/home-scenting/",
+      "status": "adapted",
+      "source": "Original Parfumaire brand/business content, with unsupported claims and Canadian promises omitted."
+    },
+    {
+      "destination": "/privacy/",
+      "status": "adapted",
+      "source": "New demo-specific content; original policies archived."
+    },
+    {
+      "destination": "/terms/",
+      "status": "adapted",
+      "source": "New demo-specific content; original policies archived."
+    },
+    {
+      "destination": "/faq/",
+      "status": "adapted",
+      "source": "New demo-specific content; original policies archived."
+    },
+    {
+      "destination": "/journal/choosing-a-diffuser/",
+      "status": "adapted",
+      "source": "New editorial comparison based on catalog facts."
+    },
+    {
+      "destination": "/journal/understanding-scent-notes/",
+      "status": "adapted",
+      "source": "New editorial comparison based on catalog facts."
+    }
+  ]
+}
