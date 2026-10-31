@@ -1,0 +1,42 @@
+{
+  "url": "https://parfumairecanada.sugiweb.com",
+  "checkedAt": "2026-10-31T23:04:26.009Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/collections/all/",
+      "status": 200
+    },
+    {
+      "route": "/collections/scents/",
+      "status": 200
+    },
+    {
+      "route": "/products/la-tour-scent-diffuser/",
+      "status": 200
+    },
+    {
+      "route": "/products/cozyair-max-scent-diffuser/",
+      "status": 200
+    },
+    {
+      "route": "/contact/",
+      "status": 200
+    },
+    {
+      "route": "/business-scenting/",
+      "status": 200
+    },
+    {
+      "route": "/fragrance-finder/",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "notFoundStatus": 404,
+  "verified": true,
+  "noJavaScriptFormSafe": true
+}

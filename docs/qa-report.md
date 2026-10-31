@@ -36,6 +36,8 @@ The shop reports 56 reviews; 22 rendered reviews were preserved. Further review 
 
 Repository: https://github.com/thugnificant/ParfumaireCanada
 
-The GitHub Actions deployment succeeded after Pages was enabled. Cloudflare’s DNS-only CNAME resolves to `thugnificant.github.io`. The custom hostname serves the actual demo over HTTP with status 200. At the latest check, GitHub’s certificate was still provisioning: HTTPS enforcement returned “The certificate does not exist yet”, and DNS health was asynchronously pending (202). HTTPS must be verified before the HTTPS URL is reported as live.
+**Live and verified: https://parfumairecanada.sugiweb.com/**. GitHub Actions builds and deployment succeeded. Cloudflare’s DNS-only CNAME resolves to `thugnificant.github.io`. GitHub approved the domain certificate (expiry 2027-01-29), and HTTPS enforcement is enabled. HTTP and the default GitHub Pages address return 301 redirects to the HTTPS custom hostname.
+
+The deployed HTTPS browser check passed on desktop and mobile: home, collections, product deep links, services, contact and finder return 200; all homepage images load; variant selection carries into the enquiry; unknown routes return an actual 404; the form is safely disabled without JavaScript. There were no browser errors. Deployed screenshots and `docs/qa/deployed-results.json` record the evidence. Certificate provisioning required GitHub’s documented remove/re-add-domain restart; it completed successfully.
 
 Account-level Pages domain verification is a separate recommended protection. The browser access host was unavailable when the settings page was requested; no verification challenge was available through the connected tools. The custom hostname itself is assigned to this Pages repository. See `docs/deployment.json` for the final observed deployment state.

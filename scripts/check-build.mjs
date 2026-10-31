@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
+import { site } from '../src/data/site.mjs';
+const origin = site.environment === 'production' ? site.productionUrl : site.demoUrl;
 function walk(dir) {
   return fs
     .readdirSync(dir, { withFileTypes: true })
@@ -13,9 +15,13 @@ for (const file of files) {
   const $ = cheerio.load(fs.readFileSync(file, 'utf8'));
   const route = file.replace(/^dist/, '').replace(/index.html$/, '');
   if ($('h1').length !== 1) failures.push(`${route}: needs exactly one h1`);
-  if (!$('meta[name=robots]').attr('content')?.includes('noindex'))
+  if (!site.indexing && !$('meta[name=robots]').attr('content')?.includes('noindex'))
     failures.push(`${route}: missing demo noindex`);
-  if (!$('link[rel=canonical]').attr('href')?.startsWith('https://parfumairecanada.sugiweb.com/'))
+  if (
+    !$('link[rel=canonical]')
+      .attr('href')
+      ?.startsWith(origin + '/')
+  )
     failures.push(`${route}: bad canonical`);
   if (!$('title').text() || !$('meta[name=description]').attr('content'))
     failures.push(`${route}: missing metadata`);
@@ -45,7 +51,7 @@ for (const file of files) {
 assert.equal(failures.length, 0, failures.join('\n'));
 assert(fs.existsSync('dist/404.html'));
 assert(!fs.readFileSync('dist/robots.txt', 'utf8').includes('Disallow: /'));
-assert(!fs.readFileSync('dist/sitemap.xml', 'utf8').includes('<url>'));
+if (!site.indexing) assert(!fs.readFileSync('dist/sitemap.xml', 'utf8').includes('<url>'));
 console.log(
   `Checked ${files.length} HTML pages: internal links, assets, headings, metadata, JSON-LD, demo noindex and image dimensions passed.`,
 );
