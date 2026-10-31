@@ -10,3 +10,7 @@ playwright-report/
 docs/qa/screenshots/
 docs/qa/lighthouse*.html
 archive/
+
+docs/qa/motion/recordings/
+docs/qa/motion/*-scroll.webm
+docs/qa/motion/draft-*

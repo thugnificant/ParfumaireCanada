@@ -1,6 +1,6 @@
 # Parfumaire Canada
 
-A static Astro/TypeScript client-review demo for **https://parfumairecanada.sugiweb.com**. The visual system follows the supplied bella screen recording with authentic Parfumaire products and photography.
+A static Astro/TypeScript client-review demo for **https://parfumairecanada.sugiweb.com**. The visual system follows the supplied screen recording with Parfumaire products, Higgsfield studio renders and a scroll-controlled diffuser journey through four spaces.
 
 ## Local development
 
@@ -12,6 +12,7 @@ npm run check
 npm test
 npm run preview -- --port 4322
 node scripts/browser-qa.mjs
+node scripts/motion-qa.mjs # defaults to a preview on port 4323
 ```
 
 Node 22+; Chrome is used for local browser checks. Set `QA_URL` for another preview/deployment address. The full site is static HTML in `dist/`.
@@ -21,6 +22,8 @@ Node 22+; Chrome is used for local browser checks. Set `QA_URL` for another prev
 - `src/data/site.mjs`: environment, domains, indexing, contact details, pricing approval and enquiry delivery.
 - `src/data/catalog.json`: 21 products, 59 variants, source IDs, exact USD prices, galleries, notes and variant associations.
 - `source-data/`: preserved source product and business snapshots, including genuine Spanish content. These are not deployed.
+- `src/data/renders.json`: accepted 2K product visualizations and source image associations.
+- `public/motion/`: 144 frames per responsive size for the scroll sequence.
 - `public/images/`: local WebP derivatives. Original binary assets and complete HTML responses remain in the local `archive/` directory, excluded from Git and deployment. Back up that directory before a client handoff.
 - `docs/migration/`: full inventory, URL maps, asset provenance/checksums, adaptations and unavailable material.
 - `src/data/pages.json`: reviewed English display content. `scripts/prepare-content.mjs` reproducibly prepares these pages and route maps.
@@ -48,3 +51,5 @@ npm run export:shopify -- --store-currency=USD
 This makes a **draft-only USD staging export**, not a CAD price list. Products remain unpublished. The exporter includes public image URLs, option/variant rows, and a JSON sidecar for source IDs, availability and future metafields. Revalidate Shopify’s CSV specification at migration time. A static Astro site does not automatically become a Shopify theme.
 
 See [design notes](docs/design-reference.md), [SEO plan](docs/seo-plan.md), [QA report](docs/qa-report.md), and [handoff](docs/handoff.md).
+
+See [motion reference](docs/design-reference.md) and [generated-media provenance](docs/motion-assets.md) for asset preparation, behavior and local source files.

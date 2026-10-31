@@ -40,7 +40,7 @@ for (const width of [1440, 1024, 768, 390]) {
   );
   if (width === 1440) {
     const ratio = await page
-      .locator('.hero-main')
+      .locator('.atmosphere-main')
       .evaluate(
         (e) => e.getBoundingClientRect().width / e.parentElement.getBoundingClientRect().width,
       );
@@ -72,6 +72,7 @@ await page.getByLabel('Black', { exact: true }).check();
 assert.match(await page.locator('#variant-price').textContent(), /799/);
 await page.locator('#product-quantity').fill('3');
 await page.locator('#product-enquiry').click();
+await page.locator('#enquiry-context').filter({ hasText: 'CozyAir Max' }).waitFor();
 assert.match(
   await page.locator('#enquiry-context').textContent(),
   /CozyAir Max.*Black.*Quantity: 3/s,
@@ -94,7 +95,9 @@ await page.screenshot({ path: 'docs/qa/screenshots/enquiry-390.png', fullPage: t
 results.checks.push(
   'Exact variant price, image selection, quantity, preserved enquiry context, zero network submission and cleared PII',
 );
-const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
+const sourceCatalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
+const renders = JSON.parse(await fs.readFile('src/data/renders.json', 'utf8'));
+const catalog = sourceCatalog.map((p) => ({ ...p, images: [renders[p.handle], ...p.images] }));
 await page.setViewportSize({ width: 1440, height: 1000 });
 for (const p of catalog) {
   await page.goto(base + `/products/${p.handle}/`);
@@ -116,7 +119,9 @@ for (const p of catalog) {
     return im.complete && im.naturalWidth > 0;
   });
 }
-results.checks.push('All 21 product pages, 59 variants, 72 gallery selections');
+results.checks.push(
+  'All 21 product pages, 59 variants, 93 gallery selections including generated renders',
+);
 await page.goto(base + '/products/la-tour-scent-diffuser/');
 await page.getByRole('button', { name: 'Enlarge product image' }).click();
 await page.getByRole('dialog').waitFor();

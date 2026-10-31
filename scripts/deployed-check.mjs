@@ -40,6 +40,7 @@ try {
   await page.getByLabel('Black', { exact: true }).check();
   assert.match(await page.locator('#variant-price').textContent(), /799/);
   await page.locator('#product-enquiry').click();
+  await page.locator('#enquiry-context').filter({ hasText: 'CozyAir Max' }).waitFor();
   assert.match(await page.locator('#enquiry-context').textContent(), /CozyAir Max.*Black/s);
   const response = await page.goto(origin + '/not-a-real-parfumaire-page/');
   assert.equal(response.status(), 404);

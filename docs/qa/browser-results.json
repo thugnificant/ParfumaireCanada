@@ -1,6 +1,6 @@
 {
   "base": "http://127.0.0.1:4322",
-  "at": "2026-10-31T22:46:11.607Z",
+  "at": "2026-10-31T23:35:27.790Z",
   "screenshots": [
     "home-1440.png",
     "home-1024.png",
@@ -82,7 +82,7 @@
   "checks": [
     "Mobile menu, search, collection filters, no-results and reset",
     "Exact variant price, image selection, quantity, preserved enquiry context, zero network submission and cleared PII",
-    "All 21 product pages, 59 variants, 72 gallery selections",
+    "All 21 product pages, 59 variants, 93 gallery selections including generated renders",
     "Gallery modal keyboard close, scent finder and dedicated search",
     "Real 404 status"
   ],

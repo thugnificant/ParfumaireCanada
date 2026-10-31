@@ -8,11 +8,9 @@ export function getStaticPaths() {
   return products.map((product) => ({ params: { handle: product.handle }, props: { product } }));
 }
 const { product: p } = Astro.props;
-const first = p.variants[0];
-const initialIndex = Math.max(
-  0,
-  p.images.findIndex((im) => im.sourceImageId === first.featuredImageId),
-);
+const first =
+  p.variants.find((v) => v.featuredImageId === p.images[0].sourceImageId) || p.variants[0];
+const initialIndex = 0;
 const img = p.images[initialIndex];
 const isScent = p.category === 'scents';
 const related = products.filter((x) => x.category === p.category && x.id !== p.id).slice(0, 4);
@@ -70,6 +68,7 @@ const schema = {
         handle: p.handle,
         title: p.title,
         variants: p.variants,
+        initialVariantId: first.id,
         images: p.images,
         pageUrl: canonical,
       })}
@@ -99,7 +98,9 @@ const schema = {
             </button>
           ))}
         </div>
-        <p class="source-note">{p.images.length} original product images · explore every detail</p>
+        <p class="source-note">
+          Studio visualization + original product photography · explore every detail
+        </p>
       </div>
       <div class="product-info">
         <p class="eyebrow">{isScent ? 'SIGNATURE FRAGRANCE' : 'THE ART OF ATMOSPHERE'}</p>
@@ -121,9 +122,9 @@ const schema = {
         <fieldset class="variant-field">
           <legend>{isScent ? 'Choose your size' : 'Choose your finish'}</legend>
           <div class="variant-options">
-            {p.variants.map((v, i) => (
+            {p.variants.map((v) => (
               <label>
-                <input type="radio" name="variant" value={v.id} checked={i === 0} />
+                <input type="radio" name="variant" value={v.id} checked={v.id === first.id} />
                 <span>{v.title === 'Default Title' ? 'Black' : v.title}</span>
               </label>
             ))}
@@ -240,13 +241,20 @@ const schema = {
     <button class="close-dialog" aria-label="Close image viewer">
       <Icon name="close" />
     </button>
-    <img src={img.path} alt={img.alt} id="zoomed-image" width={img.width} height={img.height} />
+    <img
+      src={'full' in img ? String(img.full) : img.path}
+      alt={img.alt}
+      id="zoomed-image"
+      width={img.width}
+      height={img.height}
+    />
   </dialog>
   <script>
     import { price } from '../../lib/catalog';
     const root = document.querySelector<HTMLElement>('[data-product]');
     const p = JSON.parse(root!.dataset.product!);
-    let selected = p.variants[0];
+    let selected =
+      p.variants.find((v: { id: string }) => v.id === p.initialVariantId) || p.variants[0];
     const img = document.querySelector<HTMLImageElement>('#product-image')!;
     const zoom = document.querySelector<HTMLImageElement>('#zoomed-image')!;
     const dialog = document.querySelector<HTMLDialogElement>('#image-dialog')!;
@@ -254,7 +262,7 @@ const schema = {
       const im = p.images[index];
       img.src = im.path;
       img.alt = im.alt;
-      zoom.src = im.path;
+      zoom.src = im.full || im.path;
       zoom.alt = im.alt;
       document
         .querySelectorAll<HTMLElement>('[data-gallery-index]')

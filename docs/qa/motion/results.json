@@ -1,0 +1,21 @@
+{
+  "base": "http://127.0.0.1:4323",
+  "at": "2026-10-31T23:43:34.491Z",
+  "checks": [
+    "1440px: five distinct scenes, forward/back navigation, pause/resume, overflow, recorded full scroll",
+    "390px: five distinct scenes, forward/back navigation, pause/resume, overflow, recorded full scroll",
+    "Reduced-motion skips frame downloads; one-click still navigation; no-JS static hero and working links"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "frames": [
+    {
+      "width": 1440,
+      "distinctScenes": 5
+    },
+    {
+      "width": 390,
+      "distinctScenes": 5
+    }
+  ]
+}

@@ -1,14 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { srcset } from '../lib/images';
+import AtmosphereHero from '../components/AtmosphereHero.astro';
+import '../styles/motion.css';
 import Icon from '../components/Icon.astro';
 import ProductCard from '../components/ProductCard.astro';
 import EnquiryBanner from '../components/EnquiryBanner.astro';
-import { byHandle, priceLabel } from '../lib/catalog';
-import media from '../data/media.json';
+import { byHandle } from '../lib/catalog';
 import reviews from '../data/reviews.json';
-const cozy = byHandle('cozyair-scent-diffuser');
-const tower = byHandle('la-tour-scent-diffuser');
 const featured = [
   'cozyair-scent-diffuser',
   'la-tour-scent-diffuser',
@@ -23,77 +21,25 @@ const featuredReviews = reviews
 <Layout
   title="Make yourself at home"
   description="Discover Parfumaire’s signature fragrances, scent diffusers and business scenting. Explore the collection and find an atmosphere that feels like you."
-  image={cozy.images[1].path}
+  image="/motion/hero-poster.webp"
 >
-  <section class="hero" aria-label="Welcome to Parfumaire Canada">
-    <div class="hero-main">
-      <img
-        class="hero-photo"
-        src={cozy.images[1].path}
-        srcset={srcset(cozy.images[1])}
-        sizes="(max-width:580px) 100vw, 72vw"
-        width={cozy.images[1].width}
-        height={cozy.images[1].height}
-        alt="CozyAir diffuser in a thoughtfully styled living space"
-        fetchpriority="high"
-      />
-      <div class="hero-copy">
-        <p class="eyebrow">THE ART OF ATMOSPHERE</p>
-        <h1>
-          A scent.
-          <br />A feeling.
-          <br />A place to call yours.
-        </h1>
-        <a class="pill" href="/collections/all/">
-          Explore the collection <Icon />
-        </a>
-      </div>
-      <div class="hero-word" aria-hidden="true">
-        parfumaire
-      </div>
-      <span class="hero-caption">GOOD THINGS ARE IN THE AIR.</span>
-    </div>
-    <aside class="hero-feature">
-      <div>
-        <span class="tag">MEET LA TOUR</span>
-        <h2>
-          Small footprint.
-          <br />
-          Lasting impression.
-        </h2>
-      </div>
-      <a
-        class="hero-product"
-        href="/products/la-tour-scent-diffuser/"
-        aria-label="Discover La Tour scent diffuser"
-      >
-        <img
-          src={tower.images[0].path}
-          width={tower.images[0].width}
-          height={tower.images[0].height}
-          alt="La Tour black freestanding scent diffuser"
-          fetchpriority="high"
-        />
-      </a>
-      <div class="feature-bottom">
-        <div>
-          <p>La Tour Scent Diffuser</p>
-          <span>{priceLabel(tower)} · reference</span>
-        </div>
-        <a class="pill" href="/products/la-tour-scent-diffuser/">
-          Discover La Tour <Icon />
-        </a>
-      </div>
-    </aside>
-  </section>
-  <section class="lifestyle wrap">
+  <AtmosphereHero />
+  <section class="lifestyle wrap" data-reveal>
     <img
-      src={media.lifestyle.path}
-      srcset={srcset(media.lifestyle)}
+      src="/images/renders/space-home.webp"
+
       sizes="90vw"
-      width={media.lifestyle.width}
-      height={media.lifestyle.height}
-      alt={media.lifestyle.alt}
+      width="1920"
+      height="1080"
+      alt="CozyAir diffuser in a sunlit living room"
+      loading="lazy"
+    />
+    <img
+      class="room-product"
+      src="/images/renders/cozyair-scent-diffuser-cutout.webp"
+      width="900"
+      height="1200"
+      alt="CozyAir white scent diffuser"
       loading="lazy"
     />
     <div class="lifestyle-copy">
@@ -114,7 +60,7 @@ const featuredReviews = reviews
     </div>
   </section>
   <section class="featured wrap section-space" aria-labelledby="featured-heading">
-    <div class="section-heading">
+    <div class="section-heading" data-reveal>
       <p class="eyebrow">A LITTLE EVERYDAY EXTRAORDINARY</p>
       <h2 id="featured-heading">Meet your atmosphere.</h2>
       <p>Thoughtfully designed diffusers. Fragrances with a story.</p>
@@ -130,26 +76,34 @@ const featuredReviews = reviews
       </a>
     </div>
   </section>
-  <section class="editorial-grid wrap" aria-label="Discover the world of Parfumaire">
-    <a class="editorial-large" href="/about/">
+  <section class="editorial-grid wrap" data-reveal aria-label="Discover the world of Parfumaire">
+    <a class="editorial-large" href="/business-scenting/">
       <img
-        src={media.story.path}
-        srcset={srcset(media.story)}
+        src="/images/renders/space-event.webp"
+
         sizes="(max-width:580px) 90vw, 65vw"
-        width={media.story.width}
-        height={media.story.height}
-        alt={media.story.alt}
+        width="1920"
+        height="1080"
+        alt="Parfumaire diffuser in a warmly lit event space"
+        loading="lazy"
+      />
+      <img
+        class="room-product"
+        src="/images/renders/cozyair-scent-diffuser-cutout.webp"
+        width="900"
+        height="1200"
+        alt="CozyAir scent diffuser"
         loading="lazy"
       />
       <div>
-        <p class="eyebrow">A FRENCH SENSIBILITY</p>
+        <p class="eyebrow">SET THE SCENE</p>
         <h2>
-          Every fragrance
+          An atmosphere
           <br />
-          tells a story.
+          for every occasion.
         </h2>
         <span class="pill">
-          This is ours <Icon />
+          Explore business scenting <Icon />
         </span>
       </div>
     </a>
@@ -163,7 +117,7 @@ const featuredReviews = reviews
           </span>
         </div>
         <img
-          src={byHandle('cozyair-max-scent-diffuser').images[0].small}
+          src="/images/renders/cozyair-max-scent-diffuser-cutout.webp"
           width="640"
           height="640"
           alt="CozyAir Max scent diffuser"
@@ -179,7 +133,7 @@ const featuredReviews = reviews
           </span>
         </div>
         <img
-          src={byHandle('air-mykonos').images[2].small}
+          src="/images/renders/air-mykonos-cutout.webp"
           width="640"
           height="640"
           alt="Air Mykonos fragrance bottle"
@@ -189,7 +143,7 @@ const featuredReviews = reviews
     </div>
   </section>
   <section class="testimonials wrap section-space" aria-labelledby="testimonials-title">
-    <div class="section-heading">
+    <div class="section-heading" data-reveal>
       <p class="eyebrow">FROM THE PARFUMAIRE COMMUNITY</p>
       <h2 id="testimonials-title">A feeling worth sharing.</h2>
       <p>Voices from the original Parfumaire shop.</p>

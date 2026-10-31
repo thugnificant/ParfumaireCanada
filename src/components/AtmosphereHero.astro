@@ -1,0 +1,146 @@
+---
+import Icon from './Icon.astro';
+import { byHandle, priceLabel } from '../lib/catalog';
+import renders from '../data/renders.json';
+const tower = byHandle('la-tour-scent-diffuser');
+const towerRender = (renders as Record<string, { cutout?: string }>)['la-tour-scent-diffuser'];
+const chapters = [
+  {
+    name: 'In the air',
+    title: 'Good things\nare in the air.',
+    copy: 'A little fragrance. A whole new feeling.',
+  },
+  {
+    name: 'At work',
+    title: 'Space to think.\nRoom to feel.',
+    copy: 'A fresh perspective on the everyday office.',
+  },
+  {
+    name: 'Together',
+    title: 'Set the scene.\nMake a memory.',
+    copy: 'An atmosphere as special as the occasion.',
+  },
+  {
+    name: 'Away',
+    title: 'A welcome\nthat stays with you.',
+    copy: 'Thoughtful scenting for memorable stays.',
+  },
+  {
+    name: 'At home',
+    title: 'Make yourself\nat home.',
+    copy: 'Your space. Your scent. Your everyday ritual.',
+  },
+];
+---
+
+<section class="atmosphere-story" data-atmosphere aria-label="One diffuser, a world of atmosphere">
+  <div class="atmosphere-sticky">
+    <div class="atmosphere-layout">
+      <div class="hero-main atmosphere-main">
+        <img
+          class="atmosphere-poster"
+          src="/motion/hero-poster.webp"
+          width="1920"
+          height="1080"
+          alt="White Parfumaire CozyAir diffuser floating in a bright blue sky"
+          fetchpriority="high"
+        />
+        <canvas class="atmosphere-canvas" aria-hidden="true"></canvas>
+        <div class="atmosphere-shade" aria-hidden="true"></div>
+        <div class="atmosphere-copy">
+          <p class="eyebrow">THE ART OF ATMOSPHERE</p>
+          <div class="atmosphere-titles">
+            {chapters.map((chapter, index) => (
+              <div
+                class:list={['atmosphere-chapter', { 'is-current': index === 0 }]}
+                data-chapter={index}
+                aria-hidden={index !== 0 ? 'true' : undefined}
+              >
+                {index === 0 ? (
+                  <h1>
+                    {chapter.title.split('\n').map((line) => (
+                      <span>{line}</span>
+                    ))}
+                  </h1>
+                ) : (
+                  <h2>
+                    {chapter.title.split('\n').map((line) => (
+                      <span>{line}</span>
+                    ))}
+                  </h2>
+                )}
+                <p>{chapter.copy}</p>
+              </div>
+            ))}
+          </div>
+          <a class="pill" href="/collections/scent-diffusers/">
+            Find your diffuser <Icon />
+          </a>
+        </div>
+        <div class="atmosphere-word" aria-hidden="true">
+          parfumaire
+        </div>
+        <div class="atmosphere-bottom">
+          <span class="atmosphere-hint">
+            SCROLL TO CHANGE THE ATMOSPHERE <span aria-hidden="true">↓</span>
+          </span>
+          <a class="atmosphere-product-link" href="/products/cozyair-scent-diffuser/">
+            CozyAir <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      <aside class="atmosphere-feature">
+        <div>
+          <span class="tag">MEET LA TOUR</span>
+          <h2>
+            Small footprint.
+            <br />
+            Lasting impression.
+          </h2>
+        </div>
+        <a
+          class="atmosphere-feature-product"
+          href="/products/la-tour-scent-diffuser/"
+          aria-label="Discover La Tour scent diffuser"
+        >
+          <img
+            src={towerRender?.cutout || tower.images[0].path}
+            width="1000"
+            height="1400"
+            alt="La Tour black freestanding scent diffuser"
+            fetchpriority="high"
+          />
+        </a>
+        <div class="feature-bottom">
+          <div>
+            <p>La Tour Scent Diffuser</p>
+            <span>{priceLabel(tower)} · reference</span>
+          </div>
+          <a class="pill" href="/products/la-tour-scent-diffuser/">
+            Discover La Tour <Icon />
+          </a>
+        </div>
+      </aside>
+    </div>
+    <nav class="atmosphere-navigation" aria-label="Explore the diffuser in different spaces">
+      <div class="atmosphere-track" aria-hidden="true">
+        <span></span>
+      </div>
+      {chapters.map((chapter, index) => (
+        <button type="button" data-scene={index} aria-current={index === 0 ? 'step' : undefined}>
+          <span class="scene-number">0{index + 1}</span>
+          {chapter.name}
+        </button>
+      ))}
+      <button
+        type="button"
+        class="motion-toggle"
+        aria-pressed="false"
+        aria-label="Pause animated effects"
+      >
+        Pause motion <span aria-hidden="true">Ⅱ</span>
+      </button>
+    </nav>
+  </div>
+</section>
+<script src="../scripts/atmosphere.ts"></script>

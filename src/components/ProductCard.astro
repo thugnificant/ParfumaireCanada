@@ -6,7 +6,7 @@ interface Props {
   product: Product;
 }
 const { product: p } = Astro.props;
-const img = p.category === 'scents' ? p.images[2] : p.images[0];
+const img = p.images[0];
 ---
 
 <article
