@@ -1,0 +1,10 @@
+node_modules
+dist
+.astro
+archive
+source-data
+public
+src/data/*.json
+docs/qa
+docs/migration
+exports

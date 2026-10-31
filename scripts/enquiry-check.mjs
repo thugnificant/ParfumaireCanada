@@ -1,3 +1,64 @@
-import assert from 'node:assert/strict';import {deliverEnquiry} from '../src/lib/enquiry.ts';
-const e={name:'A & B',email:'test@example.com',phone:'',interest:'product',business:'',message:'A fragrance with citrus & rose?',context:'La Tour · Black · Quantity: 2\nhttps://example.com/products/la-tour/'};let calls=0;const original=globalThis.fetch;
-try{globalThis.fetch=async()=>{calls++;return new Response('{}',{status:200});};const preview=await deliverEnquiry(e,{recipient:null,enquiry:{mode:'preview',endpoint:null}});assert.match(preview.message,/No message was sent/);assert.equal(calls,0);const mail=await deliverEnquiry(e,{recipient:'quotes@example.com',enquiry:{mode:'mailto',endpoint:null}});const body=new URL(mail.mailto).searchParams.get('body');assert(body.includes('A & B'));assert(body.includes('Quantity: 2'));assert(!mail.message.includes('delivered by email'));await assert.rejects(()=>deliverEnquiry(e,{recipient:null,enquiry:{mode:'mailto',endpoint:null}}));const endpoint=await deliverEnquiry(e,{recipient:null,enquiry:{mode:'endpoint',endpoint:'https://example.com/enquiries'}});assert.match(endpoint.message,/accepted/);assert.match(endpoint.message,/not email delivery/);assert.equal(calls,1);globalThis.fetch=async()=>new Response('{}',{status:500});await assert.rejects(()=>deliverEnquiry(e,{recipient:null,enquiry:{mode:'endpoint',endpoint:'https://example.com/enquiries'}}));globalThis.fetch=async()=>{throw Error('network')};await assert.rejects(()=>deliverEnquiry(e,{recipient:null,enquiry:{mode:'endpoint',endpoint:'https://example.com/enquiries'}}));console.log('Enquiry checks passed: preview no-send, encoded mail draft, missing recipient, endpoint acceptance and failure handling.');}finally{globalThis.fetch=original;}
+import assert from 'node:assert/strict';
+import { deliverEnquiry } from '../src/lib/enquiry.ts';
+const e = {
+  name: 'A & B',
+  email: 'test@example.com',
+  phone: '',
+  interest: 'product',
+  business: '',
+  message: 'A fragrance with citrus & rose?',
+  context: 'La Tour · Black · Quantity: 2\nhttps://example.com/products/la-tour/',
+};
+let calls = 0;
+const original = globalThis.fetch;
+try {
+  globalThis.fetch = async () => {
+    calls++;
+    return new Response('{}', { status: 200 });
+  };
+  const preview = await deliverEnquiry(e, {
+    recipient: null,
+    enquiry: { mode: 'preview', endpoint: null },
+  });
+  assert.match(preview.message, /No message was sent/);
+  assert.equal(calls, 0);
+  const mail = await deliverEnquiry(e, {
+    recipient: 'quotes@example.com',
+    enquiry: { mode: 'mailto', endpoint: null },
+  });
+  const body = new URL(mail.mailto).searchParams.get('body');
+  assert(body.includes('A & B'));
+  assert(body.includes('Quantity: 2'));
+  assert(!mail.message.includes('delivered by email'));
+  await assert.rejects(() =>
+    deliverEnquiry(e, { recipient: null, enquiry: { mode: 'mailto', endpoint: null } }),
+  );
+  const endpoint = await deliverEnquiry(e, {
+    recipient: null,
+    enquiry: { mode: 'endpoint', endpoint: 'https://example.com/enquiries' },
+  });
+  assert.match(endpoint.message, /accepted/);
+  assert.match(endpoint.message, /not email delivery/);
+  assert.equal(calls, 1);
+  globalThis.fetch = async () => new Response('{}', { status: 500 });
+  await assert.rejects(() =>
+    deliverEnquiry(e, {
+      recipient: null,
+      enquiry: { mode: 'endpoint', endpoint: 'https://example.com/enquiries' },
+    }),
+  );
+  globalThis.fetch = async () => {
+    throw Error('network');
+  };
+  await assert.rejects(() =>
+    deliverEnquiry(e, {
+      recipient: null,
+      enquiry: { mode: 'endpoint', endpoint: 'https://example.com/enquiries' },
+    }),
+  );
+  console.log(
+    'Enquiry checks passed: preview no-send, encoded mail draft, missing recipient, endpoint acceptance and failure handling.',
+  );
+} finally {
+  globalThis.fetch = original;
+}

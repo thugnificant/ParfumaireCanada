@@ -1,5 +1,80 @@
 ---
-import Layout from '../layouts/Layout.astro';import ProductCard from '../components/ProductCard.astro';import {products,family} from '../lib/catalog';
-const families=[['Citrus & fresh','A bright beginning. Bergamot, lemon and mandarin.'],['Floral & soft','A softer mood. Rose, jasmine and white flowers.'],['Warm & spicy','A little intrigue. Saffron, cinnamon and incense.'],['Woody & musky','Feel grounded. Cedarwood, sandalwood and musk.']];
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { products, family } from '../lib/catalog';
+const families = [
+  ['Citrus & fresh', 'A bright beginning. Bergamot, lemon and mandarin.'],
+  ['Floral & soft', 'A softer mood. Rose, jasmine and white flowers.'],
+  ['Warm & spicy', 'A little intrigue. Saffron, cinnamon and incense.'],
+  ['Woody & musky', 'Feel grounded. Cedarwood, sandalwood and musk.'],
+];
 ---
-<Layout title="Find your signature scent" description="Explore Parfumaire fragrances by the notes you love. Choose fresh, floral, warm or woody scents and discover a fragrance for your space."><div class="finder"><p class="eyebrow">FOLLOW YOUR SENSES</p><h1>What feels like you?</h1><p>Start with a scent family. We’ll show you fragrances<br/>with notes you might love.</p><div class="finder-options" aria-label="Choose a fragrance family">{families.map(([name,desc])=><button aria-pressed="false" data-family={name}><strong>{name}</strong><span>{desc}</span></button>)}</div><p class="privacy-small">A starting point for discovery, based on the catalog’s listed notes.<br/>Your preference stays on this page and is not saved.</p><div id="finder-results" class="finder-results" hidden><h2 id="finder-title" aria-live="polite" tabindex="-1">Your next favourite, perhaps.</h2><div class="product-grid">{products.filter(p=>p.category==='scents').map(p=><div data-scent-family={family(p)}><ProductCard product={p}/></div>)}</div><div class="center"><a class="pill pill-outline" href="/contact/">Talk through your options →</a></div></div></div><script>document.querySelectorAll<HTMLButtonElement>('[data-family]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-family]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll<HTMLElement>('[data-scent-family]').forEach(x=>x.hidden=x.dataset.scentFamily!==b.dataset.family);document.querySelector<HTMLElement>('#finder-results')!.hidden=false;document.querySelector('#finder-title')!.textContent=`Your ${b.dataset.family!.toLowerCase()} discoveries.`;document.querySelector<HTMLElement>('#finder-title')!.focus({preventScroll:true});document.querySelector('#finder-results')?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}));</script></Layout>
+
+<Layout
+  title="Find your signature scent"
+  description="Explore Parfumaire fragrances by the notes you love. Choose fresh, floral, warm or woody scents and discover a fragrance for your space."
+>
+  <div class="finder">
+    <p class="eyebrow">FOLLOW YOUR SENSES</p>
+    <h1>What feels like you?</h1>
+    <p>
+      Start with a scent family. We’ll show you fragrances
+      <br />
+      with notes you might love.
+    </p>
+    <div class="finder-options" aria-label="Choose a fragrance family">
+      {families.map(([name, desc]) => (
+        <button aria-pressed="false" data-family={name}>
+          <strong>{name}</strong>
+          <span>{desc}</span>
+        </button>
+      ))}
+    </div>
+    <p class="privacy-small">
+      A starting point for discovery, based on the catalog’s listed notes.
+      <br />
+      Your preference stays on this page and is not saved.
+    </p>
+    <div id="finder-results" class="finder-results" hidden>
+      <h2 id="finder-title" aria-live="polite" tabindex="-1">
+        Your next favourite, perhaps.
+      </h2>
+      <div class="product-grid">
+        {products
+          .filter((p) => p.category === 'scents')
+          .map((p) => (
+            <div data-scent-family={family(p)}>
+              <ProductCard product={p} />
+            </div>
+          ))}
+      </div>
+      <div class="center">
+        <a class="pill pill-outline" href="/contact/">
+          Talk through your options →
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('[data-family]').forEach((b) =>
+      b.addEventListener('click', () => {
+        document
+          .querySelectorAll('[data-family]')
+          .forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        document
+          .querySelectorAll<HTMLElement>('[data-scent-family]')
+          .forEach((x) => (x.hidden = x.dataset.scentFamily !== b.dataset.family));
+        document.querySelector<HTMLElement>('#finder-results')!.hidden = false;
+        document.querySelector('#finder-title')!.textContent =
+          `Your ${b.dataset.family!.toLowerCase()} discoveries.`;
+        document.querySelector<HTMLElement>('#finder-title')!.focus({ preventScroll: true });
+        document
+          .querySelector('#finder-results')
+          ?.scrollIntoView({
+            behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+            block: 'start',
+          });
+      }),
+    );
+  </script>
+</Layout>

@@ -1,4 +1,32 @@
 ---
-import Layout from '../../layouts/Layout.astro';import pages from '../../data/pages.json';const articles=pages.filter(p=>p.slug.startsWith('journal/'));
+import Layout from '../../layouts/Layout.astro';
+import pages from '../../data/pages.json';
+const articles = pages.filter((p) => p.slug.startsWith('journal/'));
 ---
-<Layout title="The scent journal" description="A closer look at scent notes, diffuser choices and the details that shape an atmosphere."><div class="wrap content-bottom"><div class="page-intro"><p class="eyebrow">A LITTLE SCENT CURIOSITY</p><h1>The scent journal.</h1><p>Notes on fragrance, spaces and the details that make them yours.</p></div><div class="journal-grid">{articles.map(a=><article><p class="eyebrow">PARFUMAIRE NOTES</p><h2><a href={`/${a.slug}/`}>{a.title}</a></h2><p>{a.description}</p><a class="text-link" href={`/${a.slug}/`}>Read the story →</a></article>)}</div></div></Layout>
+
+<Layout
+  title="The scent journal"
+  description="A closer look at scent notes, diffuser choices and the details that shape an atmosphere."
+>
+  <div class="wrap content-bottom">
+    <div class="page-intro">
+      <p class="eyebrow">A LITTLE SCENT CURIOSITY</p>
+      <h1>The scent journal.</h1>
+      <p>Notes on fragrance, spaces and the details that make them yours.</p>
+    </div>
+    <div class="journal-grid">
+      {articles.map((a) => (
+        <article>
+          <p class="eyebrow">PARFUMAIRE NOTES</p>
+          <h2>
+            <a href={`/${a.slug}/`}>{a.title}</a>
+          </h2>
+          <p>{a.description}</p>
+          <a class="text-link" href={`/${a.slug}/`}>
+            Read the story →
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>

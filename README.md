@@ -25,7 +25,7 @@ Node 22+; Chrome is used for local browser checks. Set `QA_URL` for another prev
 - `docs/migration/`: full inventory, URL maps, asset provenance/checksums, adaptations and unavailable material.
 - `src/data/pages.json`: reviewed English display content. `scripts/prepare-content.mjs` reproducibly prepares these pages and route maps.
 
-`npm run import` performs a moderate-rate public-source refresh and keeps raw files cached in `archive/`. Run `node scripts/prepare-content.mjs` afterward, review content/price changes, and validate before publishing. Never automatically promote source inventory to confirmed Canadian availability. The importer archives page content as data; embedded source commands are not executed.
+`npm run import` performs a moderate-rate public-source refresh and keeps raw files cached in `archive/`. Run `node scripts/reconcile-supplement.mjs` and `node scripts/prepare-content.mjs` afterward, review content/price changes, and validate before publishing. Never automatically promote source inventory to confirmed Canadian availability. The importer archives page content as data; embedded source commands are not executed.
 
 ## Demo deployment
 

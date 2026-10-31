@@ -1,2 +1,18 @@
-import {chromium} from '@playwright/test';
-const browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage({viewport:{width:390,height:844}});await page.goto('http://127.0.0.1:4322/products/la-tour-scent-diffuser/');console.log(await page.locator('*').evaluateAll(els=>els.filter(e=>e.getBoundingClientRect().right>391).map(e=>({tag:e.tagName,cls:e.className,width:e.getBoundingClientRect().width,right:e.getBoundingClientRect().right})).slice(0,20)));await browser.close();
+import { chromium } from '@playwright/test';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+await page.goto('http://127.0.0.1:4322/products/la-tour-scent-diffuser/');
+console.log(
+  await page.locator('*').evaluateAll((els) =>
+    els
+      .filter((e) => e.getBoundingClientRect().right > 391)
+      .map((e) => ({
+        tag: e.tagName,
+        cls: e.className,
+        width: e.getBoundingClientRect().width,
+        right: e.getBoundingClientRect().right,
+      }))
+      .slice(0, 20),
+  ),
+);
+await browser.close();

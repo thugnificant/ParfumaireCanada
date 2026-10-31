@@ -2,26 +2,296 @@
 import Layout from '../../layouts/Layout.astro';
 import Icon from '../../components/Icon.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import {products,price,productPath} from '../../lib/catalog';
-import {site} from '../../data/site.mjs';
-export function getStaticPaths(){return products.map(product=>({params:{handle:product.handle},props:{product}}));}
-const {product:p}=Astro.props;const first=p.variants[0];const initialIndex=Math.max(0,p.images.findIndex(im=>im.sourceImageId===first.featuredImageId));const img=p.images[initialIndex];const isScent=p.category==='scents';const related=products.filter(x=>x.category===p.category&&x.id!==p.id).slice(0,4);const canonical=site.demoUrl+productPath(p);
-const schema={'@context':'https://schema.org','@graph':[{'@type':'Product','@id':canonical+'#product',name:p.title,description:p.summary,image:p.images.map(x=>site.demoUrl+x.path),brand:{'@type':'Brand',name:p.vendor||'Parfumaire'},productID:p.id,url:canonical},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:site.demoUrl+'/'},{'@type':'ListItem',position:2,name:isScent?'Scents':'Diffusers',item:site.demoUrl+`/collections/${isScent?'scents':'scent-diffusers'}/`},{'@type':'ListItem',position:3,name:p.title,item:canonical}]}]};
+import { products, price, productPath } from '../../lib/catalog';
+import { site } from '../../data/site.mjs';
+export function getStaticPaths() {
+  return products.map((product) => ({ params: { handle: product.handle }, props: { product } }));
+}
+const { product: p } = Astro.props;
+const first = p.variants[0];
+const initialIndex = Math.max(
+  0,
+  p.images.findIndex((im) => im.sourceImageId === first.featuredImageId),
+);
+const img = p.images[initialIndex];
+const isScent = p.category === 'scents';
+const related = products.filter((x) => x.category === p.category && x.id !== p.id).slice(0, 4);
+const canonical = site.demoUrl + productPath(p);
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Product',
+      '@id': canonical + '#product',
+      name: p.title,
+      description: p.summary,
+      image: p.images.map((x) => site.demoUrl + x.path),
+      brand: { '@type': 'Brand', name: p.vendor || 'Parfumaire' },
+      productID: p.id,
+      url: canonical,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: site.demoUrl + '/' },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: isScent ? 'Scents' : 'Diffusers',
+          item: site.demoUrl + `/collections/${isScent ? 'scents' : 'scent-diffusers'}/`,
+        },
+        { '@type': 'ListItem', position: 3, name: p.title, item: canonical },
+      ],
+    },
+  ],
+};
 ---
-<Layout title={p.title} description={`Explore ${p.title}: ${isScent?'scent notes, fragrance sizes and diffuser compatibility':'design, capacity and dimensions'}. View USD reference prices and request a Canadian quote.`} image={img.path} schema={schema}>
-<div class="wrap content-bottom"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href={`/collections/${isScent?'scents':'scent-diffusers'}/`}>{isScent?'Scents':'Diffusers'}</a><span>/</span><span>{p.title}</span></nav>
-<div class="product-detail" data-product={JSON.stringify({handle:p.handle,title:p.title,variants:p.variants,images:p.images,pageUrl:canonical})}><div class="gallery"><div class="gallery-main"><img id="product-image" src={img.path} width={img.width} height={img.height} alt={img.alt} fetchpriority="high"/><button id="zoom-image" aria-label="Enlarge product image"><Icon name="plus"/></button></div><div class="gallery-thumbs" aria-label="Product images">{p.images.map((im,i)=><button data-gallery-index={i} aria-label={`Show image ${i+1} of ${p.title}`} aria-pressed={i===initialIndex?'true':'false'}><img src={im.small} width="80" height="80" alt="" loading="lazy"/></button>)}</div><p class="source-note">{p.images.length} original product images · explore every detail</p></div>
-<div class="product-info"><p class="eyebrow">{isScent?'SIGNATURE FRAGRANCE':'THE ART OF ATMOSPHERE'}</p><h1>{p.title}</h1><p class="summary">{isScent?p.summary:p.handle==='la-tour-scent-diffuser'?'A slender, freestanding diffuser. Fragrance oil is dispersed as a fine, dry mist without adding water or heat.':`A ${p.handle.includes('max')?'1 L':'500 ml'} scent diffuser, available in white and black. A considered addition to your space.`}</p><p class="detail-price"><span id="variant-price">{price(first.priceMinor)}</span><small>reference price</small></p><p class="price-explainer">Original USD price. Canadian pricing and availability confirmed by quote.</p><fieldset class="variant-field"><legend>{isScent?'Choose your size':'Choose your finish'}</legend><div class="variant-options">{p.variants.map((v,i)=><label><input type="radio" name="variant" value={v.id} checked={i===0}/><span>{v.title==='Default Title'?'Black':v.title}</span></label>)}</div></fieldset><label class="quantity-field">Quantity <input id="product-quantity" type="number" inputmode="numeric" value="1" min="1" max="999" step="1"/></label><a id="product-enquiry" class="pill pill-dark quote-button" href={`/contact/?product=${p.handle}&variant=${first.id}&quantity=1`}>Ask about this product <Icon/></a><p class="privacy-small">Preview enquiry · no order or payment is taken</p>
-<details open><summary>{isScent?'Size & diffuser compatibility':'Specifications & capacity'}</summary><div>{isScent?<p>120 ml fits the <a href="/products/la-tour-scent-diffuser/">La Tour diffuser</a>. The source lists 500 ml and 1 L fragrances for CozyAir and CozyAir Max. Match the refill to your diffuser’s stated capacity and confirm before use.</p>:<div set:html={p.descriptionHtml}/>}</div></details><details><summary>How to enquire</summary><div><p>Choose your {isScent?'size':'finish'} and quantity, then ask about this product. Your selection follows you to the enquiry form. This client preview does not send messages or accept orders.</p></div></details><details><summary>Price & availability</summary><div><p>The displayed price is copied from the original USD catalog. Source availability is recorded separately and does not establish stock in Canada. A quote will confirm Canadian pricing and availability.</p></div></details></div></div>
-{isScent&&<section class="product-story"><div><p class="eyebrow">THE SCENT, NOTE BY NOTE</p><h2>Layers of atmosphere.</h2><div class="notes-grid">{Object.entries(p.notes).map(([name,notes])=><div><h3>{name==='mid'?'Heart':name}</h3><p>{(notes as string[]).map(n=><>{n}<br/></>)}</p></div> )}</div>{p.flags.length>0&&<p class="source-note">The original scent notes and narrative may differ. Confirm the formulation with your enquiry.</p>}</div><div class="prose"><h2>Behind the fragrance</h2><div set:html={p.descriptionHtml}/><p class="source-note">Description and notes from the <a href={p.sourceUrl}>original Parfumaire catalog</a>. Original wording retained for reference.</p></div></section>}
-<section class="section-space"><div class="section-heading"><p class="eyebrow">KEEP EXPLORING</p><h2>{isScent?'More ways to set the mood.':'Find your favourite.'}</h2></div><div class="product-grid">{related.map(x=><ProductCard product={x}/>)}</div></section></div>
-<dialog class="dialog" id="image-dialog" aria-label={`${p.title} image viewer`}><button class="close-dialog" aria-label="Close image viewer"><Icon name="close"/></button><img src={img.path} alt={img.alt} id="zoomed-image" width={img.width} height={img.height}/></dialog>
-<script>
-import {price} from '../../lib/catalog';
-const root=document.querySelector<HTMLElement>('[data-product]');const p=JSON.parse(root!.dataset.product!);let selected=p.variants[0];const img=document.querySelector<HTMLImageElement>('#product-image')!;const zoom=document.querySelector<HTMLImageElement>('#zoomed-image')!;const dialog=document.querySelector<HTMLDialogElement>('#image-dialog')!;
-function showImage(index:number){const im=p.images[index];img.src=im.path;img.alt=im.alt;zoom.src=im.path;zoom.alt=im.alt;document.querySelectorAll<HTMLElement>('[data-gallery-index]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.galleryIndex)===index)));}
-document.querySelectorAll<HTMLElement>('[data-gallery-index]').forEach(b=>b.addEventListener('click',()=>showImage(Number(b.dataset.galleryIndex))));
-function update(){const q=document.querySelector<HTMLInputElement>('#product-quantity')!;const amount=Math.min(999,Math.max(1,Math.floor(Number(q.value)||1)));const url=new URL('/contact/',location.origin);url.searchParams.set('product',p.handle);url.searchParams.set('variant',selected.id);url.searchParams.set('quantity',String(amount));document.querySelector<HTMLAnchorElement>('#product-enquiry')!.href=url.pathname+url.search;document.querySelector('#variant-price')!.textContent=price(selected.priceMinor);}
-document.querySelectorAll<HTMLInputElement>('input[name=variant]').forEach(r=>r.addEventListener('change',()=>{selected=p.variants.find((v:{id:string})=>v.id===r.value);const index=p.images.findIndex((im:{sourceImageId:number;variantIds:number[]})=>im.sourceImageId===selected.featuredImageId||im.variantIds.includes(Number(selected.id)));if(index>=0)showImage(index);update();}));document.querySelector('#product-quantity')?.addEventListener('input',update);document.querySelector('#zoom-image')?.addEventListener('click',()=>dialog.showModal());document.querySelector('.close-dialog')?.addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
-</script>
+
+<Layout
+  title={p.title}
+  description={`Explore ${p.title}: ${isScent ? 'scent notes, fragrance sizes and diffuser compatibility' : 'design, capacity and dimensions'}. View USD reference prices and request a Canadian quote.`}
+  image={img.path}
+  schema={schema}
+>
+  <div class="wrap content-bottom">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span>/</span>
+      <a href={`/collections/${isScent ? 'scents' : 'scent-diffusers'}/`}>
+        {isScent ? 'Scents' : 'Diffusers'}
+      </a>
+      <span>/</span>
+      <span>{p.title}</span>
+    </nav>
+    <div
+      class="product-detail"
+      data-product={JSON.stringify({
+        handle: p.handle,
+        title: p.title,
+        variants: p.variants,
+        images: p.images,
+        pageUrl: canonical,
+      })}
+    >
+      <div class="gallery">
+        <div class="gallery-main">
+          <img
+            id="product-image"
+            src={img.path}
+            width={img.width}
+            height={img.height}
+            alt={img.alt}
+            fetchpriority="high"
+          />
+          <button id="zoom-image" aria-label="Enlarge product image">
+            <Icon name="plus" />
+          </button>
+        </div>
+        <div class="gallery-thumbs" aria-label="Product images">
+          {p.images.map((im, i) => (
+            <button
+              data-gallery-index={i}
+              aria-label={`Show image ${i + 1} of ${p.title}`}
+              aria-pressed={i === initialIndex ? 'true' : 'false'}
+            >
+              <img src={im.small} width="80" height="80" alt="" loading="lazy" />
+            </button>
+          ))}
+        </div>
+        <p class="source-note">{p.images.length} original product images · explore every detail</p>
+      </div>
+      <div class="product-info">
+        <p class="eyebrow">{isScent ? 'SIGNATURE FRAGRANCE' : 'THE ART OF ATMOSPHERE'}</p>
+        <h1>{p.title}</h1>
+        <p class="summary">
+          {isScent
+            ? p.summary
+            : p.handle === 'la-tour-scent-diffuser'
+              ? 'A slender, freestanding diffuser. Fragrance oil is dispersed as a fine, dry mist without adding water or heat.'
+              : `A ${p.handle.includes('max') ? '1 L' : '500 ml'} scent diffuser, available in white and black. A considered addition to your space.`}
+        </p>
+        <p class="detail-price">
+          <span id="variant-price">{price(first.priceMinor)}</span>
+          <small>reference price</small>
+        </p>
+        <p class="price-explainer">
+          Original USD price. Canadian pricing and availability confirmed by quote.
+        </p>
+        <fieldset class="variant-field">
+          <legend>{isScent ? 'Choose your size' : 'Choose your finish'}</legend>
+          <div class="variant-options">
+            {p.variants.map((v, i) => (
+              <label>
+                <input type="radio" name="variant" value={v.id} checked={i === 0} />
+                <span>{v.title === 'Default Title' ? 'Black' : v.title}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <label class="quantity-field">
+          Quantity{' '}
+          <input
+            id="product-quantity"
+            type="number"
+            inputmode="numeric"
+            value="1"
+            min="1"
+            max="999"
+            step="1"
+          />
+        </label>
+        <a
+          id="product-enquiry"
+          class="pill pill-dark quote-button"
+          href={`/contact/?product=${p.handle}&variant=${first.id}&quantity=1`}
+        >
+          Ask about this product <Icon />
+        </a>
+        <p class="privacy-small">Preview enquiry · no order or payment is taken</p>
+        <details open>
+          <summary>
+            {isScent ? 'Size & diffuser compatibility' : 'Specifications & capacity'}
+          </summary>
+          <div>
+            {isScent ? (
+              <p>
+                120 ml fits the <a href="/products/la-tour-scent-diffuser/">La Tour diffuser</a>.
+                The source lists 500 ml and 1 L fragrances for CozyAir and CozyAir Max. Match the
+                refill to your diffuser’s stated capacity and confirm before use.
+              </p>
+            ) : (
+              <div set:html={p.descriptionHtml} />
+            )}
+          </div>
+        </details>
+        <details>
+          <summary>How to enquire</summary>
+          <div>
+            <p>
+              Choose your {isScent ? 'size' : 'finish'} and quantity, then ask about this product.
+              Your selection follows you to the enquiry form. This client preview does not send
+              messages or accept orders.
+            </p>
+          </div>
+        </details>
+        <details>
+          <summary>Price & availability</summary>
+          <div>
+            <p>
+              The displayed price is copied from the original USD catalog. Source availability is
+              recorded separately and does not establish stock in Canada. A quote will confirm
+              Canadian pricing and availability.
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+    {isScent && (
+      <section class="product-story">
+        <div>
+          <p class="eyebrow">THE SCENT, NOTE BY NOTE</p>
+          <h2>Layers of atmosphere.</h2>
+          <div class="notes-grid">
+            {Object.entries(p.notes).map(([name, notes]) => (
+              <div>
+                <h3>{name === 'mid' ? 'Heart' : name}</h3>
+                <p>
+                  {(notes as string[]).map((n) => (
+                    <>
+                      {n}
+                      <br />
+                    </>
+                  ))}
+                </p>
+              </div>
+            ))}
+          </div>
+          {p.flags.length > 0 && (
+            <p class="source-note">
+              The original scent notes and narrative may differ. Confirm the formulation with your
+              enquiry.
+            </p>
+          )}
+        </div>
+        <div class="prose">
+          <h2>Behind the fragrance</h2>
+          <div set:html={p.descriptionHtml} />
+          <p class="source-note">
+            Description and notes from the <a href={p.sourceUrl}>original Parfumaire catalog</a>.
+            Original wording retained for reference.
+          </p>
+        </div>
+      </section>
+    )}
+    <section class="section-space">
+      <div class="section-heading">
+        <p class="eyebrow">KEEP EXPLORING</p>
+        <h2>{isScent ? 'More ways to set the mood.' : 'Find your favourite.'}</h2>
+      </div>
+      <div class="product-grid">
+        {related.map((x) => (
+          <ProductCard product={x} />
+        ))}
+      </div>
+    </section>
+  </div>
+  <dialog class="dialog" id="image-dialog" aria-label={`${p.title} image viewer`}>
+    <button class="close-dialog" aria-label="Close image viewer">
+      <Icon name="close" />
+    </button>
+    <img src={img.path} alt={img.alt} id="zoomed-image" width={img.width} height={img.height} />
+  </dialog>
+  <script>
+    import { price } from '../../lib/catalog';
+    const root = document.querySelector<HTMLElement>('[data-product]');
+    const p = JSON.parse(root!.dataset.product!);
+    let selected = p.variants[0];
+    const img = document.querySelector<HTMLImageElement>('#product-image')!;
+    const zoom = document.querySelector<HTMLImageElement>('#zoomed-image')!;
+    const dialog = document.querySelector<HTMLDialogElement>('#image-dialog')!;
+    function showImage(index: number) {
+      const im = p.images[index];
+      img.src = im.path;
+      img.alt = im.alt;
+      zoom.src = im.path;
+      zoom.alt = im.alt;
+      document
+        .querySelectorAll<HTMLElement>('[data-gallery-index]')
+        .forEach((b) =>
+          b.setAttribute('aria-pressed', String(Number(b.dataset.galleryIndex) === index)),
+        );
+    }
+    document
+      .querySelectorAll<HTMLElement>('[data-gallery-index]')
+      .forEach((b) => b.addEventListener('click', () => showImage(Number(b.dataset.galleryIndex))));
+    function update() {
+      const q = document.querySelector<HTMLInputElement>('#product-quantity')!;
+      const amount = Math.min(999, Math.max(1, Math.floor(Number(q.value) || 1)));
+      const url = new URL('/contact/', location.origin);
+      url.searchParams.set('product', p.handle);
+      url.searchParams.set('variant', selected.id);
+      url.searchParams.set('quantity', String(amount));
+      document.querySelector<HTMLAnchorElement>('#product-enquiry')!.href =
+        url.pathname + url.search;
+      document.querySelector('#variant-price')!.textContent = price(selected.priceMinor);
+    }
+    document.querySelectorAll<HTMLInputElement>('input[name=variant]').forEach((r) =>
+      r.addEventListener('change', () => {
+        selected = p.variants.find((v: { id: string }) => v.id === r.value);
+        const index = p.images.findIndex(
+          (im: { sourceImageId: number; variantIds: number[] }) =>
+            im.sourceImageId === selected.featuredImageId ||
+            im.variantIds.includes(Number(selected.id)),
+        );
+        if (index >= 0) showImage(index);
+        update();
+      }),
+    );
+    document.querySelector('#product-quantity')?.addEventListener('input', update);
+    document.querySelector('#zoom-image')?.addEventListener('click', () => dialog.showModal());
+    document.querySelector('.close-dialog')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+  </script>
 </Layout>

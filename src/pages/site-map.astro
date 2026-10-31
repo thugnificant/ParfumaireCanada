@@ -1,4 +1,51 @@
 ---
-import Layout from '../layouts/Layout.astro';import {products,productPath} from '../lib/catalog';import pages from '../data/pages.json';
+import Layout from '../layouts/Layout.astro';
+import { products, productPath } from '../lib/catalog';
+import pages from '../data/pages.json';
 ---
-<Layout title="Explore every page" description="Find every product, collection, service and information page on Parfumaire Canada."><div class="info-page"><p class="eyebrow">FIND YOUR WAY</p><h1>All in one place.</h1><div class="prose"><h2>Collections & discovery</h2><ul class="link-list">{[['/','Home'],['/collections/all/','All products'],['/collections/scent-diffusers/','Diffusers'],['/collections/scents/','Scents'],['/collections/candles/','Candles — coming later'],['/fragrance-finder/','Find your scent'],['/search/','Search'],['/contact/','Contact'],['/journal/','Scent journal']].map(([url,label])=><li><a href={url}>{label}</a></li>)}</ul><h2>The collection</h2><ul class="link-list">{products.map(p=><li><a href={productPath(p)}>{p.title}</a></li>)}</ul><h2>Our world</h2><ul class="link-list">{pages.map(p=><li><a href={`/${p.slug}/`}>{p.title}</a></li>)}</ul></div></div></Layout>
+
+<Layout
+  title="Explore every page"
+  description="Find every product, collection, service and information page on Parfumaire Canada."
+>
+  <div class="info-page">
+    <p class="eyebrow">FIND YOUR WAY</p>
+    <h1>All in one place.</h1>
+    <div class="prose">
+      <h2>Collections & discovery</h2>
+      <ul class="link-list">
+        {[
+          ['/', 'Home'],
+          ['/collections/all/', 'All products'],
+          ['/collections/scent-diffusers/', 'Diffusers'],
+          ['/collections/scents/', 'Scents'],
+          ['/collections/candles/', 'Candles — coming later'],
+          ['/fragrance-finder/', 'Find your scent'],
+          ['/search/', 'Search'],
+          ['/contact/', 'Contact'],
+          ['/journal/', 'Scent journal'],
+        ].map(([url, label]) => (
+          <li>
+            <a href={url}>{label}</a>
+          </li>
+        ))}
+      </ul>
+      <h2>The collection</h2>
+      <ul class="link-list">
+        {products.map((p) => (
+          <li>
+            <a href={productPath(p)}>{p.title}</a>
+          </li>
+        ))}
+      </ul>
+      <h2>Our world</h2>
+      <ul class="link-list">
+        {pages.map((p) => (
+          <li>
+            <a href={`/${p.slug}/`}>{p.title}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</Layout>
