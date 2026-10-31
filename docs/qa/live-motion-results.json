@@ -1,0 +1,19 @@
+{
+  "url": "https://parfumairecanada.sugiweb.com/",
+  "commit": "e70ab2dbac93337e39a1ca2a30bb5593a827d3e8",
+  "at": "2026-10-31T23:48:03.618Z",
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "scenes": 5
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "scenes": 5
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

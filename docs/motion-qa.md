@@ -17,3 +17,5 @@ The scroll film is encoded as 144 frames each at 1920px desktop and 1280px mobil
 Screenshots and motion reports: [motion evidence](qa/motion/results.json). Local recordings: `docs/qa/motion/desktop-scroll.webm` and `docs/qa/motion/mobile-scroll.webm`. Original capture and generation files stay in the ignored `archive/` directory.
 
 The new images are AI-assisted product visualizations; original photographs remain in the galleries for comparison. Product specifications and prices were not inferred from generated imagery.
+
+Live HTTPS verification completed after successful GitHub Pages deployment of `e70ab2d`. All five scenes were exercised on desktop and mobile, including reverse navigation. The final run recorded no page errors, failed HTTP assets or horizontal overflow. See [live motion results](qa/live-motion-results.json) and [deployed route results](qa/deployed-results.json).

@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-10-31T23:05:37.547932+00:00",
+  "verified_at": "2026-10-31T23:50:06.268427+00:00",
   "url": "https://parfumairecanada.sugiweb.com/",
   "repository": "https://github.com/thugnificant/ParfumaireCanada",
   "host": "GitHub Pages",
@@ -22,6 +22,10 @@
   "unknown_path_status": 404,
   "indexing": "noindex,follow",
   "enquiry_mode": "preview",
-  "desktop_mobile_browser_checks": "passed over HTTPS",
-  "account_level_domain_verification": "Recommended follow-up: browser host unavailable; repository domain binding and HTTPS confirmed."
+  "desktop_mobile_browser_checks": "Passed live HTTPS: five motion scenes, reverse seek, no overflow, catalog, product galleries and enquiry context",
+  "account_level_domain_verification": "Recommended follow-up: browser host unavailable; repository domain binding and HTTPS confirmed.",
+  "deployed_commit": "e70ab2dbac93337e39a1ca2a30bb5593a827d3e8",
+  "workflow_run": "https://github.com/thugnificant/ParfumaireCanada/actions/runs/41253804802",
+  "motion_asset_frames_per_size": 144,
+  "product_renders": 21
 }

@@ -15,3 +15,5 @@ Authorized by the user on 2026-10-31: use Higgsfield credits to improve the Parf
 The first photoshoot outputs altered the package design and were excluded from the deployed asset set. No third-party visual references were added to this revision.
 
 `node scripts/prepare-renders.mjs` regenerates the responsive product derivatives from the saved accepted jobs. `node scripts/prepare-motion.mjs` regenerates 144 desktop and 144 mobile frames from the archived extracted frames. Neither command starts paid generation. Back up `archive/` before handing off the project.
+
+Session credit balance: 239.75 before generation, 4.25 afterward; 235.5 credits consumed including rejected image iterations, accepted renders, the 1080p film and background removal.
