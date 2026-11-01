@@ -659,7 +659,7 @@ summary:focus-visible {
   font-style: italic;
   font-size: clamp(70px, 10vw, 150px);
   letter-spacing: -9px;
-  color: #5c3328;
+  color: #492a20;
   transform: rotate(-9deg);
   margin-right: 20px;
 }
@@ -1057,6 +1057,15 @@ details p {
 .prose details {
   border-top: 1px solid var(--line);
   padding: 20px 0;
+}
+.service-photo-credit {
+  font-size: 11px;
+  line-height: 1.5;
+  margin: -20px 0 48px;
+  color: var(--muted);
+}
+.service-photo-credit a {
+  text-underline-offset: 3px;
 }
 .service-hero {
   display: grid;

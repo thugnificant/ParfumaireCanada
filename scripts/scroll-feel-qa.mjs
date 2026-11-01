@@ -2,6 +2,8 @@ import { chromium } from '@playwright/test';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const base = process.env.QA_URL || 'http://127.0.0.1:4323';
+const out = process.env.QA_OUT || 'docs/qa/revision-five';
+await fs.mkdir(out, { recursive: true });
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const context = await browser.newContext({
   viewport: { width: 1440, height: 1000 },
@@ -111,5 +113,5 @@ const report = {
   ],
   errors,
 };
-await fs.writeFile('docs/qa/revision-four/scroll-feel.json', JSON.stringify(report, null, 2));
+await fs.writeFile(`${out}/scroll-feel.json`, JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));

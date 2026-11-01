@@ -29,3 +29,10 @@ docs/qa/revision-four/*.png
 
 docs/qa/revision-four/showcase/recordings/
 docs/qa/revision-four/showcase/*.webm
+
+docs/qa/revision-five/recordings/
+docs/qa/revision-five/*.webm
+docs/qa/revision-five/*.png
+docs/qa/revision-five/showcase/recordings/
+docs/qa/revision-five/showcase/*.webm
+docs/qa/revision-five/showcase/*.png

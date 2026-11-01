@@ -1,0 +1,38 @@
+{
+  "home": {
+    "path": "/images/photography/home-max-2528.webp",
+    "small": "/images/photography/home-max-1280.webp",
+    "width": 2528,
+    "height": 1696,
+    "alt": "White CozyAir Max floor diffuser beside a blue sofa, releasing a fine mist in the window light",
+    "position": "65% 62%",
+    "credit": "Kampus Production",
+    "source": "https://www.pexels.com/photo/7556566/",
+    "generator": "Higgsfield / Nano Banana Pro 2K Unlimited",
+    "generationId": "5c15ad0e-d13b-4383-9086-74be7a0eaf7a"
+  },
+  "business": {
+    "path": "/images/photography/reception-max-2528.webp",
+    "small": "/images/photography/reception-max-1280.webp",
+    "width": 2528,
+    "height": 1696,
+    "alt": "Black CozyAir Max floor diffuser operating beside a light-wood office reception desk",
+    "position": "65% 65%",
+    "credit": "DOAN THANH BINH",
+    "source": "https://www.pexels.com/photo/36631639/",
+    "generator": "Higgsfield / Nano Banana Pro 2K Unlimited",
+    "generationId": "1fb7c0c1-68eb-41b0-9784-7ab7a493d621"
+  },
+  "branding": {
+    "path": "/images/photography/lounge-parfumaire-2528.webp",
+    "small": "/images/photography/lounge-parfumaire-1280.webp",
+    "width": 2528,
+    "height": 1696,
+    "alt": "Black La Tour floor diffuser naturally placed beside red lounge seating",
+    "position": "76% 65%",
+    "credit": "Gustavo Galeano Maz",
+    "source": "https://www.pexels.com/photo/8477454/",
+    "generator": "Higgsfield / Nano Banana Pro 2K Unlimited",
+    "generationId": "5fb5c381-a748-4fde-9016-7d44907cf02a"
+  }
+}

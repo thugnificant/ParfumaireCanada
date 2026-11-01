@@ -1,3 +1,4 @@
+import { flightAt } from '../lib/flight';
 const root = document.querySelector<HTMLElement>('[data-atmosphere]');
 if (root) {
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
@@ -23,9 +24,9 @@ if (root) {
     const imageW = 5616 * cropScale;
     const imageH = 3749 * cropScale;
     const mobile = innerWidth <= 700;
-    const footX = (scene.width - imageW) * (mobile ? 0.79 : 0.5) + imageW * 0.765;
+    const footX = (scene.width - imageW) * (mobile ? 0.66 : 0.5) + imageW * 0.62;
     const footY = (scene.height - imageH) * 0.65 + imageH * 0.925;
-    const targetHeight = imageH * 0.43;
+    const targetHeight = imageH * 0.36;
     const originHeight = from.height;
     product.style.width = `${originHeight * 0.82}px`;
     product.style.height = `${originHeight}px`;
@@ -43,28 +44,28 @@ if (root) {
       copyBottom: mobile ? -Infinity : copy.getBoundingClientRect().bottom - bounds.top,
       start: bounds.top + scrollY - 110,
       // Arrive while the floor contact is in view, before normal scroll carries it away.
-      end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.8 : 0.77),
+      end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.87 : 0.9),
     };
     draw();
   }
   function draw() {
     scheduled = false;
     const p = paused ? 0 : clamp((scrollY - path.start) / Math.max(1, path.end - path.start));
-    // A single reversible, scroll-linked path. No pinning, delayed catches or scene swaps.
-    const eased = p * p * (3 - 2 * p);
-    const x = path.x0 + (path.x1 - path.x0) * eased;
-    const y = path.y0 + (path.y1 - path.y0) * eased;
-    const scale = 1 + (path.scale - 1) * eased;
+    const pose = flightAt(p);
+    const x = path.x0 + (path.x1 - path.x0) * pose.travel;
+    const y = path.y0 + (path.y1 - path.y0) * pose.drop;
+    const scale = 1 + (path.scale - 1) * pose.depth;
     product.style.transform = `translate3d(${x}px,${y}px,0) translate(-50%,-50%) scale(${scale})`;
-    product.dataset.flight = String(eased);
-    product.dataset.landed = String(eased);
+    product.dataset.flight = String(p);
+    product.dataset.landed = String(pose.contact);
     // Reveal the room caption after the descending cabinet has cleared it.
     // On phones the caption is below the photo and stays visible throughout.
     copy.style.opacity = paused
       ? '1'
       : String(clamp((y - path.height * scale * 0.28 - path.copyBottom) / 80));
-    shadow.style.opacity = paused ? '0.23' : String(clamp((p - 0.78) / 0.22) * 0.23);
-    shadow.style.transform = `translate(-50%,-50%) scale(${1.35 - 0.35 * eased})`;
+    shadow.style.opacity = paused ? '0.28' : String(clamp((p - 0.65) / 0.35) * 0.28);
+    shadow.style.transform = `translate(-50%,-50%) scale(${1.7 - 0.7 * pose.contact})`;
+    shadow.style.filter = `blur(${1.8 + 11 * (1 - pose.contact)}px)`;
     root!.dataset.progress = p.toFixed(4);
   }
   function schedule() {

@@ -1,7 +1,7 @@
 import { chromium } from '@playwright/test';
 import fs from 'node:fs/promises';
 const base = process.env.QA_URL || 'http://127.0.0.1:4323';
-const out = 'docs/qa/revision-four/showcase';
+const out = process.env.QA_OUT || 'docs/qa/revision-five/showcase';
 await fs.mkdir(out, { recursive: true });
 const b = await chromium.launch({ channel: 'chrome', headless: true });
 for (const width of [1440, 390]) {
@@ -15,12 +15,13 @@ for (const width of [1440, 390]) {
   await p.locator('.atmosphere-product[data-model="ready"]').waitFor();
   await p.waitForTimeout(700);
   await p.mouse.move(width * 0.8, height * 0.6);
-  for (let i = 0; i < 4; i++) {
-    await p.mouse.wheel(0, 250);
-    await p.waitForTimeout(650);
+  // A continuous trackpad-like gesture reveals the descent and settle together.
+  for (let i = 0; i < 12; i++) {
+    await p.mouse.wheel(0, 90);
+    await p.waitForTimeout(75);
   }
   await p.waitForTimeout(1000);
-  await p.screenshot({ path: `docs/qa/revision-four/finished-floor-${width}.png` });
+  await p.screenshot({ path: `${out}/finished-floor-${width}.png` });
   await p.mouse.wheel(0, 700);
   await p.waitForTimeout(1800);
   await p.mouse.wheel(0, -2500);
@@ -28,9 +29,9 @@ for (const width of [1440, 390]) {
   if (width === 1440) {
     await p.locator('.explore-toggle').hover();
     await p.waitForTimeout(500);
-    await p.screenshot({ path: 'docs/qa/revision-four/finished-menu.png' });
+    await p.screenshot({ path: `${out}/finished-menu.png` });
     await p.waitForTimeout(500);
-  } else await p.screenshot({ path: 'docs/qa/revision-four/finished-hero-mobile.png' });
+  } else await p.screenshot({ path: `${out}/finished-hero-mobile.png` });
   const video = p.video();
   await context.close();
   await video.saveAs(`${out}/${width === 1440 ? 'desktop' : 'mobile'}-scroll.webm`);

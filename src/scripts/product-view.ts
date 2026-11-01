@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { buildProduct } from './product-model';
+import { flightAt, restingPose } from '../lib/flight';
 
 // All catalog views share ONE WebGL context. Each visible canvas receives its
 // rendered viewport, so scrolling through 21 products cannot exhaust GPU contexts.
@@ -86,7 +87,8 @@ async function createView(element: HTMLElement) {
   const scene = new THREE.Scene();
   scene.environment = environment.texture;
   scene.add(model);
-  scene.add(new THREE.HemisphereLight(0xffffff, 0xb1a69c, 1.7));
+  const fill = new THREE.HemisphereLight(0xffffff, 0xb1a69c, 1.7);
+  scene.add(fill);
   const key = new THREE.DirectionalLight(0xffffff, 2.8);
   key.position.set(-3, 4, 6);
   scene.add(key);
@@ -133,11 +135,24 @@ async function createView(element: HTMLElement) {
     );
     if (flight && !paused) {
       const p = Number(element.dataset.flight || 0);
-      model.rotation.set(-0.08 * (1 - p), -0.48 + p * 0.24, -0.12 * (1 - p));
+      const pose = flightAt(p);
+      model.rotation.set(pose.pitch, pose.yaw, pose.roll);
+      key.position.x = -3 + 7 * pose.depth;
+      key.intensity = 2.8 - 0.7 * pose.depth;
+      fill.intensity = 1.7 - 0.4 * pose.depth;
+      scene.environmentIntensity = 1 - 0.25 * pose.depth;
     }
     if (tower && hero && !paused) model.rotation.z = 0.2 + Math.sin(time * 0.4) * 0.08;
-    if (landed === 1) model.rotation.set(0.09, -0.24, 0);
-    model.position.y = paused ? 0 : Math.sin(time * 0.85) * 0.025 * (1 - landed);
+    if (landed === 1) {
+      model.rotation.set(restingPose.pitch, restingPose.yaw, restingPose.roll);
+      key.position.x = 4;
+      key.intensity = 2.1;
+      fill.intensity = 1.3;
+      scene.environmentIntensity = 0.75;
+    }
+    // Once released, every part of the hero pose comes from scroll position.
+    // Idle time cannot move the feet away from their photographed floor anchor.
+    model.position.y = paused || flight ? 0 : Math.sin(time * 0.85) * 0.025 * (1 - landed);
     product.airflow(time, landed, paused);
     gl.setViewport(0, 0, width, height);
     gl.setScissor(0, 0, width, height);

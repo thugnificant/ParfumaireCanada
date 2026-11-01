@@ -10,7 +10,7 @@
     "import": "node scripts/import.mjs",
     "export:shopify": "node scripts/export-shopify.mjs",
     "check": "astro check && node scripts/check-build.mjs",
-    "test": "node --experimental-strip-types scripts/enquiry-check.mjs",
+    "test": "node --experimental-strip-types scripts/enquiry-check.mjs && node --experimental-strip-types scripts/flight-check.mjs",
     "test:browser": "node scripts/browser-qa.mjs"
   },
   "dependencies": {
