@@ -47,3 +47,7 @@ The motion plan has one focal event: Max descends and settles on the floor. Cont
 Results: [browser](qa/browser-results.json), [motion](qa/revision-four/results.json), [wheel and full catalog](qa/revision-four/scroll-feel.json), [fallback](qa/revision-four/fallback.json).
 
 Clean wheel-scroll showcase recordings are saved under `docs/qa/revision-four/showcase/`. Automated desktop and phone recordings are saved locally as `docs/qa/revision-four/desktop-scroll.webm` and `mobile-scroll.webm`. Review frames and screenshots are in the same directory. The sequence reproduces the reference's downward handoff with Parfumaire geometry and a floor-level placement; it is not a pixel-identical recreation of Bella's bespoke kitchen scene.
+
+## Published verification
+
+Published code commit `2892cb2` through the successful [GitHub Pages deployment](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41341401088). The full desktop/phone motion suite passed against the published URL, including the expanding dropdown. Eight live routes, product variant/enquiry behavior, all homepage images, responsive overflow and real 404 behavior passed. No browser errors or failed motion requests were recorded: [live motion](qa/revision-four/live-results.json), [live route checks](qa/deployed-results.json).
