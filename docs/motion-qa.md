@@ -36,3 +36,9 @@ The images show illustrative product placements, not customer installations. The
 - Motion checks: desktop and phone descent, stable floor placement, the same retina canvas throughout, reverse/fast scrolling, idle airflow, pause/resume, reduced motion, no JavaScript, short touch viewport and 4× CPU throttling.
 
 Results and visual evidence: [motion](qa/revision-five/results.json), [browser](qa/browser-results.json), [descent frames](qa/revision-five/descent-stages.webp), [photography](qa/revision-five/lifestyle-review.webp), [wheel performance](qa/revision-five/scroll-feel.json). Clean scroll recordings are saved locally under `docs/qa/revision-five/showcase/`.
+
+## Published verification
+
+The main update was published as `a2b4785` through a successful [GitHub Pages run](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41346270513). The deployed desktop/phone motion suite passed, including stable floor contact, reverse scrolling, the expanding dropdown and reduced-motion fallbacks. Eight live routes, product variant/enquiry behavior, all homepage images, responsive overflow and 404 behavior passed with no browser errors: [live motion](qa/revision-five/live-results.json), [live routes](qa/deployed-results.json).
+
+A final editorial crop check kept La Tour's entire base in the desktop photograph and moved the phone caption below the image. The phone crop is centered on the diffuser instead of cutting it off at the right edge. Both widths passed accessibility and overflow checks: [editorial checks](qa/revision-five/editorial-check.json), [phone composition](qa/revision-five/editorial-390.webp).

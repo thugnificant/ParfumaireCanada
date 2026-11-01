@@ -370,6 +370,12 @@
 .editorial-large h2 {
   font-size: clamp(30px, 3vw, 44px);
 }
+.editorial-large > img {
+  object-position: 50% 100%;
+}
+.editorial-large::after {
+  background: linear-gradient(90deg, #15251a9c, #15251a45 45%, transparent 70%);
+}
 .editorial-feature {
   position: relative;
   min-width: 0;
@@ -517,7 +523,26 @@
     height: auto;
   }
   .editorial-large {
-    min-height: 420px;
+    height: auto;
+    min-height: 0;
+    background: transparent;
+  }
+  .editorial-large > img {
+    display: block;
+    height: 430px;
+    border-radius: 14px;
+    object-position: 78% 100%;
+  }
+  .editorial-large::after {
+    display: none;
+  }
+  .editorial-large > div {
+    position: static;
+    color: var(--ink);
+    padding: 25px 12px 30px;
+  }
+  .editorial-large:hover > img {
+    transform: none;
   }
   .editorial-feature {
     min-height: 460px;

@@ -1,0 +1,11 @@
+{
+  "base": "https://parfumairecanada.sugiweb.com",
+  "at": "2026-11-01T20:21:03.112Z",
+  "checks": [
+    "1440px: one persistent retina canvas; continuous downward travel; stable landing; reverse/fast scrolling; visible airflow; pause/resume; always-visible product cards; recorded scroll",
+    "390px: one persistent retina canvas; continuous downward travel; stable landing; reverse/fast scrolling; visible airflow; pause/resume; always-visible product cards; recorded scroll",
+    "Reduced-motion, no-JS, short phone, 4× CPU throttling and touch viewport checked"
+  ],
+  "errors": [],
+  "failedRequests": []
+}
