@@ -918,3 +918,7 @@ html.motion-paused .hotspot-trigger span::before {
     top: 55%;
   }
 }
+/* Let the hero label share the scene's stacking order above the travelling model. */
+.atmosphere-main {
+  isolation: auto;
+}

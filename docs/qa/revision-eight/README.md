@@ -21,7 +21,7 @@ The room uses an unused native 2752×1536 Higgsfield plate commissioned in revis
 - New business/commerce suite: 1440, 1024, 768, 390 and 360px; one persistent tower canvas; downward motion, reverse/fast scroll, exact floor contact, pause and static/no-JavaScript parity. Hover/tap/keyboard labels stay within the viewport. Phone swipe, persistent quote action, selection context and review/edit/complete pass.
 - Existing hero regression: four viewport floor-anchor checks, caption clearance, static/no-JavaScript parity; desktop/phone continuous motion, reduced motion, short phone and 4× CPU throttling.
 - Real desktop wheel test: 120 sampled frames, median and p95 16.7ms, no sampled frame over 50ms. All 21 desktop previews activate on hover without context loss.
-- The same 390px touch scrolling scenario at 4× CPU throttling went from three long tasks (155/100/54ms) to none. Resource transfer fell from 866,204 to 205,556 bytes (76% less). This is a local emulated-browser measurement, not a claim about every physical phone.
+- The same 390px touch scrolling scenario at 4× CPU throttling went from three long tasks (155/100/54ms) to none. Resource transfer fell from 866,204 to 205,646 bytes (76% less). This is a local emulated-browser measurement, not a claim about every physical phone.
 
 Evidence: [business checks](business-commerce.json), [browser checks](../browser-results.json), [hero regression](hero/results.json), [wheel cadence](scroll-feel.json), [before performance](performance-before.json), [after performance](performance-after.json), [product comparison](product-comparison.html), [phone quote review](quote-review-mobile.webp), [desktop scene](showcase/business-landed-1440.webp), [phone scene](showcase/business-landed-390.webp).
 
