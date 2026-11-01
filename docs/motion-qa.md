@@ -24,3 +24,5 @@ Results: [functional checks](qa/browser-results.json), [motion checks](qa/revisi
 Local full-resolution screenshots are in `docs/qa/revision-two/`; recordings are `desktop-scroll.webm` and `mobile-scroll.webm` in that directory. Raw recordings and images are ignored by Git; compact review images are versioned.
 
 No additional Higgsfield credits were used for this correction. The accepted high-resolution Higgsfield sources from the preceding revision were reused.
+
+Final live verification followed the successful [deployment of `42542ce`](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41256091721). The live site passed scene navigation, full-resolution room loading, hero containment and overflow checks at 1440 × 1000, 390 × 844, 375 × 667 and 320 × 640, with no browser exceptions. See [final live results](qa/revision-two/final-live-results.json) and the [compact-phone capture](qa/revision-two/review/compact-phone.webp).
