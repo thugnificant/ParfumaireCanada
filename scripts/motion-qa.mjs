@@ -4,26 +4,38 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
 const base = process.env.QA_URL || 'http://127.0.0.1:4323';
-const out = 'docs/qa/motion';
+const out = 'docs/qa/revision-two';
 await fs.mkdir(out, { recursive: true });
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
-const report = {
-  base,
-  at: new Date().toISOString(),
-  checks: [],
-  errors: [],
-  failedRequests: [],
-  frames: [],
-};
-const hashCanvas = async (page) =>
-  crypto
-    .createHash('sha256')
-    .update(await page.locator('canvas').evaluate((c) => c.toDataURL()))
-    .digest('hex');
+const report = { base, at: new Date().toISOString(), checks: [], errors: [], failedRequests: [] };
+const hash = (buffer) => crypto.createHash('sha256').update(buffer).digest('hex');
+async function assertStill(first, second, message) {
+  const a = await sharp(first).raw().toBuffer();
+  const b = await sharp(second).raw().toBuffer();
+  assert.equal(a.length, b.length, message);
+  let total = 0,
+    largest = 0;
+  for (let i = 0; i < a.length; i++) {
+    const difference = Math.abs(a[i] - b[i]);
+    total += difference;
+    largest = Math.max(largest, difference);
+  }
+  // GPU compositing can round a few channels by one level without any motion.
+  assert(total / a.length < 0.001 && largest <= 2, message);
+}
+const states = (page) =>
+  page.locator('[data-room]').evaluateAll((rooms) =>
+    rooms.map((room) => ({
+      clip: room.style.clipPath,
+      opacity: getComputedStyle(room).opacity,
+      width: room.naturalWidth,
+    })),
+  );
 for (const width of [1440, 390]) {
   const height = width === 390 ? 844 : 1000;
   const context = await browser.newContext({
     viewport: { width, height },
+    deviceScaleFactor: 2,
     reducedMotion: 'no-preference',
     recordVideo: { dir: `${out}/recordings`, size: { width, height } },
   });
@@ -32,118 +44,158 @@ for (const width of [1440, 390]) {
   page.on('response', (r) => {
     if (r.status() >= 400) report.failedRequests.push({ url: r.url(), status: r.status() });
   });
+  const frameRequests = [];
+  page.on('request', (r) => {
+    if (/\/motion\/(desktop|mobile)\//.test(r.url())) frameRequests.push(r.url());
+  });
   await page.goto(base, { waitUntil: 'networkidle' });
-  await page.locator('.atmosphere-canvas.is-ready').waitFor();
+  await page.locator('.atmosphere-product[data-model="ready"]').waitFor();
+  assert.equal(frameRequests.length, 0, 'No soft film frames are downloaded');
+  assert(
+    await page
+      .locator('.atmosphere-product canvas')
+      .evaluate((canvas) => canvas.width >= canvas.clientWidth * 1.95),
+    'Retina product rendering',
+  );
+  const product = page.locator('.atmosphere-product');
+  const first = hash(await product.screenshot());
+  await page.waitForTimeout(1200);
+  assert.notEqual(
+    hash(await product.screenshot()),
+    first,
+    'Product and airflow animate while idle',
+  );
+  await page.screenshot({ path: `${out}/hero-${width}.png` });
+  if (width === 1440) {
+    await page.locator('.explore-toggle').click();
+    assert(await page.locator('#explore-menu').isVisible(), 'Explore opens on its first click');
+    assert.equal(await page.locator('#explore-menu a').count(), 5);
+    const positions = await page
+      .locator('#explore-menu a')
+      .evaluateAll((links) => links.map((link) => link.getBoundingClientRect().top));
+    assert.equal(new Set(positions).size, 1, 'Five categories form one horizontal row');
+    await page.screenshot({ path: `${out}/dropdown-desktop.png` });
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#explore-menu').isVisible(), false);
+    await page.locator('.explore-toggle').focus();
+    await page.keyboard.press('ArrowDown');
+    assert(
+      await page
+        .locator('#explore-menu a')
+        .first()
+        .evaluate((el) => el === document.activeElement),
+    );
+    await page.keyboard.press('ArrowRight');
+    assert(
+      await page
+        .locator('#explore-menu a')
+        .nth(1)
+        .evaluate((el) => el === document.activeElement),
+    );
+    await page.keyboard.press('Escape');
+    await page.mouse.move(650, 700);
+    report.checks.push(
+      'Desktop dropdown: click, hover, five icons in one row, keyboard arrows and Escape',
+    );
+  }
   const geometry = await page.locator('[data-atmosphere]').evaluate((root) => ({
     start: root.offsetTop - parseFloat(getComputedStyle(root.firstElementChild).top),
     range: root.offsetHeight - root.firstElementChild.offsetHeight,
   }));
-  const hashes = [];
   const snapshots = [];
-  for (const [i, progress] of [0, 0.28, 0.51, 0.72, 0.98].entries()) {
+  for (const [index, progress] of [0, 0.25, 0.5, 0.75, 1].entries()) {
     await page.evaluate(
       (y) => scrollTo({ top: y, behavior: 'instant' }),
       geometry.start + geometry.range * progress,
     );
-    await page.waitForTimeout(900);
-    await page.locator(`[data-scene="${i}"][aria-current="step"]`).waitFor();
-    await page.waitForFunction(
-      (n) => document.querySelector('canvas').dataset.frame === String(n),
-      Math.round(progress * 143),
-    );
-    hashes.push(await hashCanvas(page));
-    snapshots.push(await page.locator('canvas').evaluate((c) => c.toDataURL()));
-    await page.screenshot({ path: `${out}/scene-${width}-${i}.png` });
+    await page.waitForTimeout(300);
+    await page.locator(`[data-scene="${index}"][aria-current="step"]`).waitFor();
+    snapshots.push(await states(page));
     assert(
-      await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
-      `Overflow at ${width}`,
+      snapshots[index].every((room) => room.width === 2688 && room.opacity === '1'),
+      'Original-resolution, opaque room layers',
     );
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
+    await page.screenshot({ path: `${out}/scene-${width}-${index}.png` });
   }
-  assert.equal(new Set(hashes).size, 5, `All five scenes should visually differ at ${width}`);
   await page.locator('[data-scene="1"]').click();
-  await page.waitForTimeout(1200);
-  await page.locator('[data-scene="1"][aria-current="step"]').waitFor();
-  await page.waitForFunction(() => document.querySelector('canvas').dataset.frame === '40');
-  const returned = await page.locator('canvas').evaluate((c) => c.toDataURL());
-  const expectedPixels = await sharp(Buffer.from(snapshots[1].split(',')[1], 'base64'))
-    .raw()
-    .toBuffer();
-  const returnedPixels = await sharp(Buffer.from(returned.split(',')[1], 'base64'))
-    .raw()
-    .toBuffer();
-  assert.equal(returnedPixels.length, expectedPixels.length);
-  // Canvas/GPU rasterization can differ by one color level in a pixel across redraws.
-  let difference = 0,
-    largestDifference = 0;
-  for (let i = 0; i < expectedPixels.length; i++) {
-    const delta = Math.abs(expectedPixels[i] - returnedPixels[i]);
-    difference += delta;
-    largestDifference = Math.max(largestDifference, delta);
+  await page.waitForTimeout(1400);
+  assert.deepEqual(
+    await states(page),
+    snapshots[1],
+    'Reverse navigation restores exactly the same room composition',
+  );
+  // Fast scroll cannot display unloaded intermediate frames or blend several rooms.
+  for (const progress of [0.91, 0.12, 0.78, 0.42, 0.98, 0.25]) {
+    await page.evaluate(
+      (y) => scrollTo({ top: y, behavior: 'instant' }),
+      geometry.start + geometry.range * progress,
+    );
+    await page.waitForTimeout(50);
   }
-  assert(
-    difference / expectedPixels.length < 0.01 && largestDifference <= 2,
-    'Backward navigation restores the same visible office frame',
-  );
+  await page.waitForTimeout(150);
+  assert.deepEqual(await states(page), snapshots[1]);
   await page.getByRole('button', { name: 'Pause animated effects', exact: true }).click();
-  await page.locator('[data-atmosphere].motion-paused').waitFor();
-  assert(
-    await page.locator('.atmosphere-main').evaluate((el) => {
-      const box = el.getBoundingClientRect();
-      return box.top >= 0 && box.top < innerHeight / 2;
-    }),
-    'Pausing keeps the current hero in view',
-  );
+  await page.waitForTimeout(250);
+  const frozen = await product.screenshot();
+  await page.waitForTimeout(700);
+  await assertStill(frozen, await product.screenshot(), 'Pause freezes continuous motion');
   await page.locator('[data-scene="3"]').click();
-  await page.waitForTimeout(350);
   await page.locator('[data-scene="3"][aria-current="step"]').waitFor();
   await page.getByRole('button', { name: 'Enable animated effects', exact: true }).click();
-  await page.locator('[data-atmosphere].motion-active').waitFor();
-  // Record an uninterrupted full scroll with every frame available from HTTP cache.
   await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
-  await page.waitForTimeout(250);
-  for (let y = 0; y <= geometry.start + geometry.range + height * 2.5; y += 22) {
+  await page.waitForTimeout(300);
+  // Capture a continuous scroll, rather than just jumping between screenshots.
+  for (let y = 0; y <= geometry.start + geometry.range + height * 2.6; y += 28) {
     await page.evaluate((y) => scrollTo({ top: y, behavior: 'instant' }), y);
-    await page.waitForTimeout(45);
+    await page.waitForTimeout(32);
   }
+  await page.locator('.featured').scrollIntoViewIfNeeded();
+  await page.locator('.featured [data-product-view][data-model="ready"]').first().waitFor();
+  await page.waitForTimeout(500);
+  assert.equal(await page.locator('.featured [data-product-view][data-model="ready"]').count(), 3);
+  assert(
+    await page
+      .locator('.featured .product-card')
+      .evaluateAll((cards) => cards.every((card) => getComputedStyle(card).opacity === '1')),
+  );
+  await page.screenshot({ path: `${out}/products-${width}.png` });
+  await page.waitForTimeout(1600);
   const video = page.video();
   await context.close();
   await video.saveAs(`${out}/${width === 390 ? 'mobile' : 'desktop'}-scroll.webm`);
-  report.frames.push({ width, distinctScenes: new Set(hashes).size });
   report.checks.push(
-    `${width}px: five distinct scenes, forward/back navigation, pause/resume, overflow, recorded full scroll`,
+    `${width}px: live 3D and mist, retina canvas, five 2688px rooms, reverse and rapid scroll, pause/resume, visible product cards, recorded continuous scroll`,
   );
+  console.log(`Motion checks passed at ${width}px`);
 }
-const reduced = await browser.newContext({
-  viewport: { width: 390, height: 844 },
-  reducedMotion: 'reduce',
-});
-const page = await reduced.newPage();
-const motionRequests = [];
-page.on('request', (r) => {
-  if (/\/motion\/(desktop|mobile)\//.test(r.url())) motionRequests.push(r.url());
-});
-await page.goto(base, { waitUntil: 'networkidle' });
-assert.equal(motionRequests.length, 0, 'Reduced motion should not download an animation sequence');
-assert(await page.locator('[data-atmosphere]').evaluate((el) => el.offsetHeight < innerHeight));
-await page.locator('[data-scene="4"]').click();
-await page.locator('.atmosphere-canvas.is-ready').waitFor();
-assert.equal(motionRequests.length, 1, 'Reduced motion loads only the chosen still');
-await page.screenshot({ path: `${out}/reduced-motion-mobile.png` });
-await reduced.close();
-const noJS = await browser.newContext({
-  javaScriptEnabled: false,
-  viewport: { width: 1440, height: 1000 },
-});
-const plain = await noJS.newPage();
-await plain.goto(base);
-assert(
-  await plain.locator('[data-atmosphere]').evaluate((el) => el.offsetHeight < innerHeight),
-  'No-JS hero has no long empty scroll',
-);
-assert(await plain.getByRole('link', { name: 'Find your diffuser', exact: true }).isVisible());
-await noJS.close();
+for (const mode of ['reduced', 'no-js']) {
+  const context = await browser.newContext({
+    viewport: { width: 390, height: 844 },
+    reducedMotion: 'reduce',
+    javaScriptEnabled: mode !== 'no-js',
+  });
+  const page = await context.newPage();
+  await page.goto(base, { waitUntil: 'networkidle' });
+  assert(
+    await page.locator('[data-atmosphere]').evaluate((el) => el.offsetHeight < innerHeight),
+    'Static mode does not leave an empty scroll region',
+  );
+  assert(await page.getByRole('link', { name: 'Find your diffuser', exact: true }).isVisible());
+  if (mode === 'reduced') {
+    await page.locator('[data-scene="4"]').click();
+    await page.locator('[data-scene="4"][aria-current="step"]').waitFor();
+    const product = page.locator('.atmosphere-product');
+    await page.waitForTimeout(250);
+    const first = await product.screenshot();
+    await page.waitForTimeout(500);
+    await assertStill(first, await product.screenshot(), 'Reduced-motion is static');
+  }
+  await page.screenshot({ path: `${out}/${mode}-mobile.png` });
+  await context.close();
+}
 report.checks.push(
-  'Reduced-motion skips frame downloads; one-click still navigation; no-JS static hero and working links',
+  'Reduced-motion freezes 3D, keeps manual room selection; no-JS retains sharp products and links',
 );
 await browser.close();
 await fs.writeFile(`${out}/results.json`, JSON.stringify(report, null, 2));

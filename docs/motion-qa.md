@@ -1,21 +1,25 @@
-# Motion revision validation
+# Motion revision two — 2026-10-31
 
-Validated 2026-10-31 against the local static build.
+The 7:51 PM feedback recording and the original 4:21 PM Bella recording were the visual references for this correction. The temporary feedback file was preserved locally at `archive/revision-two/feedback.mov`.
 
-- Production build and Astro type check passed; 101 generated routes passed internal-link, image, heading and metadata validation.
-- Enquiry safeguards passed.
-- Desktop/tablet/mobile layouts at 1440, 1024, 768 and 390px have no horizontal overflow.
-- All 21 products, 59 variants and 93 gallery images passed interaction checks.
-- Fourteen desktop/mobile accessibility scans found zero WCAG A/AA violations.
-- Five visually distinct hero scenes at desktop and mobile; reverse navigation restores the same office frame.
-- Pause, resume and scene buttons work. Reduced-motion loads no animation frames until the visitor requests a single still.
-- JavaScript-disabled rendering keeps a single-screen hero with working collection links.
-- No browser exceptions or failed requests in the functional or motion suites.
+## Changes
 
-The scroll film is encoded as 144 frames each at 1920px desktop and 1280px mobile. Only nearby frames and a sparse preview set are requested, and decoded image references are capped at 32. Product images have 640px, 1440px and 2048px versions.
+- Replaced the 144-frame hero film with original-resolution 2688 × 1520 room photographs and a separate live diffuser. Scroll drives a single opaque reveal between office, event, hotel and home; it never blends multiple rooms or waits for intermediate video frames.
+- Added textured, solid WebGL models for CozyAir, CozyAir Max and La Tour. Their proportions and front artwork come from the accepted product renders. These are presentation models, not manufacturer CAD. The original product photographs remain available in the galleries.
+- Added continuous product rotation, pointer response and fine animated mist anchored to each nozzle. Product cards remain visible on entry. The hero product settles onto the room's console, including mobile cover cropping.
+- Rebuilt Explore as the reference's wide, shallow dropdown with five outline icons. It supports hover, click, keyboard arrows, Escape and outside-click dismissal.
+- Retained sharp image fallbacks, reduced-motion support and a global pause control. Rendering stops offscreen or when the tab is hidden. Removed the 24 MB obsolete video-frame sequence.
 
-Screenshots and motion reports: [motion evidence](qa/motion/results.json). Local recordings: `docs/qa/motion/desktop-scroll.webm` and `docs/qa/motion/mobile-scroll.webm`. Original capture and generation files stay in the ignored `archive/` directory.
+## Validation
 
-The new images are AI-assisted product visualizations; original photographs remain in the galleries for comparison. Product specifications and prices were not inferred from generated imagery.
+- Build, Astro checks, all 101 generated routes and enquiry safeguards passed.
+- Functional browser checks passed for all 21 products, 59 variants and 93 gallery selections.
+- Layouts at 1440, 1024, 768 and 390 px passed overflow checks; 14 accessibility scans reported no WCAG A/AA violations.
+- Motion tests at 1440 and 390 px checked retina rendering, idle movement, five sharp room layers, reverse navigation, rapid scroll, pause/resume, reduced motion and no-JavaScript fallbacks. No browser exceptions or failed asset requests.
+- Captured and reviewed desktop/mobile screenshots and continuous scroll recordings. Paused images allow only negligible GPU color rounding (mean channel difference below 0.001, maximum 2), not animation.
 
-Live HTTPS verification completed after successful GitHub Pages deployment of `e70ab2d`. All five scenes were exercised on desktop and mobile, including reverse navigation. The final run recorded no page errors, failed HTTP assets or horizontal overflow. See [live motion results](qa/live-motion-results.json) and [deployed route results](qa/deployed-results.json).
+Results: [functional checks](qa/browser-results.json), [motion checks](qa/revision-two/results.json). Review images: [hero](qa/revision-two/review/hero-1440.webp), [menu](qa/revision-two/review/dropdown-desktop.webp), [office](qa/revision-two/review/scene-1440-1.webp), [event](qa/revision-two/review/scene-1440-2.webp), [mobile](qa/revision-two/review/scene-390-1.webp), [products](qa/revision-two/review/products-1440.webp).
+
+Local full-resolution screenshots are in `docs/qa/revision-two/`; recordings are `desktop-scroll.webm` and `mobile-scroll.webm` in that directory. Raw recordings and images are ignored by Git; compact review images are versioned.
+
+No additional Higgsfield credits were used for this correction. The accepted high-resolution Higgsfield sources from the preceding revision were reused.

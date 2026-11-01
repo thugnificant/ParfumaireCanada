@@ -14,3 +14,7 @@ archive/
 docs/qa/motion/recordings/
 docs/qa/motion/*-scroll.webm
 docs/qa/motion/draft-*
+docs/qa/revision-two/recordings/
+docs/qa/revision-two/*-scroll.webm
+docs/qa/revision-two/draft-*
+docs/qa/revision-two/*.png

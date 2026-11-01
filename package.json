@@ -14,12 +14,14 @@
     "test:browser": "node scripts/browser-qa.mjs"
   },
   "dependencies": {
-    "astro": "^5.16.0"
+    "astro": "^5.16.0",
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.5",
     "@axe-core/playwright": "^4.10.2",
     "@playwright/test": "^1.56.1",
+    "@types/three": "^0.187.0",
     "cheerio": "^1.1.2",
     "lighthouse": "^13.0.1",
     "prettier": "^3.9.10",

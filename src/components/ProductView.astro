@@ -1,0 +1,32 @@
+---
+import renders from '../data/renders.json';
+interface Props {
+  handle: string;
+  label: string;
+  hero?: boolean;
+  grounded?: boolean;
+  class?: string;
+}
+const { handle, label, hero = false, grounded = false, class: className = '' } = Astro.props;
+const render = (renders as Record<string, { cutout?: string; full: string }>)[handle];
+---
+
+<div
+  class:list={['product-view', className]}
+  data-product-view={handle}
+  data-hero-product={hero || undefined}
+  data-grounded={grounded || undefined}
+>
+  <img
+    class="product-fallback"
+    src={render.cutout || render.full}
+    width="1200"
+    height="1600"
+    alt={label}
+    loading={hero ? 'eager' : 'lazy'}
+    decoding="async"
+    fetchpriority={hero ? 'high' : 'auto'}
+  />
+  <canvas aria-hidden="true"></canvas>
+</div>
+<script src="../scripts/product-view.ts"></script>

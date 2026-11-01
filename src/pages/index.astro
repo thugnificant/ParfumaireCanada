@@ -4,6 +4,7 @@ import AtmosphereHero from '../components/AtmosphereHero.astro';
 import '../styles/motion.css';
 import Icon from '../components/Icon.astro';
 import ProductCard from '../components/ProductCard.astro';
+import ProductView from '../components/ProductView.astro';
 import EnquiryBanner from '../components/EnquiryBanner.astro';
 import { byHandle } from '../lib/catalog';
 import reviews from '../data/reviews.json';
@@ -24,7 +25,7 @@ const featuredReviews = reviews
   image="/motion/hero-poster.webp"
 >
   <AtmosphereHero />
-  <section class="lifestyle wrap" data-reveal>
+  <section class="lifestyle wrap">
     <img
       src="/images/renders/space-home.webp"
 
@@ -34,13 +35,11 @@ const featuredReviews = reviews
       alt="CozyAir diffuser in a sunlit living room"
       loading="lazy"
     />
-    <img
+    <ProductView
       class="room-product"
-      src="/images/renders/cozyair-scent-diffuser-cutout.webp"
-      width="900"
-      height="1200"
-      alt="CozyAir white scent diffuser"
-      loading="lazy"
+      handle="cozyair-scent-diffuser"
+      label="CozyAir white scent diffuser"
+      grounded
     />
     <div class="lifestyle-copy">
       <p class="eyebrow">MAKE ROOM FOR A FEELING</p>
@@ -60,7 +59,7 @@ const featuredReviews = reviews
     </div>
   </section>
   <section class="featured wrap section-space" aria-labelledby="featured-heading">
-    <div class="section-heading" data-reveal>
+    <div class="section-heading">
       <p class="eyebrow">A LITTLE EVERYDAY EXTRAORDINARY</p>
       <h2 id="featured-heading">Meet your atmosphere.</h2>
       <p>Thoughtfully designed diffusers. Fragrances with a story.</p>
@@ -76,7 +75,7 @@ const featuredReviews = reviews
       </a>
     </div>
   </section>
-  <section class="editorial-grid wrap" data-reveal aria-label="Discover the world of Parfumaire">
+  <section class="editorial-grid wrap" aria-label="Discover the world of Parfumaire">
     <a class="editorial-large" href="/business-scenting/">
       <img
         src="/images/renders/space-event.webp"
@@ -84,15 +83,7 @@ const featuredReviews = reviews
         sizes="(max-width:580px) 90vw, 65vw"
         width="1920"
         height="1080"
-        alt="Parfumaire diffuser in a warmly lit event space"
-        loading="lazy"
-      />
-      <img
-        class="room-product"
-        src="/images/renders/cozyair-scent-diffuser-cutout.webp"
-        width="900"
-        height="1200"
-        alt="CozyAir scent diffuser"
+        alt="Tables set for an evening in a warmly lit event space"
         loading="lazy"
       />
       <div>
@@ -116,12 +107,10 @@ const featuredReviews = reviews
             For your business <Icon size={17} />
           </span>
         </div>
-        <img
-          src="/images/renders/cozyair-max-scent-diffuser-cutout.webp"
-          width="640"
-          height="640"
-          alt="CozyAir Max scent diffuser"
-          loading="lazy"
+        <ProductView
+          class="editorial-product"
+          handle="cozyair-max-scent-diffuser"
+          label="CozyAir Max scent diffuser"
         />
       </a>
       <a class="editorial-small sand" href="/fragrance-finder/">
@@ -143,7 +132,7 @@ const featuredReviews = reviews
     </div>
   </section>
   <section class="testimonials wrap section-space" aria-labelledby="testimonials-title">
-    <div class="section-heading" data-reveal>
+    <div class="section-heading">
       <p class="eyebrow">FROM THE PARFUMAIRE COMMUNITY</p>
       <h2 id="testimonials-title">A feeling worth sharing.</h2>
       <p>Voices from the original Parfumaire shop.</p>

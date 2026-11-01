@@ -1,224 +1,134 @@
 const root = document.querySelector<HTMLElement>('[data-atmosphere]');
 if (root) {
-  const canvas = root.querySelector<HTMLCanvasElement>('canvas')!;
-  const ctx = canvas.getContext('2d', { alpha: false });
-  const poster = root.querySelector<HTMLImageElement>('.atmosphere-poster')!;
+  const preference = matchMedia('(prefers-reduced-motion: reduce)');
+  const sticky = root.querySelector<HTMLElement>('.atmosphere-sticky')!;
+  const main = root.querySelector<HTMLElement>('.atmosphere-main')!;
+  const product = root.querySelector<HTMLElement>('.atmosphere-product')!;
+  const shadow = root.querySelector<HTMLElement>('.atmosphere-product-shadow')!;
+  const rooms = [...root.querySelectorAll<HTMLElement>('[data-room]')];
   const chapters = [...root.querySelectorAll<HTMLElement>('[data-chapter]')];
   const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-scene]')];
   const toggle = root.querySelector<HTMLButtonElement>('.motion-toggle')!;
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
-  let paused = reduced.matches || Boolean(connection?.saveData);
-  let currentChapter = 0;
-  let frame = 0;
-  let target = 0;
-  let raf = 0;
-  let width = 0;
-  let height = 0;
-  let loadedFrame = -1;
-  let active = true;
-  const total = 144;
-  const sticky = root.querySelector<HTMLElement>('.atmosphere-sticky')!;
-  const topOffset = () =>
-    parseFloat(getComputedStyle(sticky).top) || (innerWidth <= 700 ? 86 : 108);
-  const frames = new Map<number, HTMLImageElement>();
-  const failed = new Set<number>();
-  const queued = new Set<number>();
-  let inFlight = 0;
-  const requestQueue: number[] = [];
-  const clamp = (n: number, a = 0, b = 1) => Math.max(a, Math.min(b, n));
-  const mobile = matchMedia('(max-width: 700px)').matches;
-  const format = (index: number) =>
-    `/motion/${mobile ? 'mobile' : 'desktop'}/${String(index).padStart(3, '0')}.webp`;
+  const stops = [0, 0.25, 0.5, 0.75, 1];
+  const transitions = [0.09, 0.34, 0.59, 0.84];
+  const clamp = (value: number) => Math.max(0, Math.min(1, value));
+  const smooth = (value: number) => {
+    const t = clamp(value);
+    return t * t * (3 - 2 * t);
+  };
+  let manual = preference.matches;
+  let progress = 0;
+  let scheduled = false;
+  let start = 0,
+    range = 1;
 
-  function draw(index: number) {
-    if (!ctx) return;
-    let resolved = index;
-    let image = frames.get(index);
-    if (!image?.complete || !image.naturalWidth) {
-      const closest = [...frames.keys()]
-        .filter((k) => frames.get(k)?.naturalWidth)
-        .sort((a, b) => Math.abs(a - index) - Math.abs(b - index))[0];
-      resolved = closest;
-      image = frames.get(closest);
-    }
-    if (!image?.naturalWidth) return;
-    const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
-    const dw = image.naturalWidth * scale;
-    const dh = image.naturalHeight * scale;
-    const focus = mobile ? 0.72 : 0.58;
-    ctx.drawImage(image, (width - dw) * focus, (height - dh) * 0.5, dw, dh);
-    canvas.classList.add('is-ready');
-    loadedFrame = resolved;
-    canvas.dataset.frame = String(resolved);
+  function geometry() {
+    start =
+      root!.getBoundingClientRect().top +
+      scrollY -
+      (manual ? 0 : parseFloat(getComputedStyle(sticky).top));
+    range = Math.max(1, root!.offsetHeight - sticky.offsetHeight);
   }
-  function pump() {
-    while (inFlight < 4 && requestQueue.length) {
-      const index = requestQueue.shift()!;
-      if (frames.has(index) || failed.has(index)) continue;
-      inFlight++;
-      const image = new Image();
-      image.decoding = 'async';
-      image.onload = () => {
-        frames.set(index, image);
-        queued.delete(index);
-        inFlight--;
-        // Bound decoded image memory on long scrolls, especially on mobile Safari.
-        if (frames.size > 32) {
-          const farthest = [...frames.keys()].sort(
-            (a, b) => Math.abs(b - frame) - Math.abs(a - frame),
-          )[0];
-          frames.delete(farthest);
-        }
-        if (Math.abs(index - Math.round(frame)) < 8) draw(Math.round(frame));
-        pump();
-      };
-      image.onerror = () => {
-        failed.add(index);
-        inFlight--;
-        pump();
-      };
-      image.src = format(index);
-    }
-  }
-  function requestFrame(index: number, urgent = false) {
-    index = Math.round(clamp(index, 0, total - 1));
-    if (frames.has(index) || failed.has(index)) return;
-    if (queued.has(index)) {
-      if (urgent) {
-        const position = requestQueue.indexOf(index);
-        if (position >= 0) {
-          requestQueue.splice(position, 1);
-          requestQueue.unshift(index);
-        }
-      }
-      return;
-    }
-    queued.add(index);
-    urgent ? requestQueue.unshift(index) : requestQueue.push(index);
-  }
-  function warm(index: number) {
-    requestFrame(index, true);
-    for (let i = 1; i <= (paused ? 0 : 10); i++) {
-      requestFrame(index + i);
-      requestFrame(index - i);
-    }
-    pump();
-  }
-  function updateCopy(progress: number) {
-    // Chapter boundaries follow the verified generated sequence.
-    const chapter =
-      progress < 0.18 ? 0 : progress < 0.4 ? 1 : progress < 0.62 ? 2 : progress < 0.82 ? 3 : 4;
-    if (chapter !== currentChapter) {
-      currentChapter = chapter;
-      chapters.forEach((el, i) => {
-        el.classList.toggle('is-current', i === chapter);
-        el.setAttribute('aria-hidden', String(i !== chapter));
-      });
-      buttons.forEach((el, i) =>
-        i === chapter
-          ? el.setAttribute('aria-current', 'step')
-          : el.removeAttribute('aria-current'),
-      );
-    }
+  function draw(value: number) {
+    progress = clamp(value);
+    const open = smooth(progress / 0.14);
+    const landed = smooth((progress - 0.08) / 0.12);
+    root!.style.setProperty('--scene-open', String(open));
+    root!.style.setProperty('--word-opacity', String(1 - open));
     root!.style.setProperty('--story-progress', String(progress));
-    root!.style.setProperty('--scene-open', String(clamp(progress / 0.15)));
-    root!.style.setProperty('--word-opacity', String(1 - clamp(progress / 0.13)));
+    let current = 0;
+    let surfaceY = 0.68;
+    rooms.forEach((room, i) => {
+      const reveal = smooth((progress - transitions[i]) / 0.09);
+      // A single reveal, with no blended rooms or intermediate video frames.
+      room.style.clipPath = `inset(0 0 0 ${(1 - reveal) * 100}%)`;
+      if (i === 1) surfaceY += 0.04 * reveal;
+      if (reveal > 0.5) current = i + 1;
+    });
+    root!.dataset.scene = String(current);
+    chapters.forEach((chapter, i) => {
+      chapter.classList.toggle('is-current', i === current);
+      chapter.setAttribute('aria-hidden', String(i !== current));
+    });
+    buttons.forEach((button, i) => {
+      if (i === current) button.setAttribute('aria-current', 'step');
+      else button.removeAttribute('aria-current');
+    });
+    // Match the feet to the photographed console, including its cover crop.
+    const width = main.clientWidth,
+      height = main.clientHeight;
+    const mobile = innerWidth <= 700;
+    const scale = Math.max(width / 2688, height / 1520);
+    const imageLeft = (width - 2688 * scale) * (mobile ? 0.72 : 0.5);
+    const imageTop = (height - 1520 * scale) / 2;
+    const footX = Math.min(imageLeft + 2688 * scale * 0.75, width * (mobile ? 0.67 : 0.85));
+    const footY = imageTop + 1520 * scale * surfaceY;
+    const initialHeight = height * (mobile ? 0.6 : 0.78);
+    const finalHeight = height * (mobile ? 0.46 : 0.58);
+    const productHeight = initialHeight + (finalHeight - initialHeight) * landed;
+    const initialX = width * (mobile ? 0.65 : 0.7);
+    const initialY = height * (mobile ? 0.58 : 0.43);
+    const finalY = footY - finalHeight * 0.448;
+    product.style.width = `${productHeight * 0.72}px`;
+    product.style.height = `${productHeight}px`;
+    product.style.left = `${initialX + (footX - initialX) * landed}px`;
+    product.style.top = `${initialY + (finalY - initialY) * landed}px`;
+    product.dataset.landed = String(landed);
+    shadow.style.left = `${footX}px`;
+    shadow.style.top = `${footY}px`;
+    shadow.style.width = `${finalHeight * 0.4}px`;
+    shadow.style.opacity = String(landed * 0.3);
   }
-  function tick() {
-    raf = 0;
-    if (!active || paused) return;
-    frame += (target - frame) * 0.18;
-    if (Math.abs(target - frame) < 0.08) frame = target;
-    const index = Math.round(frame);
-    warm(index);
-    if (index !== loadedFrame) draw(index);
-    updateCopy(frame / (total - 1));
-    if (frame !== target) raf = requestAnimationFrame(tick);
+  function update() {
+    scheduled = false;
+    if (!manual) draw((scrollY - start) / range);
   }
-  function onScroll() {
-    if (paused || !active) return;
-    const start = root!.getBoundingClientRect().top + scrollY - topOffset();
-    const range =
-      root!.offsetHeight - root!.querySelector<HTMLElement>('.atmosphere-sticky')!.offsetHeight;
-    target = clamp((scrollY - start) / Math.max(1, range)) * (total - 1);
-    if (!raf) raf = requestAnimationFrame(tick);
-  }
-  function resize() {
-    const bounds = canvas.getBoundingClientRect();
-    const dpr = Math.min(devicePixelRatio, 1.5);
-    width = Math.round(bounds.width * dpr);
-    height = Math.round(bounds.height * dpr);
-    if (canvas.width !== width || canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
-      loadedFrame = -1;
-      draw(Math.round(frame));
+  function schedule() {
+    if (!scheduled) {
+      scheduled = true;
+      requestAnimationFrame(update);
     }
-    onScroll();
   }
-  function setPaused(value: boolean, fromControl = false) {
-    const progress = frame / (total - 1);
-    const start = root!.getBoundingClientRect().top + scrollY - topOffset();
-    paused = value;
-    root!.classList.toggle('motion-paused', value);
-    root!.classList.toggle('motion-active', !value);
-    root!.querySelector('.atmosphere-hint')!.innerHTML = value
-      ? 'CHOOSE A SPACE BELOW <span aria-hidden="true">↓</span>'
-      : 'SCROLL TO CHANGE THE ATMOSPHERE <span aria-hidden="true">↓</span>';
-    document.documentElement.classList.toggle('motion-paused', value);
-    toggle.setAttribute('aria-pressed', String(value));
-    toggle.setAttribute('aria-label', value ? 'Enable animated effects' : 'Pause animated effects');
-    toggle.innerHTML = value
-      ? 'Enable motion <span aria-hidden="true">▷</span>'
+  function mode() {
+    root!.classList.toggle('motion-active', !manual);
+    root!.classList.toggle('motion-paused', manual);
+    document.documentElement.classList.toggle('motion-paused', manual);
+    toggle.setAttribute('aria-pressed', String(manual));
+    toggle.setAttribute(
+      'aria-label',
+      manual ? 'Enable animated effects' : 'Pause animated effects',
+    );
+    toggle.innerHTML = manual
+      ? 'Play motion <span aria-hidden="true">▷</span>'
       : 'Pause motion <span aria-hidden="true">Ⅱ</span>';
-    if (raf) cancelAnimationFrame(raf);
-    raf = 0;
-    if (fromControl) {
-      const range = root!.offsetHeight - sticky.offsetHeight;
-      scrollTo({ top: Math.max(0, start + (value ? 0 : progress * range)), behavior: 'instant' });
-    }
-    if (!value) onScroll();
+    document.dispatchEvent(new CustomEvent('parfumaire:motion', { detail: manual }));
+    geometry();
+    draw(progress);
   }
-  toggle.addEventListener('click', () => setPaused(!paused, true));
-  reduced.addEventListener('change', () => setPaused(reduced.matches));
-  buttons.forEach((button, index) =>
+  toggle.addEventListener('click', () => {
+    const oldProgress = progress;
+    manual = !manual;
+    mode();
+    scrollTo({ top: manual ? start : start + range * oldProgress, behavior: 'instant' });
+    draw(oldProgress);
+  });
+  buttons.forEach((button, i) =>
     button.addEventListener('click', () => {
-      const points = [0, 0.28, 0.51, 0.72, 1];
-      if (paused) {
-        frame = target = points[index] * (total - 1);
-        warm(Math.round(frame));
-        draw(Math.round(frame));
-        updateCopy(points[index]);
-      } else {
-        const start = root!.getBoundingClientRect().top + scrollY - topOffset();
-        const range =
-          root!.offsetHeight - root!.querySelector<HTMLElement>('.atmosphere-sticky')!.offsetHeight;
-        scrollTo({ top: start + points[index] * range, behavior: 'smooth' });
-      }
+      if (manual) draw(stops[i]);
+      else scrollTo({ top: start + range * stops[i], behavior: 'smooth' });
     }),
   );
-  new ResizeObserver(resize).observe(canvas);
-  new IntersectionObserver(
-    (entries) => {
-      active = entries[0].isIntersecting;
-      if (active) onScroll();
-      else if (raf) {
-        cancelAnimationFrame(raf);
-        raf = 0;
-      }
-    },
-    { rootMargin: '200px' },
-  ).observe(root);
-  addEventListener('scroll', onScroll, { passive: true });
-  addEventListener('resize', resize, { passive: true });
-  setPaused(paused);
-  if (!paused) {
-    warm(0);
-    // Load sparse checkpoints first. Fine frames are requested near the scroll position.
-    for (let i = 0; i < total; i += 8) requestFrame(i);
-    pump();
-  }
-  poster.addEventListener('load', resize);
-  resize();
+  preference.addEventListener('change', () => {
+    manual = preference.matches;
+    mode();
+  });
+  addEventListener('scroll', schedule, { passive: true });
+  addEventListener('resize', () => {
+    geometry();
+    draw(progress);
+    schedule();
+  });
+  new ResizeObserver(() => draw(progress)).observe(main);
+  mode();
+  update();
 }

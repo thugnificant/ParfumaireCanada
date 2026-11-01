@@ -1,6 +1,7 @@
 ---
 import { priceLabel, productPath, type Product } from '../lib/catalog';
 import Icon from './Icon.astro';
+import ProductView from './ProductView.astro';
 import { srcset } from '../lib/images';
 interface Props {
   product: Product;
@@ -21,16 +22,20 @@ const img = p.images[0];
     href={productPath(p)}
     aria-label={`Explore ${p.title}`}
   >
-    <img
-      src={img.small}
-      srcset={srcset(img)}
-      sizes="(max-width:850px) 45vw, 22vw"
-      width={img.width}
-      height={img.height}
-      alt={p.title}
-      loading="lazy"
-      decoding="async"
-    />
+    {p.category === 'diffusers' ? (
+      <ProductView handle={p.handle} label={p.title} />
+    ) : (
+      <img
+        src={img.small}
+        srcset={srcset(img)}
+        sizes="(max-width:850px) 45vw, 22vw"
+        width={img.width}
+        height={img.height}
+        alt={p.title}
+        loading="lazy"
+        decoding="async"
+      />
+    )}
     <span class="product-arrow">
       <Icon />
     </span>

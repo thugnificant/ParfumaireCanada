@@ -1,9 +1,8 @@
 ---
 import Icon from './Icon.astro';
+import ProductView from './ProductView.astro';
 import { byHandle, priceLabel } from '../lib/catalog';
-import renders from '../data/renders.json';
 const tower = byHandle('la-tour-scent-diffuser');
-const towerRender = (renders as Record<string, { cutout?: string }>)['la-tour-scent-diffuser'];
 const chapters = [
   {
     name: 'In the air',
@@ -22,7 +21,7 @@ const chapters = [
   },
   {
     name: 'Away',
-    title: 'A welcome\nthat stays with you.',
+    title: 'A warm welcome.\nA lasting feeling.',
     copy: 'Thoughtful scenting for memorable stays.',
   },
   {
@@ -37,16 +36,35 @@ const chapters = [
   <div class="atmosphere-sticky">
     <div class="atmosphere-layout">
       <div class="hero-main atmosphere-main">
-        <img
-          class="atmosphere-poster"
-          src="/motion/hero-poster.webp"
-          width="1920"
-          height="1080"
-          alt="White Parfumaire CozyAir diffuser floating in a bright blue sky"
-          fetchpriority="high"
-        />
-        <canvas class="atmosphere-canvas" aria-hidden="true"></canvas>
+        <div class="atmosphere-rooms" aria-hidden="true">
+          <img
+            class="atmosphere-room sky-room"
+            src="/images/renders/sky.webp"
+            width="1440"
+            height="1520"
+            alt=""
+            fetchpriority="high"
+          />
+          {['office', 'event', 'hotel', 'home'].map((room, index) => (
+            <img
+              class="atmosphere-room"
+              data-room={index + 1}
+              src={`/images/renders/space-${room}.webp`}
+              width="2688"
+              height="1520"
+              alt=""
+              decoding="async"
+            />
+          ))}
+        </div>
         <div class="atmosphere-shade" aria-hidden="true"></div>
+        <div class="atmosphere-product-shadow" aria-hidden="true"></div>
+        <ProductView
+          handle="cozyair-scent-diffuser"
+          label="White Parfumaire CozyAir diffuser"
+          hero
+          class="atmosphere-product"
+        />
         <div class="atmosphere-copy">
           <p class="eyebrow">THE ART OF ATMOSPHERE</p>
           <div class="atmosphere-titles">
@@ -103,12 +121,10 @@ const chapters = [
           href="/products/la-tour-scent-diffuser/"
           aria-label="Discover La Tour scent diffuser"
         >
-          <img
-            src={towerRender?.cutout || tower.images[0].path}
-            width="1000"
-            height="1400"
-            alt="La Tour black freestanding scent diffuser"
-            fetchpriority="high"
+          <ProductView
+            handle="la-tour-scent-diffuser"
+            label="La Tour black freestanding scent diffuser"
+            hero
           />
         </a>
         <div class="feature-bottom">

@@ -5,7 +5,7 @@ Authorized by the user on 2026-10-31: use Higgsfield credits to improve the Parf
 - Product render mapping, source image/variant association, original output dimensions and generation IDs: `src/data/renders.json`.
 - Accepted image jobs and original PNGs: local `archive/higgsfield/approved-products.json` and `approved-*.png`.
 - Opening sky: Higgsfield job `5a060bc1-7cf7-4933-8d10-9f947794af8f`.
-- Scroll film: Seedance 2.5 job `42d4ab41-7494-40c1-ab88-78ef388fc65b`, six seconds, 1080p, no audio. Source file: local `archive/higgsfield/atmosphere-journey.mp4`.
+- Retired scroll film: Seedance 2.5 job `42d4ab41-7494-40c1-ab88-78ef388fc65b`, six seconds, 1080p, no audio. Source retained at local `archive/higgsfield/atmosphere-journey.mp4`; its frames are no longer deployed.
 - Office environment: `77f25ead-c0ed-4839-9f89-86d343732757`.
 - Event environment: `7b9c0561-4769-433f-b496-c9a5b7db79e1`.
 - Hotel environment: `923bc586-c6bf-43f0-8a09-1cc5051738b2`.
@@ -14,6 +14,8 @@ Authorized by the user on 2026-10-31: use Higgsfield credits to improve the Parf
 
 The first photoshoot outputs altered the package design and were excluded from the deployed asset set. No third-party visual references were added to this revision.
 
-`node scripts/prepare-renders.mjs` regenerates the responsive product derivatives from the saved accepted jobs. `node scripts/prepare-motion.mjs` regenerates 144 desktop and 144 mobile frames from the archived extracted frames. Neither command starts paid generation. Back up `archive/` before handing off the project.
+`node scripts/prepare-renders.mjs` regenerates the responsive product derivatives from the saved accepted jobs. `node scripts/prepare-motion-assets.mjs` derives full-resolution room WebPs, the clean sky crop and product-front textures from the accepted PNGs. Neither command starts paid generation. Back up `archive/` before handing off the project.
+
+Revision two uses procedural Three.js presentation models with the accepted front artwork, plus nozzle-anchored mist. It reuses the approved Higgsfield images and consumes no additional credits. The earlier frame-generation script is retained only for the archived film.
 
 Session credit balance: 239.75 before generation, 4.25 afterward; 235.5 credits consumed including rejected image iterations, accepted renders, the 1080p film and background removal.

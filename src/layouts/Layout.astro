@@ -69,9 +69,14 @@ const organization = {
           parfumaire<span>CANADA</span>
         </a>
         <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="/collections/all/">
+          <button
+            class="explore-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="explore-menu"
+          >
             Explore <Icon name="down" size={13} />
-          </a>
+          </button>
           <a href="/collections/scent-diffusers/">Diffusers</a>
           <a href="/collections/scents/">Scents</a>
           <a href="/business-scenting/">For business</a>
@@ -91,6 +96,28 @@ const organization = {
             <Icon name="menu" />
           </button>
         </div>
+        <nav id="explore-menu" class="explore-menu" aria-label="Explore collections" hidden>
+          <a href="/collections/all/">
+            <Icon name="collection" size={34} />
+            <span>Explore all</span>
+          </a>
+          <a href="/collections/scent-diffusers/">
+            <Icon name="diffuser" size={34} />
+            <span>Scent diffusers</span>
+          </a>
+          <a href="/collections/scents/">
+            <Icon name="fragrance" size={34} />
+            <span>Signature scents</span>
+          </a>
+          <a href="/fragrance-finder/">
+            <Icon name="home" size={34} />
+            <span>For your home</span>
+          </a>
+          <a href="/business-scenting/">
+            <Icon name="business" size={34} />
+            <span>For business</span>
+          </a>
+        </nav>
         <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
           <a href="/collections/all/">Explore all</a>
           <a href="/collections/scent-diffusers/">Scent diffusers</a>
@@ -164,23 +191,6 @@ const organization = {
         </p>
       </footer>
     </div>
-    <script>
-      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
-      const nav = document.querySelector<HTMLElement>('#mobile-nav');
-      toggle?.addEventListener('click', () => {
-        const open = toggle.getAttribute('aria-expanded') !== 'true';
-        toggle.setAttribute('aria-expanded', String(open));
-        toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-        if (nav) nav.hidden = !open;
-      });
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && nav && !nav.hidden) {
-          nav.hidden = true;
-          toggle?.setAttribute('aria-expanded', 'false');
-          toggle?.focus();
-        }
-      });
-    </script>
-    <script src="../scripts/reveal.ts"></script>
+    <script src="../scripts/navigation.ts"></script>
   </body>
 </html>
