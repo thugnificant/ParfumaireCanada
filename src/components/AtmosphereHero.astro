@@ -74,36 +74,41 @@ const tower = byHandle('la-tour-scent-diffuser');
     </aside>
   </section>
   <section class="atmosphere-landing" aria-labelledby="landing-heading">
-    <img
-      class="landing-photo"
-      src="/images/photography/floor-3200.webp"
-      srcset="/images/photography/floor-1600.webp 1600w, /images/photography/floor-3200.webp 3200w"
-      sizes="(max-width:700px) 180vw, 100vw"
-      width="3200"
-      height="2136"
-      alt="A blue sofa in a sunlit room with a wooden floor and woven rug"
-      decoding="async"
-    />
+    <div class="office-scene">
+      <img
+        class="landing-photo"
+        src="/images/photography/office-floor-3200.webp"
+        srcset="/images/photography/office-floor-1600.webp 1600w, /images/photography/office-floor-3200.webp 3200w"
+        sizes="(max-width:700px) 180vw, 100vw"
+        width="3200"
+        height="2393"
+        alt="A sunlit office with white desks, green plants and a pale stone floor"
+        decoding="async"
+      />
+      <span class="flight-destination" aria-hidden="true"></span>
+      <ProductView
+        class="landing-fallback"
+        handle="cozyair-max-scent-diffuser"
+        label="White CozyAir Max floor-standing scent diffuser"
+        finish="white"
+        grounded
+      />
+    </div>
     <div class="landing-copy">
-      <h2 id="landing-heading">Big atmosphere. Small footprint.</h2>
+      <h2 id="landing-heading">
+        A better atmosphere
+        <br />
+        for your working day.
+      </h2>
       <p>
         Meet CozyAir Max. Floor-standing fragrance,
         <br />
-        made to feel right at home.
+        made for the spaces you work in.
       </p>
       <a class="pill" href="/products/cozyair-max-scent-diffuser/?variant=41466755514554">
         Discover CozyAir Max <Icon />
       </a>
     </div>
-    <span class="flight-destination" aria-hidden="true"></span>
-    <div class="landing-shadow" aria-hidden="true"></div>
-    <ProductView
-      class="landing-fallback"
-      handle="cozyair-max-scent-diffuser"
-      label="White CozyAir Max floor-standing scent diffuser"
-      finish="white"
-      grounded
-    />
   </section>
   <ProductView
     handle="cozyair-max-scent-diffuser"
@@ -115,8 +120,10 @@ const tower = byHandle('la-tour-scent-diffuser');
 </div>
 <div class="photography-credit">
   <span>
-    Photography: <a href="https://www.pexels.com/photo/4610805/">Brett Sayles</a> &amp;{' '}
-    <a href="https://www.pexels.com/photo/7556566/">Kampus Production</a> / Pexels
+    Photography: <a href="https://www.pexels.com/photo/4610805/">Brett Sayles / Pexels</a> &amp;{' '}
+    <a href="https://unsplash.com/photos/modern-office-space-with-plants-and-desk-_XbcXekBecY">
+      FlippingBook / Unsplash
+    </a>
   </span>
   <button type="button" class="motion-toggle" aria-pressed="false">
     Pause motion

@@ -15,6 +15,7 @@ const {
   grounded = false,
   class: className = '',
 } = Astro.props;
+const officePoster = grounded && handle === 'cozyair-max-scent-diffuser' && finish === 'white';
 ---
 
 <div
@@ -26,9 +27,13 @@ const {
 >
   <img
     class="product-fallback"
-    src={`/images/models/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-studio.webp`}
-    width="1200"
-    height="1600"
+    src={
+      officePoster
+        ? '/images/models/office-max-rest.webp'
+        : `/images/models/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-studio.webp`
+    }
+    width={officePoster ? 2048 : 1200}
+    height={officePoster ? 1576 : 1600}
     alt={label}
     loading={hero ? 'eager' : 'lazy'}
     decoding="async"

@@ -36,3 +36,8 @@ docs/qa/revision-five/*.png
 docs/qa/revision-five/showcase/recordings/
 docs/qa/revision-five/showcase/*.webm
 docs/qa/revision-five/showcase/*.png
+
+docs/qa/revision-six/**/*.png
+docs/qa/revision-six/**/*.webm
+docs/qa/revision-six/recordings/
+docs/qa/revision-six/showcase/recordings/

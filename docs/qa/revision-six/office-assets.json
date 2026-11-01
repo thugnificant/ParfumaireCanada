@@ -1,0 +1,38 @@
+[
+  {
+    "viewport": 1440,
+    "mode": "motion",
+    "source": {
+      "src": "http://127.0.0.1:4323/images/photography/office-floor-3200.webp",
+      "width": 3200,
+      "height": 2393
+    }
+  },
+  {
+    "viewport": 1440,
+    "mode": "no-js",
+    "source": {
+      "src": "http://127.0.0.1:4323/images/photography/office-floor-3200.webp",
+      "width": 3200,
+      "height": 2393
+    }
+  },
+  {
+    "viewport": 390,
+    "mode": "motion",
+    "source": {
+      "src": "http://127.0.0.1:4323/images/photography/office-floor-1600.webp",
+      "width": 1600,
+      "height": 1196
+    }
+  },
+  {
+    "viewport": 390,
+    "mode": "no-js",
+    "source": {
+      "src": "http://127.0.0.1:4323/images/photography/office-floor-1600.webp",
+      "width": 1600,
+      "height": 1196
+    }
+  }
+]

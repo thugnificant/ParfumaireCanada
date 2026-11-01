@@ -42,6 +42,8 @@ function gpu() {
   });
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.NeutralToneMapping;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFShadowMap;
   const generator = new THREE.PMREMGenerator(renderer);
   const room = new RoomEnvironment();
   environment = generator.fromScene(room, 0.04);
@@ -84,6 +86,9 @@ async function createView(element: HTMLElement) {
     return;
   }
   const { model, tower, box, half, center } = product;
+  const hero = element.hasAttribute('data-hero-product');
+  const flight = element.classList.contains('atmosphere-product');
+  const office = flight || element.classList.contains('landing-fallback');
   const scene = new THREE.Scene();
   scene.environment = environment.texture;
   scene.add(model);
@@ -95,6 +100,67 @@ async function createView(element: HTMLElement) {
   const rim = new THREE.DirectionalLight(0xd5eaff, 1.8);
   rim.position.set(4, 2, -1);
   scene.add(rim);
+  // The office is lit by a window on the LEFT. Its floor receives the cabinet's
+  // actual silhouette and foot shadows, rather than an unrelated CSS oval.
+  const floorMaterial = new THREE.ShadowMaterial({ color: 0x403e34, opacity: 0 });
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(4, 3), floorMaterial);
+  let contactMaterial: THREE.MeshBasicMaterial | undefined;
+  let contactTexture: THREE.CanvasTexture | undefined;
+  if (office) {
+    model.traverse((object) => {
+      if (object instanceof THREE.Mesh) {
+        object.castShadow = true;
+        // The thin branded panel sits over the shell; self-shadowing those
+        // nearly coincident surfaces introduces stippling in the white finish.
+        object.receiveShadow = false;
+        for (const material of Array.isArray(object.material)
+          ? object.material
+          : [object.material]) {
+          if (material instanceof THREE.MeshPhysicalMaterial) {
+            // Powder-coated white metal, exposed for this photograph rather than
+            // a glossy studio product isolated on white.
+            material.roughness = 0.5;
+            material.clearcoat = 0.05;
+            material.metalness = 0.08;
+            if (material.map) material.color.set(0xe4e4df);
+          }
+        }
+      }
+    });
+    floor.rotation.x = -Math.PI / 2;
+    floor.position.y = -1.041;
+    floor.receiveShadow = true;
+    floorMaterial.depthWrite = false;
+    model.add(floor);
+    // Broad, soft ambient occlusion under the cabinet complements the directional
+    // shadow. This is a floor-aligned footprint, with the same perspective as its feet.
+    const contactMap = document.createElement('canvas');
+    contactMap.width = contactMap.height = 256;
+    const paint = contactMap.getContext('2d')!;
+    paint.filter = 'blur(18px)';
+    paint.fillStyle = '#25251e';
+    paint.fillRect(36, 36, 184, 184);
+    contactTexture = new THREE.CanvasTexture(contactMap);
+    contactMaterial = new THREE.MeshBasicMaterial({
+      map: contactTexture,
+      transparent: true,
+      opacity: 0,
+      depthWrite: false,
+      toneMapped: false,
+    });
+    const contact = new THREE.Mesh(new THREE.PlaneGeometry(2.08, 1.3), contactMaterial);
+    contact.rotation.x = -Math.PI / 2;
+    contact.position.y = -1.04;
+    model.add(contact);
+    key.castShadow = true;
+    key.shadow.mapSize.set(512, 512);
+    key.shadow.camera.left = key.shadow.camera.bottom = -2.5;
+    key.shadow.camera.right = key.shadow.camera.top = 2.5;
+    key.shadow.camera.near = 0.1;
+    key.shadow.camera.far = 20;
+    key.shadow.normalBias = 0.015;
+    key.shadow.radius = 6;
+  }
   const camera = new THREE.OrthographicCamera(-2, 2, 2, -2, 0.1, 20);
   camera.position.set(0, center, 6);
   camera.lookAt(0, center, 0);
@@ -113,8 +179,6 @@ async function createView(element: HTMLElement) {
   };
   interaction.addEventListener('pointermove', move);
   interaction.addEventListener('pointerleave', leave);
-  const hero = element.hasAttribute('data-hero-product');
-  const flight = element.classList.contains('atmosphere-product');
   let width = 0,
     height = 0;
   function render(time: number) {
@@ -137,18 +201,22 @@ async function createView(element: HTMLElement) {
       const p = Number(element.dataset.flight || 0);
       const pose = flightAt(p);
       model.rotation.set(pose.pitch, pose.yaw, pose.roll);
-      key.position.x = -3 + 7 * pose.depth;
-      key.intensity = 2.8 - 0.7 * pose.depth;
-      fill.intensity = 1.7 - 0.4 * pose.depth;
-      scene.environmentIntensity = 1 - 0.25 * pose.depth;
     }
     if (tower && hero && !paused) model.rotation.z = 0.2 + Math.sin(time * 0.4) * 0.08;
     if (landed === 1) {
       model.rotation.set(restingPose.pitch, restingPose.yaw, restingPose.roll);
-      key.position.x = 4;
-      key.intensity = 2.1;
-      fill.intensity = 1.3;
-      scene.environmentIntensity = 0.75;
+    }
+    if (office) {
+      const depth = landed === 1 ? 1 : flightAt(Number(element.dataset.flight || 0)).depth;
+      key.position.set(-3 - depth, 4 + 3 * depth, 6 + 4 * depth);
+      key.color.set(0xfff9ec);
+      key.intensity = 2.8 + 0.2 * depth;
+      fill.intensity = 1.7 - 1.0 * depth;
+      rim.intensity = 1.8 - 1.6 * depth;
+      scene.environmentIntensity = 1 - 0.65 * depth;
+      floorMaterial.opacity = 0.28 * landed;
+      if (contactMaterial) contactMaterial.opacity = 0.4 * landed;
+      floor.visible = landed > 0;
     }
     // Once released, every part of the hero pose comes from scroll position.
     // Idle time cannot move the feet away from their photographed floor anchor.
@@ -191,6 +259,12 @@ async function createView(element: HTMLElement) {
     dispose: () => {
       resizeObserver.disconnect();
       product.dispose();
+      if (!office) {
+        floor.geometry.dispose();
+        floorMaterial.dispose();
+      }
+      key.shadow.map?.dispose();
+      contactTexture?.dispose();
       interaction.removeEventListener('pointermove', move);
       interaction.removeEventListener('pointerleave', leave);
     },
