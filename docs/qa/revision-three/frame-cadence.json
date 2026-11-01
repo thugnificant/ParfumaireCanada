@@ -1,0 +1,23 @@
+{
+  "note": "Headless Chrome on this Mac; RAF cadence is not a physical-device FPS guarantee.",
+  "results": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "cpuRate": 1,
+      "frames": 241,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.700000000000728,
+      "over50ms": 0
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "cpuRate": 4,
+      "frames": 241,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.700000000000728,
+      "over50ms": 0
+    }
+  ]
+}

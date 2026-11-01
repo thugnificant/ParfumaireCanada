@@ -54,3 +54,9 @@ Full local recordings: `docs/qa/revision-three/desktop-scroll.webm` and `mobile-
 The shared product now crosses the actual frame boundary and makes contact with the desk; the broad handoff behavior matches the reference. The main remaining difference is art direction: the stock workspace and Parfumaire box silhouette are different from Bella's purpose-built kitchen/appliance composition. The white product artwork is sharp, but the presentation geometry should not be mistaken for an engineering-accurate model.
 
 The taste inspector reports no overflow, broken images or covered headlines after correction. Its remaining generic typography, palette, footage and motion-count suggestions conflict with the pinned reference or the user's request to remove popping section entrances. The remaining eyebrow result is a false positive connecting a customer review attribution with the later decorative “bonjour” word; the attribution is retained. No false claim of a completely green design-lint report is made.
+
+## Deployment
+
+Published commit `322e3e9` through the successful [GitHub Pages deployment](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41325037823). The published site passed the full desktop/mobile motion suite again, with no exceptions or failed requests. The live route/variant/enquiry/404 checks also passed: [live motion results](qa/revision-three/live-results.json), [live functional results](qa/deployed-results.json).
+
+A separate 4-second continuous-scroll sample measured 241 animation callbacks with a median and p95 interval of about 16.7 ms, both at desktop size and at 390 × 667 with 4× CPU throttling. Neither sample had an interval above 50 ms. This measures headless Chrome callback cadence on this Mac, not guaranteed physical-device frame delivery: [timing samples](qa/revision-three/frame-cadence.json).
