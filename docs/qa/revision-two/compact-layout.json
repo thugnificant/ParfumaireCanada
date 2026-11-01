@@ -1,0 +1,30 @@
+[
+  {
+    "width": 375,
+    "height": 667,
+    "heroFits": true,
+    "roomImages2688": true,
+    "scenes": true
+  },
+  {
+    "width": 320,
+    "height": 640,
+    "heroFits": true,
+    "roomImages2688": true,
+    "scenes": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "heroFits": true,
+    "roomImages2688": true,
+    "scenes": true
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "heroFits": true,
+    "roomImages2688": true,
+    "scenes": true
+  }
+]

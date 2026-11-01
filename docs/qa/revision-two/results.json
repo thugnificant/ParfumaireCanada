@@ -1,6 +1,6 @@
 {
-  "base": "http://127.0.0.1:4323",
-  "at": "2026-11-01T00:08:53.416Z",
+  "base": "https://parfumairecanada.sugiweb.com",
+  "at": "2026-11-01T00:13:39.701Z",
   "checks": [
     "Desktop dropdown: click, hover, five icons in one row, keyboard arrows and Escape",
     "1440px: live 3D and mist, retina canvas, five 2688px rooms, reverse and rapid scroll, pause/resume, visible product cards, recorded continuous scroll",

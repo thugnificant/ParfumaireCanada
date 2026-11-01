@@ -67,7 +67,7 @@ if (root) {
     const finalHeight = height * (mobile ? 0.46 : 0.58);
     const productHeight = initialHeight + (finalHeight - initialHeight) * landed;
     const initialX = width * (mobile ? 0.65 : 0.7);
-    const initialY = height * (mobile ? 0.58 : 0.43);
+    const initialY = height * (mobile ? (height < 560 ? 0.64 : 0.58) : 0.43);
     const finalY = footY - finalHeight * 0.448;
     product.style.width = `${productHeight * 0.72}px`;
     product.style.height = `${productHeight}px`;

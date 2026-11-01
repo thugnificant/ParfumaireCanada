@@ -28,6 +28,7 @@
 .atmosphere-main {
   width: calc(72% + 28% * var(--scene-open));
   height: 100%;
+  min-height: 0;
   background: #36a8df;
   z-index: 2;
 }
@@ -565,6 +566,31 @@
 }
 html.motion-paused .product-stage img {
   animation-play-state: paused !important;
+}
+@media (max-width: 700px) and (max-height: 740px) {
+  .atmosphere-copy {
+    top: 20px;
+  }
+  .atmosphere-copy .eyebrow {
+    margin-bottom: 12px;
+  }
+  .atmosphere-chapter h1,
+  .atmosphere-chapter h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .atmosphere-chapter p {
+    font-size: 11px;
+    max-width: 240px;
+  }
+  .atmosphere-copy .pill {
+    margin-top: 12px;
+    min-height: 36px;
+    padding: 8px 16px;
+  }
+  .atmosphere-word {
+    bottom: 56px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .product-stage img {

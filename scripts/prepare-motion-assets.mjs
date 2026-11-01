@@ -6,7 +6,7 @@ await fs.mkdir('public/images/models', { recursive: true });
 for (const name of ['office', 'event', 'hotel', 'home']) {
   await sharp(`archive/higgsfield/room-${name}.png`)
     .webp({ quality: 94, effort: 6 })
-    .toFile(`public/images/renders/space-${name}.webp`);
+    .toFile(`public/images/renders/space-${name}-hq.webp`);
 }
 await sharp('archive/higgsfield/hero-corrected.png')
   .extract({ left: 0, top: 0, width: 1440, height: 1520 })

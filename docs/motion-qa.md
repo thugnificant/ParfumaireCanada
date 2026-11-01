@@ -15,6 +15,7 @@ The 7:51 PM feedback recording and the original 4:21 PM Bella recording were the
 - Build, Astro checks, all 101 generated routes and enquiry safeguards passed.
 - Functional browser checks passed for all 21 products, 59 variants and 93 gallery selections.
 - Layouts at 1440, 1024, 768 and 390 px passed overflow checks; 14 accessibility scans reported no WCAG A/AA violations.
+- A separate 375 × 667 check found and removed an inherited minimum height that cropped the hero on shorter phones. Room asset URLs are versioned so cached lower-resolution images are not reused.
 - Motion tests at 1440 and 390 px checked retina rendering, idle movement, five sharp room layers, reverse navigation, rapid scroll, pause/resume, reduced motion and no-JavaScript fallbacks. No browser exceptions or failed asset requests.
 - Captured and reviewed desktop/mobile screenshots and continuous scroll recordings. Paused images allow only negligible GPU color rounding (mean channel difference below 0.001, maximum 2), not animation.
 
