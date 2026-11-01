@@ -22,3 +22,5 @@ Replaced the home-office photo with a newly generated, front-facing commercial r
 - Visually reviewed the full room at desktop and phone sizes, six descent stages, and frames from the desktop/mobile continuous scroll recordings. Recordings are local artifacts under `showcase/`; compact review images are tracked here.
 
 Evidence: [floor placement](office-placement.json), [motion](results.json), [wheel performance](scroll-feel.json), [descent](descent-stages.webp), [desktop](office-1440.webp), [phone](office-390.webp), [no JavaScript](office-no-js.webp).
+
+Published commit `e2d8e93` through [successful deployment 41355381420](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41355381420). Live checks repeated the four viewport placements and static/no-JavaScript parity, confirmed the new 2752px office asset, and passed the deployed routes, images, product variant, 404 and safe form checks. See [live placement report](live/office-placement.json) and [published composition](live/office-1440.webp).
