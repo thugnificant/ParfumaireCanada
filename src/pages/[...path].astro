@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
+import ProductHotspot from '../components/ProductHotspot.astro';
 import EnquiryBanner from '../components/EnquiryBanner.astro';
 import pages from '../data/pages.json';
 import aliases from '../data/aliases.json';
@@ -60,23 +61,40 @@ const services = pages.filter((x) =>
                   <Icon />
                 </a>
               </div>
-              <img
-                src={photo.path}
-                srcset={
-                  composition ? `${composition.small} 1280w, ${composition.path} 2528w` : undefined
-                }
-                sizes="(max-width: 900px) 94vw, 52vw"
-                style={composition ? `object-position: ${composition.position}` : undefined}
-                width={photo.width}
-                height={photo.height}
-                alt={photo.alt}
-                fetchpriority="high"
-              />
+              <figure
+                class="service-photo"
+                data-photo-hotspots
+                data-image-width={photo.width}
+                data-image-height={photo.height}
+                data-anchor-x={composition?.hotspotX}
+                data-anchor-y={composition?.hotspotY}
+              >
+                <img
+                  src={photo.path}
+                  srcset={
+                    composition
+                      ? `${composition.small} 1280w, ${composition.path} 2528w`
+                      : undefined
+                  }
+                  sizes="(max-width: 900px) 94vw, 52vw"
+                  style={composition ? `object-position: ${composition.position}` : undefined}
+                  width={photo.width}
+                  height={photo.height}
+                  alt={photo.alt}
+                  fetchpriority="high"
+                />
+                {composition && (
+                  <ProductHotspot
+                    id={`service-product-${page.slug}`}
+                    name={composition.name}
+                    handle={composition.handle}
+                  />
+                )}
+              </figure>
             </section>
             {composition && (
               <p class="service-photo-credit">
-                Product visualisation. Interior photography:{' '}
-                <a href={composition.source}>{composition.credit} / Pexels</a>
+                Interior visual: Higgsfield · Parfumaire product render
               </p>
             )}
             <div class="service-body prose" set:html={page.body} />
@@ -106,3 +124,5 @@ const services = pages.filter((x) =>
     </Layout>
   )
 )}
+
+<script src="../scripts/photo-hotspots.ts"></script>

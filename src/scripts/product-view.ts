@@ -21,6 +21,8 @@ const views: {
 let tick = 0,
   previous = 0,
   elapsed = 0;
+const active = (element: HTMLElement) =>
+  element.dataset.renderMode === 'continuous' || element.dataset.active === 'true';
 function gpu() {
   if (renderer) return renderer;
   renderer = new THREE.WebGLRenderer({
@@ -60,8 +62,9 @@ function animate(now: number) {
   }
   elapsed += previous ? Math.min((now - previous) / 1000, 0.05) : 0;
   previous = now;
-  for (const v of views) if (v.visible) v.render(elapsed);
-  if (views.some((v) => v.visible)) tick = requestAnimationFrame(animate);
+  for (const v of views) if (v.visible && active(v.element)) v.render(elapsed);
+  if (views.some((v) => v.visible && active(v.element))) tick = requestAnimationFrame(animate);
+  else previous = 0;
 }
 function wake() {
   if (!tick) tick = requestAnimationFrame(animate);
@@ -87,8 +90,12 @@ async function createView(element: HTMLElement) {
   }
   const { model, tower, box, half, center } = product;
   const hero = element.hasAttribute('data-hero-product');
-  const flight = element.classList.contains('atmosphere-product');
-  const office = flight || element.classList.contains('landing-fallback');
+  const business =
+    element.classList.contains('business-flight') || element.classList.contains('business-rest');
+  const flight =
+    element.classList.contains('atmosphere-product') ||
+    element.classList.contains('business-flight');
+  const office = flight || element.classList.contains('landing-fallback') || business;
   const scene = new THREE.Scene();
   scene.environment = environment.texture;
   scene.add(model);
@@ -116,7 +123,7 @@ async function createView(element: HTMLElement) {
         for (const material of Array.isArray(object.material)
           ? object.material
           : [object.material]) {
-          if (material instanceof THREE.MeshPhysicalMaterial) {
+          if (material instanceof THREE.MeshPhysicalMaterial && !tower) {
             // Powder-coated white metal, exposed for this photograph rather than
             // a glossy studio product isolated on white.
             material.roughness = 0.5;
@@ -128,7 +135,7 @@ async function createView(element: HTMLElement) {
       }
     });
     floor.rotation.x = -Math.PI / 2;
-    floor.position.y = -1.041;
+    floor.position.y = tower ? -1.334 : -1.041;
     floor.receiveShadow = true;
     floorMaterial.depthWrite = false;
     model.add(floor);
@@ -148,9 +155,12 @@ async function createView(element: HTMLElement) {
       depthWrite: false,
       toneMapped: false,
     });
-    const contact = new THREE.Mesh(new THREE.PlaneGeometry(2.08, 1.3), contactMaterial);
+    const contact = new THREE.Mesh(
+      new THREE.PlaneGeometry(tower ? 0.72 : 2.08, tower ? 0.72 : 1.3),
+      contactMaterial,
+    );
     contact.rotation.x = -Math.PI / 2;
-    contact.position.y = -1.04;
+    contact.position.y = tower ? -1.333 : -1.04;
     model.add(contact);
     key.castShadow = true;
     key.shadow.mapSize.set(512, 512);
@@ -185,7 +195,7 @@ async function createView(element: HTMLElement) {
     if (!width || !height || contextLost) return;
     const landed = element.hasAttribute('data-grounded')
       ? 1
-      : hero
+      : hero || business
         ? Number(element.dataset.landed || 0)
         : 0;
     const sway = paused ? 0 : Math.sin(time * 0.55) * (tower ? 0.65 : 0.25);
@@ -200,11 +210,11 @@ async function createView(element: HTMLElement) {
     if (flight && !paused) {
       const p = Number(element.dataset.flight || 0);
       const pose = flightAt(p);
-      model.rotation.set(pose.pitch, pose.yaw, pose.roll);
+      model.rotation.set(pose.pitch - (business ? 0.09 * pose.depth : 0), pose.yaw, pose.roll);
     }
-    if (tower && hero && !paused) model.rotation.z = 0.2 + Math.sin(time * 0.4) * 0.08;
+    if (tower && hero && !flight && !paused) model.rotation.z = 0.2 + Math.sin(time * 0.4) * 0.08;
     if (landed === 1) {
-      model.rotation.set(restingPose.pitch, restingPose.yaw, restingPose.roll);
+      model.rotation.set(business ? 0.1 : restingPose.pitch, restingPose.yaw, restingPose.roll);
     }
     if (office) {
       const depth = landed === 1 ? 1 : flightAt(Number(element.dataset.flight || 0)).depth;
@@ -234,7 +244,12 @@ async function createView(element: HTMLElement) {
     const w = element.clientWidth,
       h = element.clientHeight;
     if (!w || !h) return;
-    const dpr = Math.min(devicePixelRatio, 2, bufferSize / w, bufferSize / h);
+    const dpr = Math.min(
+      devicePixelRatio,
+      matchMedia('(pointer: coarse)').matches ? 1.5 : 2,
+      bufferSize / w,
+      bufferSize / h,
+    );
     width = Math.round(w * dpr);
     height = Math.round(h * dpr);
     if (canvas.width !== width) canvas.width = width;
@@ -283,7 +298,7 @@ const observer = new IntersectionObserver(
           view.render(elapsed);
           wake();
         }
-      } else if (entry.isIntersecting && !element.dataset.model) {
+      } else if (entry.isIntersecting && active(element) && !element.dataset.model) {
         element.dataset.model = 'loading';
         void createView(element);
       }
@@ -291,7 +306,17 @@ const observer = new IntersectionObserver(
   },
   { rootMargin: '100px' },
 );
-document.querySelectorAll<HTMLElement>('[data-product-view]').forEach((e) => observer.observe(e));
+document
+  .querySelectorAll<HTMLElement>('[data-product-view]:not([data-render-mode="static"])')
+  .forEach((e) => observer.observe(e));
+document.addEventListener('parfumaire:activate', (event) => {
+  const element = (event as CustomEvent<HTMLElement>).detail;
+  if (active(element) && !element.dataset.model) {
+    element.dataset.model = 'loading';
+    void createView(element);
+  }
+  wake();
+});
 addEventListener('pagehide', (event) => {
   if (event.persisted) return;
   cancelAnimationFrame(tick);

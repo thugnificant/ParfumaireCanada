@@ -1,3 +1,4 @@
+import { price } from './pricing';
 import data from '../data/catalog.json';
 import renderData from '../data/renders.json';
 const renders = renderData as Record<
@@ -27,13 +28,7 @@ export const products = data.map((product) => {
 });
 export type Product = (typeof products)[number];
 export const byHandle = (handle: string) => products.find((p) => p.handle === handle)!;
-export const price = (minor: number) =>
-  new Intl.NumberFormat('en-CA', {
-    style: 'currency',
-    currency: 'USD',
-    currencyDisplay: 'code',
-    maximumFractionDigits: 0,
-  }).format(minor / 100);
+export { price } from './pricing';
 export function priceLabel(p: Product) {
   const values = p.variants.map((v) => v.priceMinor);
   return `${Math.min(...values) !== Math.max(...values) ? 'From ' : ''}${price(Math.min(...values))}`;

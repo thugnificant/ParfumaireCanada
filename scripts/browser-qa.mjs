@@ -28,7 +28,9 @@ for (const width of [1440, 1024, 768, 390]) {
   await page.setViewportSize({ width, height: width === 390 ? 844 : 1000 });
   await page.goto(base, { waitUntil: 'networkidle' });
   await page.locator('img').evaluateAll((imgs) => imgs.forEach((i) => (i.loading = 'eager')));
-  await page.waitForFunction(() => [...document.images].every((i) => i.complete));
+  await page.waitForFunction(() =>
+    [...document.images].every((i) => !i.getAttribute('src') || i.complete),
+  );
   await page
     .locator('img')
     .evaluateAll((imgs) => Promise.all(imgs.map((i) => i.decode().catch(() => {}))));
@@ -75,7 +77,7 @@ await page.locator('#product-enquiry').click();
 await page.locator('#enquiry-context').filter({ hasText: 'CozyAir Max' }).waitFor();
 assert.match(
   await page.locator('#enquiry-context').textContent(),
-  /CozyAir Max.*Black.*Quantity: 3/s,
+  /CozyAir Max.*Black.*Quantity 3/s,
 );
 assert.match(page.url(), /variant=41500300247226/);
 await page.getByLabel('Name', { exact: false }).fill('QA Preview');
@@ -85,6 +87,10 @@ const submitted = [];
 page.on('request', (r) => {
   if (r.method() === 'POST') submitted.push(r.url());
 });
+await page.getByRole('button', { name: 'Continue to review', exact: true }).click();
+await page.getByRole('button', { name: 'Edit details', exact: true }).click();
+assert.equal(await page.locator('#name').inputValue(), 'QA Preview');
+await page.getByRole('button', { name: 'Continue to review', exact: true }).click();
 await page.getByRole('button', { name: 'Preview enquiry', exact: true }).click();
 await page.getByRole('status').filter({ hasText: 'No message was sent' }).waitFor();
 assert.equal(submitted.length, 0);
@@ -112,7 +118,10 @@ for (const p of catalog) {
   }
   for (let i = 0; i < p.images.length; i++) {
     await page.locator(`[data-gallery-index="${i}"]`).click();
-    assert.equal(await page.locator('#product-image').getAttribute('src'), p.images[i].path);
+    await page.waitForFunction(
+      (path) => document.querySelector('#product-image').getAttribute('src') === path,
+      p.images[i].path,
+    );
   }
   await page.waitForFunction(() => {
     const im = document.querySelector('#product-image');

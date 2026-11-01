@@ -1,0 +1,119 @@
+{
+  "base": "http://127.0.0.1:4323",
+  "at": "2026-11-01T22:46:24.001Z",
+  "views": [
+    {
+      "width": 1440,
+      "source": {
+        "src": "http://127.0.0.1:4323/images/photography/corporate-reception-2752.webp",
+        "width": 2752,
+        "height": 1536
+      },
+      "live": {
+        "x": 839.3759765625,
+        "y": 603.5040072021484,
+        "height": 110.8800048828125,
+        "sceneWidth": 1392,
+        "sceneHeight": 792
+      },
+      "fixed": {
+        "x": 839.375,
+        "y": 603.4913750000001,
+        "height": 110.875,
+        "sceneWidth": 1392,
+        "sceneHeight": 792
+      },
+      "checks": [
+        "photo anchor",
+        "static parity",
+        "caption clearance",
+        "no overflow"
+      ]
+    },
+    {
+      "width": 1024,
+      "source": {
+        "src": "http://127.0.0.1:4323/images/photography/corporate-reception-2752.webp",
+        "width": 2752,
+        "height": 1536
+      },
+      "live": {
+        "x": 595.7640075683594,
+        "y": 472.4400095214844,
+        "height": 86.800048828125,
+        "sceneWidth": 988,
+        "sceneHeight": 620
+      },
+      "fixed": {
+        "x": 595.75,
+        "y": 472.43695312499995,
+        "height": 86.796875,
+        "sceneWidth": 988,
+        "sceneHeight": 620
+      },
+      "checks": [
+        "photo anchor",
+        "static parity",
+        "caption clearance",
+        "no overflow"
+      ]
+    },
+    {
+      "width": 768,
+      "source": {
+        "src": "http://127.0.0.1:4323/images/photography/corporate-reception-2752.webp",
+        "width": 2752,
+        "height": 1536
+      },
+      "live": {
+        "x": 441.39599609375,
+        "y": 472.4400095214844,
+        "height": 86.800048828125,
+        "sceneWidth": 732,
+        "sceneHeight": 620
+      },
+      "fixed": {
+        "x": 441.390625,
+        "y": 472.43695312499995,
+        "height": 86.796875,
+        "sceneWidth": 732,
+        "sceneHeight": 620
+      },
+      "checks": [
+        "photo anchor",
+        "static parity",
+        "caption clearance",
+        "no overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "source": {
+        "src": "http://127.0.0.1:4323/images/photography/corporate-reception-2752.webp",
+        "width": 2752,
+        "height": 1536
+      },
+      "live": {
+        "x": 220.69799041748047,
+        "y": 457.19998339843755,
+        "height": 84,
+        "sceneWidth": 366,
+        "sceneHeight": 600
+      },
+      "fixed": {
+        "x": 220.6875,
+        "y": 457.18887500000005,
+        "height": 84,
+        "sceneWidth": 366,
+        "sceneHeight": 600
+      },
+      "checks": [
+        "photo anchor",
+        "static parity",
+        "caption clearance",
+        "no overflow"
+      ]
+    }
+  ],
+  "errors": []
+}

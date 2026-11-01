@@ -4,8 +4,9 @@ import Icon from './Icon.astro';
 import ProductView from './ProductView.astro';
 interface Props {
   product: Product;
+  flightOrigin?: boolean;
 }
-const { product: p } = Astro.props;
+const { product: p, flightOrigin = false } = Astro.props;
 ---
 
 <article
@@ -19,8 +20,9 @@ const { product: p } = Astro.props;
     class:list={['product-stage', { tower: p.handle.startsWith('la-tour') }]}
     href={productPath(p)}
     aria-label={`Explore ${p.title}`}
+    data-business-origin={flightOrigin || undefined}
   >
-    <ProductView handle={p.handle} label={p.title} />
+    <ProductView handle={p.handle} label={p.title} static={flightOrigin} />
     <span class="product-arrow">
       <Icon />
     </span>

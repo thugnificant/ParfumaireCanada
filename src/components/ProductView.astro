@@ -5,6 +5,7 @@ interface Props {
   hero?: boolean;
   finish?: 'white' | 'black';
   grounded?: boolean;
+  static?: boolean;
   class?: string;
 }
 const {
@@ -13,8 +14,10 @@ const {
   finish,
   hero = false,
   grounded = false,
+  static: staticView = false,
   class: className = '',
 } = Astro.props;
+const businessPoster = className === 'business-rest';
 const officePoster = grounded && handle === 'cozyair-max-scent-diffuser' && finish === 'white';
 ---
 
@@ -24,21 +27,36 @@ const officePoster = grounded && handle === 'cozyair-max-scent-diffuser' && fini
   data-finish={finish}
   data-hero-product={hero || undefined}
   data-grounded={grounded || undefined}
+  data-render-mode={
+    staticView
+      ? 'static'
+      : hero || grounded || className.includes('business-flight')
+        ? 'continuous'
+        : 'interactive'
+  }
 >
   <img
     class="product-fallback"
     src={
-      officePoster
-        ? '/images/models/corporate-max-rest.webp'
-        : `/images/models/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-studio.webp`
+      businessPoster
+        ? '/images/models/business-tour-rest.webp'
+        : officePoster
+          ? '/images/models/corporate-max-rest.webp'
+          : `/images/models/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-studio.webp`
     }
-    width={officePoster ? 2048 : 1200}
-    height={officePoster ? 1576 : 1600}
+    width={businessPoster ? 1024 : officePoster ? 2048 : 1200}
+    height={businessPoster ? 1024 : officePoster ? 1576 : 1600}
     alt={label}
     loading={hero ? 'eager' : 'lazy'}
     decoding="async"
     fetchpriority={hero ? 'high' : 'auto'}
+    srcset={
+      !officePoster && !businessPoster
+        ? `/images/models/previews/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-480.webp 480w, /images/models/previews/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-960.webp 960w`
+        : undefined
+    }
+    sizes={hero ? '(max-width:700px) 80vw, 50vw' : '(max-width:700px) 46vw, 25vw'}
   />
   <canvas aria-hidden="true"></canvas>
 </div>
-<script src="../scripts/product-view.ts"></script>
+<script src="../scripts/product-view-loader.ts"></script>

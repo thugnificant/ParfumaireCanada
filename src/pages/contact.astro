@@ -2,6 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
 import { site } from '../data/site.mjs';
+import { products } from '../lib/catalog';
+const quoteProducts = products.map((p) => ({
+  handle: p.handle,
+  title: p.title,
+  image: p.images[0].small,
+  variants: p.variants.map((v) => ({ id: v.id, title: v.title, sku: v.sku })),
+}));
 ---
 
 <Layout
@@ -15,7 +22,7 @@ import { site } from '../data/site.mjs';
       <span>Contact</span>
     </nav>
     <div class="form-layout">
-      <div>
+      <div class="quote-intro">
         <p class="eyebrow">A CONVERSATION STARTS HERE</p>
         <h1>
           Let’s talk
@@ -27,6 +34,17 @@ import { site } from '../data/site.mjs';
           yours.
         </p>
         <p class="muted">Tell us a little about what you have in mind.</p>
+        <div id="enquiry-context" class="quote-selection" hidden>
+          <img id="quote-product-image" alt="" width="80" height="100" />
+          <div>
+            <span class="eyebrow">YOUR SELECTION</span>
+            <strong id="quote-product-name"></strong>
+            <p id="quote-product-option"></p>
+            <a id="quote-product-link" class="text-link">
+              Change selection <Icon size={15} />
+            </a>
+          </div>
+        </div>
         <div class="preview-notice">
           <strong>Client preview</strong>
           <br />
@@ -55,63 +73,101 @@ import { site } from '../data/site.mjs';
         class="enquiry-form"
         method="post"
         data-config={JSON.stringify({ enquiry: site.enquiry, recipient: site.quoteRecipient })}
+        data-products={JSON.stringify(quoteProducts)}
       >
-        <div id="enquiry-context" class="enquiry-context" hidden></div>
-        <div class="form-row">
-          <label for="name">
-            Name <span aria-hidden="true">*</span>
-            <input id="name" name="name" required autocomplete="name" maxlength="100" />
+        <ol class="quote-steps" aria-label="Enquiry progress">
+          <li aria-current="step">
+            <span>1</span> Your details
+          </li>
+          <li>
+            <span>2</span> Review
+          </li>
+        </ol>
+        <div id="quote-fields">
+          <h2>A little about you.</h2>
+          <p class="form-caption">We’ll keep your product selection with your enquiry.</p>
+          <div class="form-row">
+            <label for="name">
+              Name <span aria-hidden="true">*</span>
+              <input id="name" name="name" required autocomplete="name" maxlength="100" />
+            </label>
+            <label for="email">
+              Email <span aria-hidden="true">*</span>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+                maxlength="254"
+              />
+            </label>
+          </div>
+          <label for="phone">
+            Phone <span class="muted">(optional)</span>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40" />
           </label>
-          <label for="email">
-            Email <span aria-hidden="true">*</span>
+          <label for="interest">
+            I’m interested in
+            <select id="interest" name="interest">
+              <option value="home">Scenting my home</option>
+              <option value="product">A particular product</option>
+              <option value="business">Scenting my business</option>
+              <option value="custom">A custom fragrance</option>
+            </select>
+          </label>
+          <label id="business-field" hidden for="business">
+            Business or space <span class="muted">(optional)</span>
             <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              autocomplete="email"
-              maxlength="254"
+              id="business"
+              name="business"
+              placeholder="E.g. boutique, hotel lobby, office"
+              maxlength="200"
+              disabled
             />
           </label>
+          <label for="message">
+            Your message <span aria-hidden="true">*</span>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              minlength="5"
+              maxlength="4000"
+              placeholder="What would you like to know?"
+            />
+          </label>
+          <button class="pill pill-dark" type="submit" id="enquiry-submit" disabled>
+            Continue to review <Icon />
+          </button>
         </div>
-        <label for="phone">
-          Phone <span class="muted">(optional)</span>
-          <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40" />
-        </label>
-        <label for="interest">
-          I’m interested in
-          <select id="interest" name="interest">
-            <option value="home">Scenting my home</option>
-            <option value="product">A particular product</option>
-            <option value="business">Scenting my business</option>
-            <option value="custom">A custom fragrance</option>
-          </select>
-        </label>
-        <label id="business-field" hidden for="business">
-          Business or space <span class="muted">(optional)</span>
-          <input
-            id="business"
-            name="business"
-            placeholder="E.g. boutique, hotel lobby, office"
-            maxlength="200"
-            disabled
-          />
-        </label>
-        <label for="message">
-          Your message <span aria-hidden="true">*</span>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            required
-            minlength="5"
-            maxlength="4000"
-            placeholder="What would you like to know?"
-          />
-        </label>
-        <button class="pill pill-dark" type="submit" id="enquiry-submit" disabled>
-          Preview enquiry <Icon />
-        </button>
+        <div id="quote-review" hidden>
+          <h2 tabindex="-1" id="review-heading">
+            Everything look right?
+          </h2>
+          <p class="form-caption">Check your details before finishing the preview.</p>
+          <dl class="review-details" id="review-details"></dl>
+          <div class="preview-notice">
+            This preview won’t send an enquiry or retain your personal details.
+          </div>
+          <button type="button" class="pill pill-dark" id="enquiry-confirm">
+            Preview enquiry <Icon />
+          </button>
+          <button type="button" class="pill pill-outline" id="enquiry-edit">
+            Edit details
+          </button>
+        </div>
+        <div id="quote-complete" hidden>
+          <span class="complete-mark" aria-hidden="true">
+            ✓
+          </span>
+          <h2>Preview complete.</h2>
+          <p>No enquiry has been sent.</p>
+          <a class="pill pill-outline" href="/collections/all/">
+            Keep exploring <Icon />
+          </a>
+        </div>
         <noscript>
           <p class="preview-notice">
             Enable JavaScript to preview this enquiry. No details can be submitted here.
@@ -134,94 +190,5 @@ import { site } from '../data/site.mjs';
       </form>
     </div>
   </div>
-  <script>
-    import { products } from '../lib/catalog';
-    import { deliverEnquiry, formatEnquiry, type Enquiry } from '../lib/enquiry';
-    const form = document.querySelector<HTMLFormElement>('.enquiry-form')!;
-    const config = JSON.parse(form.dataset.config!);
-    const params = new URLSearchParams(location.search);
-    const product = products.find((x) => x.handle === params.get('product'));
-    const variant =
-      product?.variants.find((v) => v.id === params.get('variant')) || product?.variants[0];
-    const quantity = Math.min(999, Math.max(1, Math.floor(Number(params.get('quantity')) || 1)));
-    const interest = document.querySelector<HTMLSelectElement>('#interest')!;
-    const status = document.querySelector<HTMLElement>('#form-status')!;
-    let context = '';
-    if (product && variant) {
-      context = `${product.title} · ${variant.title === 'Default Title' ? 'Black' : variant.title} · Quantity: ${quantity}\nHandle: ${product.handle}${variant.sku ? ' · SKU: ' + variant.sku : ''}\nVariant ID: ${variant.id}\nProduct: ${location.origin}/products/${product.handle}/`;
-      const box = document.querySelector<HTMLElement>('#enquiry-context')!;
-      box.textContent = context;
-      box.style.whiteSpace = 'pre-line';
-      box.hidden = false;
-      interest.value = 'product';
-    } else if (params.get('interest') === 'business' || params.get('interest') === 'custom')
-      interest.value = params.get('interest')!;
-    function business() {
-      const active = ['business', 'custom'].includes(interest.value);
-      document.querySelector<HTMLElement>('#business-field')!.hidden = !active;
-      document.querySelector<HTMLInputElement>('#business')!.disabled = !active;
-    }
-    interest.addEventListener('change', business);
-    business();
-    const submit = document.querySelector<HTMLButtonElement>('#enquiry-submit')!;
-    if (config.enquiry.mode === 'mailto') submit.textContent = 'Open email draft';
-    else if (config.enquiry.mode === 'endpoint') submit.textContent = 'Submit enquiry';
-    function data(): Enquiry {
-      const f = new FormData(form);
-      return {
-        name: String(f.get('name') || '').trim(),
-        email: String(f.get('email') || '').trim(),
-        phone: String(f.get('phone') || '').trim(),
-        interest: String(f.get('interest') || ''),
-        business: String(f.get('business') || '').trim(),
-        message: String(f.get('message') || '').trim(),
-        context,
-      };
-    }
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      if (!form.reportValidity()) return;
-      const input = data();
-      if (!input.name || input.message.length < 5) {
-        status.textContent = 'Please enter your name and a message of at least five characters.';
-        status.classList.add('form-error');
-        status.focus();
-        return;
-      }
-      submit.disabled = true;
-      status.classList.remove('form-error');
-      try {
-        const result = await deliverEnquiry(input, config);
-        status.textContent = result.message;
-        if (result.mailto) location.href = result.mailto;
-        document.querySelector<HTMLElement>('#copy-enquiry')!.hidden = false;
-        status.focus();
-        if (config.enquiry.mode === 'preview') form.reset();
-      } catch {
-        status.textContent =
-          'Your enquiry could not be accepted. Your details remain in the form so you can try again or copy them.';
-        status.classList.add('form-error');
-        document.querySelector<HTMLElement>('#copy-enquiry')!.hidden = false;
-        status.focus();
-      } finally {
-        submit.disabled = false;
-        business();
-      }
-    });
-    submit.disabled = false;
-    document.querySelector('#copy-enquiry')?.addEventListener('click', async () => {
-      const input = data();
-      const value =
-        config.enquiry.mode === 'preview'
-          ? context ||
-            'General Parfumaire Canada enquiry preview. No personal information retained.'
-          : formatEnquiry(input);
-      try {
-        await navigator.clipboard.writeText(value);
-        status.textContent = 'Enquiry details copied. Nothing has been sent.';
-      } catch {
-        status.textContent = `Copy these details manually: ${value}`;
-      }
-    });
-  </script>
+  <script src="../scripts/enquiry-form.ts"></script>
 </Layout>

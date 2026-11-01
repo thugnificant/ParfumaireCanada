@@ -7,7 +7,11 @@ let lenis: Lenis | undefined;
 function setMotion(paused: boolean) {
   lenis?.destroy();
   lenis = undefined;
-  if (!paused) {
+  if (
+    !paused &&
+    matchMedia('(hover: hover) and (pointer: fine)').matches &&
+    document.querySelector('[data-atmosphere]')
+  ) {
     lenis = new Lenis({
       autoRaf: true,
       lerp: 0.1,

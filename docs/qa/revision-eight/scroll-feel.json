@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-01T22:48:14.319Z",
+  "base": "http://127.0.0.1:4323",
+  "deliveredDelta": 400,
+  "cadence": {
+    "frames": 120,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.700000000000273,
+    "over50ms": 0
+  },
+  "checks": [
+    "Real wheel input eased through continuous frames",
+    "Reverse wheel restores origin",
+    "All 21 desktop product previews activate on hover without context loss",
+    "No phone overflow throughout descent"
+  ],
+  "errors": []
+}

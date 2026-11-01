@@ -152,10 +152,17 @@ for (const width of [1440, 390]) {
   await page.locator('.featured').scrollIntoViewIfNeeded();
   for (const view of await page.locator('.featured [data-product-view]').all()) {
     await view.scrollIntoViewIfNeeded();
-    await view.locator('canvas').waitFor();
-    await page.waitForFunction((e) => e.dataset.model === 'ready', await view.elementHandle());
+    await view.locator('img').evaluate((image) => image.decode());
+    assert(
+      await view.locator('img').evaluate(async (image) => {
+        const source = new Image();
+        source.src = image.currentSrc;
+        await source.decode();
+        return source.naturalWidth >= 480;
+      }),
+      'Sharp product poster is available without a GPU',
+    );
   }
-  assert.equal(await page.locator('.featured [data-product-view][data-model="ready"]').count(), 4);
   assert(
     await page
       .locator('.featured .product-card')
@@ -182,7 +189,11 @@ for (const mode of ['reduced', 'no-js']) {
   assert(await page.getByRole('link', { name: 'Find your diffuser', exact: true }).isVisible());
   await page.screenshot({ path: `${out}/${mode}-mobile.png` });
   if (mode === 'reduced') {
-    await page.locator('.atmosphere-product[data-model="ready"]').waitFor();
+    assert.equal(
+      await page.locator('[data-model="ready"]').count(),
+      0,
+      'Reduced motion uses static posters without WebGL',
+    );
     const first = await page.locator('.atmosphere-product').screenshot();
     await page.waitForTimeout(500);
     await still(first, await page.locator('.atmosphere-product').screenshot());

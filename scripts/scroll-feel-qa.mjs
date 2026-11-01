@@ -75,6 +75,7 @@ const views = await page.locator('.product-card [data-product-view]').all();
 assert.equal(views.length, 21);
 for (const view of views) {
   await view.scrollIntoViewIfNeeded();
+  await view.hover();
   await page.waitForFunction((e) => e.dataset.model === 'ready', await view.elementHandle());
 }
 await views[0].scrollIntoViewIfNeeded();
@@ -108,7 +109,7 @@ const report = {
   checks: [
     'Real wheel input eased through continuous frames',
     'Reverse wheel restores origin',
-    'All 21 live 3D models loaded without context loss',
+    'All 21 desktop product previews activate on hover without context loss',
     'No phone overflow throughout descent',
   ],
   errors,

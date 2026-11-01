@@ -1,6 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import ProductView from './ProductView.astro';
+import ProductHotspot from './ProductHotspot.astro';
 import { byHandle, priceLabel } from '../lib/catalog';
 import { officeScene as office } from '../lib/office-scene';
 const tower = byHandle('la-tour-scent-diffuser');
@@ -45,6 +46,13 @@ const officeStyle = `--photo-ratio:${office.width / office.height};--photo-inver
           Meet CozyAir Max <Icon />
         </a>
       </div>
+      <ProductHotspot
+        id="hero-product"
+        name="CozyAir Max Scent Diffuser"
+        handle="cozyair-max-scent-diffuser"
+        variant="41466755514554"
+        class="hero-hotspot"
+      />
       <span class="flight-origin" aria-hidden="true"></span>
     </div>
     <aside class="atmosphere-feature">
@@ -94,6 +102,13 @@ const officeStyle = `--photo-ratio:${office.width / office.height};--photo-inver
         label="White CozyAir Max floor-standing scent diffuser"
         finish="white"
         grounded
+      />
+      <ProductHotspot
+        id="office-product"
+        variant="41466755514554"
+        name="CozyAir Max Scent Diffuser"
+        handle="cozyair-max-scent-diffuser"
+        class="office-hotspot"
       />
       <div class="landing-copy">
         <h2 id="landing-heading">

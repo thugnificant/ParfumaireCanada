@@ -59,6 +59,8 @@ if (root) {
     product.dataset.flight = String(p);
     product.dataset.landed = String(pose.contact);
     root!.dataset.progress = p.toFixed(4);
+    root!.classList.toggle('is-travelling', p > 0.05);
+    landing.classList.toggle('has-arrived', paused || p > 0.96);
   }
   function schedule() {
     if (!scheduled) {

@@ -5,6 +5,7 @@ import '../styles/motion.css';
 import Icon from '../components/Icon.astro';
 import ProductCard from '../components/ProductCard.astro';
 import ProductView from '../components/ProductView.astro';
+import ProductHotspot from '../components/ProductHotspot.astro';
 import EnquiryBanner from '../components/EnquiryBanner.astro';
 import { byHandle } from '../lib/catalog';
 import reviews from '../data/reviews.json';
@@ -25,59 +26,81 @@ const featuredReviews = reviews
   image="/images/photography/parfumaire-atmosphere.webp"
 >
   <AtmosphereHero />
-  <section class="featured wrap section-space" aria-labelledby="featured-heading">
-    <div class="section-heading">
-      <h2 id="featured-heading">Find your atmosphere. Make room for a favourite.</h2>
-    </div>
-    <div class="product-grid">
-      {featured.map((p) => (
-        <ProductCard product={p} />
-      ))}
-    </div>
-    <div class="center">
-      <a class="pill pill-outline" href="/collections/all/">
-        Discover the full collection <Icon />
-      </a>
-    </div>
-  </section>
-  <section class="editorial-grid wrap" aria-label="Discover the world of Parfumaire">
-    <a class="editorial-large" href="/business-scenting/">
-      <img
-        src="/images/photography/lounge-parfumaire-2528.webp"
-        srcset="/images/photography/lounge-parfumaire-1280.webp 1280w, /images/photography/lounge-parfumaire-2528.webp 2528w"
-        sizes="(max-width:580px) 90vw, 65vw"
-        width="2528"
-        height="1696"
-        alt="La Tour floor-standing diffuser beside vivid red lounge seating, with natural window light and a soft floor shadow"
-        loading="lazy"
-      />
-      <div>
-        <h2>
-          An atmosphere
-          <br />
-          for every occasion.
-        </h2>
-        <span class="pill">
-          Explore business scenting <Icon />
-        </span>
+  <div class="business-story" data-business-story>
+    <section class="featured wrap section-space" aria-labelledby="featured-heading">
+      <div class="section-heading">
+        <h2 id="featured-heading">Find your atmosphere. Make room for a favourite.</h2>
       </div>
-    </a>
-    <a class="editorial-feature blue" href="/products/cozyair-max-scent-diffuser/">
-      <h2>A lasting impression.</h2>
-      <ProductView
-        class="editorial-product"
-        handle="cozyair-max-scent-diffuser"
-        label="CozyAir Max black scent diffuser"
-      />
-      <span class="pill">
-        Discover CozyAir Max <Icon size={17} />
-      </span>
-    </a>
-  </section>
-  <p class="photography-credit wrap">
-    Interior photography:{' '}
-    <a href="https://www.pexels.com/photo/8477454/">Gustavo Galeano Maz / Pexels</a>
-  </p>
+      <div class="product-grid">
+        {featured.map((p) => (
+          <ProductCard product={p} flightOrigin={p.handle === 'la-tour-scent-diffuser'} />
+        ))}
+      </div>
+      <div class="center">
+        <a class="pill pill-outline" href="/collections/all/">
+          Discover the full collection <Icon />
+        </a>
+      </div>
+    </section>
+    <section class="editorial-grid wrap" aria-label="Discover the world of Parfumaire">
+      <article class="business-scene" aria-labelledby="business-heading">
+        <div class="business-room">
+          <img
+            class="business-photo"
+            src="/images/photography/business-reception-2752.webp"
+            srcset="/images/photography/business-reception-1600.webp 1600w, /images/photography/business-reception-2752.webp 2752w"
+            sizes="(max-width:700px) 1000px, 75vw"
+            width="2752"
+            height="1536"
+            loading="lazy"
+            decoding="async"
+            alt="Centered business reception with oak cabinetry, green guest seating and a glass conference room"
+          />
+          <ProductView
+            class="business-rest"
+            handle="la-tour-scent-diffuser"
+            label="La Tour black scent diffuser, standing beside the reception cabinetry"
+            grounded
+            static
+          />
+          <ProductHotspot
+            id="business-product"
+            name="La Tour Scent Diffuser"
+            handle="la-tour-scent-diffuser"
+            class="business-hotspot"
+          />
+        </div>
+        <div class="business-copy">
+          <p class="eyebrow">MAKE AN ENTRANCE</p>
+          <h2 id="business-heading">
+            A warm welcome.
+            <br />A lasting impression.
+          </h2>
+          <a class="pill" href="/business-scenting/">
+            Explore business scenting <Icon />
+          </a>
+        </div>
+      </article>
+      <a class="editorial-feature blue" href="/products/cozyair-max-scent-diffuser/">
+        <h2>A little more atmosphere.</h2>
+        <ProductView
+          class="editorial-product"
+          handle="cozyair-max-scent-diffuser"
+          label="CozyAir Max black scent diffuser"
+        />
+        <span class="pill">
+          Discover CozyAir Max <Icon size={17} />
+        </span>
+      </a>
+    </section>
+    <ProductView
+      class="business-flight"
+      handle="la-tour-scent-diffuser"
+      label="La Tour diffuser descending into the reception with a fine scent mist"
+    />
+  </div>
+  <p class="photography-credit wrap">Business interior visual: Higgsfield</p>
+  <script src="../scripts/business-story.ts"></script>
   <section class="testimonials wrap section-space" aria-labelledby="testimonials-title">
     <div class="section-heading">
       <h2 id="testimonials-title">A feeling worth sharing.</h2>

@@ -1,0 +1,41 @@
+---
+import Icon from './Icon.astro';
+interface Props {
+  id: string;
+  name: string;
+  handle: string;
+  style?: string;
+  class?: string;
+  eyebrow?: string;
+  variant?: string;
+}
+const {
+  id,
+  name,
+  handle,
+  style,
+  class: className = '',
+  eyebrow = 'IN THIS SPACE',
+  variant,
+} = Astro.props;
+---
+
+<div class:list={['product-hotspot', className]} style={style} data-hotspot>
+  <button
+    type="button"
+    class="hotspot-trigger"
+    aria-label={`Discover ${name}`}
+    aria-expanded="false"
+    aria-controls={id}
+  >
+    <span aria-hidden="true"></span>
+  </button>
+  <div class="hotspot-card" id={id} hidden>
+    <span class="hotspot-eyebrow">{eyebrow}</span>
+    <strong>{name}</strong>
+    <a href={`/products/${handle}/${variant ? '?variant=' + variant : ''}`}>
+      Explore the product <Icon size={16} />
+    </a>
+  </div>
+</div>
+<script src="../scripts/hotspots.ts"></script>
