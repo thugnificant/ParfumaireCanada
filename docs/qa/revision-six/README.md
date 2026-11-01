@@ -28,3 +28,5 @@ Verified locally:
 - Motion checks pass desktop, phone, reduced-motion, no-JavaScript and throttled CPU modes.
 - Real wheel input: 121 sampled frames; median and 95th percentile 16.7 ms, no sampled frame above 50 ms on this test machine.
 - Reviewed desktop/mobile recording contact sheets and full office screenshots. Checked source image pixels separately from density-corrected `naturalWidth`; desktop loads the 3200px asset and phone loads the 1600px asset.
+
+Published commit `5549715` through [successful deployment 41352509753](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41352509753). Post-deploy checks confirmed the office asset and completed landing at 1440px and 390px, with no browser errors or horizontal overflow. The deployed route, image, variant, 404 and safe no-JavaScript form checks also passed. See `deployed.json` and `live-office-*.webp`.

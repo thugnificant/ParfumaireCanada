@@ -1,0 +1,20 @@
+{
+  "url": "https://parfumairecanada.sugiweb.com/",
+  "commit": "5549715",
+  "workflow": "https://github.com/thugnificant/ParfumaireCanada/actions/runs/41352509753",
+  "at": "2026-11-01T21:34:17.530Z",
+  "results": [
+    {
+      "width": 1440,
+      "src": "https://parfumairecanada.sugiweb.com/images/photography/office-floor-3200.webp",
+      "completedLanding": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "src": "https://parfumairecanada.sugiweb.com/images/photography/office-floor-1600.webp",
+      "completedLanding": true,
+      "errors": []
+    }
+  ]
+}
