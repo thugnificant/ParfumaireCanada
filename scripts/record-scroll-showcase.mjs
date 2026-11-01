@@ -15,16 +15,34 @@ for (const width of [1440, 390]) {
   await p.locator('.atmosphere-product[data-model="ready"]').waitFor();
   await p.waitForTimeout(700);
   await p.mouse.move(width * 0.8, height * 0.6);
-  // A continuous trackpad-like gesture reveals the descent and settle together.
-  for (let i = 0; i < 12; i++) {
-    await p.mouse.wheel(0, 90);
+  // Calibrate the OS wheel multiplier, then finish with the complete room in
+  // view at both viewport sizes. A fixed wheel distance could stop mid-flight.
+  const finishY = await p
+    .locator('.office-scene')
+    .evaluate((e) => e.getBoundingClientRect().top + scrollY - 120);
+  await p.evaluate(() => {
+    window.showcaseDelta = 0;
+    addEventListener(
+      'wheel',
+      (e) => {
+        window.showcaseDelta = e.deltaY;
+      },
+      { once: true },
+    );
+  });
+  await p.mouse.wheel(0, 80);
+  await p.waitForFunction(() => window.showcaseDelta > 0);
+  const delivered = await p.evaluate(() => window.showcaseDelta);
+  const multiplier = 80 / delivered;
+  for (let i = 0; i < 16; i++) {
+    await p.mouse.wheel(0, ((finishY - delivered) * multiplier) / 16);
     await p.waitForTimeout(75);
   }
   await p.waitForTimeout(1000);
   await p.screenshot({ path: `${out}/finished-floor-${width}.png` });
-  await p.mouse.wheel(0, 700);
+  await p.mouse.wheel(0, 180 * multiplier);
   await p.waitForTimeout(1800);
-  await p.mouse.wheel(0, -2500);
+  await p.mouse.wheel(0, -(finishY + 180) * multiplier);
   await p.waitForTimeout(1800);
   if (width === 1440) {
     await p.locator('.explore-toggle').hover();

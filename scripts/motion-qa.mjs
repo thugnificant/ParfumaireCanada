@@ -107,13 +107,13 @@ for (const width of [1440, 390]) {
   await page.screenshot({ path: `${out}/handoff-${width}.png` });
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
   if (width === 390) {
-    const copyTop = await page
+    // The new front-facing office has reserved wall space above its floor bay.
+    // Verify the caption fits that space without overlapping the landed model.
+    await jump(page, travel + 150);
+    const copyBottom = await page
       .locator('.landing-copy')
-      .evaluate((e) => e.getBoundingClientRect().top + scrollY);
-    const photoBottom = await page
-      .locator('.landing-photo')
       .evaluate((e) => e.getBoundingClientRect().bottom + scrollY);
-    assert(copyTop > photoBottom, 'Mobile copy stays clear of the travelling diffuser');
+    assert(copyBottom < (await bounds(page)).y, 'Mobile caption stays above the landed diffuser');
   }
   if (width === 1440) {
     await jump(page, 0);

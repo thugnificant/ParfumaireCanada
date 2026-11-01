@@ -3,7 +3,7 @@
  * Hermite segments preserve velocity through each stage and work in reverse.
  */
 const clamp = (value: number) => Math.max(0, Math.min(1, value));
-export const restingPose = { pitch: 0.33, yaw: 0.34, roll: 0 };
+export const restingPose = { pitch: 0.19, yaw: 0, roll: 0 };
 const smooth = (value: number) => {
   const t = clamp(value);
   return t * t * (3 - 2 * t);
@@ -42,16 +42,17 @@ export function flightAt(progress: number) {
     travel: smooth((p - 0.1) / 0.78),
     depth: smooth((p - 0.12) / 0.76),
     contact: smooth((p - 0.84) / 0.16),
+    roomZoom: 1.08 - 0.08 * smooth((p - 0.24) / 0.7),
     pitch: curve(p, [
       [0, -0.12, 0],
-      [0.48, 0.17, 0],
-      [0.86, 0.31, 0],
+      [0.48, 0.2, 0],
+      [0.86, 0.195, 0],
       [1, restingPose.pitch, 0],
     ]),
     yaw: curve(p, [
       [0, -0.48, 0],
-      [0.48, 0.22, 0],
-      [0.86, 0.32, 0],
+      [0.48, 0.15, 0],
+      [0.86, 0.015, 0],
       [1, restingPose.yaw, 0],
     ]),
     roll: curve(p, [

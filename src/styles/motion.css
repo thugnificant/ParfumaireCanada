@@ -163,15 +163,14 @@
 }
 .office-scene {
   --scene-height: clamp(620px, 55vw, 900px);
-  --photo-height: max(74.7762cqw, var(--scene-height));
-  --photo-width: max(100cqw, calc(var(--scene-height) * 1.3373245));
-  --crop-x: 0.5;
+  --photo-height: max(var(--photo-inverse), var(--scene-height));
+  --photo-width: max(100cqw, calc(var(--scene-height) * var(--photo-ratio)));
   container-type: inline-size;
   position: relative;
   height: var(--scene-height);
   border-radius: 14px;
-  background: #d4d3c8;
-  overflow: visible;
+  background: #e1d3ba;
+  overflow: hidden;
 }
 .landing-photo {
   position: absolute;
@@ -179,15 +178,27 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 100%;
+  object-position: calc(var(--crop-x) * 100%) 100%;
   border-radius: 14px;
 }
+.flight-enabled .landing-photo {
+  will-change: transform;
+}
 .landing-copy {
-  position: relative;
-  margin: 30px auto 20px;
+  position: absolute;
+  top: 5.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
   text-align: center;
   color: #181b18;
   width: min(92%, 620px);
+}
+.flight-enabled .landing-copy {
+  opacity: var(--arrival-opacity, 0);
+}
+.landing-copy:focus-within {
+  opacity: 1;
 }
 .landing-copy h2 {
   font-size: clamp(26px, 2.2vw, 32px);
@@ -211,12 +222,14 @@
   height: 1px;
 }
 .office-scene > .landing-fallback {
-  --foot-x: calc((100cqw - var(--photo-width)) * var(--crop-x) + var(--photo-width) * 0.835);
-  --foot-y: calc(var(--scene-height) - var(--photo-height) * 0.18);
-  --landed-height: calc(var(--photo-height) * 0.235);
+  --foot-x: calc(
+    (100cqw - var(--photo-width)) * var(--crop-x) + var(--photo-width) * var(--anchor-x)
+  );
+  --foot-y: calc(var(--scene-height) - var(--photo-height) * var(--anchor-bottom));
+  --landed-height: calc(var(--photo-height) * var(--model-height));
   position: absolute;
   left: var(--foot-x);
-  top: calc(var(--foot-y) - var(--landed-height) * 0.448);
+  top: calc(var(--foot-y) - var(--landed-height) * var(--foot-offset));
   height: var(--landed-height);
   width: calc(var(--landed-height) * 1.3);
   transform: translate(-50%, -50%);
@@ -622,15 +635,12 @@
   }
   .office-scene {
     --scene-height: 600px;
-    --crop-x: 0.9;
-    overflow: visible;
   }
   .landing-photo {
-    object-position: 90% 100%;
     border-radius: 14px;
   }
   .landing-copy {
-    margin-top: 26px;
+    top: 28px;
     width: 92%;
   }
   .landing-copy h2 {

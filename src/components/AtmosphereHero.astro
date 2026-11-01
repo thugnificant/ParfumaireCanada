@@ -2,7 +2,9 @@
 import Icon from './Icon.astro';
 import ProductView from './ProductView.astro';
 import { byHandle, priceLabel } from '../lib/catalog';
+import { officeScene as office } from '../lib/office-scene';
 const tower = byHandle('la-tour-scent-diffuser');
+const officeStyle = `--photo-ratio:${office.width / office.height};--photo-inverse:${(100 * office.height) / office.width}cqw;--crop-x:${office.cropX};--anchor-x:${office.footX};--anchor-bottom:${1 - office.footY};--model-height:${office.canvasHeight};--foot-offset:${office.footOffset};`;
 ---
 
 <div class="atmosphere-story" data-atmosphere>
@@ -74,15 +76,15 @@ const tower = byHandle('la-tour-scent-diffuser');
     </aside>
   </section>
   <section class="atmosphere-landing" aria-labelledby="landing-heading">
-    <div class="office-scene">
+    <div class="office-scene" style={officeStyle}>
       <img
         class="landing-photo"
-        src="/images/photography/office-floor-3200.webp"
-        srcset="/images/photography/office-floor-1600.webp 1600w, /images/photography/office-floor-3200.webp 3200w"
-        sizes="(max-width:700px) 180vw, 100vw"
-        width="3200"
-        height="2393"
-        alt="A sunlit office with white desks, green plants and a pale stone floor"
+        src="/images/photography/corporate-reception-2752.webp"
+        srcset="/images/photography/corporate-reception-1600.webp 1600w, /images/photography/corporate-reception-2752.webp 2752w"
+        sizes="(max-width:700px) 1080px, 110vw"
+        width={office.width}
+        height={office.height}
+        alt="Front-facing corporate reception with limestone walls, oak cabinetry and a glass conference room"
         decoding="async"
       />
       <span class="flight-destination" aria-hidden="true"></span>
@@ -93,21 +95,21 @@ const tower = byHandle('la-tour-scent-diffuser');
         finish="white"
         grounded
       />
-    </div>
-    <div class="landing-copy">
-      <h2 id="landing-heading">
-        A better atmosphere
-        <br />
-        for your working day.
-      </h2>
-      <p>
-        Meet CozyAir Max. Floor-standing fragrance,
-        <br />
-        made for the spaces you work in.
-      </p>
-      <a class="pill" href="/products/cozyair-max-scent-diffuser/?variant=41466755514554">
-        Discover CozyAir Max <Icon />
-      </a>
+      <div class="landing-copy">
+        <h2 id="landing-heading">
+          A better atmosphere
+          <br />
+          for your working day.
+        </h2>
+        <p>
+          Meet CozyAir Max. Floor-standing fragrance,
+          <br />
+          made for the spaces you work in.
+        </p>
+        <a class="pill" href="/products/cozyair-max-scent-diffuser/?variant=41466755514554">
+          Discover CozyAir Max <Icon />
+        </a>
+      </div>
     </div>
   </section>
   <ProductView
@@ -120,10 +122,8 @@ const tower = byHandle('la-tour-scent-diffuser');
 </div>
 <div class="photography-credit">
   <span>
-    Photography: <a href="https://www.pexels.com/photo/4610805/">Brett Sayles / Pexels</a> &amp;{' '}
-    <a href="https://unsplash.com/photos/modern-office-space-with-plants-and-desk-_XbcXekBecY">
-      FlippingBook / Unsplash
-    </a>
+    Sky: <a href="https://www.pexels.com/photo/4610805/">Brett Sayles / Pexels</a> · Office visual:
+    Higgsfield
   </span>
   <button type="button" class="motion-toggle" aria-pressed="false">
     Pause motion

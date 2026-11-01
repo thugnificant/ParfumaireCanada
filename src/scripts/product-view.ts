@@ -209,12 +209,12 @@ async function createView(element: HTMLElement) {
     if (office) {
       const depth = landed === 1 ? 1 : flightAt(Number(element.dataset.flight || 0)).depth;
       key.position.set(-3 - depth, 4 + 3 * depth, 6 + 4 * depth);
-      key.color.set(0xfff9ec);
-      key.intensity = 2.8 + 0.2 * depth;
-      fill.intensity = 1.7 - 1.0 * depth;
+      key.color.set(0xfff3db);
+      key.intensity = 2.8 - 0.35 * depth;
+      fill.intensity = 1.7 - 0.65 * depth;
       rim.intensity = 1.8 - 1.6 * depth;
       scene.environmentIntensity = 1 - 0.65 * depth;
-      floorMaterial.opacity = 0.28 * landed;
+      floorMaterial.opacity = 0.18 * landed;
       if (contactMaterial) contactMaterial.opacity = 0.4 * landed;
       floor.visible = landed > 0;
     }
