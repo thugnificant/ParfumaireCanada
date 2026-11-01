@@ -5,41 +5,44 @@ if (root) {
   const origin = root.querySelector<HTMLElement>('.flight-origin')!;
   const landing = root.querySelector<HTMLElement>('.atmosphere-landing')!;
   const photo = root.querySelector<HTMLImageElement>('.landing-photo')!;
+  const copy = root.querySelector<HTMLElement>('.landing-copy')!;
   const shadow = root.querySelector<HTMLElement>('.landing-shadow')!;
   const toggle = document.querySelector<HTMLButtonElement>('.motion-toggle')!;
   const clamp = (v: number) => Math.max(0, Math.min(1, v));
   let paused = preference.matches;
   let scheduled = false;
-  let path = { x0: 0, y0: 0, x1: 0, y1: 0, scale: 1, start: 0, end: 1 };
+  let path = { x0: 0, y0: 0, x1: 0, y1: 0, scale: 1, start: 0, end: 1, height: 0, copyBottom: 0 };
 
   function measure() {
     const bounds = root!.getBoundingClientRect();
     const from = origin.getBoundingClientRect();
     const scene = landing.getBoundingClientRect();
-    // The marker follows the photograph's object-fit crop at every viewport size.
-    // The foot is at 82% down / 31% across the source desk photograph.
-    const cropScale = Math.max(scene.width / 6000, scene.height / 4000);
-    const imageW = 6000 * cropScale;
-    const imageH = 4000 * cropScale;
+    // A 46.7 cm Max stands on the rug beside the sofa. Keep its floor contact
+    // attached to the same source-photo coordinate through every cover crop.
+    const cropScale = Math.max(scene.width / 5616, scene.height / 3749);
+    const imageW = 5616 * cropScale;
+    const imageH = 3749 * cropScale;
     const mobile = innerWidth <= 700;
-    const footX = (scene.width - imageW) * (mobile ? 0.26 : 0.5) + imageW * 0.31;
-    const footY = (scene.height - imageH) * 0.6 + imageH * 0.82;
-    const targetHeight = imageH * 0.32;
+    const footX = (scene.width - imageW) * (mobile ? 0.79 : 0.5) + imageW * 0.765;
+    const footY = (scene.height - imageH) * 0.65 + imageH * 0.925;
+    const targetHeight = imageH * 0.43;
     const originHeight = from.height;
-    product.style.width = `${originHeight * 0.72}px`;
+    product.style.width = `${originHeight * 0.82}px`;
     product.style.height = `${originHeight}px`;
     landing.style.setProperty('--foot-x', `${footX}px`);
     landing.style.setProperty('--foot-y', `${footY}px`);
     landing.style.setProperty('--landed-height', `${targetHeight}px`);
-    shadow.style.width = `${targetHeight * 0.46}px`;
+    shadow.style.width = `${targetHeight * 0.52}px`;
     path = {
       x0: from.left + from.width / 2 - bounds.left,
       y0: from.top + from.height / 2 - bounds.top,
       x1: scene.left - bounds.left + footX,
       y1: scene.top - bounds.top + footY - targetHeight * 0.448,
       scale: targetHeight / originHeight,
+      height: originHeight,
+      copyBottom: mobile ? -Infinity : copy.getBoundingClientRect().bottom - bounds.top,
       start: bounds.top + scrollY - 110,
-      // Arrive while the whole desk surface is in view, before normal scroll carries it away.
+      // Arrive while the floor contact is in view, before normal scroll carries it away.
       end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.8 : 0.77),
     };
     draw();
@@ -55,6 +58,11 @@ if (root) {
     product.style.transform = `translate3d(${x}px,${y}px,0) translate(-50%,-50%) scale(${scale})`;
     product.dataset.flight = String(eased);
     product.dataset.landed = String(eased);
+    // Reveal the room caption after the descending cabinet has cleared it.
+    // On phones the caption is below the photo and stays visible throughout.
+    copy.style.opacity = paused
+      ? '1'
+      : String(clamp((y - path.height * scale * 0.28 - path.copyBottom) / 80));
     shadow.style.opacity = paused ? '0.23' : String(clamp((p - 0.78) / 0.22) * 0.23);
     shadow.style.transform = `translate(-50%,-50%) scale(${1.35 - 0.35 * eased})`;
     root!.dataset.progress = p.toFixed(4);
@@ -83,8 +91,11 @@ if (root) {
     mode();
   });
   addEventListener('scroll', schedule, { passive: true });
+  // Lenis fires inside its RAF, keeping the object on the very same scroll frame.
+  document.addEventListener('parfumaire:scroll', draw);
   const resize = new ResizeObserver(measure);
   resize.observe(root);
+  resize.observe(document.querySelector<HTMLElement>('.site-header')!);
   photo.addEventListener('load', measure);
   document.fonts.ready.then(measure);
   mode();

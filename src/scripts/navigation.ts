@@ -12,6 +12,13 @@ function closeMobile() {
 }
 function setExplore(open: boolean) {
   clearTimeout(closeTimer);
+  if (open && header) {
+    const baseHeight =
+      header.getBoundingClientRect().height -
+      parseFloat(getComputedStyle(header).paddingBottom) +
+      13;
+    header.style.setProperty('--nav-height', `${baseHeight}px`);
+  }
   explore?.setAttribute('aria-expanded', String(open));
   if (menu) menu.hidden = !open;
 }

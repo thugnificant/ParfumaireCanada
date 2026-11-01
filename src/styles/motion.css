@@ -8,13 +8,13 @@
   position: relative;
   height: var(--hero-height);
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 .atmosphere-main {
-  width: 72%;
+  width: 71%;
   height: 100%;
   min-height: 0;
-  background: #2396c5;
+  background: #24aef7;
 }
 .atmosphere-main::after {
   display: none;
@@ -28,22 +28,22 @@
 }
 .sky-room {
   object-fit: cover;
-  object-position: 50% 78%;
+  object-position: 50% 50%;
 }
 .atmosphere-shade {
-  background: linear-gradient(100deg, #072b4875, transparent 65%);
+  background: linear-gradient(120deg, #00000020, transparent 55%);
 }
 .atmosphere-copy {
   position: absolute;
   z-index: 2;
-  top: 40px;
-  left: 42px;
+  top: 64px;
+  left: 65px;
   color: #fff;
 }
 .atmosphere-copy h1 {
-  font-size: clamp(30px, 3.1vw, 48px);
-  font-weight: 600;
-  line-height: 1.08;
+  font-size: clamp(30px, 3.1vw, 40px);
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: -0.035em;
   margin-bottom: 16px;
 }
@@ -59,10 +59,10 @@
 }
 .atmosphere-word {
   position: absolute;
-  left: 30px;
+  left: 55px;
   bottom: 62px;
   color: #fff;
-  font-size: clamp(70px, 10.3vw, 195px);
+  font-size: clamp(70px, 8.6vw, 138px);
   letter-spacing: -0.04em;
   line-height: 0.95;
   font-weight: 500;
@@ -77,7 +77,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  color: #fff;
+  color: #103349;
 }
 .atmosphere-hint {
   display: flex;
@@ -98,19 +98,19 @@
 .flight-origin {
   position: absolute;
   width: 50%;
-  height: min(74%, 48vw);
-  top: 44%;
-  left: 45%;
+  height: min(82%, 51vw);
+  top: 43%;
+  left: 49%;
   transform: translateY(-50%);
   pointer-events: none;
 }
 .atmosphere-story > .atmosphere-product {
   position: absolute;
   z-index: 5;
-  width: min(37.3%, 34.56vw);
-  height: min(calc(var(--hero-height) * 0.74), 48vw);
-  left: 50.4%;
-  top: calc(var(--hero-height) * 0.44);
+  width: min(calc(var(--hero-height) * 0.6724), 41.82vw);
+  height: min(calc(var(--hero-height) * 0.82), 51vw);
+  left: 52.54%;
+  top: calc(var(--hero-height) * 0.43);
   transform: translate(-50%, -50%);
   pointer-events: none;
   transform-origin: center;
@@ -123,9 +123,9 @@
   will-change: transform;
 }
 .atmosphere-feature {
-  width: calc(28% - 20px);
-  padding: 28px;
-  background: #ee4d27;
+  width: calc(29% - 24px);
+  padding: 25px;
+  background: #f04923;
   color: #291a13;
   border-radius: 14px;
   display: flex;
@@ -133,7 +133,7 @@
   justify-content: space-between;
 }
 .atmosphere-feature h2 {
-  font-size: clamp(20px, 1.8vw, 30px);
+  font-size: clamp(20px, 1.6vw, 25px);
   line-height: 1.15;
 }
 .atmosphere-feature-product {
@@ -158,12 +158,12 @@
   padding: 12px 16px;
 }
 .atmosphere-landing {
-  --foot-x: 31%;
-  --foot-y: 86%;
-  --landed-height: 320px;
+  --foot-x: 76.5%;
+  --foot-y: 92.5%;
+  --landed-height: clamp(320px, 30vw, 460px);
   position: relative;
-  margin-top: 40px;
-  height: clamp(580px, 52vw, 850px);
+  margin-top: 45px;
+  height: clamp(620px, 55vw, 900px);
   border-radius: 14px;
   background: #d8e3e0;
   overflow: hidden;
@@ -174,17 +174,20 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 60%;
+  object-position: 50% 65%;
 }
 .landing-copy {
   position: absolute;
   z-index: 2;
-  top: 44px;
-  left: 48px;
-  color: #17372f;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #181b18;
+  width: min(92%, 540px);
 }
 .landing-copy h2 {
-  font-size: clamp(34px, 3.6vw, 56px);
+  font-size: clamp(26px, 2.2vw, 32px);
   letter-spacing: -0.035em;
   line-height: 1.06;
   margin-bottom: 16px;
@@ -209,7 +212,7 @@
   left: var(--foot-x);
   top: var(--foot-y);
   width: 150px;
-  height: 12px;
+  height: 16px;
   border-radius: 50%;
   background: #3f3025;
   filter: blur(5px);
@@ -221,7 +224,7 @@
   left: var(--foot-x);
   top: calc(var(--foot-y) - var(--landed-height) * 0.448);
   height: var(--landed-height);
-  width: calc(var(--landed-height) * 0.72);
+  width: calc(var(--landed-height) * 0.82);
   transform: translate(-50%, -50%);
 }
 .flight-enabled .landing-fallback {
@@ -265,7 +268,7 @@
   object-fit: contain;
 }
 .product-view > .product-fallback {
-  padding: 12% 10%;
+  padding: 0;
 }
 .product-view > canvas {
   opacity: 0;
@@ -277,7 +280,7 @@
   opacity: 0;
 }
 .product-stage {
-  background: #eeeee6;
+  background: transparent;
 }
 .product-stage .product-view img,
 .product-stage:hover .product-view img {
@@ -290,7 +293,7 @@
 }
 .product-card[data-category='scents'] .product-stage img {
   mix-blend-mode: normal;
-  animation: fragrance-float 9s ease-in-out infinite;
+  animation: none;
 }
 .product-card:nth-child(2n) .product-stage img {
   animation-delay: -3s;
@@ -312,10 +315,82 @@
   opacity: 1;
   transform: none;
 }
+.featured {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.featured .section-heading {
+  margin-bottom: 28px;
+}
+.featured .section-heading h2 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.featured .product-grid {
+  max-width: 970px;
+  margin-inline: auto;
+  gap: 38px;
+}
+.featured .product-stage {
+  height: 225px;
+}
+.featured .product-meta {
+  text-align: center;
+  padding-top: 12px;
+}
+.featured .product-meta h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.featured .product-price {
+  font-size: 12px;
+}
+.featured .center {
+  margin-top: 35px;
+}
+.featured .pill-outline {
+  padding: 10px 0;
+  border: 0;
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
 .editorial-small > img {
   mix-blend-mode: normal;
   object-fit: contain;
   filter: drop-shadow(8px 12px 8px #252a251a);
+}
+.editorial-grid {
+  grid-template-columns: minmax(0, 71fr) minmax(0, 29fr);
+  gap: 24px;
+  height: 560px;
+}
+.editorial-large h2 {
+  font-size: clamp(30px, 3vw, 44px);
+}
+.editorial-feature {
+  position: relative;
+  min-width: 0;
+  padding: 25px;
+  border-radius: 14px;
+  background: #a7c5ee;
+  display: flex;
+  flex-direction: column;
+}
+.editorial-feature h2 {
+  font-size: 26px;
+  max-width: 220px;
+}
+.editorial-feature .editorial-product {
+  flex: 1;
+  min-height: 0;
+}
+.editorial-feature .pill {
+  font-size: 12px;
+  padding-inline: 18px;
+  gap: 10px;
 }
 .editorial-small > .editorial-product {
   position: absolute;
@@ -343,8 +418,8 @@
   gap: 5px;
   padding: 12px 0;
   background: none;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
 }
 .explore-toggle svg {
   transition: transform 0.2s;
@@ -393,8 +468,30 @@
 .explore-menu a:hover {
   color: #916233;
 }
+@media (min-width: 851px) {
+  .site-header {
+    overflow: clip;
+    transition: padding-bottom 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .site-header:has(.explore-toggle[aria-expanded='true']) {
+    padding-bottom: 133px;
+    border-radius: 12px;
+  }
+  .explore-menu {
+    top: var(--nav-height, 75px);
+    height: 120px;
+    box-shadow: none;
+  }
+}
 
 @media (max-width: 1050px) {
+  .desktop-nav {
+    gap: 18px;
+  }
+  .desktop-nav a,
+  .explore-toggle {
+    font-size: 14px;
+  }
   .atmosphere-copy {
     left: 28px;
     top: 30px;
@@ -415,9 +512,37 @@
   }
 }
 @media (max-width: 700px) {
+  .editorial-grid {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .editorial-large {
+    min-height: 420px;
+  }
+  .editorial-feature {
+    min-height: 460px;
+  }
+  .editorial-feature .editorial-product {
+    min-height: 310px;
+  }
+  .enquiry-banner h2 {
+    font-size: 32px;
+  }
+  .featured {
+    padding-block: 65px;
+  }
+  .featured .section-heading h2 {
+    font-size: 24px;
+  }
+  .featured .product-grid {
+    gap: 28px 14px;
+  }
+  .featured .product-stage {
+    height: 200px;
+  }
   .atmosphere-story {
     --hero-height: clamp(560px, calc(100svh - 110px), 780px);
-    padding-bottom: 245px;
+    padding-bottom: 215px;
   }
   .atmosphere-main {
     width: 100%;
@@ -444,7 +569,7 @@
   }
   .atmosphere-word {
     left: 20px;
-    font-size: 14vw;
+    font-size: 15vw;
     bottom: 66px;
   }
   .atmosphere-bottom {
@@ -463,35 +588,35 @@
     gap: 6px;
   }
   .flight-origin {
-    height: 49%;
+    height: 60%;
     width: 66%;
-    top: 58.5%;
-    left: 30%;
+    top: 55%;
+    left: 17%;
   }
   .atmosphere-story > .atmosphere-product {
-    top: calc(var(--hero-height) * 0.585);
-    left: 63%;
-    width: 64%;
-    height: calc(var(--hero-height) * 0.49);
+    top: calc(var(--hero-height) * 0.55);
+    left: 50%;
+    width: 82%;
+    height: calc(var(--hero-height) * 0.6);
   }
   .atmosphere-landing {
     height: 600px;
     margin-top: 24px;
     overflow: visible;
-    --foot-x: 37%;
-    --foot-y: 82%;
-    --landed-height: 192px;
+    --foot-x: 72%;
+    --foot-y: 92.5%;
+    --landed-height: 258px;
   }
   .landing-photo {
-    object-position: 26% 60%;
+    object-position: 79% 65%;
     border-radius: 14px;
   }
   .landing-copy {
     top: calc(100% + 26px);
-    left: 8px;
+    left: 50%;
   }
   .landing-copy h2 {
-    font-size: 34px;
+    font-size: 28px;
   }
   .landing-copy p {
     font-size: 12px;
@@ -508,6 +633,9 @@ html.motion-paused .product-stage img {
   animation-play-state: paused !important;
 }
 @media (prefers-reduced-motion: reduce) {
+  .site-header {
+    transition: none;
+  }
   .product-stage img {
     animation: none !important;
   }

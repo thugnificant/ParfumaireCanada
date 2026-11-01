@@ -1,0 +1,223 @@
+[
+  {
+    "handle": "lemongrass",
+    "title": "Lemongrass",
+    "category": "scents",
+    "path": "/images/models/lemongrass-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "arome-de-la-havane",
+    "title": "Arome de la Havane",
+    "category": "scents",
+    "path": "/images/models/arome-de-la-havane-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "air-mykonos",
+    "title": "Air Mykonos",
+    "category": "scents",
+    "path": "/images/models/air-mykonos-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "the-noir",
+    "title": "Thé Noir",
+    "category": "scents",
+    "path": "/images/models/the-noir-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "velour-oriental",
+    "title": "Velour Oriental",
+    "category": "scents",
+    "path": "/images/models/velour-oriental-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "soiree-gala",
+    "title": "Soiree Gala",
+    "category": "scents",
+    "path": "/images/models/soiree-gala-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "213-rue-st-honore",
+    "title": "213 Rue St Honore",
+    "category": "scents",
+    "path": "/images/models/213-rue-st-honore-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "plaisir-de-marrakech",
+    "title": "Plaisir de Marrakech",
+    "category": "scents",
+    "path": "/images/models/plaisir-de-marrakech-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "meditation",
+    "title": "Meditation",
+    "category": "scents",
+    "path": "/images/models/meditation-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "courchevel",
+    "title": "Courchevel",
+    "category": "scents",
+    "path": "/images/models/courchevel-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "sarona-market",
+    "title": "Sarona Market",
+    "category": "scents",
+    "path": "/images/models/sarona-market-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "draps-blanc",
+    "title": "Draps Blanc",
+    "category": "scents",
+    "path": "/images/models/draps-blanc-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "printemps-vintage",
+    "title": "Printemps Vintage",
+    "category": "scents",
+    "path": "/images/models/printemps-vintage-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "oud-charnel",
+    "title": "Oud Charnel",
+    "category": "scents",
+    "path": "/images/models/oud-charnel-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "oud-noir",
+    "title": "Oud Noir",
+    "category": "scents",
+    "path": "/images/models/oud-noir-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "miami-beach",
+    "title": "Miami Beach",
+    "category": "scents",
+    "path": "/images/models/miami-beach-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "boix-tibet",
+    "title": "Bois Tibet",
+    "category": "scents",
+    "path": "/images/models/boix-tibet-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "cuir-onyx",
+    "title": "Cuir Onyx",
+    "category": "scents",
+    "path": "/images/models/cuir-onyx-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "120 ml catalog bottle profile and approved Parfumaire gold mark"
+  },
+  {
+    "handle": "cozyair-scent-diffuser",
+    "title": "CozyAir Scent Diffuser",
+    "category": "diffusers",
+    "path": "/images/models/cozyair-scent-diffuser-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "Catalog dimensions and approved Higgsfield face textures"
+  },
+  {
+    "handle": "la-tour-scent-diffuser",
+    "title": "La Tour Scent Diffuser",
+    "category": "diffusers",
+    "path": "/images/models/la-tour-scent-diffuser-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "Catalog dimensions and approved Higgsfield face textures"
+  },
+  {
+    "handle": "cozyair-max-scent-diffuser",
+    "title": "CozyAir Max Scent Diffuser",
+    "category": "diffusers",
+    "path": "/images/models/cozyair-max-scent-diffuser-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "Catalog dimensions and approved Higgsfield face textures"
+  },
+  {
+    "handle": "cozyair-max-scent-diffuser",
+    "title": "CozyAir Max — White",
+    "category": "diffusers",
+    "finish": "white",
+    "path": "/images/models/cozyair-max-scent-diffuser-white-studio.webp",
+    "width": 1536,
+    "height": 2048,
+    "renderer": "Three.js physical geometry",
+    "source": "Catalog dimensions and approved Higgsfield face textures"
+  }
+]

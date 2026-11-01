@@ -1,62 +1,49 @@
-# Downward scroll handoff — revision three, 2026-11-01
+# Floor-standing Max and continuous scroll — revision four, 2026-11-01
 
-The current homepage follows the original Bella recording's **normal page scroll**: a single product leaves the sky panel, crosses the gap between sections, and settles onto the surface in the photograph below. The previous pinned five-room treatment misread that reference and has been removed, along with its scene buttons, chapter changes and room assets.
+The previous desk placement was wrong for the unit the user described. The hero now uses **white CozyAir Max**, with a 15⅛ × 9 × 18⅜ inch cabinet (38.4 × 22.9 × 46.7 cm) based on the imported Parfumaire catalog. The smaller CozyAir remains a separate product. The Max descends from the sky and stands on the rug beside the sofa. Its links preselect the matching white variant.
 
-## What changed
+## Motion and presentation
 
-- One persistent, retina WebGL CozyAir canvas travels down a continuous, reversible path. Its orientation and scale settle as its feet reach the photographed desk. Scroll does not replace the canvas or resize its drawing buffer.
-- The desk and sky are independent, high-resolution photographs. They scroll with the document. There are no video seeks, room dissolves, horizontal wipes or multi-screen pinned spacer.
-- Nozzle-anchored mist remains animated at rest, in transit and after landing. Its lighting adjusts for the brighter room. The existing CozyAir Max and La Tour presentation models remain live in the product cards.
-- Mobile landing text sits below the photograph, keeping the product's path clear. Tablet product size is limited by available width. The five-icon Explore dropdown and existing product routes remain intact.
-- Reduced-motion and no-JavaScript modes show static product compositions. Pause stops continuous motion; Play can explicitly enable it. Product images remain available if WebGL cannot initialize.
+- One persistent canvas travels through a continuous, reversible path. It does not switch images at the frame boundary. The room caption fades in after the descending cabinet clears it. The product settles in position, orientation and scale; its floor contact follows the photograph's cover crop on desktop and mobile.
+- Lenis 1.3.27 uses 0.1 interpolation, matching the default Lenis setup observed on [Bella](https://bellakitchenware.com/). Touch scroll remains native. No pinned room carousel, setting selector, scene dissolve, delayed image swap or scroll snapping.
+- The hero, dropdown, 71/29 split, orange feature panel, cream surface, centered product row and 71/29 editorial pairing follow the supplied Bella recording. Font sizes and weights were checked against its published CSS. The dropdown expands the header and pushes the hero down instead of covering it. Parfumaire branding and product content are retained.
+- Typography uses Fontshare's **Supreme**, via its official hosted API, with the existing local DM Sans fallback. This is a licensed free alternative, **not Bella's separate Supreme LL TT font**. No proprietary Bella font or product assets have been copied into the project.
+- All 21 products now have live 3D presentation geometry and transparent **1536 × 2048** studio renders. The three diffusers use catalog proportions; the 18 scent bottles use a lathed 120 ml bottle profile, ribbed cap, reflective dark glass and the original Parfumaire mark. Larger fragrance sizes remain available through the original product galleries. These are presentation models, not manufacturer CAD.
+- Airflow originates at each diffuser nozzle and continues while the product moves or rests. Bottles and diffusers rotate gently and respond to pointer movement. Airflow is an illustrative animation, not a fluid simulation.
+- A shared WebGL renderer draws the visible product views into individual canvases. Scrolling through 21 products cannot create 21 WebGL contexts. Offscreen, hidden-tab and paused animation is idle; context loss returns to sharp image fallbacks.
+- Reduced-motion, explicit pause and no-JavaScript modes retain static compositions. Mobile copy sits below the photograph to leave the travel path clear.
 
-The three diffuser models are textured presentation geometry based on the accepted Higgsfield product renders, not manufacturer CAD or a claim of physically simulated aerosol. All original product photographs remain in the product galleries. No additional Higgsfield credits were spent for this correction.
+The original Higgsfield textures and accepted studio assets remain in use. This turn checked the connected Higgsfield account: **4.25 credits available**, versus **18 credits** quoted for one detailed Tripo image-to-3D generation. No new paid generation was submitted. The new geometry and 2K renderings were generated locally with Three.js. The per-product render manifest is [models.json](../src/data/models.json); regenerate with `scripts/render-product-studios.mjs` against the Astro dev server.
 
-## Photo sources
+## Photographs
 
-Full-resolution originals are saved locally under `archive/revision-three/stock/`. Responsive WebP files are self-hosted; none are hotlinked. Credits appear alongside the photographs on the page. These are illustrative stock interiors, not claims about Parfumaire premises or customers.
+Full-resolution source downloads are under `archive/revision-four/`. WebP derivatives are self-hosted. These stock interiors illustrate placement; they do not depict Parfumaire clients or premises. Photography is credited alongside the images.
 
-| Image | Photographer and source | Native resolution | Delivered resolution | Licence |
-| --- | --- | --- | --- | --- |
-| Sky | [ITT CU](https://unsplash.com/photos/Ir1-0Dvpn8A) | 2974 × 4461 | 1600 / 2974 px wide | [Unsplash](https://unsplash.com/license) |
-| Desk landing | [Minh Pham](https://unsplash.com/photos/IisDPFNUS4k) | 6000 × 4000 | 1600 / 3000 px wide | [Unsplash](https://unsplash.com/license) |
-| Editorial interior | [Alex Tyson](https://www.pexels.com/photo/19966784/) | 5999 × 4000 | 1600 / 3000 px wide | [Pexels](https://www.pexels.com/license/) |
+| Use              | Photographer / source                                                 | Native resolution | Web delivery        |
+| ---------------- | --------------------------------------------------------------------- | ----------------- | ------------------- |
+| Sky              | [Brett Sayles / Pexels](https://www.pexels.com/photo/4610805/)        | 5058 × 3372       | 1600 / 3200 px wide |
+| Floor landing    | [Kampus Production / Pexels](https://www.pexels.com/photo/7556566/)   | 5616 × 3749       | 1600 / 3200 px wide |
+| Editorial lounge | [Gustavo Galeano Maz / Pexels](https://www.pexels.com/photo/8477454/) | 4724 × 3151       | 3200 px wide        |
 
-## Reference and installed skills
+[Photo licence](https://www.pexels.com/license/). [Fontshare usage](https://www.fontshare.com/about). No images from another diffuser manufacturer were substituted for Parfumaire products.
 
-The new feedback recording is preserved at `archive/revision-three/feedback.mov`. The original Bella sequence is preserved as frames under `archive/motion-reference/`; frames 015, 017 and 018 show the sky, cross-section handoff and landing respectively.
+## Reference and skills
 
-Installed the four requested repositories using the skill installer:
+The sole design reference remains the user's original Bella recording, preserved frame by frame under `archive/motion-reference/`, and Bella's live implementation. The new screenshot supplied by the user identified the incorrect desk scale. The four requested skill repositories were already installed and are applied: [taste-skill](https://github.com/leonxlnx/taste-skill), [scroll-world](https://github.com/oso95/scroll-world), [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), [impeccable](https://github.com/pbakaus/impeccable). The user's requested continuous descent takes precedence over any generic multi-scene flythrough recipe.
 
-- [taste-skill](https://github.com/leonxlnx/taste-skill) → `~/.codex/skills/taste-skill`
-- [scroll-world](https://github.com/oso95/scroll-world) → `~/.codex/skills/scroll-world`
-- [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) → `~/.codex/skills/ui-ux-pro-max`
-- [impeccable](https://github.com/pbakaus/impeccable) → `~/.codex/skills/impeccable`
-
-Applied their continuity, shared-element, image provenance, responsive inspection and reduced-motion guidance. The supplied Bella direction takes precedence over generic palette/layout recommendations. Scroll-world's default chained flythrough video pipeline would recreate the unwanted scene-switching behavior, so its continuity guidance was applied to a real-time shared product instead.
+The motion plan has one focal event: Max descends and settles on the floor. Continuity comes from the same canvas, geometry and scroll position. Secondary rotation and airflow remain subtle. One shared renderer, visible-only animation and static fallbacks bound the rendering work.
 
 ## Verification
 
-- Build and type checks pass; all 101 generated routes pass links, assets, headings, metadata, JSON-LD, noindex and image-dimension checks.
-- Browser regression checks cover all 21 products, 59 variants, 93 gallery selections, navigation, filters, search, enquiry previews and real 404 behavior. No browser errors, broken requests or accessibility violations were reported.
-- Motion checks at 1440 × 1000 and 390 × 844 verify the same canvas survives the entire descent, continuous document-space movement, a stable landing, reverse and rapid scrolling, idle airflow, retina buffers, pause/resume and always-visible cards.
-- Checked reduced-motion/no-JS states, 390 × 667 touch layout and 4× CPU throttling. This is a functional stress check, not a claim of a particular FPS on physical phones.
-- Reviewed screenshots at desktop, tablet and mobile sizes, plus frames decoded from actual desktop/mobile scroll recordings. Fixed the mobile copy overlap and oversized tablet product found during that review.
+- Build: 101 routes, internal links, assets, metadata, JSON-LD, headings and image dimensions pass.
+- Type check: zero errors/warnings; one pre-existing Lighthouse script hint.
+- Browser regression: 21 products, 59 variants, 93 gallery selections, search, filters, enquiries and 404 behavior pass. Four responsive widths checked. No JavaScript errors, failed requests or accessibility violations across the 14 checked page states.
+- Motion: desktop/phone descent, persistent retina canvas, stable floor contact, reverse/fast scrolling, idle airflow, pause/resume, no-JS/reduced-motion and short touch viewport with 4× CPU throttling pass.
+- Real wheel input: continuous easing and a return to the same origin. The local 2-second desktop sample contains 121 frames, 16.7 ms median / 16.8 ms p95 callback intervals, no intervals above 50 ms. This is headless Chrome on this Mac, not a physical-device FPS guarantee.
+- All 21 live models load and remain available after scrolling through the entire collection; no context-loss warnings. Phone overflow is checked at multiple positions throughout descent.
+- White Max deep link selects White, shows USD 599 and retains that variant in the enquiry.
+- With WebGL explicitly unavailable, the hero falls back to its 1536 × 2048 image.
 
-Results: [functional](qa/browser-results.json), [motion](qa/revision-three/results.json), [design inspection](qa/revision-three/design-inspection.json).
+Results: [browser](qa/browser-results.json), [motion](qa/revision-four/results.json), [wheel and full catalog](qa/revision-four/scroll-feel.json), [fallback](qa/revision-four/fallback.json).
 
-Visual evidence: [desktop handoff](qa/revision-three/review/handoff-1440.webp), [mobile handoff](qa/revision-three/review/handoff-390.webp), [landed](qa/revision-three/review/landed-1440.webp), [dropdown](qa/revision-three/review/dropdown-desktop.webp), [desktop recording frames](qa/revision-three/desktop-recording-review.webp), [mobile recording frames](qa/revision-three/mobile-recording-review.webp).
-
-Full local recordings: `docs/qa/revision-three/desktop-scroll.webm` and `mobile-scroll.webm`. Run `node scripts/motion-qa.mjs` against the preview, then `node scripts/review-motion-video.mjs` to reproduce the motion evidence.
-
-## Visual review
-
-The shared product now crosses the actual frame boundary and makes contact with the desk; the broad handoff behavior matches the reference. The main remaining difference is art direction: the stock workspace and Parfumaire box silhouette are different from Bella's purpose-built kitchen/appliance composition. The white product artwork is sharp, but the presentation geometry should not be mistaken for an engineering-accurate model.
-
-The taste inspector reports no overflow, broken images or covered headlines after correction. Its remaining generic typography, palette, footage and motion-count suggestions conflict with the pinned reference or the user's request to remove popping section entrances. The remaining eyebrow result is a false positive connecting a customer review attribution with the later decorative “bonjour” word; the attribution is retained. No false claim of a completely green design-lint report is made.
-
-## Deployment
-
-Published commit `322e3e9` through the successful [GitHub Pages deployment](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41325037823). The published site passed the full desktop/mobile motion suite again, with no exceptions or failed requests. The live route/variant/enquiry/404 checks also passed: [live motion results](qa/revision-three/live-results.json), [live functional results](qa/deployed-results.json).
-
-A separate 4-second continuous-scroll sample measured 241 animation callbacks with a median and p95 interval of about 16.7 ms, both at desktop size and at 390 × 667 with 4× CPU throttling. Neither sample had an interval above 50 ms. This measures headless Chrome callback cadence on this Mac, not guaranteed physical-device frame delivery: [timing samples](qa/revision-three/frame-cadence.json).
+Clean wheel-scroll showcase recordings are saved under `docs/qa/revision-four/showcase/`. Automated desktop and phone recordings are saved locally as `docs/qa/revision-four/desktop-scroll.webm` and `mobile-scroll.webm`. Review frames and screenshots are in the same directory. The sequence reproduces the reference's downward handoff with Parfumaire geometry and a floor-level placement; it is not a pixel-identical recreation of Bella's bespoke kitchen scene.

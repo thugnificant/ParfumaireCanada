@@ -1,0 +1,45 @@
+TASTESKILL · LINT   29 file(s)
+
+FAIL
+  [eyebrow] Eyebrow / kicker label above a heading.  (25×)
+      src/pages/404.astro:11  class="eyebrow
+      src/pages/[...path].astro:29  class="eyebrow
+      src/pages/[...path].astro:54  class="eyebrow
+      src/pages/[...path].astro:87  class="eyebrow
+      src/pages/collections/[handle].astro:57  class="eyebrow
+      src/pages/contact.astro:19  class="eyebrow
+      … 19 more
+  [shadow] Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may.  (6×)
+      src/scripts/atmosphere.ts:9  shadow
+      src/styles/global.css:137  box-shadow:
+      src/styles/global.css:195  box-shadow:
+      src/styles/motion.css:363  drop-shadow(
+      src/styles/motion.css:441  box-shadow:
+      src/styles/motion.css:483  box-shadow:
+  [hairline] Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields.  (12×)
+      src/styles/global.css:200  border-bottom: 1px
+      src/styles/global.css:708  border-top: 1px
+      src/styles/global.css:725  border-left: 1px
+      src/styles/global.css:780  border-top: 1px
+      src/styles/global.css:781  border-bottom: 1px
+      src/styles/global.css:966  border-bottom: 1px
+      … 6 more
+  [gradient] Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception).  (5×)
+      src/styles/global.css:299  linear-gradient(
+      src/styles/global.css:300  linear-gradient(
+      src/styles/global.css:402  linear-gradient(
+      src/styles/global.css:540  linear-gradient(
+      src/styles/motion.css:34  linear-gradient(
+
+WARN
+  [copy] Stock marketing phrase. Say the specific thing the product does.  (1×)
+      src/pages/site-map.astro:13  All in one
+  [outlined-box] A 1px outlined box. Prefer a filled surface or no box.  (5×)
+      src/styles/global.css:237  border: 1px solid
+      src/styles/global.css:765  border: 1px solid
+      src/styles/global.css:867  border: 1px solid
+      src/styles/global.css:932  border: 1px solid
+      src/styles/global.css:1194  border: 1px solid
+
+RESULT: 48 FAIL, 6 WARN — fix the FAILs before rendering.
+Interface fragments marked data-ui keep their own borders and shadows. Any other line that must keep a flagged pattern for a real reason can carry the comment taste-skill-ignore.

@@ -35,7 +35,7 @@ const organization = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#efeee6" />
+    <meta name="theme-color" content="#ebeadf" />
     <title>{title} | Parfumaire Canada</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -47,7 +47,12 @@ const organization = {
     <meta property="og:image" content={new URL(image, origin).href} />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href="/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=supreme@400,500,700&display=swap"
+      rel="stylesheet"
+    />
     <script
       type="application/ld+json"
       set:html={JSON.stringify(organization).replace(/</g, '\u003c')}
@@ -192,5 +197,6 @@ const organization = {
       </footer>
     </div>
     <script src="../scripts/navigation.ts"></script>
+    <script src="../scripts/smooth-scroll.ts"></script>
   </body>
 </html>

@@ -1,25 +1,32 @@
 ---
-import renders from '../data/renders.json';
 interface Props {
   handle: string;
   label: string;
   hero?: boolean;
+  finish?: 'white' | 'black';
   grounded?: boolean;
   class?: string;
 }
-const { handle, label, hero = false, grounded = false, class: className = '' } = Astro.props;
-const render = (renders as Record<string, { cutout?: string; full: string }>)[handle];
+const {
+  handle,
+  label,
+  finish,
+  hero = false,
+  grounded = false,
+  class: className = '',
+} = Astro.props;
 ---
 
 <div
   class:list={['product-view', className]}
   data-product-view={handle}
+  data-finish={finish}
   data-hero-product={hero || undefined}
   data-grounded={grounded || undefined}
 >
   <img
     class="product-fallback"
-    src={render.cutout || render.full}
+    src={`/images/models/${handle}${finish === 'white' && handle.includes('max') ? '-white' : ''}-studio.webp`}
     width="1200"
     height="1600"
     alt={label}

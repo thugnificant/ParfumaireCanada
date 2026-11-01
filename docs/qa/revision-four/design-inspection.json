@@ -1,0 +1,2678 @@
+{
+ "url": "http://127.0.0.1:4323",
+ "at": "2026-11-01T19:19:20.979Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    1,
+    0.93,
+    0.61,
+    0.41,
+    0.54
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 3,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4402,
+     "screens": 4.9,
+     "words": 360,
+     "img": 11,
+     "video": 0,
+     "canvas": 8,
+     "svg": 22,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 10,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "clouds-1600.webp",
+      "la-tour-scent-diffuser-studio.webp",
+      "floor-1600.webp",
+      "cozyair-max-scent-diffuser-white-studio.webp",
+      "cozyair-scent-diffuser-studio.webp",
+      "la-tour-scent-diffuser-studio.webp",
+      "cozyair-max-scent-diffuser-studio.webp",
+      "213-rue-st-honore-studio.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "parfumaire",
+     "words": 1,
+     "chars": 10,
+     "lines": 1,
+     "size": 123.8,
+     "vw": 8.6,
+     "font": "Supreme",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.39,
+     "top": 698,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Good things are in the air.",
+     "words": 6,
+     "lines": 2,
+     "size": 40,
+     "font": "Supreme"
+    },
+    "headings": [
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.062,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 38,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Good things are in the air.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 187,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 123.8,
+      "vw": 8.6,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 698,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Big atmosphere. Small footprint.",
+      "words": 4,
+      "chars": 32,
+      "lines": 1,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.38,
+      "top": 968,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "An atmosphere for every occasion.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2766,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A feeling worth sharing.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3133,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 4.9,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 3271,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 4.9,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 3271,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 4.9,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 3271,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 4.9,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 3271,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "bonjour.",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.062,
+      "leading": 1.55,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 3706,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "A little scent. A lasting impression.",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3736,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 4104,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 6,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Supreme",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      23,
+      26,
+      32,
+      40,
+      43,
+      46,
+      50,
+      70,
+      124,
+      144
+     ],
+     "sizeCount": 18,
+     "notLoaded": [],
+     "body": {
+      "font": "Supreme",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 14.4
+     },
+     "measureChars": 33,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Georgia",
+      "text": "bonjour."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.48,
+     "smallText": 44
+    },
+    "eyebrows": [
+     {
+      "text": "Aaron Siepierski",
+      "above": "bonjour.",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3530
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebeadf",
+     "bodyBgHsl": {
+      "h": 55,
+      "s": 0.23,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#24aef7",
+       "top": 123,
+       "hsl": {
+        "h": 201,
+        "s": 0.93,
+        "l": 0.55
+       }
+      },
+      {
+       "color": "#d8e3e0",
+       "top": 923,
+       "hsl": {
+        "h": 164,
+        "s": 0.16,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#697467",
+       "top": 2415,
+       "hsl": {
+        "h": 111,
+        "s": 0.06,
+        "l": 0.43
+       }
+      },
+      {
+       "color": "#cb735f",
+       "top": 3679,
+       "hsl": {
+        "h": 11,
+        "s": 0.51,
+        "l": 0.58
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#181b18",
+       "share": 0.66
+      },
+      {
+       "color": "#60645c",
+       "share": 0.2
+      },
+      {
+       "color": "#596156",
+       "share": 0.05
+      },
+      {
+       "color": "#291a13",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#181b18"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Find your diffuser",
+      "Discover La Tour"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.atmosphere-shade → linear-gradient(120deg, rgba(0, 65, 106, 0.2), rgba(0, 0, 0, 0) 55%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.footer-bottom 1264px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 14,
+     "squareMedia": 6,
+     "roundedMedia": 11,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.58
+     },
+     {
+      "type": "img",
+      "ratio": 0.24
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.24
+     },
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 75,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "supreme",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4402,
+    "margins": {
+     "left": 26,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "section.atmosphere-layout",
+      "tag": "section",
+      "top": 123,
+      "height": 755,
+      "words": 33,
+      "media": 2,
+      "middle": 49,
+      "heading": {
+       "text": "Good things",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 49,
+      "textLeft": 66,
+      "textRight": 184,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.atmosphere-landing",
+      "tag": "section",
+      "top": 923,
+      "height": 792,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.featured.wrap",
+      "tag": "section",
+      "top": 1779,
+      "height": 636,
+      "words": 45,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Find your atmosphere. Make room for a favourite.",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 235,
+      "right": 235,
+      "textLeft": 265,
+      "textRight": 273,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.editorial-grid.wrap",
+      "tag": "section",
+      "top": 2415,
+      "height": 560,
+      "words": 14,
+      "media": 2,
+      "middle": 49,
+      "heading": {
+       "text": "An atmosphere",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 88,
+      "right": 113,
+      "textLeft": 133,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.wrap",
+      "tag": "section",
+      "top": 3023,
+      "height": 656,
+      "words": 110,
+      "media": 0,
+      "middle": 80,
+      "heading": {
+       "text": "A feeling worth sharing.",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 120,
+      "right": 93,
+      "textLeft": 120,
+      "textRight": 93,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.enquiry-banner.wrap",
+      "tag": "section",
+      "top": 3679,
+      "height": 350,
+      "words": 21,
+      "media": 0,
+      "middle": 229,
+      "heading": {
+       "text": "bonjour.",
+       "size": 144,
+       "tag": "div"
+      },
+      "left": 143,
+      "right": 153,
+      "textLeft": 143,
+      "textRight": 153,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.wrap",
+      "tag": "footer",
+      "top": 4029,
+      "height": 349,
+      "words": 87,
+      "media": 0,
+      "middle": 159,
+      "heading": {
+       "text": "parfumaire",
+       "size": 40,
+       "tag": "a"
+      },
+      "left": 88,
+      "right": 88,
+      "textLeft": 88,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Good things are in the air.",
+      "size": 40,
+      "top": 187,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 133,
+      "n": 4
+     },
+     {
+      "x": 89,
+      "n": 2
+     },
+     {
+      "x": 1061,
+      "n": 2
+     },
+     {
+      "x": 1017,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.02,
+    "voidBox": {
+     "x": 1200,
+     "y": 780,
+     "w": 240,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.76,
+    0.75,
+    0.6,
+    0.35,
+    0.56
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 3,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4745,
+     "screens": 4.6,
+     "words": 325,
+     "img": 11,
+     "video": 0,
+     "canvas": 8,
+     "svg": 22,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 10,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "clouds-1600.webp",
+      "la-tour-scent-diffuser-studio.webp",
+      "floor-1600.webp",
+      "cozyair-max-scent-diffuser-white-studio.webp",
+      "cozyair-scent-diffuser-studio.webp",
+      "la-tour-scent-diffuser-studio.webp",
+      "cozyair-max-scent-diffuser-studio.webp",
+      "213-rue-st-honore-studio.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "parfumaire",
+     "words": 1,
+     "chars": 10,
+     "lines": 1,
+     "size": 70,
+     "vw": 9.1,
+     "font": "Supreme",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.41,
+     "top": 857,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Good things are in the air.",
+     "words": 6,
+     "lines": 2,
+     "size": 30,
+     "font": "Supreme"
+    },
+    "headings": [
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.062,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 30,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Good things are in the air.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 136,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 857,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Big atmosphere. Small footprint.",
+      "words": 4,
+      "chars": 32,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.7,
+      "top": 1075,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Find your atmosphere. Make room for a favourite.",
+      "words": 8,
+      "chars": 48,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 1824,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A lasting impression.",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 2695,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "An atmosphere for every occasion.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 3064,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A feeling worth sharing.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 3353,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 3472,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 3472,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 3697,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 70,
+      "vw": 9.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 3697,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "A little scent. A lasting impression.",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 38,
+      "vw": 4.9,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4094,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "bonjour.",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 80,
+      "vw": 10.4,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.075,
+      "leading": 1.55,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 4121,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 4453,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Supreme",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      26,
+      30,
+      32,
+      38,
+      40,
+      70,
+      80
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Supreme",
+      "size": 15,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 14.4
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 80,
+      "vw": 10.4,
+      "font": "Georgia",
+      "text": "bonjour."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.52,
+     "smallText": 39
+    },
+    "eyebrows": [
+     {
+      "text": "Nicolas Krause",
+      "above": "“",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3618
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebeadf",
+     "bodyBgHsl": {
+      "h": 55,
+      "s": 0.23,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#24aef7",
+       "top": 106,
+       "hsl": {
+        "h": 201,
+        "s": 0.93,
+        "l": 0.55
+       }
+      },
+      {
+       "color": "#d8e3e0",
+       "top": 1030,
+       "hsl": {
+        "h": 164,
+        "s": 0.16,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#697467",
+       "top": 2670,
+       "hsl": {
+        "h": 111,
+        "s": 0.06,
+        "l": 0.43
+       }
+      },
+      {
+       "color": "#cb735f",
+       "top": 4028,
+       "hsl": {
+        "h": 11,
+        "s": 0.51,
+        "l": 0.58
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#181b18",
+       "share": 0.63
+      },
+      {
+       "color": "#60645c",
+       "share": 0.21
+      },
+      {
+       "color": "#596156",
+       "share": 0.05
+      },
+      {
+       "color": "#291a13",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#181b18"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Find your diffuser",
+      "Discover La Tour"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.atmosphere-shade → linear-gradient(120deg, rgba(0, 65, 106, 0.2), rgba(0, 0, 0, 0) 55%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.footer-bottom 700px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 14,
+     "squareMedia": 2,
+     "roundedMedia": 11,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.58
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.16
+     },
+     {
+      "type": "img",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "supreme",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4745,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "div.atmosphere-story.motion-ready",
+      "tag": "div",
+      "top": 106,
+      "height": 1544,
+      "words": 33,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Good things",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 18,
+      "textLeft": 42,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.featured.wrap",
+      "tag": "section",
+      "top": 1714,
+      "height": 956,
+      "words": 45,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Find your atmosphere. Make room for a favourite.",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 34,
+      "right": 34,
+      "textLeft": 105,
+      "textRight": 105,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.editorial-grid.wrap",
+      "tag": "section",
+      "top": 2670,
+      "height": 560,
+      "words": 14,
+      "media": 2,
+      "middle": 49,
+      "heading": {
+       "text": "An atmosphere",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 34,
+      "right": 59,
+      "textLeft": 59,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.wrap",
+      "tag": "section",
+      "top": 3278,
+      "height": 750,
+      "words": 110,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A feeling worth sharing.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 36,
+      "right": 35,
+      "textLeft": 36,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.enquiry-banner.wrap",
+      "tag": "section",
+      "top": 4028,
+      "height": 350,
+      "words": 21,
+      "media": 0,
+      "middle": 12,
+      "heading": {
+       "text": "bonjour.",
+       "size": 80,
+       "tag": "div"
+      },
+      "left": 74,
+      "right": 69,
+      "textLeft": 74,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.wrap",
+      "tag": "footer",
+      "top": 4378,
+      "height": 349,
+      "words": 62,
+      "media": 0,
+      "middle": 20,
+      "heading": {
+       "text": "parfumaire",
+       "size": 40,
+       "tag": "a"
+      },
+      "left": 34,
+      "right": 34,
+      "textLeft": 34,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Good things are in the air.",
+      "size": 30,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 46,
+      "n": 2
+     },
+     {
+      "x": 59,
+      "n": 2
+     },
+     {
+      "x": 74,
+      "n": 2
+     },
+     {
+      "x": 582,
+      "n": 2
+     },
+     {
+      "x": 563,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.86,
+    0.84,
+    0.61,
+    0.92,
+    0.45,
+    0.58,
+    0.49
+   ],
+   "motion": {
+    "elements": 2,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5407,
+     "screens": 6.4,
+     "words": 335,
+     "img": 11,
+     "video": 0,
+     "canvas": 8,
+     "svg": 22,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "clouds-1600.webp",
+      "floor-1600.webp",
+      "cozyair-max-scent-diffuser-white-studio.webp",
+      "cozyair-scent-diffuser-studio.webp",
+      "la-tour-scent-diffuser-studio.webp",
+      "cozyair-max-scent-diffuser-studio.webp",
+      "213-rue-st-honore-studio.webp",
+      "lounge-3200.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "parfumaire",
+     "words": 1,
+     "chars": 10,
+     "lines": 1,
+     "size": 58.5,
+     "vw": 15,
+     "font": "Supreme",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.67,
+     "top": 701,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Good things are in the air.",
+     "words": 6,
+     "lines": 2,
+     "size": 32,
+     "font": "Supreme"
+    },
+    "headings": [
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 29,
+      "vw": 7.4,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.069,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 24,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Good things are in the air.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 58.5,
+      "vw": 15,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.67,
+      "top": 701,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Big atmosphere. Small footprint.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.06,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1473,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Find your atmosphere. Make room for a favourite.",
+      "words": 8,
+      "chars": 48,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1791,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "An atmosphere for every occasion.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.66,
+      "top": 2872,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A lasting impression.",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 3075,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A feeling worth sharing.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 3620,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 55,
+      "vw": 14.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 3756,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 55,
+      "vw": 14.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 3756,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 55,
+      "vw": 14.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 3963,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 55,
+      "vw": 14.1,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 3963,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "A little scent. A lasting impression.",
+      "words": 6,
+      "chars": 37,
+      "lines": 3,
+      "size": 39,
+      "vw": 10,
+      "font": "Supreme",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 4384,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "bonjour.",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 68,
+      "vw": 17.4,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": -0.059,
+      "leading": 1.55,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.62,
+      "top": 4616,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "parfumaire CANADA",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Supreme",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4804,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Supreme",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      24,
+      26,
+      28,
+      29,
+      30,
+      32,
+      34,
+      39,
+      40,
+      55,
+      59,
+      68
+     ],
+     "sizeCount": 19,
+     "notLoaded": [],
+     "body": {
+      "font": "Supreme",
+      "size": 13,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": -0.02,
+      "contrast": 14.4
+     },
+     "measureChars": 23,
+     "max": {
+      "size": 68,
+      "vw": 17.4,
+      "font": "Georgia",
+      "text": "bonjour."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.51,
+     "smallText": 46
+    },
+    "eyebrows": [
+     {
+      "text": "Nicole Brier",
+      "above": "“",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 3875
+     },
+     {
+      "text": "Nicolas Krause",
+      "above": "“",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 3896
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebeadf",
+     "bodyBgHsl": {
+      "h": 55,
+      "s": 0.23,
+      "l": 0.9
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#24aef7",
+       "top": 89,
+       "hsl": {
+        "h": 201,
+        "s": 0.93,
+        "l": 0.55
+       }
+      },
+      {
+       "color": "#d8e3e0",
+       "top": 847,
+       "hsl": {
+        "h": 164,
+        "s": 0.16,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#697467",
+       "top": 2608,
+       "hsl": {
+        "h": 111,
+        "s": 0.06,
+        "l": 0.43
+       }
+      },
+      {
+       "color": "#a7c5ee",
+       "top": 3050,
+       "hsl": {
+        "h": 215,
+        "s": 0.68,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#cb735f",
+       "top": 4349,
+       "hsl": {
+        "h": 11,
+        "s": 0.51,
+        "l": 0.58
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#181b18",
+       "share": 0.67
+      },
+      {
+       "color": "#60645c",
+       "share": 0.21
+      },
+      {
+       "color": "#596156",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#103349",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#181b18"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Find your diffuser"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.atmosphere-shade → linear-gradient(120deg, rgba(0, 65, 106, 0.2), rgba(0, 0, 0, 0) 55%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.footer-bottom 342px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 14,
+     "squareMedia": 4,
+     "roundedMedia": 3,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.82
+     },
+     {
+      "type": "img",
+      "ratio": 0.48
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.48
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 65,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "supreme",
+     "dm sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5407,
+    "margins": {
+     "left": 14,
+     "right": 14
+    },
+    "sections": [
+     {
+      "sel": "section.atmosphere-layout",
+      "tag": "section",
+      "top": 89,
+      "height": 734,
+      "words": 18,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Good things",
+       "size": 32,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 32,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.atmosphere-landing",
+      "tag": "section",
+      "top": 847,
+      "height": 600,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 12,
+      "right": 12,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.product-view.atmosphere-product",
+      "tag": "div",
+      "top": 275,
+      "height": 440,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 15,
+      "right": 14,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.featured.wrap",
+      "tag": "section",
+      "top": 1726,
+      "height": 882,
+      "words": 45,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Find your atmosphere. Make room for a favourite.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 29,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.editorial-grid.wrap",
+      "tag": "section",
+      "top": 2608,
+      "height": 902,
+      "words": 14,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "An atmosphere",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 49,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.wrap",
+      "tag": "section",
+      "top": 3555,
+      "height": 793,
+      "words": 110,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A feeling worth sharing.",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.enquiry-banner.wrap",
+      "tag": "section",
+      "top": 4349,
+      "height": 405,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "bonjour.",
+       "size": 68,
+       "tag": "div"
+      },
+      "left": 39,
+      "right": 27,
+      "textLeft": 39,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.wrap",
+      "tag": "footer",
+      "top": 4754,
+      "height": 641,
+      "words": 87,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "parfumaire",
+       "size": 40,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 35,
+      "textLeft": 24,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Good things are in the air.",
+      "size": 32,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Photography:",
+      "side": "left",
+      "px": 14
+     },
+     {
+      "text": "Pause motion",
+      "side": "right",
+      "px": 14
+     },
+     {
+      "text": "Interior photography:",
+      "side": "left",
+      "px": 14
+     },
+     {
+      "text": "Gustavo Galeano Maz / Pexels",
+      "side": "right",
+      "px": 14
+     }
+    ],
+    "edges": [
+     {
+      "x": 36,
+      "n": 4
+     },
+     {
+      "x": 49,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 7,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Aaron Siepierski\" above \"bonjour.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): div.atmosphere-shade → linear-gradient(120deg, rgba(0, 65, 106, 0.2), rgba(0, 0, 0, 0) 55%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.footer-bottom 1264px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (page background #ebeadf, section #cb735f).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "18 different font sizes (8, 10, 11, 12, 13, 14, 16, 17, 23, 26, 32, 40, 43, 46, 50, 70, 124, 144).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "44 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 3 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 768,
+   "message": "Body text is 15px.",
+   "fix": "Body copy 16–20px."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 768,
+   "message": "The h1 is 30px (\"Good things are in the air.\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"A little scent. A lasting impression.\" → 3 lines (6 words, 39px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 390,
+   "message": "Body text is 13px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "4 text block(s) sit 12–15px from the phone's edge: \"Photography:\" (14px); \"Pause motion\" (14px); \"Interior photography:\" (14px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/desktop-fold.jpg",
+   "pages": [
+    "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/desktop-page-01.jpg",
+    "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/tablet-fold.jpg",
+   "pages": [
+    "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/mobile-fold.jpg",
+   "pages": [
+    "/Users/jacobrothenberg/ParfumaireCanada/archive/revision-four/taste-inspection/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

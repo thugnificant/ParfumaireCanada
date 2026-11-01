@@ -6,8 +6,8 @@
   font-display: swap;
 }
 :root {
-  --cream: #efeee6;
-  --ink: #202621;
+  --cream: #ebeadf;
+  --ink: #181b18;
   --muted: #60645c;
   --line: #d4d4c8;
   --white: #fff;
@@ -16,13 +16,13 @@
   --sand: #e2ceb4;
   --radius: 14px;
   --gutter: 24px;
-  --font: 'DM Sans', Arial, sans-serif;
+  --font: 'Supreme', 'DM Sans', Arial, sans-serif;
 }
 * {
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   scroll-padding-top: 110px;
 }
 body {
@@ -72,9 +72,9 @@ figure {
 h1,
 h2,
 h3 {
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.08;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.03em;
 }
 h1 {
   font-size: clamp(44px, 5.5vw, 80px);
@@ -111,7 +111,7 @@ summary:focus-visible {
   background: #b5cbd8;
 }
 .site-shell {
-  max-width: 1920px;
+  max-width: 1600px;
   margin: auto;
   padding: 24px;
 }
@@ -159,8 +159,8 @@ summary:focus-visible {
   align-items: center;
 }
 .desktop-nav a {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -631,7 +631,7 @@ summary:focus-visible {
   text-underline-offset: 4px;
 }
 .enquiry-banner {
-  background: #cb735f;
+  background: #f04923;
   border-radius: var(--radius);
   min-height: 350px;
   padding: 55px;

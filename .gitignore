@@ -22,3 +22,10 @@ docs/qa/revision-two/*.png
 docs/qa/revision-three/recordings/
 docs/qa/revision-three/*-scroll.webm
 docs/qa/revision-three/*.png
+
+docs/qa/revision-four/recordings/
+docs/qa/revision-four/*-scroll.webm
+docs/qa/revision-four/*.png
+
+docs/qa/revision-four/showcase/recordings/
+docs/qa/revision-four/showcase/*.webm

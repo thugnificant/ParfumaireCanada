@@ -27,8 +27,7 @@ const featuredReviews = reviews
   <AtmosphereHero />
   <section class="featured wrap section-space" aria-labelledby="featured-heading">
     <div class="section-heading">
-      <h2 id="featured-heading">Meet your atmosphere.</h2>
-      <p>Thoughtfully designed diffusers. Fragrances with a story.</p>
+      <h2 id="featured-heading">Find your atmosphere. Make room for a favourite.</h2>
     </div>
     <div class="product-grid">
       {featured.map((p) => (
@@ -44,11 +43,11 @@ const featuredReviews = reviews
   <section class="editorial-grid wrap" aria-label="Discover the world of Parfumaire">
     <a class="editorial-large" href="/business-scenting/">
       <img
-        src="/images/photography/interior-3000.webp"
+        src="/images/photography/lounge-3200.webp"
         sizes="(max-width:580px) 90vw, 65vw"
-        width="3000"
-        height="2000"
-        alt="A bright contemporary living room with natural wood and plants"
+        width="3200"
+        height="2134"
+        alt="Vivid red lounge chairs beside French windows and a natural wooden floor"
         loading="lazy"
       />
       <div>
@@ -62,39 +61,21 @@ const featuredReviews = reviews
         </span>
       </div>
     </a>
-    <div class="editorial-stack">
-      <a class="editorial-small blue" href="/business-scenting/">
-        <div>
-          <h2>Make an impression.</h2>
-          <span class="pill">
-            For your business <Icon size={17} />
-          </span>
-        </div>
-        <ProductView
-          class="editorial-product"
-          handle="cozyair-max-scent-diffuser"
-          label="CozyAir Max scent diffuser"
-        />
-      </a>
-      <a class="editorial-small sand" href="/fragrance-finder/">
-        <div>
-          <h2>Find your signature.</h2>
-          <span class="pill">
-            Find your scent <Icon size={17} />
-          </span>
-        </div>
-        <img
-          src="/images/renders/air-mykonos-cutout.webp"
-          width="640"
-          height="640"
-          alt="Air Mykonos fragrance bottle"
-          loading="lazy"
-        />
-      </a>
-    </div>
+    <a class="editorial-feature blue" href="/products/cozyair-max-scent-diffuser/">
+      <h2>A lasting impression.</h2>
+      <ProductView
+        class="editorial-product"
+        handle="cozyair-max-scent-diffuser"
+        label="CozyAir Max black scent diffuser"
+      />
+      <span class="pill">
+        Discover CozyAir Max <Icon size={17} />
+      </span>
+    </a>
   </section>
   <p class="photography-credit wrap">
-    Interior photography: <a href="https://www.pexels.com/photo/19966784/">Alex Tyson / Pexels</a>
+    Interior photography:{' '}
+    <a href="https://www.pexels.com/photo/8477454/">Gustavo Galeano Maz / Pexels</a>
   </p>
   <section class="testimonials wrap section-space" aria-labelledby="testimonials-title">
     <div class="section-heading">

@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
 const base = process.env.QA_URL || 'http://127.0.0.1:4323';
-const out = process.env.QA_OUT || 'docs/qa/revision-three';
+const out = process.env.QA_OUT || 'docs/qa/revision-four';
 await fs.mkdir(out, { recursive: true });
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const report = { base, at: new Date().toISOString(), checks: [], errors: [], failedRequests: [] };
@@ -100,7 +100,7 @@ for (const width of [1440, 390]) {
   await page.screenshot({ path: `${out}/landed-${width}.png` });
   const final = await bounds(page);
   await jump(page, travel + 230);
-  assert.equal((await bounds(page)).y, final.y, 'Landed diffuser stays attached to the desk');
+  assert.equal((await bounds(page)).y, final.y, 'Landed diffuser stays attached to the floor');
   await jump(page, 0);
   assert.deepEqual(await bounds(page), start, 'Reverse scroll restores the same starting pose');
   for (const y of [travel, 100, travel * 0.7, 50, travel + 150, travel * 0.45]) await jump(page, y);
@@ -119,6 +119,19 @@ for (const width of [1440, 390]) {
     await jump(page, 0);
     await page.locator('.explore-toggle').click();
     assert(await page.locator('#explore-menu').isVisible());
+    await page.waitForFunction(
+      () =>
+        parseFloat(getComputedStyle(document.querySelector('.site-header')).paddingBottom) > 132.5,
+    );
+    assert(
+      await page
+        .locator('#explore-menu')
+        .evaluate(
+          (e) =>
+            e.getBoundingClientRect().bottom <= e.parentElement.getBoundingClientRect().bottom + 1,
+        ),
+      'Dropdown expands within the header',
+    );
     const tops = await page
       .locator('#explore-menu a')
       .evaluateAll((links) => links.map((e) => e.getBoundingClientRect().top));
@@ -142,7 +155,7 @@ for (const width of [1440, 390]) {
     await view.locator('canvas').waitFor();
     await page.waitForFunction((e) => e.dataset.model === 'ready', await view.elementHandle());
   }
-  assert.equal(await page.locator('.featured [data-product-view][data-model="ready"]').count(), 3);
+  assert.equal(await page.locator('.featured [data-product-view][data-model="ready"]').count(), 4);
   assert(
     await page
       .locator('.featured .product-card')

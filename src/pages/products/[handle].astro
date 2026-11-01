@@ -253,8 +253,11 @@ const schema = {
     import { price } from '../../lib/catalog';
     const root = document.querySelector<HTMLElement>('[data-product]');
     const p = JSON.parse(root!.dataset.product!);
+    const requestedVariant = new URLSearchParams(location.search).get('variant');
     let selected =
-      p.variants.find((v: { id: string }) => v.id === p.initialVariantId) || p.variants[0];
+      p.variants.find((v: { id: string }) => v.id === requestedVariant) ||
+      p.variants.find((v: { id: string }) => v.id === p.initialVariantId) ||
+      p.variants[0];
     const img = document.querySelector<HTMLImageElement>('#product-image')!;
     const zoom = document.querySelector<HTMLImageElement>('#zoomed-image')!;
     const dialog = document.querySelector<HTMLDialogElement>('#image-dialog')!;
@@ -297,6 +300,17 @@ const schema = {
       }),
     );
     document.querySelector('#product-quantity')?.addEventListener('input', update);
+    if (requestedVariant && selected.id === requestedVariant) {
+      const radio = document.querySelector<HTMLInputElement>(
+        `input[name=variant][value="${selected.id}"]`,
+      );
+      if (radio) radio.checked = true;
+      const index = p.images.findIndex(
+        (im: { sourceImageId: number }) => im.sourceImageId === selected.featuredImageId,
+      );
+      if (index >= 0) showImage(index);
+      update();
+    }
     document.querySelector('#zoom-image')?.addEventListener('click', () => dialog.showModal());
     document.querySelector('.close-dialog')?.addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', (e) => {
