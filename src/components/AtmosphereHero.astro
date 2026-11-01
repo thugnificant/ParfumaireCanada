@@ -3,160 +3,122 @@ import Icon from './Icon.astro';
 import ProductView from './ProductView.astro';
 import { byHandle, priceLabel } from '../lib/catalog';
 const tower = byHandle('la-tour-scent-diffuser');
-const chapters = [
-  {
-    name: 'In the air',
-    title: 'Good things\nare in the air.',
-    copy: 'A little fragrance. A whole new feeling.',
-  },
-  {
-    name: 'At work',
-    title: 'Space to think.\nRoom to feel.',
-    copy: 'A fresh perspective on the everyday office.',
-  },
-  {
-    name: 'Together',
-    title: 'Set the scene.\nMake a memory.',
-    copy: 'An atmosphere as special as the occasion.',
-  },
-  {
-    name: 'Away',
-    title: 'A warm welcome.\nA lasting feeling.',
-    copy: 'Thoughtful scenting for memorable stays.',
-  },
-  {
-    name: 'At home',
-    title: 'Make yourself\nat home.',
-    copy: 'Your space. Your scent. Your everyday ritual.',
-  },
-];
 ---
 
-<section class="atmosphere-story" data-atmosphere aria-label="One diffuser, a world of atmosphere">
-  <div class="atmosphere-sticky">
-    <div class="atmosphere-layout">
-      <div class="hero-main atmosphere-main">
-        <div class="atmosphere-rooms" aria-hidden="true">
-          <img
-            class="atmosphere-room sky-room"
-            src="/images/renders/sky.webp"
-            width="1440"
-            height="1520"
-            alt=""
-            fetchpriority="high"
-          />
-          {['office', 'event', 'hotel', 'home'].map((room, index) => (
-            <img
-              class="atmosphere-room"
-              data-room={index + 1}
-              src={`/images/renders/space-${room}-hq.webp`}
-              width="2688"
-              height="1520"
-              alt=""
-              decoding="async"
-            />
-          ))}
-        </div>
-        <div class="atmosphere-shade" aria-hidden="true"></div>
-        <div class="atmosphere-product-shadow" aria-hidden="true"></div>
-        <ProductView
-          handle="cozyair-scent-diffuser"
-          label="White Parfumaire CozyAir diffuser"
-          hero
-          class="atmosphere-product"
-        />
-        <div class="atmosphere-copy">
-          <p class="eyebrow">THE ART OF ATMOSPHERE</p>
-          <div class="atmosphere-titles">
-            {chapters.map((chapter, index) => (
-              <div
-                class:list={['atmosphere-chapter', { 'is-current': index === 0 }]}
-                data-chapter={index}
-                aria-hidden={index !== 0 ? 'true' : undefined}
-              >
-                {index === 0 ? (
-                  <h1>
-                    {chapter.title.split('\n').map((line) => (
-                      <span>{line}</span>
-                    ))}
-                  </h1>
-                ) : (
-                  <h2>
-                    {chapter.title.split('\n').map((line) => (
-                      <span>{line}</span>
-                    ))}
-                  </h2>
-                )}
-                <p>{chapter.copy}</p>
-              </div>
-            ))}
-          </div>
-          <a class="pill" href="/collections/scent-diffusers/">
-            Find your diffuser <Icon />
-          </a>
-        </div>
-        <div class="atmosphere-word" aria-hidden="true">
-          parfumaire
-        </div>
-        <div class="atmosphere-bottom">
-          <span class="atmosphere-hint">
-            SCROLL TO CHANGE THE ATMOSPHERE <span aria-hidden="true">↓</span>
-          </span>
-          <a class="atmosphere-product-link" href="/products/cozyair-scent-diffuser/">
-            CozyAir <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </div>
-      <aside class="atmosphere-feature">
-        <div>
-          <span class="tag">MEET LA TOUR</span>
-          <h2>
-            Small footprint.
-            <br />
-            Lasting impression.
-          </h2>
-        </div>
-        <a
-          class="atmosphere-feature-product"
-          href="/products/la-tour-scent-diffuser/"
-          aria-label="Discover La Tour scent diffuser"
-        >
-          <ProductView
-            handle="la-tour-scent-diffuser"
-            label="La Tour black freestanding scent diffuser"
-            hero
-          />
+<div class="atmosphere-story" data-atmosphere>
+  <section class="atmosphere-layout" aria-label="Good things are in the air">
+    <div class="hero-main atmosphere-main">
+      <img
+        class="sky-room"
+        src="/images/photography/sky-3000.webp"
+        srcset="/images/photography/sky-1600.webp 1600w, /images/photography/sky-3000.webp 2974w"
+        sizes="(max-width:700px) 100vw, 72vw"
+        width="2974"
+        height="4461"
+        alt=""
+        fetchpriority="high"
+      />
+      <div class="atmosphere-shade" aria-hidden="true"></div>
+      <div class="atmosphere-copy">
+        <h1>
+          Good things
+          <br />
+          are in the air.
+        </h1>
+        <p>A little fragrance. A whole new feeling.</p>
+        <a class="pill" href="/collections/scent-diffusers/">
+          Find your diffuser <Icon />
         </a>
-        <div class="feature-bottom">
-          <div>
-            <p>La Tour Scent Diffuser</p>
-            <span>{priceLabel(tower)} · reference</span>
-          </div>
-          <a class="pill" href="/products/la-tour-scent-diffuser/">
-            Discover La Tour <Icon />
-          </a>
-        </div>
-      </aside>
-    </div>
-    <nav class="atmosphere-navigation" aria-label="Explore the diffuser in different spaces">
-      <div class="atmosphere-track" aria-hidden="true">
-        <span></span>
       </div>
-      {chapters.map((chapter, index) => (
-        <button type="button" data-scene={index} aria-current={index === 0 ? 'step' : undefined}>
-          <span class="scene-number">0{index + 1}</span>
-          {chapter.name}
-        </button>
-      ))}
-      <button
-        type="button"
-        class="motion-toggle"
-        aria-pressed="false"
-        aria-label="Pause animated effects"
+      <div class="atmosphere-word" aria-hidden="true">
+        parfumaire
+      </div>
+      <div class="atmosphere-bottom">
+        <span class="atmosphere-hint">
+          A little atmosphere, wherever you are. <Icon name="arrow" />
+        </span>
+        <a href="/products/cozyair-scent-diffuser/" class="atmosphere-product-link">
+          Meet CozyAir <Icon />
+        </a>
+      </div>
+      <span class="flight-origin" aria-hidden="true"></span>
+    </div>
+    <aside class="atmosphere-feature">
+      <h2>
+        Small footprint.
+        <br />
+        Lasting impression.
+      </h2>
+      <a
+        class="atmosphere-feature-product"
+        href="/products/la-tour-scent-diffuser/"
+        aria-label="Discover La Tour scent diffuser"
       >
-        Pause motion <span aria-hidden="true">Ⅱ</span>
-      </button>
-    </nav>
-  </div>
-</section>
+        <ProductView
+          handle="la-tour-scent-diffuser"
+          label="La Tour black freestanding scent diffuser"
+          hero
+        />
+      </a>
+      <div class="feature-bottom">
+        <div>
+          <p>La Tour Scent Diffuser</p>
+          <span>{priceLabel(tower)} · reference</span>
+        </div>
+        <a class="pill" href="/products/la-tour-scent-diffuser/">
+          Discover La Tour <Icon />
+        </a>
+      </div>
+    </aside>
+  </section>
+  <section class="atmosphere-landing" aria-labelledby="landing-heading">
+    <img
+      class="landing-photo"
+      src="/images/photography/workspace-3000.webp"
+      srcset="/images/photography/workspace-1600.webp 1600w, /images/photography/workspace-3000.webp 3000w"
+      sizes="(max-width:700px) 180vw, 100vw"
+      width="3000"
+      height="2000"
+      alt="Sunlit workspace with a wooden desk, plants and a laptop"
+      decoding="async"
+    />
+    <div class="landing-copy">
+      <h2 id="landing-heading">
+        Make room
+        <br />
+        for a feeling.
+      </h2>
+      <p>
+        Your everyday space.
+        <br />A whole new atmosphere.
+      </p>
+      <a class="pill" href="/products/cozyair-scent-diffuser/">
+        Discover CozyAir <Icon />
+      </a>
+    </div>
+    <span class="flight-destination" aria-hidden="true"></span>
+    <div class="landing-shadow" aria-hidden="true"></div>
+    <ProductView
+      class="landing-fallback"
+      handle="cozyair-scent-diffuser"
+      label="CozyAir white scent diffuser on the desk"
+      grounded
+    />
+  </section>
+  <ProductView
+    handle="cozyair-scent-diffuser"
+    label="White Parfumaire CozyAir diffuser with animated airflow"
+    hero
+    class="atmosphere-product"
+  />
+</div>
+<div class="photography-credit">
+  <span>
+    Photography: <a href="https://unsplash.com/photos/Ir1-0Dvpn8A">ITT CU</a> &amp;{' '}
+    <a href="https://unsplash.com/photos/IisDPFNUS4k">Minh Pham</a> / Unsplash
+  </span>
+  <button type="button" class="motion-toggle" aria-pressed="false">
+    Pause motion
+  </button>
+</div>
 <script src="../scripts/atmosphere.ts"></script>

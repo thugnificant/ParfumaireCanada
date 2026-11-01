@@ -1,0 +1,86 @@
+{
+  "at": "2026-11-01T16:05:05.849Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": 0,
+      "brokenImages": [],
+      "consoleErrors": []
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "brokenImages": [],
+      "consoleErrors": []
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "brokenImages": [],
+      "consoleErrors": []
+    }
+  ],
+  "findings": [
+    {
+      "level": "FAIL",
+      "id": "eyebrow",
+      "width": 1440,
+      "message": "1 eyebrow/kicker label(s) above headings: \"Aaron Siepierski\" above \"bonjour.\"",
+      "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "hairline",
+      "width": 1440,
+      "message": "1 thin rule(s)/divider line(s): div.footer-bottom 1264px",
+      "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "size-count",
+      "width": 1440,
+      "message": "20 different font sizes (8, 10, 11, 12, 13, 14, 16, 17, 26, 27, 32, 40, 45, 46, 50, 52, 58, 70, 144, 148).",
+      "fix": "A page needs about five: display, heading, lead, body, small.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "no-footage",
+      "width": 1440,
+      "message": "No video anywhere on the page.",
+      "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+    },
+    {
+      "level": "WARN",
+      "id": "small-title",
+      "width": 768,
+      "message": "The h1 is 30px (\"Good things are in the air.\").",
+      "fix": "Set the title at display size, or make the large text of the first screen the h1."
+    },
+    {
+      "level": "WARN",
+      "id": "ragged-edges",
+      "width": 768,
+      "message": "Left-aligned text starts at 7 different lines (59px, 34px, 46px, 74px, 394px, 480px, 585px); the three most used hold only 50% of it.",
+      "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+    },
+    {
+      "level": "WARN",
+      "id": "edge-text",
+      "width": 390,
+      "message": "4 text block(s) sit 12–15px from the phone's edge: \"Photography:\" (14px); \"Pause motion\" (14px); \"Interior photography:\" (14px)",
+      "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+    }
+  ]
+}

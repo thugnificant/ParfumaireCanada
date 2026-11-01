@@ -18,3 +18,7 @@ docs/qa/revision-two/recordings/
 docs/qa/revision-two/*-scroll.webm
 docs/qa/revision-two/draft-*
 docs/qa/revision-two/*.png
+
+docs/qa/revision-three/recordings/
+docs/qa/revision-three/*-scroll.webm
+docs/qa/revision-three/*.png

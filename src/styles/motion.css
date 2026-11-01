@@ -1,173 +1,253 @@
-/* The reference's inset split hero, with separate sharp rooms and a live product. */
+/* Bella's normal-flow handoff: one product crosses two separate frames. */
 .atmosphere-story {
-  --scene-open: 0;
-  --word-opacity: 1;
-  --story-progress: 0;
+  --hero-height: clamp(600px, calc(100svh - 145px), 1000px);
   position: relative;
-  margin-bottom: 40px;
-}
-.atmosphere-sticky {
-  position: relative;
-  height: calc(100svh - 128px);
-  min-height: 510px;
-  max-height: 1050px;
-}
-.atmosphere-story.motion-active {
-  height: 440svh;
-}
-.atmosphere-story.motion-active .atmosphere-sticky {
-  position: sticky;
-  top: 108px;
+  isolation: isolate;
 }
 .atmosphere-layout {
   position: relative;
-  height: calc(100% - 64px);
-  overflow: hidden;
-  border-radius: 14px;
+  height: var(--hero-height);
+  display: flex;
+  gap: 20px;
 }
 .atmosphere-main {
-  width: calc(72% + 28% * var(--scene-open));
+  width: 72%;
   height: 100%;
   min-height: 0;
-  background: #36a8df;
-  z-index: 2;
+  background: #2396c5;
 }
 .atmosphere-main::after {
   display: none;
 }
-.atmosphere-rooms,
-.atmosphere-room,
+.sky-room,
 .atmosphere-shade {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
 }
-.atmosphere-room {
-  object-fit: cover;
-  object-position: center;
-}
-.atmosphere-room[data-room] {
-  clip-path: inset(0 0 0 100%);
-}
 .sky-room {
-  object-position: center 64%;
+  object-fit: cover;
+  object-position: 50% 78%;
 }
 .atmosphere-shade {
-  background: linear-gradient(90deg, #071e2d69, transparent 57%);
-  pointer-events: none;
+  background: linear-gradient(100deg, #072b4875, transparent 65%);
 }
 .atmosphere-copy {
   position: absolute;
-  z-index: 4;
+  z-index: 2;
   top: 40px;
   left: 42px;
-  right: 24px;
-  color: white;
-  pointer-events: none;
+  color: #fff;
 }
-.atmosphere-copy a {
-  pointer-events: auto;
-}
-.atmosphere-copy .eyebrow {
-  font-size: 9px;
-  letter-spacing: 2px;
+.atmosphere-copy h1 {
+  font-size: clamp(30px, 3.1vw, 48px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
   margin-bottom: 16px;
 }
-.atmosphere-titles {
-  display: grid;
-  max-width: 390px;
-}
-.atmosphere-chapter {
-  grid-area: 1/1;
-  opacity: 0;
-  visibility: hidden;
-  transition:
-    opacity 0.2s,
-    visibility 0.2s;
-  pointer-events: none;
-}
-.atmosphere-chapter.is-current {
-  opacity: 1;
-  visibility: visible;
-}
-.atmosphere-chapter h1,
-.atmosphere-chapter h2 {
-  font-size: clamp(28px, 3.3vw, 55px);
-  line-height: 1.06;
-  font-weight: 600;
-  letter-spacing: -0.045em;
-  margin-bottom: 17px;
-}
-.atmosphere-chapter h1 span,
-.atmosphere-chapter h2 span {
-  display: block;
-}
-.atmosphere-chapter p {
-  font-size: 13px;
-  max-width: 255px;
-  line-height: 1.5;
+.atmosphere-copy p {
+  font-size: 14px;
+  max-width: 230px;
 }
 .atmosphere-copy .pill {
   margin-top: 24px;
   color: var(--ink);
-  font-size: 11px;
-  padding: 11px 19px;
-  gap: 28px;
+  font-size: 12px;
+  gap: 26px;
 }
 .atmosphere-word {
   position: absolute;
-  z-index: 1;
   left: 30px;
   bottom: 62px;
-  color: white;
+  color: #fff;
   font-size: clamp(70px, 10.3vw, 195px);
-  letter-spacing: -0.075em;
+  letter-spacing: -0.04em;
   line-height: 0.95;
   font-weight: 500;
-  opacity: var(--word-opacity);
   pointer-events: none;
 }
 .atmosphere-bottom {
   position: absolute;
-  z-index: 4;
-  bottom: 24px;
+  bottom: 22px;
   left: 42px;
   right: 30px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
-  color: white;
+  color: #fff;
 }
 .atmosphere-hint {
-  font-size: 8px;
-  letter-spacing: 1.5px;
   display: flex;
-  gap: 16px;
   align-items: center;
+  gap: 14px;
+  font-size: 11px;
 }
-.atmosphere-hint > span {
-  font-size: 19px;
+.atmosphere-hint svg {
+  transform: rotate(90deg);
 }
 .atmosphere-product-link {
   font-size: 12px;
-  border-bottom: 1px solid #fff8;
-  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
 }
-.atmosphere-product-link span {
-  margin-left: 24px;
+.flight-origin {
+  position: absolute;
+  width: 50%;
+  height: min(74%, 48vw);
+  top: 44%;
+  left: 45%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
-.atmosphere-product-shadow {
+.atmosphere-story > .atmosphere-product {
+  position: absolute;
+  z-index: 5;
+  width: min(37.3%, 34.56vw);
+  height: min(calc(var(--hero-height) * 0.74), 48vw);
+  left: 50.4%;
+  top: calc(var(--hero-height) * 0.44);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transform-origin: center;
+}
+.atmosphere-story.motion-ready > .atmosphere-product {
+  left: 0;
+  top: 0;
+}
+.flight-enabled > .atmosphere-product {
+  will-change: transform;
+}
+.atmosphere-feature {
+  width: calc(28% - 20px);
+  padding: 28px;
+  background: #ee4d27;
+  color: #291a13;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.atmosphere-feature h2 {
+  font-size: clamp(20px, 1.8vw, 30px);
+  line-height: 1.15;
+}
+.atmosphere-feature-product {
+  flex: 1;
+  min-height: 80px;
+  position: relative;
+  display: block;
+}
+.atmosphere-feature-product .product-view {
+  position: absolute;
+  inset: 0;
+}
+.atmosphere-feature .feature-bottom p {
+  font-size: 13px;
+}
+.atmosphere-feature .feature-bottom span {
+  font-size: 11px;
+}
+.atmosphere-feature .pill {
+  font-size: 12px;
+  gap: 10px;
+  padding: 12px 16px;
+}
+.atmosphere-landing {
+  --foot-x: 31%;
+  --foot-y: 86%;
+  --landed-height: 320px;
+  position: relative;
+  margin-top: 40px;
+  height: clamp(580px, 52vw, 850px);
+  border-radius: 14px;
+  background: #d8e3e0;
+  overflow: hidden;
+}
+.landing-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+.landing-copy {
   position: absolute;
   z-index: 2;
-  height: 17px;
+  top: 44px;
+  left: 48px;
+  color: #17372f;
+}
+.landing-copy h2 {
+  font-size: clamp(34px, 3.6vw, 56px);
+  letter-spacing: -0.035em;
+  line-height: 1.06;
+  margin-bottom: 16px;
+}
+.landing-copy p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.landing-copy .pill {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.flight-destination {
+  position: absolute;
+  left: var(--foot-x);
+  top: var(--foot-y);
+  width: 1px;
+  height: 1px;
+}
+.landing-shadow {
+  position: absolute;
+  left: var(--foot-x);
+  top: var(--foot-y);
+  width: 150px;
+  height: 12px;
   border-radius: 50%;
-  background: #30251b;
-  filter: blur(7px);
+  background: #3f3025;
+  filter: blur(5px);
+  opacity: 0.23;
   transform: translate(-50%, -50%);
-  opacity: 0;
-  pointer-events: none;
+}
+.atmosphere-landing > .landing-fallback {
+  position: absolute;
+  left: var(--foot-x);
+  top: calc(var(--foot-y) - var(--landed-height) * 0.448);
+  height: var(--landed-height);
+  width: calc(var(--landed-height) * 0.72);
+  transform: translate(-50%, -50%);
+}
+.flight-enabled .landing-fallback {
+  display: none;
+}
+.photography-credit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #596156;
+  padding: 10px 2px;
+}
+.photography-credit a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.motion-toggle {
+  color: #394436;
+  background: transparent;
+  padding: 10px 0 10px 18px;
+  font-size: 11px;
+  min-height: 44px;
 }
 .product-view {
   position: relative;
@@ -195,104 +275,6 @@
 }
 .product-view[data-model='ready'] > .product-fallback {
   opacity: 0;
-}
-.atmosphere-product {
-  position: absolute;
-  z-index: 3;
-  width: 44%;
-  height: 78%;
-  left: 70%;
-  top: 43%;
-  transform: translate(-50%, -50%);
-}
-.atmosphere-feature {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: calc(28% - 18px);
-  height: 100%;
-  padding: 27px;
-  background: #ee4d27;
-  color: #291a13;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transform: translateX(calc(110% * var(--scene-open)));
-  opacity: calc(1 - var(--scene-open));
-}
-.atmosphere-feature h2 {
-  font-size: clamp(18px, 1.65vw, 29px);
-  margin-top: 16px;
-  line-height: 1.15;
-}
-.atmosphere-feature-product {
-  flex: 1;
-  min-height: 80px;
-  display: block;
-  position: relative;
-}
-.atmosphere-feature-product .product-view {
-  position: absolute;
-  inset: 0;
-}
-.atmosphere-feature .feature-bottom p {
-  font-size: 12px;
-}
-.atmosphere-feature .feature-bottom span {
-  font-size: 10px;
-}
-.atmosphere-feature .pill {
-  font-size: 11px;
-  gap: 10px;
-  padding: 11px 18px;
-}
-.atmosphere-navigation {
-  height: 64px;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  position: relative;
-}
-.atmosphere-navigation button {
-  background: transparent;
-  padding: 13px 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 11px;
-  color: #60645c;
-  border-bottom: 1px solid transparent;
-  white-space: nowrap;
-  min-height: 44px;
-}
-.atmosphere-navigation button[aria-current] {
-  color: #202621;
-  border-bottom-color: #202621;
-}
-.scene-number {
-  font-size: 8px;
-}
-.atmosphere-navigation .motion-toggle {
-  margin-left: auto;
-  font-size: 10px;
-  gap: 12px;
-}
-.atmosphere-track {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background: #d2d4c8;
-  overflow: hidden;
-}
-.atmosphere-track span {
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: #263c32;
-  transform-origin: left;
-  transform: scaleX(var(--story-progress));
 }
 .product-stage {
   background: #eeeee6;
@@ -330,24 +312,10 @@
   opacity: 1;
   transform: none;
 }
-.lifestyle {
-  margin-top: 60px;
-}
 .editorial-small > img {
   mix-blend-mode: normal;
   object-fit: contain;
   filter: drop-shadow(8px 12px 8px #252a251a);
-}
-.lifestyle > .room-product {
-  position: absolute;
-  z-index: -1;
-  height: 65%;
-  width: 42%;
-  max-width: none;
-  object-fit: contain;
-  right: 4%;
-  bottom: 16%;
-  filter: drop-shadow(8px 12px 6px #382f2426);
 }
 .editorial-small > .editorial-product {
   position: absolute;
@@ -425,6 +393,7 @@
 .explore-menu a:hover {
   color: #916233;
 }
+
 @media (max-width: 1050px) {
   .atmosphere-copy {
     left: 28px;
@@ -433,11 +402,11 @@
   .atmosphere-feature {
     padding: 20px;
   }
-  .atmosphere-navigation {
-    gap: 23px;
-  }
   .atmosphere-word {
     left: 24px;
+  }
+  .atmosphere-hint {
+    max-width: 180px;
   }
 }
 @media (max-width: 850px) {
@@ -447,25 +416,11 @@
 }
 @media (max-width: 700px) {
   .atmosphere-story {
-    margin-bottom: 10px;
-  }
-  .atmosphere-story.motion-active {
-    height: 390svh;
-  }
-  .atmosphere-story.motion-active .atmosphere-sticky {
-    top: 86px;
-  }
-  .atmosphere-sticky {
-    min-height: 540px;
-    height: calc(100svh - 103px);
-    max-height: 830px;
-  }
-  .atmosphere-layout {
-    height: calc(100% - 94px);
+    --hero-height: clamp(560px, calc(100svh - 110px), 780px);
+    padding-bottom: 245px;
   }
   .atmosphere-main {
     width: 100%;
-    border-radius: 12px;
   }
   .atmosphere-feature {
     display: none;
@@ -474,129 +429,86 @@
     left: 24px;
     top: 27px;
   }
-  .atmosphere-titles {
-    max-width: 320px;
+  .atmosphere-copy h1 {
+    font-size: 32px;
   }
-  .atmosphere-chapter h1,
-  .atmosphere-chapter h2 {
-    font-size: clamp(27px, 7.9vw, 31px);
-  }
-  .atmosphere-chapter p {
-    max-width: 230px;
+  .atmosphere-copy p {
     font-size: 12px;
-  }
-  .atmosphere-copy .eyebrow {
-    font-size: 8px;
+    max-width: 205px;
   }
   .atmosphere-copy .pill {
     margin-top: 18px;
-    min-height: 40px;
-    font-size: 10px;
+    min-height: 44px;
+    font-size: 11px;
+    padding: 10px 16px;
   }
   .atmosphere-word {
     left: 20px;
     font-size: 14vw;
-    bottom: 69px;
+    bottom: 66px;
   }
   .atmosphere-bottom {
     left: 24px;
-    right: 24px;
-    bottom: 22px;
+    right: 22px;
+    bottom: 13px;
+    gap: 10px;
   }
   .atmosphere-hint {
-    max-width: 178px;
-    font-size: 7px;
-    letter-spacing: 1px;
-    gap: 9px;
+    font-size: 9px;
+    max-width: 150px;
+    gap: 5px;
   }
   .atmosphere-product-link {
+    font-size: 10px;
+    gap: 6px;
+  }
+  .flight-origin {
+    height: 49%;
+    width: 66%;
+    top: 58.5%;
+    left: 30%;
+  }
+  .atmosphere-story > .atmosphere-product {
+    top: calc(var(--hero-height) * 0.585);
+    left: 63%;
+    width: 64%;
+    height: calc(var(--hero-height) * 0.49);
+  }
+  .atmosphere-landing {
+    height: 600px;
+    margin-top: 24px;
+    overflow: visible;
+    --foot-x: 37%;
+    --foot-y: 82%;
+    --landed-height: 192px;
+  }
+  .landing-photo {
+    object-position: 26% 60%;
+    border-radius: 14px;
+  }
+  .landing-copy {
+    top: calc(100% + 26px);
+    left: 8px;
+  }
+  .landing-copy h2 {
+    font-size: 34px;
+  }
+  .landing-copy p {
+    font-size: 12px;
+  }
+  .landing-copy .pill {
     font-size: 11px;
+    margin-top: 16px;
   }
-  .atmosphere-product-link span {
-    margin-left: 10px;
-  }
-  .atmosphere-navigation {
-    height: 94px;
-    gap: 0;
-    justify-content: space-between;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  .atmosphere-navigation button {
-    font-size: 9px;
-    gap: 4px;
-    padding: 10px 0;
-  }
-  .atmosphere-navigation .motion-toggle {
-    width: 100%;
-    justify-content: flex-end;
-    padding: 1px 0 8px;
-    min-height: 30px;
-    font-size: 9px;
-  }
-  .scene-number {
-    font-size: 7px;
-  }
-  .atmosphere-room {
-    object-position: 72% center;
-  }
-  .sky-room {
-    object-position: center;
-  }
-  .atmosphere-shade {
-    background:
-      linear-gradient(180deg, #071e2d6b, transparent 65%),
-      linear-gradient(0deg, #071e2d44, transparent 25%);
-  }
-  .atmosphere-product {
-    left: 65%;
-    top: 58%;
-    height: 60%;
-    width: 72%;
-  }
-  .lifestyle {
-    margin-top: 30px;
-  }
-  .lifestyle > .room-product {
-    right: 0;
-    bottom: 7%;
-    height: 48%;
-    width: 56%;
+  .photography-credit {
+    font-size: 10px;
   }
 }
 html.motion-paused .product-stage img {
   animation-play-state: paused !important;
 }
-@media (max-width: 700px) and (max-height: 740px) {
-  .atmosphere-copy {
-    top: 20px;
-  }
-  .atmosphere-copy .eyebrow {
-    margin-bottom: 12px;
-  }
-  .atmosphere-chapter h1,
-  .atmosphere-chapter h2 {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-  .atmosphere-chapter p {
-    font-size: 11px;
-    max-width: 240px;
-  }
-  .atmosphere-copy .pill {
-    margin-top: 12px;
-    min-height: 36px;
-    padding: 8px 16px;
-  }
-  .atmosphere-word {
-    bottom: 56px;
-  }
-}
 @media (prefers-reduced-motion: reduce) {
   .product-stage img {
     animation: none !important;
-  }
-  .atmosphere-chapter {
-    transition: none;
   }
 }

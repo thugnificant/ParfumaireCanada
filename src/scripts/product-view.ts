@@ -10,14 +10,14 @@ const views: {
   render: (time: number) => void;
   dispose: () => void;
 }[] = [];
-let paused = document.documentElement.classList.contains('motion-paused');
+let paused = document.documentElement.classList.contains('motion-paused') || preference.matches;
 let tick = 0;
 let previous = 0;
 let elapsed = 0;
 
 function animate(now: number) {
   tick = 0;
-  if (document.hidden || paused || preference.matches) {
+  if (document.hidden || paused) {
     previous = 0;
     return;
   }
@@ -37,6 +37,7 @@ document.addEventListener('parfumaire:motion', (event) => {
   wake();
 });
 preference.addEventListener('change', () => {
+  paused = preference.matches;
   views.forEach((view) => view.render(0));
   wake();
 });
@@ -204,7 +205,7 @@ async function createView(element: HTMLElement) {
   interaction.addEventListener('pointerleave', leave);
   const hero = element.hasAttribute('data-hero-product');
   function render(time: number) {
-    const still = preference.matches || paused;
+    const still = paused;
     const landed = element.hasAttribute('data-grounded')
       ? 1
       : hero
@@ -221,22 +222,29 @@ async function createView(element: HTMLElement) {
       yaw,
       still ? 0 : (-0.035 + Math.sin(time * 0.43) * 0.04) * (1 - landed),
     );
+    // The shared hero follows the exact scroll pose, independently of the idle clock.
+    if (element.classList.contains('atmosphere-product') && !still) {
+      const flight = Number(element.dataset.flight || 0);
+      model.rotation.set(-0.06 * (1 - flight), -0.42 + flight * 0.32, -0.1 * (1 - flight));
+    }
     model.position.y = still ? 0 : Math.sin(time * 0.85) * 0.035 * (1 - landed);
     wisps.forEach(({ sprite, phase }) => {
       const life = (time * 0.32 + phase) % 1;
       sprite.position.set(
         nozzle.x + Math.sin(life * 6 + time * 0.55) * life * 0.13,
-        nozzle.y + life * 0.56,
+        nozzle.y + life * 0.68,
         nozzle.z + 0.05 + Math.cos(life * 8 + time) * life * 0.05,
       );
-      const size = 0.045 + life * 0.23;
+      const size = 0.045 + life * 0.19;
       sprite.scale.set(size, size * 1.4, 1);
-      sprite.material.opacity = still ? 0 : Math.sin(Math.PI * life) ** 2 * 0.19;
+      sprite.material.color.setRGB(1 - landed * 0.58, 1 - landed * 0.54, 1 - landed * 0.55);
+      sprite.material.opacity = still ? 0 : Math.sin(Math.PI * life) ** 1.5 * (0.27 + landed * 0.1);
     });
     renderer.render(scene, camera);
   }
   function resize() {
-    const { width, height } = element.getBoundingClientRect();
+    const width = element.clientWidth,
+      height = element.clientHeight;
     if (!width || !height) return;
     const aspect = width / height;
     const half = Math.max(tower ? 1.75 : 1.55, (tower ? 0.5 : 0.93) / aspect);

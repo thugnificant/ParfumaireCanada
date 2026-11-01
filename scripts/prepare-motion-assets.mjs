@@ -1,17 +1,8 @@
 // Derive web assets from the approved, original-resolution Higgsfield outputs.
-// No video frames are used for either the backgrounds or the product surfaces.
+// These textures retain the product artwork; backgrounds now use the licensed photographs.
 import sharp from 'sharp';
 import fs from 'node:fs/promises';
 await fs.mkdir('public/images/models', { recursive: true });
-for (const name of ['office', 'event', 'hotel', 'home']) {
-  await sharp(`archive/higgsfield/room-${name}.png`)
-    .webp({ quality: 94, effort: 6 })
-    .toFile(`public/images/renders/space-${name}-hq.webp`);
-}
-await sharp('archive/higgsfield/hero-corrected.png')
-  .extract({ left: 0, top: 0, width: 1440, height: 1520 })
-  .webp({ quality: 94 })
-  .toFile('public/images/renders/sky.webp');
 const faces = [
   ['cozyair-scent-diffuser', { left: 518, top: 303, width: 1030, height: 1390 }],
   ['cozyair-max-scent-diffuser', { left: 471, top: 322, width: 1023, height: 1415 }],
