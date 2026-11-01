@@ -1,0 +1,91 @@
+{
+  "base": "https://parfumairecanada.sugiweb.com",
+  "at": "2026-11-01T23:03:13.245Z",
+  "views": [
+    {
+      "width": 1440,
+      "final": {
+        "x": 531.7559204101562,
+        "y": 433.99989178466797,
+        "height": 190.39996337890625,
+        "documentY": 2779.8639526367188,
+        "width": 880.390625,
+        "sceneHeight": 560
+      },
+      "staticBounds": {
+        "x": 619.75,
+        "y": 1674.259609375,
+        "height": 190.390625
+      }
+    },
+    {
+      "width": 1024,
+      "final": {
+        "x": 383.37957763671875,
+        "y": 433.99989178466797,
+        "height": 190.39996337890625,
+        "documentY": 2618.0514526367188,
+        "width": 634.734375,
+        "sceneHeight": 560
+      },
+      "staticBounds": {
+        "x": 436.375,
+        "y": 1695.447109375,
+        "height": 190.390625
+      }
+    },
+    {
+      "width": 768,
+      "final": {
+        "x": 289.89168548583984,
+        "y": 434.0000125732422,
+        "height": 190.4000244140625,
+        "documentY": 2923.645263671875,
+        "width": 479.953125,
+        "sceneHeight": 560
+      },
+      "staticBounds": {
+        "x": 323.890625,
+        "y": 2007.040859375,
+        "height": 190.390625
+      }
+    },
+    {
+      "width": 390,
+      "final": {
+        "x": 206.5679931640625,
+        "y": 232.4999677734375,
+        "height": 102,
+        "documentY": 2790.7044677734375,
+        "width": 342,
+        "sceneHeight": 300
+      },
+      "staticBounds": {
+        "x": 230.5625,
+        "y": 1888.561125,
+        "height": 102
+      }
+    },
+    {
+      "width": 360,
+      "final": {
+        "x": 188.447998046875,
+        "y": 232.4999677734375,
+        "height": 102,
+        "documentY": 2790.7044677734375,
+        "width": 312,
+        "sceneHeight": 300
+      },
+      "staticBounds": {
+        "x": 212.4375,
+        "y": 1888.561125,
+        "height": 102
+      }
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Phone native scroll, no 3D bundle/GPU, swipe gallery, persistent quote action, product context, review/edit/complete and PII removal",
+    "Five viewport sizes; continuous reversible drop; exact floor contact; pause; touch/hover/keyboard labels; reduced-motion/no-JS parity"
+  ]
+}

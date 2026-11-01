@@ -26,3 +26,9 @@ The room uses an unused native 2752×1536 Higgsfield plate commissioned in revis
 Evidence: [business checks](business-commerce.json), [browser checks](../browser-results.json), [hero regression](hero/results.json), [wheel cadence](scroll-feel.json), [before performance](performance-before.json), [after performance](performance-after.json), [product comparison](product-comparison.html), [phone quote review](quote-review-mobile.webp), [desktop scene](showcase/business-landed-1440.webp), [phone scene](showcase/business-landed-390.webp).
 
 The comparison embeds its screenshots and links to the inspected Apple and lululemon Mobbin screens. Deel supplied the structural quote-summary reference; the local design notes identify which changes are implementation decisions rather than reference-derived.
+
+## Published verification
+
+Published implementation `4edd626`, then the hero label stacking refinement `2038f33` through [successful deployment 41360035758](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41360035758). The final public site passed the five-width business/phone commerce suite and the deployed route/image/variant/404/no-send checks. The deployed hero label was opened on a touch viewport and confirmed above the model. See [live motion and commerce checks](live/business-commerce.json), [live phone scene](live/business-390.webp), and [live hero label](live-hero-label-390.webp).
+
+The desktop and mobile continuous-wheel recordings were visually reviewed at six points through descent, landing, product-label interaction and reverse scroll. The final phone path clears the other product cards and collection button. Videos remain local under `showcase/desktop-scroll.webm` and `showcase/mobile-scroll.webm`; compact review frames are tracked in this folder.
