@@ -40,3 +40,9 @@ Sources: [before](render-before.json), [after](render-after.json). Drawing comma
 WebKit engine testing does not replace physical iPhone testing. The user's recording was used to inspect the reported behavior; no physical-device performance result is claimed.
 
 Implementation references: [WebKit's scroll-driven animation guide](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/), [Safari 26 support](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/), [Chrome's scroll-animation guidance](https://developer.chrome.com/docs/css-ui/scroll-driven-animations), [stable viewport units](https://web.dev/blog/viewport-units), [Three.js asynchronous shader compilation](https://threejs.org/docs/pages/WebGLRenderer.html).
+
+## Published verification
+
+Published code: `6972e95`, [successful deployment 41386114159](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41386114159).
+
+The [live site](https://parfumairecanada.sugiweb.com/) passed the [Chrome/WebKit motion tests](live/results.json), including photo loading, rotation, native/fallback trajectory agreement and zero displacement in the browser-toolbar simulation. The [six phone configurations](live/mobile-checks.json) also passed their navigation, product and quote checks. All eight public-route smoke checks passed with no browser errors; the missing route returned 404.
