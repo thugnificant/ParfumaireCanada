@@ -108,7 +108,67 @@ for (const [name, engine] of [
         'Scroll never reallocates a canvas',
       );
     }
-    modes[native ? 'native' : 'fallback'] = { samples, writes };
+    await page.evaluate(() => scrollTo({ top: 700, behavior: 'instant' }));
+    await page.evaluate(
+      () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    );
+    const photoLoadPositions = await page.evaluate(async () => {
+      const product = document.querySelector('.business-flight');
+      const rect = () => {
+        const r = product.getBoundingClientRect();
+        return { x: r.x, y: r.y };
+      };
+      const positions = [rect()];
+      document.querySelector('.business-photo').dispatchEvent(new Event('load'));
+      positions.push(rect());
+      for (let i = 0; i < 6; i++) {
+        await new Promise(requestAnimationFrame);
+        positions.push(rect());
+      }
+      return positions;
+    });
+    assert(
+      photoLoadPositions.every(
+        (p) =>
+          Math.abs(p.x - photoLoadPositions[0].x) < 0.25 &&
+          Math.abs(p.y - photoLoadPositions[0].y) < 0.25,
+      ),
+      `${name}: a photo load must not reset the product for even one frame`,
+    );
+    const rotations = [];
+    for (const [width, height] of [
+      [844, 390],
+      [390, 844],
+    ]) {
+      await page.setViewportSize({ width, height });
+      await page.evaluate(
+        () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+      );
+      await page
+        .locator('.office-scene')
+        .evaluate((e) =>
+          scrollTo({
+            top: e.getBoundingClientRect().bottom + scrollY - innerHeight * 0.3,
+            behavior: 'instant',
+          }),
+        );
+      await page.evaluate(
+        () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+      );
+      rotations.push(
+        await page.locator('.atmosphere-product,.business-flight').evaluateAll((els) =>
+          els.map((e) => {
+            const r = e.getBoundingClientRect();
+            return { x: r.x, y: r.y + scrollY, width: r.width, height: r.height };
+          }),
+        ),
+      );
+    }
+    modes[native ? 'native' : 'fallback'] = { samples, writes, rotations };
+    await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
+    await page.evaluate(
+      () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    );
     await page.locator('.landing-copy a').evaluate((e) => e.focus({ preventScroll: true }));
     // WebKit commits a focus override of a compositor animation on the next frame.
     await page.waitForFunction(
@@ -137,10 +197,13 @@ for (const [name, engine] of [
     await context.close();
   }
   let largestDelta = 0;
-  modes.native.samples.forEach((sample, i) =>
+  await fs.writeFile(`${out}/${name}-samples.json`, JSON.stringify(modes, null, 2));
+  const nativePositions = [...modes.native.samples, ...modes.native.rotations];
+  const fallbackPositions = [...modes.fallback.samples, ...modes.fallback.rotations];
+  nativePositions.forEach((sample, i) =>
     sample.forEach((product, j) => {
       for (const key of ['x', 'y', 'width', 'height']) {
-        const delta = Math.abs(product[key] - modes.fallback.samples[i][j][key]);
+        const delta = Math.abs(product[key] - fallbackPositions[i][j][key]);
         largestDelta = Math.max(delta, largestDelta);
         assert(
           delta < 0.25,
@@ -163,6 +226,8 @@ for (const [name, engine] of [
       'reversal',
       'stable canvas size',
       'pause/resume',
+      'no position flash when photos load',
+      'portrait/landscape trajectory parity',
       'no shader or page errors',
     ],
   });

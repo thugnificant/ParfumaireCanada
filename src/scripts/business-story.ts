@@ -74,6 +74,10 @@ if (root) {
       start: from.top + scrollY - Math.min(innerHeight * 0.3, 240),
       end: to.top + scrollY + target.y - innerHeight * 0.83,
     };
+    if (!tracks.native) {
+      lastProgress = -1;
+      draw(performance.now(), Math.max(0, scrollY));
+    }
     tracks.bind(
       path.start,
       path.end,

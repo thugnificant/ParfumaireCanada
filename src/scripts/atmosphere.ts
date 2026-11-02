@@ -43,6 +43,11 @@ if (root) {
       end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.68 : 0.9),
     };
     const copy = root!.querySelector<HTMLElement>('.landing-copy')!;
+    // Retain a correct underlying pose while the browser arms the native tracks.
+    if (!tracks.native) {
+      lastProgress = -1;
+      draw(performance.now(), Math.max(0, scrollY));
+    }
     tracks.bind(
       path.start,
       path.end,

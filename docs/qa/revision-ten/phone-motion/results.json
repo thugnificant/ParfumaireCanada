@@ -13,6 +13,8 @@
       "reversal",
       "stable canvas size",
       "pause/resume",
+      "no position flash when photos load",
+      "portrait/landscape trajectory parity",
       "no shader or page errors"
     ]
   },
@@ -30,6 +32,8 @@
       "reversal",
       "stable canvas size",
       "pause/resume",
+      "no position flash when photos load",
+      "portrait/landscape trajectory parity",
       "no shader or page errors"
     ]
   }

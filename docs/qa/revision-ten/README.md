@@ -9,6 +9,7 @@ This revision addresses the stuttering reported in Safari and the Google browser
 - Scroll input, scene progress and 3D drawing share one ordered animation clock. This avoids rendering a pose from the previous scroll update.
 - The 36 mist billboards use one instanced drawing command on phones. Landed shadows are cached, and there is no floor-shadow pass while the product is airborne. Product geometry, textures, continuous mist and floor anchors are retained.
 - Shaders compile before a model appears. La Tour is prepared during idle time after the hero is ready, before it enters the next scroll section.
+- Photo loading and resizing update existing animation tracks. Recreating a track could briefly expose the unpositioned product in Safari; that case now has a frame-by-frame regression check.
 - Pause/reduced motion, browser visibility handling, native touch scrolling and static product-page galleries remain available. Keyboard focus overrides the caption fade.
 
 ## Rendering comparison
@@ -27,7 +28,7 @@ Sources: [before](render-before.json), [after](render-after.json). Drawing comma
 
 ## Verification
 
-- [Chrome and WebKit motion tests](phone-motion/results.json): native and fallback trajectories match within 0.025px across forward/reverse samples. Zero main-thread transform writes on the native path; canvas dimensions remain unchanged during scrolling. Pause/resume, focused actions, prewarming and shader/page-error checks pass.
+- [Chrome and WebKit motion tests](phone-motion/results.json): native and fallback trajectories match within 0.07px across forward/reverse samples. Zero main-thread transform writes on the native path; canvas dimensions remain unchanged during scrolling. Photo-load continuity, pause/resume, focused actions, prewarming and shader/page-error checks pass.
 - [Phone flows](mobile/mobile-checks.json): Chromium and WebKit at 320 × 568, 390 × 844 and 430 × 932; menu/focus/scroll lock, rotation, tap labels, galleries, product options, quote review and filters pass.
 - [Motion regression](motion/results.json): persistent model, continuous descent, exact reversal, landing, airflow, pause, no-JavaScript/reduced-motion fallback and 4× CPU short-phone checks pass.
 - [Business placement](business/business-commerce.json) and office placement checks preserve floor contact across phone, tablet and desktop widths.
