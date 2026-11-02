@@ -3,7 +3,7 @@ import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.j
 
 // Dimensions come from the original catalog; the fragrance bottle profile follows
 // the supplied 120 ml product photographs. Branding is sampled from approved renders.
-export async function buildProduct(handle: string, finish?: string) {
+export async function buildProduct(handle: string, finish?: string, batchAirflow = false) {
   const model = new THREE.Group();
   const tower = handle.startsWith('la-tour');
   const box = handle.startsWith('cozyair');
@@ -145,6 +145,7 @@ export async function buildProduct(handle: string, finish?: string) {
     model.add(label);
   }
   const wisps: { sprite: THREE.Sprite; phase: number }[] = [];
+  let airflowMaterial: THREE.ShaderMaterial | undefined;
   if (nozzle) {
     const canvas = document.createElement('canvas');
     canvas.width = canvas.height = 64;
@@ -157,17 +158,80 @@ export async function buildProduct(handle: string, finish?: string) {
     ctx.fillRect(0, 0, 64, 64);
     const map = new THREE.CanvasTexture(canvas);
     textures.push(map);
-    for (let i = 0; i < 36; i++) {
-      const sprite = new THREE.Sprite(
-        new THREE.SpriteMaterial({ map, transparent: true, opacity: 0, depthWrite: false }),
+    if (batchAirflow) {
+      // All wisps share one draw call on phones. Billboard expansion happens
+      // in the vertex shader instead of updating 36 separate scene objects.
+      const plane = new THREE.PlaneGeometry(1, 1);
+      const geometry = new THREE.InstancedBufferGeometry();
+      geometry.setIndex(plane.getIndex());
+      geometry.setAttribute('position', plane.getAttribute('position'));
+      geometry.setAttribute('uv', plane.getAttribute('uv'));
+      geometry.setAttribute(
+        'phase',
+        new THREE.InstancedBufferAttribute(
+          Float32Array.from({ length: 36 }, (_, i) => i / 36),
+          1,
+        ),
       );
-      sprite.renderOrder = 3;
-      model.add(sprite);
-      wisps.push({ sprite, phase: i / 36 });
-    }
+      geometry.instanceCount = 36;
+      airflowMaterial = new THREE.ShaderMaterial({
+        transparent: true,
+        depthWrite: false,
+        uniforms: {
+          mistMap: { value: map },
+          time: { value: 0 },
+          strength: { value: 0 },
+          nozzle: { value: nozzle },
+        },
+        vertexShader: `
+          attribute float phase;
+          uniform float time;
+          uniform float strength;
+          uniform vec3 nozzle;
+          varying vec2 vUv;
+          varying float vOpacity;
+          void main() {
+            float life = fract(time * 0.29 + phase);
+            vec3 center = nozzle + vec3(sin(life * 6.0 + time * 0.55) * life * 0.13, life * 0.76, 0.05 + cos(life * 8.0 + time) * life * 0.05);
+            vec4 viewPosition = modelViewMatrix * vec4(center, 1.0);
+            float size = 0.042 + life * 0.18;
+            viewPosition.xy += position.xy * vec2(size, size * 1.8);
+            gl_Position = projectionMatrix * viewPosition;
+            vUv = uv;
+            vOpacity = pow(sin(3.14159265 * life), 1.5) * strength;
+          }`,
+        fragmentShader: `
+          uniform sampler2D mistMap;
+          varying vec2 vUv;
+          varying float vOpacity;
+          void main() {
+            gl_FragColor = vec4(vec3(1.0), texture2D(mistMap, vUv).a * vOpacity);
+            #include <tonemapping_fragment>
+            #include <colorspace_fragment>
+          }`,
+      });
+      const mist = new THREE.Mesh(geometry, airflowMaterial);
+      mist.userData.airflow = true;
+      mist.renderOrder = 3;
+      mist.frustumCulled = false;
+      model.add(mist);
+    } else
+      for (let i = 0; i < 36; i++) {
+        const sprite = new THREE.Sprite(
+          new THREE.SpriteMaterial({ map, transparent: true, opacity: 0, depthWrite: false }),
+        );
+        sprite.renderOrder = 3;
+        model.add(sprite);
+        wisps.push({ sprite, phase: i / 36 });
+      }
   }
   function airflow(time: number, landed: number, still: boolean) {
     if (!nozzle) return;
+    if (airflowMaterial) {
+      airflowMaterial.uniforms.time.value = time;
+      airflowMaterial.uniforms.strength.value = still ? 0 : 0.4 + landed * 0.13;
+      return;
+    }
     for (const { sprite, phase } of wisps) {
       const life = (time * 0.29 + phase) % 1;
       sprite.position.set(

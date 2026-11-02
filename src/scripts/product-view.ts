@@ -2,10 +2,13 @@ import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { buildProduct } from './product-model';
 import { flightAt, restingPose } from '../lib/flight';
+import { onMotionFrame, requestMotionFrame } from '../lib/motion-clock';
 
-// All catalog views share ONE WebGL context. Each visible canvas receives its
-// rendered viewport, so scrolling through 21 products cannot exhaust GPU contexts.
 const preference = matchMedia('(prefers-reduced-motion: reduce)');
+// A phone only animates the two homepage products. Drawing straight into their
+// displayed canvases avoids Safari's costly WebGL-to-2D copy on every frame.
+// Desktop catalogs retain one shared context for all 21 interactive products.
+const direct = matchMedia('(pointer: coarse)').matches;
 let paused = preference.matches || document.documentElement.classList.contains('motion-paused');
 let renderer: THREE.WebGLRenderer | undefined;
 let contextLost = false;
@@ -18,8 +21,7 @@ const views: {
   render: (time: number) => void;
   dispose: () => void;
 }[] = [];
-let tick = 0,
-  previous = 0,
+let previous = 0,
   elapsed = 0;
 const active = (element: HTMLElement) =>
   element.dataset.renderMode === 'continuous' || element.dataset.active === 'true';
@@ -46,16 +48,19 @@ function gpu() {
   renderer.toneMapping = THREE.NeutralToneMapping;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFShadowMap;
-  const generator = new THREE.PMREMGenerator(renderer);
-  const room = new RoomEnvironment();
-  environment = generator.fromScene(room, 0.04);
-  room.dispose();
-  generator.dispose();
+  environment = environmentFor(renderer);
   renderer.setScissorTest(true);
   return renderer;
 }
+function environmentFor(gl: THREE.WebGLRenderer) {
+  const generator = new THREE.PMREMGenerator(gl);
+  const room = new RoomEnvironment();
+  const result = generator.fromScene(room, 0.04);
+  room.dispose();
+  generator.dispose();
+  return result;
+}
 function animate(now: number) {
-  tick = 0;
   if (document.hidden || paused || contextLost) {
     previous = 0;
     return;
@@ -63,12 +68,14 @@ function animate(now: number) {
   elapsed += previous ? Math.min((now - previous) / 1000, 0.05) : 0;
   previous = now;
   for (const v of views) if (v.visible && active(v.element)) v.render(elapsed);
-  if (views.some((v) => v.visible && active(v.element))) tick = requestAnimationFrame(animate);
-  else previous = 0;
+  const visible = views.some((v) => v.visible && active(v.element));
+  if (!visible) previous = 0;
+  return visible;
 }
 function wake() {
-  if (!tick) tick = requestAnimationFrame(animate);
+  requestMotionFrame();
 }
+onMotionFrame('render', animate);
 function motion(value: boolean) {
   paused = value;
   for (const v of views) if (v.visible) v.render(elapsed);
@@ -79,11 +86,22 @@ document.addEventListener('parfumaire:motion', (e) => motion((e as CustomEvent<b
 preference.addEventListener('change', () => motion(preference.matches));
 async function createView(element: HTMLElement) {
   const canvas = element.querySelector<HTMLCanvasElement>('canvas')!;
-  const ctx = canvas.getContext('2d', { alpha: true })!;
+  const ctx = direct ? undefined : canvas.getContext('2d', { alpha: true })!;
+  let viewEnvironment: THREE.WebGLRenderTarget | undefined;
+  let lost = false;
   let gl: THREE.WebGLRenderer, product: Awaited<ReturnType<typeof buildProduct>>;
   try {
-    gl = gpu();
-    product = await buildProduct(element.dataset.productView!, element.dataset.finish);
+    if (direct) {
+      gl = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+      gl.setClearColor(0, 0);
+      gl.outputColorSpace = THREE.SRGBColorSpace;
+      gl.toneMapping = THREE.NeutralToneMapping;
+      gl.shadowMap.enabled = true;
+      gl.shadowMap.type = THREE.PCFShadowMap;
+      gl.shadowMap.autoUpdate = false;
+      viewEnvironment = environmentFor(gl);
+    } else gl = gpu();
+    product = await buildProduct(element.dataset.productView!, element.dataset.finish, direct);
   } catch {
     element.dataset.model = 'fallback';
     return;
@@ -97,7 +115,22 @@ async function createView(element: HTMLElement) {
     element.classList.contains('business-flight');
   const office = flight || element.classList.contains('landing-fallback') || business;
   const scene = new THREE.Scene();
-  scene.environment = environment.texture;
+  scene.environment = (viewEnvironment || environment).texture;
+  if (direct) {
+    canvas.addEventListener('webglcontextlost', (event) => {
+      event.preventDefault();
+      lost = true;
+      element.dataset.model = 'fallback';
+    });
+    canvas.addEventListener('webglcontextrestored', () => {
+      lost = false;
+      viewEnvironment?.dispose();
+      viewEnvironment = environmentFor(gl);
+      scene.environment = viewEnvironment.texture;
+      gl.shadowMap.needsUpdate = true;
+      wake();
+    });
+  }
   scene.add(model);
   const fill = new THREE.HemisphereLight(0xffffff, 0xb1a69c, 1.7);
   scene.add(fill);
@@ -115,7 +148,7 @@ async function createView(element: HTMLElement) {
   let contactTexture: THREE.CanvasTexture | undefined;
   if (office) {
     model.traverse((object) => {
-      if (object instanceof THREE.Mesh) {
+      if (object instanceof THREE.Mesh && !object.userData.airflow) {
         object.castShadow = true;
         // The thin branded panel sits over the shell; self-shadowing those
         // nearly coincident surfaces introduces stippling in the white finish.
@@ -191,8 +224,10 @@ async function createView(element: HTMLElement) {
   interaction.addEventListener('pointerleave', leave);
   let width = 0,
     height = 0;
+  let compiled = false;
+  let shadowProgress = -1;
   function render(time: number) {
-    if (!width || !height || contextLost) return;
+    if (!width || !height || contextLost || lost || !compiled) return;
     const landed = element.hasAttribute('data-grounded')
       ? 1
       : hero || business
@@ -227,17 +262,26 @@ async function createView(element: HTMLElement) {
       floorMaterial.opacity = 0.18 * landed;
       if (contactMaterial) contactMaterial.opacity = 0.4 * landed;
       floor.visible = landed > 0;
+      if (direct) {
+        key.castShadow = landed > 0;
+        const progress = Number(element.dataset.flight || 1);
+        if (landed > 0 && progress !== shadowProgress) {
+          gl.shadowMap.needsUpdate = true;
+          shadowProgress = progress;
+        }
+      }
     }
     // Once released, every part of the hero pose comes from scroll position.
     // Idle time cannot move the feet away from their photographed floor anchor.
     model.position.y = paused || flight ? 0 : Math.sin(time * 0.85) * 0.025 * (1 - landed);
     product.airflow(time, landed, paused);
     gl.setViewport(0, 0, width, height);
-    gl.setScissor(0, 0, width, height);
-    gl.clear();
+    if (!direct) gl.setScissor(0, 0, width, height);
     gl.render(scene, camera);
-    ctx.clearRect(0, 0, width, height);
-    ctx.drawImage(gl.domElement, 0, bufferSize - height, width, height, 0, 0, width, height);
+    if (ctx) {
+      ctx.clearRect(0, 0, width, height);
+      ctx.drawImage(gl.domElement, 0, bufferSize - height, width, height, 0, 0, width, height);
+    }
     if (element.dataset.model !== 'ready') element.dataset.model = 'ready';
   }
   function resize() {
@@ -252,8 +296,12 @@ async function createView(element: HTMLElement) {
     );
     width = Math.round(w * dpr);
     height = Math.round(h * dpr);
-    if (canvas.width !== width) canvas.width = width;
-    if (canvas.height !== height) canvas.height = height;
+    if (direct) {
+      if (canvas.width !== width || canvas.height !== height) gl.setSize(width, height, false);
+    } else {
+      if (canvas.width !== width) canvas.width = width;
+      if (canvas.height !== height) canvas.height = height;
+    }
     const aspect = w / h;
     const extent = Math.max(half, (box ? 0.98 : 0.5) / aspect);
     camera.left = -extent * aspect;
@@ -266,6 +314,10 @@ async function createView(element: HTMLElement) {
   const resizeObserver = new ResizeObserver(resize);
   resizeObserver.observe(element);
   resize();
+  await gl.compileAsync(scene, camera);
+  compiled = true;
+  render(elapsed);
+  element.dataset.renderer = direct ? 'direct' : 'shared';
   element.dataset.model = 'ready';
   views.push({
     element,
@@ -280,10 +332,26 @@ async function createView(element: HTMLElement) {
       }
       key.shadow.map?.dispose();
       contactTexture?.dispose();
+      if (direct) {
+        viewEnvironment?.dispose();
+        gl.dispose();
+      }
       interaction.removeEventListener('pointermove', move);
       interaction.removeEventListener('pointerleave', leave);
     },
   });
+  if (direct && element.classList.contains('atmosphere-product')) {
+    // Prepare the second scene while the visitor is still looking at the hero.
+    // Shader/environment setup must not happen as La Tour first enters a swipe.
+    const prepareNextScene = () => {
+      const next = document.querySelector<HTMLElement>('.business-flight');
+      if (document.hidden || paused || !next || next.dataset.model) return;
+      next.dataset.model = 'loading';
+      void createView(next);
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(prepareNextScene, { timeout: 2000 });
+    else setTimeout(prepareNextScene, 250);
+  }
   wake();
 }
 const observer = new IntersectionObserver(
@@ -319,7 +387,6 @@ document.addEventListener('parfumaire:activate', (event) => {
 });
 addEventListener('pagehide', (event) => {
   if (event.persisted) return;
-  cancelAnimationFrame(tick);
   observer.disconnect();
   views.forEach((v) => v.dispose());
   environment?.dispose();

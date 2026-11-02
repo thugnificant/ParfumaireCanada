@@ -1,6 +1,6 @@
 import { chromium } from '@playwright/test';
 import fs from 'node:fs/promises';
-const out = 'docs/qa/revision-nine/showcase';
+const out = process.env.QA_OUT || 'docs/qa/revision-nine/showcase';
 await fs.mkdir(out, { recursive: true });
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
 const context = await browser.newContext({
@@ -12,7 +12,7 @@ const context = await browser.newContext({
 });
 const page = await context.newPage();
 const cdp = await context.newCDPSession(page);
-await page.goto('http://127.0.0.1:4323/', { waitUntil: 'networkidle' });
+await page.goto(process.env.QA_URL || 'http://127.0.0.1:4323/', { waitUntil: 'networkidle' });
 await page.locator('.atmosphere-product[data-model="ready"]').waitFor();
 const swipe = async (distance, speed = 260) => {
   await cdp.send('Input.synthesizeScrollGesture', {

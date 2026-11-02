@@ -54,3 +54,7 @@ docs/qa/revision-nine/recordings/
 docs/qa/revision-nine/before/
 docs/qa/revision-nine/after/
 docs/qa/revision-nine/live/*.webp
+docs/qa/revision-ten/**/*.png
+docs/qa/revision-ten/**/*.webm
+docs/qa/revision-ten/**/recordings/
+docs/qa/revision-ten/live/*.webp

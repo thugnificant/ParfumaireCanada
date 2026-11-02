@@ -198,7 +198,8 @@
   opacity: var(--arrival-opacity, 0);
 }
 .landing-copy:focus-within {
-  opacity: 1;
+  /* Keyboard focus must remain visible over the scroll animation's opacity. */
+  opacity: 1 !important;
 }
 .landing-copy h2 {
   font-size: clamp(26px, 2.2vw, 32px);

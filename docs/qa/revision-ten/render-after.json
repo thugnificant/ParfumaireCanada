@@ -1,0 +1,30 @@
+{
+  "copies": 0,
+  "copiedPixels": 0,
+  "draws": 7192,
+  "contexts": [
+    {
+      "type": "webgl2",
+      "attached": true,
+      "width": 744,
+      "height": 573
+    },
+    {
+      "type": "webgl2",
+      "attached": true,
+      "width": 281,
+      "height": 281
+    }
+  ],
+  "longTasks": [],
+  "viewport": 390,
+  "dpr": 3,
+  "drivers": [
+    {
+      "driver": "compositor"
+    },
+    {
+      "driver": "compositor"
+    }
+  ]
+}

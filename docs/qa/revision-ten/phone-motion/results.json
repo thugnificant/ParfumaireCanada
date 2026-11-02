@@ -1,0 +1,36 @@
+[
+  {
+    "engine": "chromium",
+    "version": "156.0.8078.76",
+    "largestDelta": 0.06195068359375,
+    "nativeStyleWrites": 0,
+    "fallbackStyleWrites": 21,
+    "samples": 16,
+    "checks": [
+      "visible WebGL, no 2D copy",
+      "prewarmed second scene",
+      "compositor/fallback parity",
+      "reversal",
+      "stable canvas size",
+      "pause/resume",
+      "no shader or page errors"
+    ]
+  },
+  {
+    "engine": "webkit",
+    "version": "27.2",
+    "largestDelta": 0.021484375,
+    "nativeStyleWrites": 0,
+    "fallbackStyleWrites": 21,
+    "samples": 16,
+    "checks": [
+      "visible WebGL, no 2D copy",
+      "prewarmed second scene",
+      "compositor/fallback parity",
+      "reversal",
+      "stable canvas size",
+      "pause/resume",
+      "no shader or page errors"
+    ]
+  }
+]

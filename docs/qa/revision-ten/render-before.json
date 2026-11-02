@@ -1,0 +1,24 @@
+{
+  "copies": 486,
+  "copiedPixels": 130423061,
+  "draws": 29203,
+  "contexts": [
+    {
+      "type": "webgl2",
+      "attached": false,
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "longTasks": [],
+  "viewport": 390,
+  "dpr": 3,
+  "drivers": [
+    {
+      "driver": "scroll-events"
+    },
+    {
+      "driver": "scroll-events"
+    }
+  ]
+}

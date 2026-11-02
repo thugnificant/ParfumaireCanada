@@ -1,0 +1,11 @@
+{
+  "base": "http://127.0.0.1:4323",
+  "at": "2026-11-02T03:34:58.261Z",
+  "checks": [
+    "1440px: one persistent retina canvas; continuous downward travel; stable landing; reverse/fast scrolling; visible airflow; pause/resume; always-visible product cards; recorded scroll",
+    "390px: one persistent retina canvas; continuous downward travel; stable landing; reverse/fast scrolling; visible airflow; pause/resume; always-visible product cards; recorded scroll",
+    "Reduced-motion, no-JS, short phone, 4× CPU throttling and touch viewport checked"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

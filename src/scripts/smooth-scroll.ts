@@ -1,5 +1,6 @@
 import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
+import { onMotionFrame, requestMotionFrame } from '../lib/motion-clock';
 
 // Bella uses Lenis' default 0.1 interpolation. Touch stays native.
 const preference = matchMedia('(prefers-reduced-motion: reduce)');
@@ -13,15 +14,20 @@ function setMotion(paused: boolean) {
     document.querySelector('[data-atmosphere]')
   ) {
     lenis = new Lenis({
-      autoRaf: true,
+      autoRaf: false,
       lerp: 0.1,
       smoothWheel: true,
       anchors: { offset: -110 },
       prevent: (node) => !!node.closest('[data-lenis-prevent], dialog, .mobile-nav'),
     });
     lenis.on('scroll', () => document.dispatchEvent(new Event('parfumaire:scroll')));
+    requestMotionFrame();
   }
 }
+onMotionFrame('input', (time) => {
+  lenis?.raf(time);
+  return lenis?.isScrolling === 'smooth';
+});
 setMotion(preference.matches);
 preference.addEventListener('change', () => setMotion(preference.matches));
 document.addEventListener('parfumaire:motion', (event) => {
