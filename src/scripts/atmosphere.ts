@@ -1,7 +1,7 @@
 import { flightAt } from '../lib/flight';
 import { officePlacement, officeScene } from '../lib/office-scene';
 import { onMotionFrame, requestMotionFrame } from '../lib/motion-clock';
-import { scrollAnimations, motionKeyframes } from '../lib/scroll-animation';
+import { scrollAnimations, motionKeyframes, motionViewportHeight } from '../lib/scroll-animation';
 const root = document.querySelector<HTMLElement>('[data-atmosphere]');
 if (root) {
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
@@ -40,7 +40,7 @@ if (root) {
       scale: targetHeight / originHeight,
       start: mobile ? Math.max(0, bounds.top + scrollY - 110) : bounds.top + scrollY - 110,
       // Arrive while the floor contact is in view, before normal scroll carries it away.
-      end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.68 : 0.9),
+      end: scene.top + scrollY + footY - motionViewportHeight() * (mobile ? 0.68 : 0.9),
     };
     const copy = root!.querySelector<HTMLElement>('.landing-copy')!;
     // Retain a correct underlying pose while the browser arms the native tracks.

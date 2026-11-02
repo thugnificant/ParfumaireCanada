@@ -1,7 +1,7 @@
 import { flightAt } from '../lib/flight';
 import { businessPlacement, businessScene } from '../lib/business-scene';
 import { onMotionFrame, requestMotionFrame } from '../lib/motion-clock';
-import { scrollAnimations, motionKeyframes } from '../lib/scroll-animation';
+import { scrollAnimations, motionKeyframes, motionViewportHeight } from '../lib/scroll-animation';
 const root = document.querySelector<HTMLElement>('[data-business-story]');
 if (root) {
   const origin = root.querySelector<HTMLElement>('[data-business-origin]')!;
@@ -56,6 +56,7 @@ if (root) {
       from = origin.getBoundingClientRect(),
       to = room.getBoundingClientRect();
     const target = businessPlacement(to.width, to.height);
+    const viewportHeight = motionViewportHeight();
     product.style.width = `${from.height}px`;
     product.style.height = `${from.height}px`;
     room.style.setProperty('--business-x', `${target.x}px`);
@@ -71,8 +72,8 @@ if (root) {
       corridor: to.right - bounds.left - Math.max(30, from.height * 0.18),
       h: target.height,
       scale: target.height / from.height,
-      start: from.top + scrollY - Math.min(innerHeight * 0.3, 240),
-      end: to.top + scrollY + target.y - innerHeight * 0.83,
+      start: from.top + scrollY - Math.min(viewportHeight * 0.3, 240),
+      end: to.top + scrollY + target.y - viewportHeight * 0.83,
     };
     if (!tracks.native) {
       lastProgress = -1;

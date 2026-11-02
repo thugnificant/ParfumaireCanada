@@ -5,6 +5,7 @@
     "largestDelta": 0.06195068359375,
     "nativeStyleWrites": 0,
     "fallbackStyleWrites": 21,
+    "toolbarMaxShift": 0,
     "samples": 16,
     "checks": [
       "visible WebGL, no 2D copy",
@@ -15,6 +16,7 @@
       "pause/resume",
       "no position flash when photos load",
       "portrait/landscape trajectory parity",
+      "stable motion when browser toolbars retract",
       "no shader or page errors"
     ]
   },
@@ -24,6 +26,7 @@
     "largestDelta": 0.021484375,
     "nativeStyleWrites": 0,
     "fallbackStyleWrites": 21,
+    "toolbarMaxShift": 0,
     "samples": 16,
     "checks": [
       "visible WebGL, no 2D copy",
@@ -34,6 +37,7 @@
       "pause/resume",
       "no position flash when photos load",
       "portrait/landscape trajectory parity",
+      "stable motion when browser toolbars retract",
       "no shader or page errors"
     ]
   }

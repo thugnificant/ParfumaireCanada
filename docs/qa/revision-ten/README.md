@@ -10,6 +10,7 @@ This revision addresses the stuttering reported in Safari and the Google browser
 - The 36 mist billboards use one instanced drawing command on phones. Landed shadows are cached, and there is no floor-shadow pass while the product is airborne. Product geometry, textures, continuous mist and floor anchors are retained.
 - Shaders compile before a model appears. La Tour is prepared during idle time after the hero is ready, before it enters the next scroll section.
 - Photo loading and resizing update existing animation tracks. Recreating a track could briefly expose the unpositioned product in Safari; that case now has a frame-by-frame regression check.
+- Motion distances use the same stable small viewport as the phone layout. A photo finishing after the browser toolbar retracts no longer changes the animation's endpoint mid-flight. Both native and fallback paths are checked with a simulated 100px browser-chrome height change.
 - Pause/reduced motion, browser visibility handling, native touch scrolling and static product-page galleries remain available. Keyboard focus overrides the caption fade.
 
 ## Rendering comparison
@@ -38,4 +39,4 @@ Sources: [before](render-before.json), [after](render-after.json). Drawing comma
 
 WebKit engine testing does not replace physical iPhone testing. The user's recording was used to inspect the reported behavior; no physical-device performance result is claimed.
 
-Implementation references: [WebKit's scroll-driven animation guide](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/), [Safari 26 support](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/), [Chrome's scroll-animation guidance](https://developer.chrome.com/docs/css-ui/scroll-driven-animations), [Three.js asynchronous shader compilation](https://threejs.org/docs/pages/WebGLRenderer.html).
+Implementation references: [WebKit's scroll-driven animation guide](https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css/), [Safari 26 support](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/), [Chrome's scroll-animation guidance](https://developer.chrome.com/docs/css-ui/scroll-driven-animations), [stable viewport units](https://web.dev/blog/viewport-units), [Three.js asynchronous shader compilation](https://threejs.org/docs/pages/WebGLRenderer.html).

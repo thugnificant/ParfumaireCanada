@@ -352,7 +352,8 @@
           "height": 187.1875
         }
       ]
-    ]
+    ],
+    "toolbarMaxShift": 0
   },
   "fallback": {
     "samples": [
@@ -707,6 +708,7 @@
           "height": 187.1875
         }
       ]
-    ]
+    ],
+    "toolbarMaxShift": 0
   }
 }

@@ -135,6 +135,46 @@ for (const [name, engine] of [
       ),
       `${name}: a photo load must not reset the product for even one frame`,
     );
+    let toolbarMaxShift = 0;
+    for (const [top, product, photo] of [
+      [280, '.atmosphere-product', '.landing-photo'],
+      [1600, '.business-flight', '.business-photo'],
+    ]) {
+      await page.evaluate((top) => scrollTo({ top, behavior: 'instant' }), top);
+      await page.evaluate(
+        () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+      );
+      const shift = await page.evaluate(
+        async ({ product, photo }) => {
+          const element = document.querySelector(product);
+          const before = element.getBoundingClientRect();
+          const original = Object.getOwnPropertyDescriptor(window, 'innerHeight');
+          const height = innerHeight;
+          // Emulate browser chrome retracting while the stable CSS viewport stays put.
+          Object.defineProperty(window, 'innerHeight', { configurable: true, value: height + 100 });
+          document.querySelector(photo).dispatchEvent(new Event('load'));
+          let largest = 0;
+          for (let i = 0; i < 6; i++) {
+            await new Promise(requestAnimationFrame);
+            const after = element.getBoundingClientRect();
+            largest = Math.max(
+              largest,
+              ...['x', 'y', 'width', 'height'].map((key) => Math.abs(after[key] - before[key])),
+            );
+          }
+          if (original) Object.defineProperty(window, 'innerHeight', original);
+          else delete window.innerHeight;
+          document.querySelector(photo).dispatchEvent(new Event('load'));
+          return largest;
+        },
+        { product, photo },
+      );
+      toolbarMaxShift = Math.max(toolbarMaxShift, shift);
+      assert(
+        shift < 0.25,
+        `${name}: browser toolbar changes must not retime ${product} (${shift}px)`,
+      );
+    }
     const rotations = [];
     for (const [width, height] of [
       [844, 390],
@@ -144,14 +184,12 @@ for (const [name, engine] of [
       await page.evaluate(
         () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
       );
-      await page
-        .locator('.office-scene')
-        .evaluate((e) =>
-          scrollTo({
-            top: e.getBoundingClientRect().bottom + scrollY - innerHeight * 0.3,
-            behavior: 'instant',
-          }),
-        );
+      await page.locator('.office-scene').evaluate((e) =>
+        scrollTo({
+          top: e.getBoundingClientRect().bottom + scrollY - innerHeight * 0.3,
+          behavior: 'instant',
+        }),
+      );
       await page.evaluate(
         () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
       );
@@ -164,7 +202,7 @@ for (const [name, engine] of [
         ),
       );
     }
-    modes[native ? 'native' : 'fallback'] = { samples, writes, rotations };
+    modes[native ? 'native' : 'fallback'] = { samples, writes, rotations, toolbarMaxShift };
     await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
     await page.evaluate(
       () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
@@ -218,6 +256,7 @@ for (const [name, engine] of [
     largestDelta,
     nativeStyleWrites: modes.native.writes,
     fallbackStyleWrites: modes.fallback.writes,
+    toolbarMaxShift: Math.max(modes.native.toolbarMaxShift, modes.fallback.toolbarMaxShift),
     samples: positions.length,
     checks: [
       'visible WebGL, no 2D copy',
@@ -228,6 +267,7 @@ for (const [name, engine] of [
       'pause/resume',
       'no position flash when photos load',
       'portrait/landscape trajectory parity',
+      'stable motion when browser toolbars retract',
       'no shader or page errors',
     ],
   });

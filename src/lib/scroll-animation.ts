@@ -5,6 +5,29 @@ type ScrollOptions = KeyframeAnimationOptions & {
   timeline: AnimationTimeline;
 };
 type RangedAnimation = Animation & { rangeStart: string; rangeEnd: string };
+let viewportMeasure: HTMLElement | undefined;
+let fallbackWidth = 0;
+let fallbackHeight = 0;
+
+/** Match the phone layout's stable viewport instead of the collapsing address bar. */
+export function motionViewportHeight() {
+  if (!matchMedia('(pointer: coarse)').matches) return innerHeight;
+  if (CSS.supports('height', '100svh')) {
+    if (!viewportMeasure) {
+      viewportMeasure = document.createElement('div');
+      viewportMeasure.setAttribute('aria-hidden', 'true');
+      viewportMeasure.style.cssText =
+        'position:fixed;top:0;left:0;width:0;height:100svh;visibility:hidden;pointer-events:none;contain:strict;';
+      document.body.append(viewportMeasure);
+    }
+    return viewportMeasure.getBoundingClientRect().height;
+  }
+  if (innerWidth !== fallbackWidth) {
+    fallbackWidth = innerWidth;
+    fallbackHeight = innerHeight;
+  }
+  return fallbackHeight;
+}
 
 /** Keep phone translation/zoom on the scroll compositor, even during main-thread work.
  * Older browsers retain the same curve through the shared animation clock.
