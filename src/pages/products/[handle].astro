@@ -129,7 +129,7 @@ const schema = {
         <p class="price-explainer">
           Original USD price. Canadian pricing and availability confirmed by quote.
         </p>
-        <div class="selection-panel">
+        <div class="selection-panel" id="product-options" tabindex="-1">
           <fieldset class="variant-field">
             <legend>{isScent ? 'Choose your size' : 'Choose your finish'}</legend>
             <div class="variant-options">
@@ -280,7 +280,7 @@ const schema = {
       id="mobile-enquiry"
       href={`/contact/?product=${p.handle}&variant=${first.id}&quantity=1`}
     >
-      Request a quote <Icon size={17} />
+      <span class="mobile-action-label">Choose options</span> <Icon size={17} />
     </a>
   </aside>
   <dialog class="dialog" id="image-dialog" aria-label={`${p.title} image viewer`}>

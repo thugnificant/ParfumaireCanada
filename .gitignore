@@ -48,3 +48,8 @@ docs/qa/revision-seven/showcase/recordings/
 docs/qa/revision-eight/**/*.png
 docs/qa/revision-eight/**/*.webm
 docs/qa/revision-eight/recordings/
+docs/qa/revision-nine/**/*.png
+docs/qa/revision-nine/**/*.webm
+docs/qa/revision-nine/recordings/
+docs/qa/revision-nine/before/
+docs/qa/revision-nine/after/

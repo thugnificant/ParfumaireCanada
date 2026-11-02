@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/accessibility.css';
 import '../styles/motion.css';
 import '../styles/commerce.css';
+import '../styles/mobile.css';
 import Icon from '../components/Icon.astro';
 import { site } from '../data/site.mjs';
 interface Props {
@@ -35,7 +36,7 @@ const organization = {
 <html lang="en-CA">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#ebeadf" />
     <title>{title} | Parfumaire Canada</title>
     <meta name="description" content={description} />
@@ -97,7 +98,8 @@ const organization = {
             class="icon-button menu-toggle"
             aria-label="Open menu"
             aria-expanded="false"
-            aria-controls="mobile-nav"
+            aria-controls="mobile-menu"
+            aria-haspopup="dialog"
           >
             <Icon name="menu" />
           </button>
@@ -124,15 +126,62 @@ const organization = {
             <span>For business</span>
           </a>
         </nav>
-        <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
-          <a href="/collections/all/">Explore all</a>
-          <a href="/collections/scent-diffusers/">Scent diffusers</a>
-          <a href="/collections/scents/">Signature scents</a>
-          <a href="/business-scenting/">For business</a>
-          <a href="/about/">Our story</a>
-          <a href="/fragrance-finder/">Find your scent</a>
-          <a href="/contact/">Get in touch</a>
-        </nav>
+        <dialog class="mobile-menu" id="mobile-menu" aria-label="Explore Parfumaire">
+          <div class="mobile-menu-heading">
+            <a class="wordmark" href="/">
+              parfumaire<span>CANADA</span>
+            </a>
+            <button class="icon-button menu-close" aria-label="Close menu" autofocus>
+              <Icon name="close" />
+            </button>
+          </div>
+          <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+            <p class="eyebrow">FIND YOUR ATMOSPHERE</p>
+            <div class="mobile-menu-collections">
+              <a href="/collections/scent-diffusers/">
+                <img
+                  src="/images/models/previews/cozyair-max-scent-diffuser-white-480.webp"
+                  width="120"
+                  height="160"
+                  alt=""
+                  loading="lazy"
+                />
+                <span>
+                  Scent diffusers <Icon size={17} />
+                </span>
+              </a>
+              <a href="/collections/scents/">
+                <img
+                  src="/images/models/previews/213-rue-st-honore-480.webp"
+                  width="120"
+                  height="160"
+                  alt=""
+                  loading="lazy"
+                />
+                <span>
+                  Signature scents <Icon size={17} />
+                </span>
+              </a>
+            </div>
+            <div class="mobile-menu-links">
+              <a href="/collections/all/">
+                Explore all <Icon size={19} />
+              </a>
+              <a href="/business-scenting/">
+                For business <Icon size={19} />
+              </a>
+              <a href="/fragrance-finder/">
+                Find your scent <Icon size={19} />
+              </a>
+              <a href="/about/">
+                Our story <Icon size={19} />
+              </a>
+            </div>
+            <a class="pill pill-dark mobile-menu-contact" href="/contact/">
+              Get in touch <Icon />
+            </a>
+          </nav>
+        </dialog>
       </header>
       <main id="main">
         <slot />

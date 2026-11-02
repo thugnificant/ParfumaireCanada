@@ -35,9 +35,9 @@ if (root) {
       y1: scene.top - bounds.top + footY - targetHeight * officeScene.footOffset,
       height: targetHeight,
       scale: targetHeight / originHeight,
-      start: bounds.top + scrollY - 110,
+      start: mobile ? Math.max(0, bounds.top + scrollY - 110) : bounds.top + scrollY - 110,
       // Arrive while the floor contact is in view, before normal scroll carries it away.
-      end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.87 : 0.9),
+      end: scene.top + scrollY + footY - innerHeight * (mobile ? 0.68 : 0.9),
     };
     draw();
   }

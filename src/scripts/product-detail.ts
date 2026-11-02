@@ -113,11 +113,28 @@ if (requestedVariant && selected.id === requestedVariant) {
 update();
 const bar = document.querySelector<HTMLElement>('.mobile-product-action')!;
 const quote = document.querySelector<HTMLElement>('#product-enquiry')!;
+const mobileAction = document.querySelector<HTMLAnchorElement>('#mobile-enquiry')!;
+const mobileLabel = mobileAction.querySelector('.mobile-action-label')!;
 let actionFrame = 0;
 function positionAction() {
   actionFrame = 0;
-  bar.hidden = innerWidth > 700 || quote.getBoundingClientRect().bottom >= 100;
+  const rect = quote.getBoundingClientRect();
+  const above = rect.bottom < 100;
+  const below = rect.top > innerHeight - 85;
+  bar.hidden = innerWidth > 700 || (!above && !below);
+  mobileAction.href = below ? '#product-options' : (quote as HTMLAnchorElement).href;
+  mobileLabel.textContent = below ? 'Choose options' : 'Request a quote';
 }
+mobileAction.addEventListener('click', (event) => {
+  if (mobileAction.getAttribute('href') !== '#product-options') return;
+  event.preventDefault();
+  const options = document.querySelector<HTMLElement>('#product-options')!;
+  options.scrollIntoView({
+    behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+    block: 'start',
+  });
+  options.focus({ preventScroll: true });
+});
 // Fast flings can skip the primary button entirely between observer callbacks.
 // Read its current position once per scroll frame so the action still appears.
 function scheduleAction() {

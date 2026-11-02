@@ -25,7 +25,8 @@ await page.addInitScript(() => {
   requestAnimationFrame(frame);
 });
 await page.goto(
-  (process.env.QA_URL || 'http://127.0.0.1:4323') + '/products/la-tour-scent-diffuser/',
+  (process.env.QA_URL || 'http://127.0.0.1:4323') +
+    (process.env.QA_PATH || '/products/la-tour-scent-diffuser/'),
   { waitUntil: 'networkidle' },
 );
 await page.waitForTimeout(1000);

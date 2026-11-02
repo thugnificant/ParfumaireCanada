@@ -4,7 +4,9 @@ import { chromium } from '@playwright/test';
 import sharp from 'sharp';
 const directory = process.argv[2] || 'docs/qa/revision-three';
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
-for (const name of ['desktop', 'mobile']) {
+const names = process.argv[3] ? [process.argv[3]] : ['desktop', 'mobile'];
+const times = (process.argv[4] || '1,3,5,7,9,11').split(',').map(Number);
+for (const name of names) {
   const file = await fs.readFile(`${directory}/${name}-scroll.webm`);
   const server = http.createServer((req, res) => {
     if (req.url !== '/clip.webm') {
@@ -40,7 +42,7 @@ for (const name of ['desktop', 'mobile']) {
   await page.waitForFunction(() => document.querySelector('video').readyState >= 2);
   const duration = await page.locator('video').evaluate((v) => v.duration);
   const frames = [];
-  for (const t of [1, 3, 5, 7, 9, 11]) {
+  for (const t of times) {
     const data = await page.evaluate(
       async (time) => {
         const v = document.querySelector('video'),
@@ -69,14 +71,19 @@ for (const name of ['desktop', 'mobile']) {
   const width = name === 'desktop' ? 640 : 260,
     height = name === 'desktop' ? 445 : 563;
   await sharp({
-    create: { width: width * 3, height: height * 2, channels: 3, background: '#efeee6' },
+    create: {
+      width: width * 3,
+      height: height * Math.ceil(times.length / 3),
+      channels: 3,
+      background: '#efeee6',
+    },
   })
     .composite(
       frames.map((input, i) => ({ input, left: (i % 3) * width, top: Math.floor(i / 3) * height })),
     )
     .webp({ quality: 90 })
     .toFile(`${directory}/${name}-recording-review.webp`);
-  console.log(`${name}: reviewed frames at 1, 3, 5, 7, 9, 11 seconds of ${duration.toFixed(1)}s`);
+  console.log(`${name}: reviewed frames at ${times.join(', ')} seconds of ${duration.toFixed(1)}s`);
   await page.close();
   await new Promise((resolve) => server.close(resolve));
 }

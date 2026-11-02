@@ -1,0 +1,16 @@
+{
+  "url": "/",
+  "viewport": 390,
+  "throttle": 4,
+  "frames": 384,
+  "p95FrameMs": 16.700000000000728,
+  "longTasks": [],
+  "liveModels": 2,
+  "threeLoaded": [
+    {
+      "url": "http://127.0.0.1:4323/_astro/product-view.CQMXSBPX.js",
+      "bytes": 140664
+    }
+  ],
+  "downloadBytes": 1734818
+}

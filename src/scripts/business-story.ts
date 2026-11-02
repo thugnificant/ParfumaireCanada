@@ -57,7 +57,8 @@ if (root) {
       y0: from.top + from.height / 2 - bounds.top,
       x1: to.left - bounds.left + target.x,
       y1: to.top - bounds.top + target.y - target.height * businessScene.footOffset,
-      corridor: to.right - bounds.left - 7,
+      // Include the tilted tower's visible width, not only its center point.
+      corridor: to.right - bounds.left - Math.max(30, from.height * 0.18),
       h: target.height,
       scale: target.height / from.height,
       start: from.top + scrollY - Math.min(innerHeight * 0.3, 240),
