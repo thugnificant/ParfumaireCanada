@@ -28,3 +28,9 @@ The phone version now has its own visual composition while retaining the approve
 - A 390px touch viewport under 4× CPU throttling: homepage and product page each recorded a 16.7ms 95th-percentile frame interval and zero long tasks during six native scroll gestures. The product route downloaded about 208KB and did not load the 3D engine. These are local browser measurements, not a physical-device or real-network guarantee.
 
 The quote form remains a client preview. It does not send or store an enquiry.
+
+## Published verification
+
+Published code: `b792e9b`, [successful deployment 41378508135](https://github.com/thugnificant/ParfumaireCanada/actions/runs/41378508135).
+
+The [live site](https://parfumairecanada.sugiweb.com/) passed the same six Chromium/WebKit phone configurations after deployment. See [live phone checks](live/mobile-checks.json). All eight public-route smoke checks passed, including the product and quote pages; the missing-page response is correctly 404. No failed site requests or browser errors were observed.

@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 const base = process.env.QA_URL || 'http://127.0.0.1:4323';
-const out = 'docs/qa/revision-nine';
+const out = process.env.QA_OUT || 'docs/qa/revision-nine';
 await fs.mkdir(out, { recursive: true });
 const results = [];
 const overflow = async (page, label) =>
